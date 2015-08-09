@@ -16,8 +16,7 @@ For better or worse, Apple hides the *Library* directory by default but there ar
 
 Finder's *Go* menu has a *Go To Folder...* item which brings up a dialog box.  Copy and paste the path provided above and click *Go*.
 
-![Go To Folder...](http://i.imgur.com/aojh4x2l.png)
-![Go to Preferences.ini](http://i.imgur.com/vzSOqxRl.png)
+![Go To Folder... + Preferences.ini path](http://i.imgur.com/xrUN4gHh.png)
 
 
 ## Linux
