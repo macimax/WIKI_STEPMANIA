@@ -1,7 +1,7 @@
-Notable StepMania versions
+Notable StepMania Versions
 =======
 
-manias have been stepped all throughout the ages and these are some of the versions used to do so:
+Manias have been stepped all throughout the ages and here is a sampling of some of the versions used to do so:
 
 Official
 --------

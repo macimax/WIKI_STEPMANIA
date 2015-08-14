@@ -1,14 +1,14 @@
 StepMania supports various file formats for loading and saving chart data, both for its own data and inherited from other simulators.
 
-* [DWI](file-formats/dwi)
-* [SM](file-formats/sm)
-* [SSC](file-formats/ssc) (SM5+)
-* [JSON](file-formats/json) (SM Micro)
-* [BMS/PMS](file-formats/bms)
-* [KSF](file-formats/ksf)
-* [SMA](file-formats/sma)
+* [SSC](ssc) (StepMania 5)
+* [SM](sm) (StepMania 3.9, 4)
+* [DWI](dwi) (Dance With Intensity)
+* [JSON](json) (SM Micro)
+* [BMS/PMS](bms)
+* [KSF](ksf)
+* [SMA](sma)
 
 Other formats that StepMania can recognize that are useful to know:
 
-* [CRS](file-formats/crs) - Courses
-* [LRC](file-formats/lrc) - Lyrics
+* [CRS](crs) - Courses
+* [LRC](lrc) - Lyrics
