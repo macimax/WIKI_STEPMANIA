@@ -79,7 +79,7 @@ Defines the background changes for this song. The format for each change is as f
 ### \#FGCHANGES
 Defines the foreground changes for this song. Format is the same as `#BGCHANGES`.
 
-## Chart Tags
+##Chart Tags
 The .sm format only contains a single tag for a chart, unlike the (later) .ssc format.
 
 ### \#NOTES
