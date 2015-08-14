@@ -1,28 +1,4 @@
-On this page, you will find various StepMania documentation.
-
 **This page is an in-progress info dump right now, it'll be sliced up into a bunch of other pages later!**
-
-Data Locations
---------------
-Modern operating systems have user profiles, which means certain files are in different locations from previous versions of StepMania.
-
-A list of user data locations:
-
-* __Windows__: `%APPDATA%/StepMania 5.0/`
-* __Linux__: `~/.stepmania-5.0/`
-* __Mac OS X__: `~/Library/Preferences/StepMania 5` and `~/Library/Application Support/StepMania 5`
-
-Portable Mode
--------------
-If you wish to make your copy of StepMania portable, create a blank file called `Portable.ini` in the StepMania install folder. This will create the various save folders in the directory itself. (As a side effect, this makes it similar to an install of [StepMania 3.9](wiki/versions/stepmania-3-9).)
-
-Command Line
-------------
-StepMania accepts a number of command line arguments.
-
-* `--theme="themename"` - Sets the theme to use.
-* `--language=lang` - Sets the language to use.
-* `--ExportLuaInformation` - Exports Lua documentation to `Lua.xml`.
 
 Theming
 -------
@@ -117,10 +93,10 @@ Similar to how you can loop music by adding `(loop)` at the end of the filename,
 * `(doubleres)` - Marks the image as double resolution; texture dimensions must be evenly divisible by 4.
 
 ### Screens ###
-Various screens make up the StepMania experience. All screens derive from a base ```Screen``` class, while most menu screens are derived from ```ScreenWithMenuElements```.
+Various screens make up the StepMania experience. All screens derive from a base `Screen` class, while most menu screens are derived from `ScreenWithMenuElements`.
 
 ### Decorations ###
 The Decorations system is a relatively new feature of StepMania theming. Decorations are intended to bridge the gap between Lua-based elements and `metrics.ini`.
 
 #### Decoration Functions ####
-* ```LoadFallbackB()``` - Loads the decorations from any screen this one falls back on. This is typically used at the start of a decorations file.
+* `LoadFallbackB()` - Loads the decorations from any screen this one falls back on. This is typically used at the start of a decorations file.
