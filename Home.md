@@ -4,23 +4,6 @@ The docs need a TON of work! Please ask on the forums and suggest anything you t
 
 On this page, you will find various StepMania documentation.
 
-Data Locations
---------------
-Modern operating systems have user profiles, which means certain files are in different locations from previous versions of StepMania.
-
-A list of user data locations:
-
-* __Windows__: `%APPDATA%/StepMania 5.0/`
-* __Linux__: `~/.stepmania-5.0/`
-
-### Mac OS
-On Mac OS 10.7 (Lion) and newer, the Library directory in `/Users/<username>` is no longer readily accessible as it was in previous versions of Mac OS.
-
-You can get there using the *Go to Folder...* command. It can be found in the *Go* menu at the top of your screen while on your Desktop.
-
-You should install your user content via this path: `~/Library/Application Support/StepMania 5/`
-
-and you can access your preferences via: `~/Library/Preferences/StepMania 5/`
 
 Portable Mode
 -------------
