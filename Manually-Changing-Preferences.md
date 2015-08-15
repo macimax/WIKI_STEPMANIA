@@ -1,8 +1,12 @@
 Most preferences can (and should) be set with StepMania's UI, but there are times when you may want to manually edit *Preferences.ini* where your settings are stored.
 
-Before attempting to edit your *Preferences.ini* file, it important to understand that StepMania will expect certain types of values for each preferences, that many of these are not documented anywhere yet, and that providing an invalid value may cause StepMania to not work as expected (or at all).
+Before attempting to edit your *Preferences.ini* file, it is important to understand
 
-With that established, if you wish to proceed, you'll need to quit StepMania first if it is actively running.  This will ensure that any changes you make manually will stick when you start StepMania next time.  
++ StepMania expects specific values for each preference
++ many of these are not documented anywhere yet (we're working on it!)
++ providing an invalid value may cause StepMania to not work as expected (or at all)
+
+With that established, if you wish to proceed, you'll need to quit StepMania first if it is actively running.  This will ensure that any changes you make manually will stick when you start StepMania next time.
 
 # Finding *Preferences.ini*
 The location of your *Preferences.ini* file depends on your operating system.
