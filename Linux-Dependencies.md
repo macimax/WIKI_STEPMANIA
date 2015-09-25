@@ -4,7 +4,7 @@ You will absolutely, positively need:
 * Either clang++ and clang, or gcc and g++
 * OpenGL libraries and headers (The libraries should come with your graphics card driver; headers are Debian: mesa-common-dev)
 * GLU libraries and headers (Debian: libglu1-mesa-dev)
-* GLEW 1.5 or newer (Debian: depending on your OS version, libglew1.5-dev or libglew1.6-dev or liblgew1.7-dev and so on)
+* GLEW 1.5 or newer (Debian: depending on your OS version, libglew1.5-dev or libglew1.6-dev or libglew1.7-dev and so on)
 * X11 libraries and headers
 * Especially: Xtst and Xrandr (Debian: libxtst-dev and libxrandr-dev respectively)
 * libpng (Debian: libpng12-dev)
