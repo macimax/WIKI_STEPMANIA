@@ -22,7 +22,7 @@ Currently we only support using generated [Visual Studio](https://www.visualstud
 
 ###Linux
 
-First, please see [Linux Dependencies](http://www.stepmania.com/wiki/linux-dependencies/) for libraries and programs required to build StepMania on Linux.
+First, please see [Linux Dependencies](https://github.com/stepmania/stepmania/wiki/Linux-Dependencies) for libraries and programs required to build StepMania on Linux.
 
 Then, follow the instructions provided by Kyzentun in [this thread](http://www.stepmania.com/forums/stepmania-releases/show/457), which are presented here in slightly modified form. Anything that `looks like this` is a command to be run in the terminal.
 
