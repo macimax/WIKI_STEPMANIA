@@ -6,7 +6,7 @@ For those that are either adventurous or wish to have the latest bug-fixes, comp
 
 No matter what, both the source code and a way to build the source code are required.
 
-* Use [git](https://git-scm.com/) or a third party program such as [Sourcetree](http://www.sourcetreeapp.com) to clone the StepMania repository. For the terminal users, running `git clone https://github.com/stepmania/stepmania.git` is sufficient.
+* Use [git](https://git-scm.com/) or a third party program such as [Sourcetree](http://www.sourcetreeapp.com) to clone the StepMania repository. For the terminal users, running `git clone --depth=1 https://github.com/stepmania/stepmania.git` is sufficient.
 * Use [CMake](http://www.cmake.org/) to generate project files for your specific system.
 * Ensure you have all of the needed dependencies. This is dependent on your operating system.
 
