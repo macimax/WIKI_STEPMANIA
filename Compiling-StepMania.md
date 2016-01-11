@@ -26,6 +26,22 @@ First, please see [Linux Dependencies](https://github.com/stepmania/stepmania/wi
 
 Then, follow the instructions provided by Kyzentun in [this thread](http://www.stepmania.com/forums/stepmania-releases/show/457), which are presented here in slightly modified form. Anything that `looks like this` is a command to be run in the terminal.
 
+#### Fetching the 5.1 branch
+The 5_1_0 branch uses submodules for some external dependencies like ffmpeg,
+so they are not bundled. As a side effect, if you click the "Download ZIP"
+button on github to get a source zip, you will not be able to build that zip.
+
+To get around this problem, these are the steps for fetching the 5_1_0 branch source:
+```
+git clone --depth=1 -b 5_1_0 https://github.com/stepmania/stepmania.git
+cd stepmania
+git submodule init
+git submodule update
+```
+After the submodules have been updated, compiling can be done in the same way
+as on the master branch of stepmania.
+
+#### Normal instructions
 1. Install git and cmake if you haven't already.
 2. Figure out where you'd like to keep the source code, and clone the project (`git clone https://github.com/stepmania/stepmania.git`) to obtain the code.
 3. Once the project is done cloning (it will take a while), go into the build directory with `cd Build`. It is in here where the build files will be generated.
