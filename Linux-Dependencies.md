@@ -22,3 +22,10 @@ You may also want:
 * For even the slightest prayer of people helping you when things go wrong: libiberty (Debian: part of binutils-dev)
 * For a loading dialog: GTK+ 2 (Debian: libgtk2.0-dev)
 * For MP3 support: libMAD (Debian: libmad0-dev)
+
+
+### Fedora 23.10 command line
+```
+dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk2-devel
+```
