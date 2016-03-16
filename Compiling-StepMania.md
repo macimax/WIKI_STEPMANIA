@@ -22,9 +22,83 @@ Currently we only support using generated [Visual Studio](https://www.visualstud
 
 ###Linux
 
-First, please see [Linux Dependencies](https://github.com/stepmania/stepmania/wiki/Linux-Dependencies) for libraries and programs required to build StepMania on Linux.
+####1-a: Prepare dependencies(Debian Based systems)
 
-Then, follow the instructions provided by Kyzentun in [this thread](http://www.stepmania.com/forums/stepmania-releases/show/457), which are presented here in slightly modified form. Anything that `looks like this` is a command to be run in the terminal.
+Open a terminal and:
+```
+sudo apt-get install build-essential
+sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg8-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk2.0-dev libmad0-dev
+```
+####1-b: Prepare dependencies(Fedora Based systems)
+
+Open a terminal and:
+```
+dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk2-devel
+```
+
+####2: Clone the stepmania git and compile stepmania
+
+Open a terminal and:
+```
+git clone --depth=1 https://github.com/stepmania/stepmania.git
+cd stepmania/Build/
+cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
+make -j8
+```
+The job count passed to make should not be more than double the number of cores you have.
+
+####3: Making a Launcher
+
+If you want to run stepmania from a launch button like some desktop environments have, make a shell script like this and set the launch button to run the shell script. This assumes that the stepmania folder is ~/stepmania. If you don't know already, "~/" is shorthand for the home folder of the current user on Linux.
+
+Make a new emtpy text document and add the following:
+```
+#!/bin/bash
+cd ~/stepmania
+./stepmania
+```
+Save it as stepmanialauncher.sh or something similar
+
+right click it and make it executable in properties>permissions
+
+####4: Configuration
+
+Install songs in ~/.stepmania-5.0/Songs/ 
+
+Install themes in ~/.stepmania-5.0/Themes/ 
+
+Install noteskins in ~/.stepmania-5.0/NoteSkins/ 
+
+(noteskins for Stepmania 5.1 will go in ~/.stepmania-5.0/NewSkins/)
+
+Preferences are in ~/.stepmania-5.0/Save/Preferences.ini 
+
+Profiles are in ~/.stepmania-5.0/Save/LocalProfiles/ 
+
+###5: Updating
+
+When you want to update your copy of SM5: 
+
+cd into the stepmania folder you cloned, and run a git pull in terminal:
+
+```
+git pull origin master
+cd Build/
+cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
+make -j8
+```
+####6: Controllers and Joysticks
+
+As far as getting your controller to work, as long as its an xinput detected device that should be as trivial as entering stepmania settings and pressing the appropriate buttons in the key config setup.
+
+If not you might wanna have it emulate a keyboard using Antimicro
+
+simply add ppa:ryochan7/antimicro to your ppa's in software sources
+```
+sudo apt-get update
+sudo apt-get install antimicro 
+```
 
 #### Fetching the 5.1 branch
 The 5_1_0 branch uses submodules for some external dependencies like ffmpeg,
@@ -33,21 +107,19 @@ button on github to get a source zip, you will not be able to build that zip.
 
 To get around this problem, these are the steps for fetching the 5_1_0 branch source:
 ```
-git clone --depth=1 -b 5_1_0 https://github.com/stepmania/stepmania.git
-cd stepmania
+git clone --depth=1 -b 5_1_0 https://github.com/stepmania/stepmania.git stepmania_5_1
+cd stepmania_5_1
 git submodule init
 git submodule update
 ```
 After the submodules have been updated, compiling can be done in the same way
 as on the master branch of stepmania.
-
-#### Normal instructions
-1. Install git and cmake if you haven't already.
-2. Figure out where you'd like to keep the source code, and clone the project (`git clone https://github.com/stepmania/stepmania.git`) to obtain the code.
-3. Once the project is done cloning (it will take a while), go into the build directory with `cd Build`. It is in here where the build files will be generated.
-4. Run `cmake .. && cmake ..` to set up your environment. You can view the CMakeCache.txt file that generated to see the different options and settings available.
-5. Finally, we can start the build process by running `make` in the same directory. Compiling will take a while, especially if this is the first time (or a file with large-reaching changes has been changed).
-6. Once the build has finished, go back to the parent directory and run `./stepmania` to begin playing.
+##### Updating
+The pull command to update needs to point to the correct branch.
+```
+git pull origin 5_1_0
+```
+The rest of updating is the same as for master.
 
 ###Mac OS X
 
