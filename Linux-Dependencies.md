@@ -24,8 +24,9 @@ You may also want:
 * For MP3 support: libMAD (Debian: libmad0-dev)
 
 
-### Fedora 23.10 command line
+### Fedora 23
 ```
 dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk2-devel
 ```
+Dance pads are not supported on Fedora until someone else figures out what's wrong with them and posts instructions.
