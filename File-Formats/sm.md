@@ -74,10 +74,37 @@ This can be used to override the BPM shown on ScreenSelectMusic. This tag suppor
 Determines if the song is selectable under normal conditions. Valid values are `YES` and `NO`.
 
 ### \#BGCHANGES
-Defines the background changes for this song. The format for each change is as follows: `Beat=BGAnim=?float=?int=?int=?int`.
+The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear.
+
+An example BGCHANGES line might look like:
+
+```
+#BGCHANGES:0.000=springbn.png=1.000=1=0=1===CrossFade==,
+25.000=flash=1.000=0=0=1====#FFFFFF=;
+```
+
+The set of entries is between the colon and the semicolon.
+Each entry is separated from the next by a comma.
+Each entry is composed of 1 to 11 values separated by equals.
+
+The meanings of the values are as follows:
+
+1. start beat
+2. file or folder name
+3. play rate
+4. Backward compatible transition type. CrossFade is used if this is not 0.
+5. Backward compatible effect flag. StretchRewind is used if this is not 0.
+6. Backward compatible effect flag. StretchNoLoop is used if this is not 0.
+7. Name of the effect file to use. The BackgroundEffects folder will be searched for a match.
+8. Name of the second file.
+9. Name of the transition file to use. The BackgroundTransitions folder will be searched for a match.
+10. Color string in either "1.0^0.5^0.75^0.25" or "#ff7fcf3f" form. The fourth channel is optional.
+11. Second color string, same format.
+
+The file names (values 2 and 8) and the colors (values 10 and 11) are passed to the effect file as thread variables.  Most effects do not use the second file.
 
 ### \#FGCHANGES
-Defines the foreground changes for this song. Format is the same as `#BGCHANGES`.
+Defines the foreground changes for this song. Format is the same as `#BGCHANGES`, except only the start beat and first file are used (values 1 and 2).
 
 ##Chart Tags
 The .sm format only contains a single tag for a chart, unlike the (later) .ssc format.
