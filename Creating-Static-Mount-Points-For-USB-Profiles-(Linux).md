@@ -4,7 +4,7 @@ The process is **moderately technical** and assumes you are comfortable editing 
 
 ---
 
-### Step 1 - grep-ing by-path
+### Step 1 - Finding the USB port _by-path_
 
 Run the following command from your terminal with a single USB drive plugged into the the USB port you wish to associate with PLAYER_1:
 ```bash
