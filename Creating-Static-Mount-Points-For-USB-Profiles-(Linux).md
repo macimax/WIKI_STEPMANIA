@@ -6,7 +6,9 @@ The process is **moderately technical** and assumes you are comfortable editing 
 
 ### Step 1 - Finding the USB port _by-path_
 
-Run the following command from your terminal with a single USB drive plugged into the the USB port you wish to associate with PLAYER_1:
+Since disk names `sda`, `sdb`, and so on are not deterministic, depending on the order in which devices are plugged, we can't use them to reliably identify players.  Fortunately, Linux allows us to select a disk "by path," which amounts to defining a specific USB _port_ as a given drive, which is typically what we want for USB profiles.
+
+To find the correct device path, plug a single USB drive into the port you with to associate with PLAYER_1, then run the following command:
 ```bash
 ls -l /dev/disk/by-path
 ```
@@ -23,7 +25,7 @@ Copy this output to a text editor and repeat command with the USB stick plugged 
 
 ### Step 2 - Create _fstab_ Entries
 
-You will use part of that output to create entries in _fstab_ which will associate a specific USB port (_by-path_) with a named mount point that you can pass to StepMania. 
+You will use part of the output from the previous step to create entries in `/etc/fstab`, the file which associates specific devices (in this case a USB port _by-path_) with named mount points that can be passed to StepMania. 
 
 The resulting _fstab_ entries will look like:
 
@@ -34,9 +36,9 @@ The resulting _fstab_ entries will look like:
 /dev/disk/by-path/pci-0000:00:14.0-usb-0:4:1.0-scsi-0:0:0:0 		/mnt/player2 auto rw,user,noauto,sync,exec 0 0
 ```
 
-Note that depending on your Linux distribution, you may want/need to create your named mount points elsewhere than in _/mnt/_.
+Note that depending on your Linux distribution, you may want/need to create your named mount points elsewhere than in `/mnt/`; some distros use `/media/` for this purpose.  You can also create an empty directory anywhere in the filesystem to use as a custom mount point.
 
-After doing so, you can either reboot your PC or reload your fstab via `mount -a`
+<!-- no need to reboot or re-mount, since the drive isn't currently mounted anyway and the mount command re-reads fstab on execution -->
 
 ### Step 3 - StepMania Preferences
 
