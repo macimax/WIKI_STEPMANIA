@@ -8,7 +8,7 @@ The process is **moderately technical** and assumes you are comfortable editing 
 
 Run the following command from your terminal with a single USB drive plugged into the the USB port you wish to associate with PLAYER_1:
 ```bash
-ls -l /dev/disk/by-path grep by-path /etc/fstab
+ls -l /dev/disk/by-path
 ```
 
 This should give you output that looks something like:
