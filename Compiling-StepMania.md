@@ -7,8 +7,14 @@ For those that are either adventurous or wish to have the latest bug-fixes, comp
 No matter what, both the source code and a way to build the source code are required.
 
 * Use [git](https://git-scm.com/) or a third party program such as [Sourcetree](http://www.sourcetreeapp.com) to clone the StepMania repository. For the terminal users, running `git clone --depth=1 https://github.com/stepmania/stepmania.git` is sufficient.
+* Init submodules.  For terminal users, `git submodule update --init` should be sufficient.
 * Use [CMake](http://www.cmake.org/) to generate project files for your specific system.
 * Ensure you have all of the needed dependencies. This is dependent on your operating system.
+
+### Submodules
+The master branch uses submodules for some external dependencies like ffmpeg,
+so they are not bundled. As a side effect, if you click the "Download ZIP"
+button on github to get a source zip, you will not be able to build that zip.
 
 ##Operating System Specific
 
@@ -42,6 +48,7 @@ dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel 
 Open a terminal and:
 ```
 git clone --depth=1 https://github.com/stepmania/stepmania.git
+git submodule update --init
 cd stepmania/Build/
 cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 make -j8
@@ -70,7 +77,7 @@ Install themes in ~/.stepmania-5.0/Themes/
 
 Install noteskins in ~/.stepmania-5.0/NoteSkins/ 
 
-(noteskins for Stepmania 5.1 will go in ~/.stepmania-5.0/NewSkins/)
+(noteskins for Stepmania 5.1 also go in ~/.stepmania-5.0/NoteSkins/)
 
 Preferences are in ~/.stepmania-5.0/Save/Preferences.ini 
 
@@ -101,25 +108,10 @@ sudo apt-get install antimicro
 ```
 
 #### Fetching the 5.1 branch
-The 5_1_0 branch uses submodules for some external dependencies like ffmpeg,
-so they are not bundled. As a side effect, if you click the "Download ZIP"
-button on github to get a source zip, you will not be able to build that zip.
+5.1 was merged into master.  Fetching master will fetch the 5.1 branch.
 
-To get around this problem, these are the steps for fetching the 5_1_0 branch source:
-```
-git clone --depth=1 -b 5_1_0 https://github.com/stepmania/stepmania.git stepmania_5_1
-cd stepmania_5_1
-git submodule init
-git submodule update
-```
-After the submodules have been updated, compiling can be done in the same way
-as on the master branch of stepmania.
-##### Updating
-The pull command to update needs to point to the correct branch.
-```
-git pull origin 5_1_0
-```
-The rest of updating is the same as for master.
+#### Fetching the 5.0 branch
+Use the branch name `5_0` instead of `master`.
 
 ###Mac OS X
 
