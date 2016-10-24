@@ -1,10 +1,13 @@
 `BLEND_NORMAL`
+
 Normal alpha blending (the default blend mode).
 
 `BLEND_ADD`
+
 Additive blending.
 
 `BLEND_SUBTRACT`
+
 Subtractive blending. Equivalent to `destination = destination - source`
 
 `BLEND_MODULATE`
