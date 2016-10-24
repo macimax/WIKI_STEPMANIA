@@ -1,3 +1,5 @@
+***NOTE:*** Not all blend modes work in D3D.
+
 `BLEND_NORMAL`
 
 Normal alpha blending (the default blend mode).
