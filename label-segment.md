@@ -1,0 +1,1 @@
+**Label segments** allow charts to have segments that are labeled with a name, like in many Harmonix rhythm games and the _Guitar Hero_ series. These do not affect the chart visually at all, and though themes could display them or take other actions based on them, there are very few, if any, themes that actually do. As such, they aren't very common among chart creators either.
