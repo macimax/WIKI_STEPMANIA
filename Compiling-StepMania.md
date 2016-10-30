@@ -22,9 +22,13 @@ There may be some specific things to watch out for. This section covers that.
 
 ###Windows
 
-Ensure you have the [Direct X Summer 2010 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) installed.
+Ensure the following items are installed:
 
-Currently we only support using generated [Visual Studio](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) solution files from CMake. Please use either Visual Studio Community 2013 or 2015. If you already have a paid version of either of those year based releases, that is also sufficient.
+* [Direct X Summer 2010 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) installed.
+* Redistributable installed (x86 required, x64 as well only if your system is 64-bit). [2015 version here](https://www.microsoft.com/en-us/download/details.aspx?id=48145), and [2013 version here](https://www.microsoft.com/en-us/download/details.aspx?id=40784).
+* [Windows Platform SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk).
+
+Currently we only support using generated [Visual Studio](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) solution files from CMake. Any edition of Visual Studio 2013 or 2015 will work, but the focus will be on the Community editions.
 
 ###Linux
 
