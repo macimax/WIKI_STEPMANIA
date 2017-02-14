@@ -59,6 +59,12 @@ make -j8
 ```
 The job count passed to make should not be more than double the number of cores you have.
 
+#### Fetching the 5.1 branch
+5.1 was merged into master.  Fetching master will fetch the 5.1 branch.
+
+#### Fetching the 5.0 branch
+Use the branch name `5_0` instead of `master`.
+
 ####3: Making a Launcher
 
 If you want to run stepmania from a launch button like some desktop environments have, make a shell script like this and set the launch button to run the shell script. This assumes that the stepmania folder is ~/stepmania. If you don't know already, "~/" is shorthand for the home folder of the current user on Linux.
@@ -110,12 +116,6 @@ simply add ppa:mdeguzis/libregeek to your ppa's in software sources
 sudo apt-get update
 sudo apt-get install antimicro 
 ```
-
-#### Fetching the 5.1 branch
-5.1 was merged into master.  Fetching master will fetch the 5.1 branch.
-
-#### Fetching the 5.0 branch
-Use the branch name `5_0` instead of `master`.
 
 ###Mac OS X
 
