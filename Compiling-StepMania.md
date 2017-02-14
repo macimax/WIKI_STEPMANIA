@@ -105,7 +105,7 @@ As far as getting your controller to work, as long as its an xinput detected dev
 
 If not you might wanna have it emulate a keyboard using Antimicro
 
-simply add ppa:ryochan7/antimicro to your ppa's in software sources
+simply add ppa:mdeguzis/libregeek to your ppa's in software sources
 ```
 sudo apt-get update
 sudo apt-get install antimicro 
