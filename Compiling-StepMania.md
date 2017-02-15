@@ -123,3 +123,13 @@ sudo apt-get install antimicro
 ###Mac OS X
 
 At this time, only generated [Xcode](https://developer.apple.com/xcode/) projects are supported.
+
+To generate an Xcode project you will need to use Cmake.
+```
+brew install cmake
+cd Build
+cmake -G 'Xcode' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
+open StepMania.xcodeproj
+```
+Xcode should open with the project, from here you can build Stepmania.
+
