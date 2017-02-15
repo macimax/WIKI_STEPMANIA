@@ -1,5 +1,3 @@
-#Compiling StepMania
-
 For those that are either adventurous or wish to have the latest bug-fixes, compiling the source code is an option.
 
 ##Common Items
@@ -59,11 +57,16 @@ make -j8
 ```
 The job count passed to make should not be more than double the number of cores you have.
 
+#### Fetching the 5.2 branch
+5.2 was merged into master.  Fetching master will fetch the 5.2 branch.
+
+*Note: 5.1 was renamed to 5.2 after 5.1.-3 so an intermediate release could be made.*
+
 #### Fetching the 5.1 branch
-5.1 was merged into master.  Fetching master will fetch the 5.1 branch.
+Use the `5_1-new` branch instead of `master`.
 
 #### Fetching the 5.0 branch
-Use the branch name `5_0` instead of `master`.
+Use the `5_0` branch instead of `master`.
 
 ####3: Making a Launcher
 
