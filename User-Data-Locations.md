@@ -4,7 +4,7 @@ Modern operating systems have user profiles, which means certain files are in di
 
 A list of user data locations:
 
-* **Windows**: `%APPDATA%/StepMania 5.0/`
+* **Windows**: `%APPDATA%\StepMania 5\`
 * **Linux**: `~/.stepmania-5.0/`
 * **Mac OS X**: `~/Library/Application Support/StepMania 5/`
 
