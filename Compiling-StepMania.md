@@ -96,7 +96,7 @@ Preferences are in ~/.stepmania-5.0/Save/Preferences.ini
 
 Profiles are in ~/.stepmania-5.0/Save/LocalProfiles/ 
 
-### 5: Updating ###
+#### 5: Updating ###
 
 When you want to update your copy of SM5: 
 
