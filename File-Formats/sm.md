@@ -6,7 +6,7 @@ In StepMania 5, `.sm` files have been superseded by [.ssc](file-formats/ssc) fil
 # `.sm` files
 A `.sm` file is primarily composed of two major sections: the **header tags**, and the **chart data**.
  
-##Header Tags
+## Header Tags #
 The header tags contain information that should be shared between all charts, such as `#TITLE:` and `#ARTIST:`.  Most header tags follow the format `#TAG:VALUE;`, though some tags have their own format.
  
 ### \#TITLE
