@@ -4,17 +4,17 @@ Themes have changed a lot since the StepMania 3.0 and 3.9 days. What was once me
 
 # Basic Lua Concepts  #
 
-Before you begin theming, if you’re unfamiliar with Lua, you’ll likely need to learn how it works. [lua.org[(https://www.lua.org/pil/1.html) has a pretty extensive and all-encompassing tutorial. If you’re already familiar with coding or just want a shorter tutorial [luatut.com’s Crash Course to Lua](http://luatut.com/crash_course.html) is pretty nice.
+Before you begin theming, if you’re unfamiliar with Lua, you’ll likely need to learn how it works. [lua.org](https://www.lua.org/pil/1.html) has a pretty extensive and all-encompassing tutorial. If you’re already familiar with coding or just want a shorter tutorial [luatut.com’s Crash Course to Lua](http://luatut.com/crash_course.html) is pretty nice.
  
 Now that you’re familiar with lua, you’ll need to learn how to use it in SM5.
 
 ## Actors ##  
 
-A basic concept when working with Lua scripts in StepMania themes and BGanimations is the actor model. Everything rendered in StepMania is an actor, whether it’s a simple sprite or even an entire script of its own. For a more complete explanation, we’ll refer you to dkb2’s very helpful primer on the concept.
+A basic concept when working with Lua scripts in StepMania themes and BGAnimations is the actor model. Everything rendered in StepMania is an actor, whether it’s a simple sprite or even an entire script of its own. For a more complete explanation, we’ll refer you to [dkb2’s very helpful primer on the concept](http://dguzek.github.io/Lua-For-SM5/Introduction/Foreword.html#).
  
 The most basic form of script used to load a single actor is this;
  
-    local t = Def.ActorFrame {};
+    local t = Def.ActorFrame{};
      
     t[#t+1] = LoadActor("_file") .. {
            InitCommand=cmd(diffusealpha,0;x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y);
