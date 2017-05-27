@@ -163,7 +163,10 @@ But if what if it's not in default, or any theme you've seen? Feel free to head 
  
 ## Useful Resources ##  
 
-[Lua.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/Lua.xml) & [LuaDocumentation.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/LuaDocumentation.xml)
-Everything in [Themerdocs](https://github.com/stepmania/stepmania/tree/master/Docs/Themerdocs)
-`_fallback` & `default` themes
+[Lua.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/Lua.xml) & [LuaDocumentation.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/LuaDocumentation.xml)  
+
+Everything in [Themerdocs](https://github.com/stepmania/stepmania/tree/master/Docs/Themerdocs)  
+
+`_fallback` & `default` themes  
+
 If you’re feeling bold: [source code](https://github.com/stepmania/stepmania/tree/master/src)
