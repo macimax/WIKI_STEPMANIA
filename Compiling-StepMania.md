@@ -1,6 +1,6 @@
 For those that are either adventurous or wish to have the latest bug-fixes, compiling the source code is an option.
 
-##Common Items##
+## Common Items ##
 
 No matter what, both the source code and a way to build the source code are required.
 
@@ -14,11 +14,11 @@ The master branch uses submodules for some external dependencies like ffmpeg,
 so they are not bundled. As a side effect, if you click the "Download ZIP"
 button on github to get a source zip, you will not be able to build that zip.
 
-##Operating System Specific
+## Operating System Specific #
 
 There may be some specific things to watch out for. This section covers that.
 
-###Windows###
+### Windows ###
 
 Ensure the following items are installed:
 
@@ -28,16 +28,16 @@ Ensure the following items are installed:
 
 Currently we only support using generated [Visual Studio](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) solution files from CMake. Any edition of Visual Studio 2013 or 2015 will work, but the focus will be on the Community editions.
 
-###Linux###
+### Linux ###
 
-####1-a: Prepare dependencies(Debian Based systems)####
+#### 1-a: Prepare dependencies(Debian Based systems) ####
 
 Open a terminal and:
 ```
 sudo apt-get install build-essential
 sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk2.0-dev libmad0-dev libudev-dev libva-dev
 ```
-####1-b: Prepare dependencies(Fedora Based systems)####
+#### 1-b: Prepare dependencies(Fedora Based systems) ####
 
 Open a terminal and:
 ```
@@ -45,7 +45,7 @@ dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(
 dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk2-devel glew-devel libudev-devel
 ```
 
-####2: Clone the stepmania git and compile stepmania####
+#### 2: Clone the stepmania git and compile stepmania ####
 
 Open a terminal and:
 ```
@@ -68,7 +68,7 @@ Use the `5_1-new` branch instead of `master`.
 #### Fetching the 5.0 branch ####
 Use the `5_0` branch instead of `master`.
 
-####3: Making a Launcher####
+#### 3: Making a Launcher ####
 
 If you want to run stepmania from a launch button like some desktop environments have, make a shell script like this and set the launch button to run the shell script. This assumes that the stepmania folder is ~/stepmania. If you don't know already, "~/" is shorthand for the home folder of the current user on Linux.
 
@@ -82,7 +82,7 @@ Save it as stepmanialauncher.sh or something similar
 
 right click it and make it executable in properties>permissions
 
-####4: Configuration####
+#### 4: Configuration ####
 
 Install songs in ~/.stepmania-5.0/Songs/ 
 
@@ -96,7 +96,7 @@ Preferences are in ~/.stepmania-5.0/Save/Preferences.ini
 
 Profiles are in ~/.stepmania-5.0/Save/LocalProfiles/ 
 
-###5: Updating###
+### 5: Updating ###
 
 When you want to update your copy of SM5: 
 
@@ -108,7 +108,7 @@ cd Build/
 cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 make -j8
 ```
-####6: Controllers and Joysticks####
+#### 6: Controllers and Joysticks ####
 
 As far as getting your controller to work, as long as its an xinput detected device that should be as trivial as entering stepmania settings and pressing the appropriate buttons in the key config setup.
 
@@ -120,7 +120,7 @@ sudo apt-get update
 sudo apt-get install antimicro 
 ```
 
-###Mac OS X###
+### Mac OS X ###
 
 At this time, only generated [Xcode](https://developer.apple.com/xcode/) projects are supported.
 
