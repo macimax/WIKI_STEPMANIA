@@ -36,18 +36,19 @@ Now that you’re familiar with lua, you’ll need to learn how to use it in SM5
 A basic concept when working with Lua scripts in StepMania themes and BGAnimations is the actor model. Everything rendered in StepMania is an actor, whether it’s a simple sprite or even an entire script of its own. For a more complete explanation, we’ll refer you to [dkb2’s very helpful primer on the concept](http://dguzek.github.io/Lua-For-SM5/Introduction/Foreword.html#).
  
 The most basic form of script used to load a single actor is this;
+
+```lua
+	local t = Def.ActorFrame{}
+
+	t[#t+1] = LoadActor("_file") .. {
+		InitCommand=cmd(diffusealpha,0;x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y),
+		OnCommand=function(self)
+			self:linear(0.4):addx(100):diffusealpha(1)
+		end
+	}
  
-    local t = Def.ActorFrame{};
-     
-    t[#t+1] = LoadActor("_file") .. {
-           InitCommand=cmd(diffusealpha,0;x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y);
-           OnCommand=function(self)
-		    self:linear(0.4):addx(100):diffusealpha(1)
-		    end;
-           OffCommand=cmd();
-	    };
- 
-    return t
+	return t
+```
  
 As mentioned, a single .lua file can only return one actor. But that actor can be an ActorFrame, which is a nested array of multiple actors. In this form, the actors appended with t[#t+1] are essentially building an “array” into the variable t (you can replace t with anything else) that is returned all at once at the end of the file.
  
