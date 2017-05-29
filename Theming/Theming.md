@@ -189,7 +189,7 @@ But if what if it's not in default, or any theme you've seen? Feel free to head 
  
 ## <a name="res">Useful Resources</a> ##  
 #### [Back to top](#top)  
-[Lua.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/Lua.xml) & [LuaDocumentation.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/LuaDocumentation.xml)  
+[Lua.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/Lua.xml) & [LuaDocumentation.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/LuaDocumentation.xml) (easier to read version hosted [here](https://yungdavinci.github.io/SM5-Lua-API/Lua.xml))   
 Everything in [Themerdocs](https://github.com/stepmania/stepmania/tree/master/Docs/Themerdocs)  
 `_fallback` & `default` themes  
 If you’re feeling bold: [source code](https://github.com/stepmania/stepmania/tree/master/src)
