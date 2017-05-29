@@ -28,6 +28,8 @@ Ensure the following items are installed:
 
 Currently we only support using generated [Visual Studio](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) solution files from CMake. Any edition of Visual Studio 2013 or 2015 will work, but the focus will be on the Community editions.
 
+However, if you're feeling adventurous but not that adventurous, you can acquire Windows binaries of the latest nightly build [here](http://smnightly.katzepower.com/).
+
 ### Linux ###
 
 #### 1-a: Prepare dependencies(Debian Based systems) ####
