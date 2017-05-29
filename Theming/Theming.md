@@ -175,7 +175,7 @@ This menu also contains a number of other useful tools, including reloading the 
 
 ## <a name="newfield">NewField</a> ##  
 #### [Back to top](#top)  
-You will most likely wish to use the NewField in your theme. The newfield has a number of differences from the old NoteField, such as an advanced mod system and a new refined noteskin system. However, the NewField is not the default notefield, since the system is not yet complete. To learn how to utilize the NewField, check out [Themes/_fallback/Scripts/02 NoteField.lua](https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/02%20NoteField.lua) (also in your install of StepMania), where a number of functions and explanations for how to use the newfield are defined.
+You will most likely wish to use the NewField in your theme. The newfield has a number of differences from the old NoteField, such as an advanced mod system and a new refined noteskin system. However, the NewField is not the default notefield, since the system is not yet complete. To learn how to utilize the NewField, check out [Themes/_fallback/Scripts/02 NoteField.lua](https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/02%20NoteField.lua) (also in your install of StepMania), where a number of functions and explanations for how to use the newfield are defined. [NewField.md](https://github.com/stepmania/stepmania/blob/master/Docs/Themerdocs/5.1_incompatibilities/NewField.md) also goes over this in great detail.
 
 ## <a name="cust">Customization</a> ##  
 #### [Back to top](#top)  
