@@ -150,7 +150,7 @@ Fonts are typically generated with Texture Font Generator (a Windows-only progra
 
 ## <a name="scripts">Scripts</a> ##  
 #### [Back to top](#top)  
-This folder is useful for defining functions that you wish to use throughout your entire theme. When making changes to files within this folder, you’ll have to restart StepMania to see your changes take place. Since you will be using these functions globally, be sure to not use local when defining your functions. Many scripts are defined within `_fallback`.
+This folder is useful for defining functions that you wish to use throughout your entire theme. When making changes to files within this folder, you’ll have to press Ctrl+F2 to reload them and see your changes take place. Since you will be using these functions globally, be sure to not use local when defining your functions. Many scripts are defined within `_fallback`.
 
 ## <a name="sounds">Sounds</a> ##  
 #### [Back to top](#top)  
