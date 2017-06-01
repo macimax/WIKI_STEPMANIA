@@ -95,7 +95,7 @@ quantize_holds= {
 ```
 For our `explosions` table, we can put a translation on the `explosions` option, and on each individual element of the table.  
 
-If your options is a number (like `particle_life`, `particle_size`, and `num_particles`), your table should have a `type` element, which should be either `"int"` or `"float"`. If it's `"int"`, then it's whole numbers; if it's `"float"`, it's decimals. Optional to add in the table are `min` and `max` values, limiting the range of the number. If they aren't specified, then the theme sets any `min` and `max` values.  
+If your option is a number (like `particle_life`, `particle_size`, and `num_particles`), your table should have a `type` element, which should be either `"int"` or `"float"`. If it's `"int"`, then it's whole numbers; if it's `"float"`, it's decimals. Optional to add in the table are `min` and `max` values, limiting the range of the number. If they aren't specified, then the theme sets any `min` and `max` values.  
 
 Tables for `particle_life` and `particle_size`:
 ```lua
@@ -110,7 +110,7 @@ particle_size= {
 	},
 },
 ```
-For string fields, a list of choices must be provided.  The engine will ensure that the value the theme sets is in the list choices. Note that the choices also have entries in the translation table.
+For string fields, a list of choices must be provided.  The engine will ensure that the value the theme sets is in the list of choices. Note that the choices also have entries in the translation table.
 ```lua
 particle_blend= {
 	choices= {
@@ -150,7 +150,7 @@ Optionally, you can also define:
 
 How to go about doing this will be explained.
 
-The `noteskin.lua` passes a function to all of the noteskin's actors, with the arguments of a list of buttons to be used, the current stepstype, and the skin parameters. Therefore, your files should return a function with those arguments, like so:
+The system calls a function from all of the noteskin's actors, with the arguments of a list of buttons to be used, the current stepstype, and the skin parameters. Your files should return a function with those arguments, like so:
 ```lua
 return function(button_list, stepstype, skin_parameters)
 
@@ -312,7 +312,7 @@ There are a few functions for convienience for state maps, defined in _fallback:
 
 ### <a name="actor">`actor` </a>
 #### [Back to top](#top)
-As you can probably guess, this is the actor for the tap, lift, or mine, whichever one your working with. If you aren't working with a bar noteskin or something similiar, you will likely want to include a `rots` table, with each button that your noteskin support and what to rotate it to. For example:
+As you can probably guess, this is the actor for the tap, lift, or mine, whichever one you're working with. If you aren't working with a bar noteskin or something similiar, you will likely want to include a `rots` table, with each button that your noteskin support and what to rotate it to. For example:
 ```lua
 return function(button_list, stepstype, skin_parameters)
 	local rots = {Left=90, Down=0, Up=180, Right=270}
@@ -357,7 +357,6 @@ This allows you to flip the textures. Possible choices are `"TexCoordFlipMode_X"
 If disable_filtering is set to true, then texture filtering will be turned off when rendering the hold.
 
 ### <a name="data"> `length_data= hold_length` </a>
-#### [Back to top](#top)
 The length_data table tells the system how long each part of the hold is. If the table is not present or one of the values is not a number, the default values are used. The default values are as follows:
 ```lua
 local hold_length= {
