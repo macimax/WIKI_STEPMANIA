@@ -78,7 +78,7 @@ Sets the path to the Lyrics. (Based on the current Song's directory.)
 
 ## \#CDTITLE
 
-(someone edit this section.)
+Sets the Song's CD Title.
 
 ## \#MUSIC
 
