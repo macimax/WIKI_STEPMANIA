@@ -8,198 +8,198 @@ Stepmania's .sm format was updated to include more tags and more organization. T
 
 Each TAG will have values that you can set/change. The format is as follows: TAG:VALUE; The value can be either a single line or span multiple lines. Just make sure it starts with : and ends with ;.
 
-## VERSION
+## \#VERSION
 
 (someone edit this section.)
 
-## TITLE
+## \#TITLE
 
 Sets the Song's Title.
 
-## SUBTITLE
+## \#SUBTITLE
 
 Sets the Song's Subtitle. (Optional)
 
-## ARTIST
+## \#ARTIST
 
 Sets the Song's Artist.
 
-## TITLETRANSLIT
+## \#TITLETRANSLIT
 
 Sets the Song's Title Translation.
 
-## SUBTITLETRANSLIT
+## \#SUBTITLETRANSLIT
 
 Sets the Song's Subtitle Translation.
 
-## ARTISTTRANSLIT
+## \#ARTISTTRANSLIT
 
 Sets the Song's Artist Translation.
 
-## GENRE
+## \#GENRE
 
 Sets the Song's Genre.
 
-## ORIGIN
+## \#ORIGIN
 
 (someone edit this section.)
 
-## CREDIT
+## \#CREDIT
 
 Sets the .scc Creator/Credits.
 
-## BANNER
+## \#BANNER
 
 Sets the path to the Banner. (Based on the current Song's directory.)
 
-## BACKGROUND
+## \#BACKGROUND
 
 Sets the path to the Background. (Based on the current Song's directory.)
 
-## PREVIEWVID
+## \#PREVIEWVID
 
 Sets the path to the Preview Video. (Based on the current Song's directory.)
 
-## JACKET
+## \#JACKET
 
 Sets the path to the Jacket. (Based on the current Song's directory.)
 
-## CDIMAGE
+## \#CDIMAGE
 
 Sets the path to the CD Image. (Based on the current Song's directory.)
 
-## DISCIMAGE
+## \#DISCIMAGE
 
 (someone edit this section.)
 
-## LYRICSPATH
+## \#LYRICSPATH
 
 Sets the path to the Lyrics. (Based on the current Song's directory.)
 
-## CDTITLE
+## \#CDTITLE
 
 (someone edit this section.)
 
-## MUSIC
+## \#MUSIC
 
 Sets the path to the Song. (Based on the current Song's directory.)
 
-## OFFSET
+## \#OFFSET
 
 Sets the Song's Offset. (Effects the timing of the start of the NOTES.)
 
-## SAMPLESTART
+## \#SAMPLESTART
 
 Sets the Song's Sample Start Timing.
 
-## SAMPLELENGTH
+## \#SAMPLELENGTH
 
 Sets the Song's Sample Length.
 
-## SELECTABLE
+## \#SELECTABLE
 
 Sets the Song's Selectivity. (YES OR NO)
 
-## BPMS
+## \#BPMS
 
 Sets the Song's Beats Per Minute's at certain times. (Can have multiple changes.)
 
-## STOPS
+## \#STOPS
 
 Sets the Song's Stops at certain times. (Can have multiple changes.)
 
-## DELAYS
+## \#DELAYS
 
 Sets the Song's Delays at certain times. (Can have multiple changes.)
 
-## WARPS
+## \#WARPS
 
 Sets the Song's Warps at certain times. (Can have multiple changes.)
 
-## TIMESIGNATURES
+## \#TIMESIGNATURES
 
 Sets the Song's Timing Signatures at certain times. (Can have multiple changes.)
 
-## TICKCOUNTS
+## \#TICKCOUNTS
 
 (someone edit this section.)
 
-## COMBOS
+## \#COMBOS
 
 Sets the Song's Combo at certain times. (Can have multiple changes.)
 
-## SPEEDS
+## \#SPEEDS
 
 Sets the Song's Rate(?) at certain times. (Can have multiple changes.)
 
-## SCROLLS
+## \#SCROLLS
 
 (someone edit this section.)
 
-## FAKES
+## \#FAKES
 
 Sets the Song's Fakes at certain times. (Can have multiple Fakes.)
 
-## LABELS
+## \#LABELS
 
 Sets the Song's Label at certain times. (Can have multiple Labels.)
 
-## LASTSECONDHINT
+## \#LASTSECONDHINT
 
 Sets the Song's Last Second Hint.
 
-## BGCHANGES
+## \#BGCHANGES
 
 Sets the Song's Background Change. (Can have multiple changes.)
 
-## KEYSOUNDS
+## \#KEYSOUNDS
 
 (someone edit this section.)
 
-## ATTACKS
+## \#ATTACKS
 
 Sets the Song's Attacks. (Can have multiple changes.)
 
-# NOTE DATA
+# \#NOTE DATA
 
 After these tags have been set, you can now start setting up the notedata. (Charts/Steps as StepMania would call it.)
 
-## NOTEDATA
+## \#NOTEDATA
 
 Start defining NOTEDATA? (someone edit this section?)
 
-## CHARTNAME
+## \#CHARTNAME
 
 Sets this Chart's Name. ("Style - Difficulty" is the default/standard.)
 
-## STEPSTYPE
+## \#STEPSTYPE
 
 Sets this Chart's Step Type. ("GameType-Style" is the default/standard.)
 
-## DESCRIPTION
+## \#DESCRIPTION
 
 Describes this Chart's Type/Style/Difficulty.
 
-## CHARTSTYLE
+## \#CHARTSTYLE
 
 Sets this Chart's Style Custom Name.
 
-## DIFFICULTY
+## \#DIFFICULTY
 
 Sets this Chart's Difficulty.
 
-## METER
+## \#METER
 
 Sets this Chart's Foot Meter. (Any Number.)
 
-## RADARVALUES
+## \#RADARVALUES
 
 Sets this Chart's Radar Values. (someone edit this section more.)
 
-## CREDIT
+## \#CREDIT
 
 Sets this Chart's Creators/Credits.
 
-## NOTES
+## \#NOTES
 
 Sets this Chart's Notes.
