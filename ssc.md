@@ -10,7 +10,7 @@ Each TAG will have values that you can set/change. The format is as follows: TAG
 
 ## \#VERSION
 
-(someone edit this section.)
+This is the version of the .ssc File Format.
 
 ## \#TITLE
 
