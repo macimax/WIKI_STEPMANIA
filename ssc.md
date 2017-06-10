@@ -70,7 +70,7 @@ Sets the path to the CD Image. (Based on the current Song's directory.)
 
 ## \#DISCIMAGE
 
-(someone edit this section.)
+Sets the path to the Disc Image. (Based on the current Song's directory.)
 
 ## \#LYRICSPATH
 
