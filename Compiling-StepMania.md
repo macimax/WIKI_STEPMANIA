@@ -58,6 +58,7 @@ dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel 
 Open a terminal and:
 ```
 git clone --depth=1 https://github.com/stepmania/stepmania.git
+cd stepmania
 git submodule update --init
 cd stepmania/Build/
 cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
