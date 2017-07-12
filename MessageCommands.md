@@ -1,5 +1,7 @@
 Below is a list of universal commands you can use inside Actors. They're also usable in ActorFrames, although not every function that works on an Actor will work on an ActorFrame.
 
+There are probably more than this, and many many more that are screen specific.
+
 ### InitCommand
 
 Executed before the screen displays it's 'on' state. Useful for positioning your graphic.
@@ -23,5 +25,3 @@ Executed when any button is pressed. You must have CodeNames set in the respecti
 ### Condition
 
 While not exactly a command, it is something you can put inside your Actor. If it evaluates to false the Actor will not be shown.
-
-There are probably more than this, and many many more that are screen specific.
