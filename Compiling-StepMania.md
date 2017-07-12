@@ -60,7 +60,7 @@ Open a terminal and:
 git clone --depth=1 https://github.com/stepmania/stepmania.git
 cd stepmania
 git submodule update --init
-cd stepmania/Build/
+cd Build
 cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 make -j8
 ```
