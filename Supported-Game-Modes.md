@@ -1,9 +1,11 @@
 StepMania supports multiple game modes:
 
 ## Dance
-Your regular 4key game mode, used for simulating DDR.
+Your regular DDR simulation game mode.
 
 This mode uses SM, SSC, SMA, or DWI chart files.
+
+There is Single (4key), Solo (6key), Double (8key), or Versus (2 players, 4key each) styles.
 
 ## Pump
 Your regular 5key game mode, used for simulating Pump It Up.
@@ -27,6 +29,8 @@ para para paradise game mode, 5key.
 Simulates Beatmania or Beatmania IIDX, with 5+1key, 7+1key, or doubles for each. Most songs are keysounded.
 
 This mode uses BMS chart files for songs.
+
+There is single5, single7, double5, double7, and whatever the versus styles are called. Contrary to their names the styles each have an additional turntable 'key', except for doubles having two.
 
 ## popn
 5key or 9key game mode. Some songs are keysounded.
