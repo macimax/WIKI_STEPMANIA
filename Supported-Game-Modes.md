@@ -15,7 +15,7 @@ This mode uses the same chart files as dance.
 7keys mode.
 
 ## kickbox
-???
+4key, 6key, or 8key.
 
 ## lights
 Used for testing the lights of a StepMania cabinet, or how you want your simfile to control the lights. It's not playable.
