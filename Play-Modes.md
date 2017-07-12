@@ -1,3 +1,5 @@
+StepMania supports a number of play modes, normally selectable after you pick your profile and style.
+
 ## Regular
 Your regular play mode, normally with 3 stages, plus an [[Extra Stage]] if the player gets all AA's or higher (and Extra Stage is enabled), plus a Special Stage (More commonly known as Encore Extra Stage or One More Extra Stage) if the player passes the Extra Stage.
 
