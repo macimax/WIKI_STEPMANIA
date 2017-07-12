@@ -16,3 +16,28 @@ StepMania accepts a number of command line arguments.
 * `--theme="themename"` - Sets the theme to use.
 * `--language=lang` - Sets the language to use.
 * `--ExportLuaInformation` - Exports Lua documentation to `Lua.xml`.
+
+Basic Engine Info
+------------
+[Versions](https://github.com/stepmania/stepmania/wiki/Versions)
+
+[Supported File formats](https://github.com/stepmania/stepmania/wiki/File-Formats)
+
+[Supported Game Modes](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
+
+
+Charting Help
+------------
+[Note types](https://github.com/stepmania/stepmania/wiki/Note-Types)
+
+[Timing segments](https://github.com/stepmania/stepmania/wiki/Timing-Segments)
+
+[Label segments](https://github.com/stepmania/stepmania/wiki/Label-segments)
+
+[(advanced) NewField Mod System](https://github.com/stepmania/stepmania/wiki/NewField-mod-system)
+
+Theming Help
+------------
+[Theming](https://github.com/stepmania/stepmania/wiki/Theming)
+
+[NewSkin guide](https://github.com/stepmania/stepmania/wiki/NewSkin-Guide)
