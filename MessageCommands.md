@@ -23,3 +23,5 @@ Executed when any button is pressed. You must have CodeNames set in the respecti
 ### Condition
 
 While not exactly a command, it is something you can put inside your Actor. If it evaluates to false the Actor will not be shown.
+
+There are probably more than this, and many many more that are screen specific.
