@@ -25,6 +25,8 @@ Basic Engine Info
 
 [Supported Game Modes](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
 
+[Play Modes](https://github.com/stepmania/stepmania/wiki/Play-Modes)
+
 
 Charting Help
 ------------
