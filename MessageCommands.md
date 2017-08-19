@@ -25,3 +25,47 @@ Executed when any button is pressed. You must have CodeNames set in the respecti
 ### Condition
 
 While not exactly a command, it is something you can put inside your Actor. If it evaluates to false the Actor will not be shown.
+
+# Screen Specific
+
+## ScreenSelectMusic
+
+Note: You can probably find more in ScreenSelectMusic.cpp by checking what is broadcasted to MESSAGEMAN.
+
+### CurrentStepsPXChangedMessageCommand
+
+Replace 'X' with either 1 or 2 (for the player number). Triggered when the currently selected steps change, whether it be by changing the difficulty or selecting another song.
+
+### CurrentSongChangedMessageCommand
+
+Self explanatory.
+
+### PreviousSongMessageCommand or NextSongMessageCommand
+
+Triggered when the player selects a different song in the songwheel by tapping left or right.
+
+### ChangeStepsMessageCommand
+
+Also probably works in ScreenSelectCourse. Triggered when steps are changed. Need to check player & direction using ChangeStepsMessageCommand=function(self, params) then params.Player and params.Direction.
+
+params.Player is always PLAYER_1 or PLAYER_2 and params.Direction is always 1 or -1.
+
+## ScreenSelectCourse
+
+### CurrentCourseChangedMessageCommand
+
+Self explanatory.
+
+### CurrentTrailPXChangedMessageCommand
+
+Replace 'X' with either 1 or 2 (for the player number). Triggered when the Trail is changed. Might work in other screens?
+
+# ActorScroller specific
+
+### GainFocusCommand
+
+Triggered when the ActorScroller is selected
+
+### LoseFocusCommand
+
+Triggered when the ActorScroller is deselected
