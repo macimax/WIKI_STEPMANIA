@@ -1,6 +1,8 @@
-Below is a list of universal commands you can use inside Actors. They're also usable in ActorFrames, although not every function that works on an Actor will work on an ActorFrame.
+Below is a list of commands you can use inside Actors. They're also usable in ActorFrames, although not every function that works on an Actor will work on an ActorFrame.
 
-There are probably more than this, and many many more that are screen specific.
+Note: This list is incomplete.
+
+# Universal Commands
 
 ### InitCommand
 
