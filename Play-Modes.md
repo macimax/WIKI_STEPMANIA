@@ -8,6 +8,8 @@ When Event Mode is enabled there are infinite stages and no Extra Stage.
 ## Nonstop
 Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups.
 
+Note for themers: During this mode, you stay in ScreenGameplay until the course ends and then you're taken to ScreenEvaluationNormal.
+
 ## Oni
 The same as Course mode, but the lifebar type is set to Battery with 4 lives.
 
