@@ -10,6 +10,8 @@ While holding F3:
 # Music Select
 Control+Shift+R: reload the currently selected song and regenerate the cache for it.
 
+Ctrl+Backspace: Permanently delete the selected song.
+
 F9: Switch between transliterated and original song titles.
 ## default combos
 The following was taken from https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/03%20Gameplay.lua#L272
