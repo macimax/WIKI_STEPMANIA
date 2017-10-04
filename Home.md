@@ -43,3 +43,5 @@ Theming Help
 [Theming](https://github.com/stepmania/stepmania/wiki/Theming)
 
 [NewSkin guide](https://github.com/stepmania/stepmania/wiki/NewSkin-Guide)
+
+[MessageCommands](https://github.com/stepmania/stepmania/wiki/MessageCommands)
