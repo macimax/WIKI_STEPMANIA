@@ -9,7 +9,9 @@ While holding F3:
 
 # Music Select
 Control+Shift+R: reload the currently selected song and regenerate the cache for it.
+
 Control+S: save current profile.
+
 Control+Q: reload new song packs that have been placed in the songs folder since the game was started.
 
 Ctrl+Backspace: Permanently delete the selected song.
