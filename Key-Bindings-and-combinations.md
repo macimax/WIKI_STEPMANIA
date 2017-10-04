@@ -3,7 +3,13 @@ Because this is seemingly documented nowhere?
 # Universal
 F1: insert coin.
 
-F3: Open the debug menu.
+F2: Reload metrics and resources
+
+Shift+F2: Reload metrics
+
+Ctrl+F2: Reload scripts
+
+Holding F3: Open the debug menu.
 
 While holding F3:
 
