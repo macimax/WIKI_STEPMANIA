@@ -26,20 +26,21 @@ F9: Switch between transliterated and original song titles.
 ## default combos
 The following was taken from https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/03%20Gameplay.lua#L272
 
+"-" means held at the same time. "," means one after the other, "/" means OR.
+
 ### Song select stuff
-"+" means held at the same time. "," means one after the other, "/" means OR.
 
 Down,Down/MenuDown,MenuDown: Make the difficulty easier.
 
 Up,Up/MenuUp,MenuUp: Make the difficulty harder.
 
-Left+Right/MenuLeft+MenuRight: switch the sorting mode.
+Left+Right/MenuLeft-MenuRight: switch the sorting mode.
 
 MenuUp,MenuRight,MenuRight: Jump to the next folder.
 
 Up,Down,Up,Down/MenuUp,MenuDown,MenuUp,MenuDown: Open up the sorting selection menu.
 
-MenuUp+MenuDown: Close the current folder.
+MenuUp-MenuDown: Close the current folder.
 ### Modifier codes
 Left,Right,Left,Right,Left,Right,Left,Right: Remove all modifiers
 
@@ -47,4 +48,4 @@ Left,Right,Left,Right,Left,Right,Left,Right: Remove all modifiers
 
 ## Default combinations
 
-MenuLeft+MenuRight/Select: Save a screenshot.
+MenuLeft-MenuRight/Select: Save a screenshot.
