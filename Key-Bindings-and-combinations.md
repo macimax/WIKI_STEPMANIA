@@ -1,51 +1,83 @@
 Because this is seemingly documented nowhere?
 
-# Universal
-F1: insert coin.
+"-" means held at the same time. "," means one after the other, "/" means OR.
 
-F2: Reload metrics and resources
+# Universal debugger shortcuts
 
-Shift+F2: Reload metrics
-
-Ctrl+F2: Reload scripts
-
-Holding F3: Open the debug menu.
-
-While holding F3:
+| Combination | Function |
+| ----------- | -------- |
+| F1 | insert coin |
+| F2 | Reload metrics and resources |
+| Shift+F2 | Reload metrics |
+| Ctrl+F2 | Reload scripts |
+| Holding F3 | Open the debug menu. I wont go in depth about it, since it states what buttons do what in the debug menu. |
 
 # Music Select
-Control+Shift+R: reload the currently selected song and regenerate the cache for it.
 
-Control+S: save current profile.
+## Debugger shortcuts
+| Combination | Function |
+| ----------- | -------- |
+| Control+Shift+R | reload the currently selected song and regenerate the cache for it |
+| Control+S | save current profile |
+| Control+Q | reload new song packs that have been placed in the songs folder since the game was started |
+| Ctrl+Backspace | Permanently delete the selected song |
+| F9 | Switch between transliterated and original song titles |
 
-Control+Q: reload new song packs that have been placed in the songs folder since the game was started.
-
-Ctrl+Backspace: Permanently delete the selected song.
-
-F9: Switch between transliterated and original song titles.
-## default combos
+## Default gameplay combos & buttons
 The following was taken from https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/03%20Gameplay.lua#L272
-
-"-" means held at the same time. "," means one after the other, "/" means OR.
 
 ### Song select stuff
 
-Down,Down/MenuDown,MenuDown: Make the difficulty easier.
+| Default combination | metrics setting | What it does |
+| ------------------- | --------------- | ------------ |
+| Left | PreviousSongButton | Previous song |
+| Right | NextSongButton | Next Song |
+| Start | (hardcoded) | Begin Song |
+| Start,Start | (hardcoded) | Option Options Screen |
+| Select | (hardcoded) | Option Options List |
 
-Up,Up/MenuUp,MenuUp: Make the difficulty harder.
+Start,Start opens the options screen if metric "OptionsMenuAvailable" is true.
 
-Left+Right/MenuLeft-MenuRight: switch the sorting mode.
+Select opens options list if metric "UseOptionsList" is true. (Using the select button to open the options list is hardcoded and can't be changed, but you can add an additional combo to open the OptionsList using CodeDetector.)
 
-MenuUp,MenuRight,MenuRight: Jump to the next folder.
-
-Up,Down,Up,Down/MenuUp,MenuDown,MenuUp,MenuDown: Open up the sorting selection menu.
-
-MenuUp-MenuDown: Close the current folder.
+| Default combination | CodeDetector setting | What it does |
+| ------------------- | -------------------- | ------------ |
+| Down,Down/MenuDown,MenuDown | PrevSteps1/PrevSteps2 | Make the difficulty easier |
+| Up,Up/MenuUp,MenuUp | NextSteps1/NextSteps2 | Make the difficulty harder |
+| Left+Right/MenuLeft-MenuRight | NextSort1/NextSort2/NextSort3/NextSort4 | switch the sorting mode |
+| MenuUp,MenuRight,MenuRight | NextGroup | Jump to next folder |
+| (no default) | PrevGroup | Jump to previous folder |
+| Up,Down,Up,Down/MenuUp,MenuDown,MenuUp,MenuDown | ModeMenu1/ModeMenu2 | Open up the sorting selection menu |
+| MenuUp-MenuDown | CloseCurrentFolder | Close the current folder |
 ### Modifier codes
-Left,Right,Left,Right,Left,Right,Left,Right: Remove all modifiers
+
+Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes#pump) mode, which is where the UpLeft, UpRight, DownLeft, DownRight buttons come from. They don't affect [Dance](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes#dance) mode, so you can ignore them if you don't play Pump mode.
+
+| Default combination | CodeDetector setting | What it does |
+| ------------------- | -------------------- | ------------ |
+| Left,Right,Left,Right,Left,Right,Left,Right | CancelAll | remove all modifiers |
+| DownRight,DownLeft,UpRight,UpLeft,DownRight,DownLeft,UpRight,UpLeft,Center | CodeDetector setting | Enables/Disables the [Mirror](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
+| (no default combo) | Left | Enables/Disables the [Left](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifer. |
+| (no default combo) | Right | Enables/Disables the [Right](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
+| UpLeft,UpRight,UpLeft,UpRight,DownLeft,DownRight,DownLeft,DownRight,Center | Shuffle | Enables/Disables the [Shuffle](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
+| UpLeft,UpRight,DownLeft,DownRight,UpLeft,UpRight,DownLeft,DownRight,Center | SuperShuffle | Enables/Disables the [SuperShuffle](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers) modifier. |
+| (no default combo) | NextTransform | Cycles between [modifiers](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers)? |
+| UpLeft,UpRight,UpLeft,UpRight,Center | NextScrollSpeed | Jumps to the next scroll speed (ex: 1x -> 2x, 2x -> 3x) |
+| UpRight,UpLeft,UpRight,UpLeft,Center | PreviousScrollSpeed | Jumps to the previous scroll speed |
+| (no default combo) | NextAccel | Cycles between [Accel](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#acceleration) modifiers | 
+| (no default combo) | NextEffect | Cycles between [Effect](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#effects) modifiers |
+| (no default combo) | NextAppearance | Cycles between [Appearnace](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#appearance) modifiers |
+| (no default combo) | NextTurn | Cycles between [Turn](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifiers |
+| UpLeft,DownLeft,UpRight,DownRight,UpLeft,DownLeft,UpRight,DownRight,DownRight | Reverse | Enables/Disables the [Reverse](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#scroll) modifier |
+| (no default combo) | HoldNotes | You know what this does. |
+| (no default combo) | Mines | You know what this does. |
+| (no default combo) | Dark | You know what this does. |
+| (no default combo) | Hidden | You know what this does. |
+| (no default combo) | RandomVanish | You know what this does. |
 
 # Evaluation Screen
 
 ## Default combinations
-
-MenuLeft-MenuRight/Select: Save a screenshot.
+| Default combination | CodeDetector setting | What it does |
+| ------------------- | -------------------- | ------------ |
+| MenuLeft-MenuRight/Select | SaveScreenshot1/SaveScreenshot2 | Save a screenshot. |
