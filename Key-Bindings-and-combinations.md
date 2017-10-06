@@ -35,6 +35,8 @@ The following was taken from https://github.com/stepmania/stepmania/blob/master/
 | Start | (hardcoded) | Begin Song |
 | Start,Start | (hardcoded) | Option Options Screen |
 | Select | (hardcoded) | Option Options List |
+| (Not used) | PreviousDifficultyButton | Switches to the previous difficulty. By default, CodeDetector is used instead. |
+| (not used) | NextDifficultyButton | Switches to the next difficulty. By default, CodeDetector is used instead. |
 
 Start,Start opens the options screen if metric "OptionsMenuAvailable" is true.
 
