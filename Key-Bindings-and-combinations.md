@@ -1,6 +1,7 @@
 Because this is seemingly documented nowhere?
 
-"-" means held at the same time. "," means one after the other, "/" means OR.
+"-" means held at the same time. "," means one after the other.
+If a setting has more than one combination it will be listed on another line.
 
 # Universal debugger shortcuts
 
@@ -33,8 +34,8 @@ The following was taken from https://github.com/stepmania/stepmania/blob/master/
 | Left | PreviousSongButton | Previous song |
 | Right | NextSongButton | Next Song |
 | Start | (hardcoded) | Begin Song |
-| Start,Start | (hardcoded) | Option Options Screen |
-| Select | (hardcoded) | Option Options List |
+| Start,Start | (hardcoded) | Open Options Screen |
+| Select | (hardcoded) | Open Options List |
 | (Not used) | PreviousDifficultyButton | Switches to the previous difficulty. By default, CodeDetector is used instead. |
 | (not used) | NextDifficultyButton | Switches to the next difficulty. By default, CodeDetector is used instead. |
 
@@ -44,12 +45,12 @@ Select opens options list if metric "UseOptionsList" is true. (Using the select 
 
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
-| Down,Down/MenuDown,MenuDown | PrevSteps1/PrevSteps2 | Make the difficulty easier |
-| Up,Up/MenuUp,MenuUp | NextSteps1/NextSteps2 | Make the difficulty harder |
-| Left+Right/MenuLeft-MenuRight | NextSort1/NextSort2/NextSort3/NextSort4 | switch the sorting mode |
+| Down,Down<br>MenuDown,MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty easier |
+| Up,Up<br>MenuUp,MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty harder |
+| Left+Right<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | switch the sorting mode |
 | MenuUp,MenuRight,MenuRight | NextGroup | Jump to next folder |
 | (no default) | PrevGroup | Jump to previous folder |
-| Up,Down,Up,Down/MenuUp,MenuDown,MenuUp,MenuDown | ModeMenu1/ModeMenu2 | Open up the sorting selection menu |
+| Up,Down,Up,Down<br>MenuUp,MenuDown,MenuUp,MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu |
 | MenuUp-MenuDown | CloseCurrentFolder | Close the current folder |
 ### Modifier codes
 
@@ -63,7 +64,7 @@ Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Support
 | (no default combo) | Right | Enables/Disables the [Right](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
 | UpLeft,UpRight,UpLeft,UpRight,DownLeft,DownRight,DownLeft,DownRight,Center | Shuffle | Enables/Disables the [Shuffle](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
 | UpLeft,UpRight,DownLeft,DownRight,UpLeft,UpRight,DownLeft,DownRight,Center | SuperShuffle | Enables/Disables the [SuperShuffle](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers) modifier. |
-| (no default combo) | NextTransform | Cycles between [modifiers](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers)? |
+| (no default combo) | NextTransform | Cycles between transform modifiers |
 | UpLeft,UpRight,UpLeft,UpRight,Center | NextScrollSpeed | Jumps to the next scroll speed (ex: 1x -> 2x, 2x -> 3x) |
 | UpRight,UpLeft,UpRight,UpLeft,Center | PreviousScrollSpeed | Jumps to the previous scroll speed |
 | (no default combo) | NextAccel | Cycles between [Accel](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#acceleration) modifiers | 
@@ -82,4 +83,4 @@ Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Support
 ## Default combinations
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
-| MenuLeft-MenuRight/Select | SaveScreenshot1/SaveScreenshot2 | Save a screenshot. |
+| MenuLeft-MenuRight<br>Select | SaveScreenshot1<br>SaveScreenshot2 | Save a screenshot. |
