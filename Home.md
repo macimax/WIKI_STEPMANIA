@@ -45,3 +45,7 @@ Theming Help
 [NewSkin guide](https://github.com/stepmania/stepmania/wiki/NewSkin-Guide)
 
 [MessageCommands](https://github.com/stepmania/stepmania/wiki/MessageCommands)
+
+Programming Help
+------------
+[Compiling StepMania](https://github.com/stepmania/stepmania/wiki/Compiling-StepMania)
