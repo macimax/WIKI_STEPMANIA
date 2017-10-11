@@ -49,3 +49,5 @@ Theming Help
 Programming Help
 ------------
 [Compiling StepMania](https://github.com/stepmania/stepmania/wiki/Compiling-StepMania)
+
+[Adding new lua functions](https://github.com/stepmania/stepmania/wiki/Adding-new-lua-functions-to-the-source)
