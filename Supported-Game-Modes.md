@@ -42,34 +42,90 @@ Additionally, you should know that StepF2 uses the #DESCRIPTION tag to mark a ch
 | Single | Kb7_Single | ?????? |
 
 ## kickbox
-4key, 6key, or 8key.
+
+The StepsType is missing from the lua documentation. (Maybe this mode was removed or not fully implemented?)
+
+| Style | StepsType | Description |
+| ----- | --------- | ----------- |
+| ??? | ??? | 4key |
+| ??? | ??? | 6key |
+| ??? | ??? | 8key |
 
 ## lights
 Used for testing the lights of a StepMania cabinet, or how you want your simfile to control the lights. It's not playable.
 
+| Style | StepsType |
+| ----- | --------- |
+| ??? | Lights_Cabinet |
+
 ## para
-para para paradise game mode, 5key.
+para para paradise game mode.
+
+| Style | StepsType | Description |
+| ----- | --------- | ----------- |
+| Single | Para_Single | 5key. |
 
 ## beat
 Simulates Beatmania or Beatmania IIDX, with 5+1key, 7+1key, or doubles for each. Most songs are keysounded.
 
 This mode uses BMS chart files for songs.
 
-There is single5, single7, double5, double7, and whatever the versus styles are called. Contrary to their names the styles each have an additional turntable 'key', except for doubles having two.
+| Style | StepsType | Description |
+| ----- | --------- | ----------- |
+| single5 | Bm_Single5 | 5+1key game mode |
+| versus5 | Bm_Versus5 | Unknown, might be the beat equivalent to Couple? |
+| double5 | Bm_Double5 | Both sides are used. |
+| single7 | Bm_Single7 | 7+1key game mode |
+| double7 | Bm_Double7 | Both sides are used. |
+| versus7 | Bm_Versus7 | Unknown (see versus5) |
+
+Contrary to their names the styles each have an additional turntable 'key', except for doubles having two.
+
+## Ez2
+
+Simulates EZ2DJ & EZ2AC, probably?
+
+| Style | StepsType | Description |
+| ----- | --------- | ----------- |
+| Single | Ez2_Single | ??? |
+| Double | Ez2_Double | ??? |
+| Real | Ez2_Real | ??? |# 
 
 ## popn
-5key or 9key game mode. Some songs are keysounded.
 
-This mode uses PMS chart files for songs.
+| Style | StepsType | Description |
+| ----- | --------- | ----------- |
+| ??? | Pnm_Five | 5key game mode. |
+| ??? | Pnm_Nine | 9key game mode. |
+
+Some songs are keysounded. This mode uses PMS chart files for songs.
 
 ## techno
-TechnoMotion. 4key, 5key, 8key, 8(double), 10(double), and 16(double) is supported.
+TechnoMotion.
+
+| Style | StepsType | Description |
+| ----- | --------- | ----------- |
+| Single4 | Techno_Single4 | 4key |
+| Single5 | Techno_Single5 | 5key |
+| Single8 | Techno_Single8 | 8key |
+| Double4 | Techno_Double4 | 8(double) |
+| Double5 | Techno_Double5 | 10(double) |
+| Double8 | Techno_Double8 | 16(double) |
 
 ## ds3ddx
-Dance Station 3DDX, 4key + 4hand...
+Dance Station 3DDX.
+
+| Style | StepsType | Description |
+| ----- | --------- | ----------- |
+| Single | Ds3ddx_Single | 4key + 4hand... |
 
 ## karaoke
 nonfunctional karaoke gamemode.
 
 ## Maniax
-DanceManiax, 4 and 8key
+DanceManiax mode.
+
+| Style | StepsType | Description |
+| ----- | --------- | ----------- |
+| Single | Maniax_Single | 4key |
+| Double | Maniax_Double | 8key |
