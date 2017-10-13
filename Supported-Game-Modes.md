@@ -95,8 +95,8 @@ Simulates EZ2DJ & EZ2AC, probably?
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
-| ??? | Pnm_Five | 5key game mode. |
-| ??? | Pnm_Nine | 9key game mode. |
+| five | Pnm_Five | 5key game mode. |
+| nine | Pnm_Nine | 9key game mode. |
 
 Some songs are keysounded. This mode uses PMS chart files for songs.
 
