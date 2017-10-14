@@ -2,7 +2,7 @@
 You can add multiple paths on each Additional* preference by seperating them with a comma.
 
 For example:
-`AdditionalSongFolders=C:/SomeFolder/Songs,E:/Coolpath/Songs
+`AdditionalSongFolders=C:/SomeFolder/Songs,E:/Coolpath/Songs`
 
 Note: If you're on Windows, you must replace every backslash with a forward slash.
 
