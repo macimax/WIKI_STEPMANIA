@@ -30,15 +30,15 @@ The mount points of your memory card for each player. If you are one windows, yo
 
 Example: `MemoryCardOsMountPointP1=G:/`
 
-## MemoryCardProfileImportSubdirs
-
-Might import old profile subdirectories into new ones.
-
 ## MemoryCardProfileSubdir
 
 The name of the folder that stores the data on the memory card.
 
-For example, `MemoryCardProfileSubdir=StepMania 5` will make a folder named StepMania 5 and save all data in that folder after the player plays a round with a card inserted.
+For example, `MemoryCardProfileSubdir=StepMania 5` will make a folder named `StepMania 5` and save all data in that folder after the player plays a round with a card inserted.
+
+## MemoryCardProfileImportSubdirs
+
+Imports old profile subdirectories into new ones. For example, `MemoryCardProfileImportSubdirs=StepMania 5 Old` will import a profile from the directory named `StepMania 5  Old` on your memory card into the new directory you specified in the above setting.
 
 ## MemoryCardProfiles
 
