@@ -131,3 +131,7 @@ The refresh rate of StepMania. Usually `60`.
 ## DisableScreenSaver
 
 `1` disables the screen saver. Only for Linux running X11.
+
+## ShowMouseCursor
+
+`1` shows the mouse cursor, `0` hides it. Linux only.
