@@ -51,15 +51,15 @@ Boolean setting. Unknown function. Enables profiles on the memory cards?
 
 ## MemoryCardUsbBusP1 & MemoryCardUsbBusP2
 
-`-1` to disable. Might be used for importing a drive by USB bus instead of by letter.
+`-1` will allow ANY bus, or you can force the use of a specified USB bus.
 
 ## MemoryCardUsbLevelP1 & MemoryCardUsbLevelP2
 
-`-1` to disable. Unknown.
+`-1` will allow ANY bus levels, or you can force to use a specified USB bus level.
 
 ## MemoryCardUsbPortP1 & MemoryCardUsbPortP2
 
-`-1` to disable. Might be used for mounting a device by USB port instead of by letter.
+`-1` will use ANY port, or you can specify a USB port number.
 
 # Graphical settings
 
