@@ -47,7 +47,16 @@ Imports old profile subdirectories into new ones. For example, `MemoryCardProfil
 
 ## MemoryCardProfiles
 
-Boolean setting. Unknown function. Enables profiles on the memory cards?
+`0` for OFF, `1` for ON. Unknown function. Enables profiles on the memory cards?
+
+## SignProfileData
+
+`0` for OFF, `1` for ON.
+
+Signs profile data so scores and stuff can't be edited.
+
+Create an RSA key and then place `private.rsa` and `public.rsa` in the /Data folder of StepMania for this to work.
+
 
 ## MemoryCardUsbBusP1 & MemoryCardUsbBusP2
 
@@ -121,4 +130,4 @@ The refresh rate of StepMania. Usually `60`.
 
 ## DisableScreenSaver
 
-`1` disables the screen saver. (My screensaver still activates with this on, so I don't think it works...)
+`1` disables the screen saver. Only for Linux running X11.
