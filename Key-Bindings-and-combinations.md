@@ -7,7 +7,7 @@ If a setting has more than one combination it will be listed on another line.
 
 | Combination | Function |
 | ----------- | -------- |
-| F1 | insert coin |
+| F1 | Insert coin |
 | F2 | Reload metrics and resources |
 | Shift+F2 | Reload metrics |
 | Ctrl+F2 | Reload scripts |
@@ -18,9 +18,9 @@ If a setting has more than one combination it will be listed on another line.
 ## Debugger shortcuts
 | Combination | Function |
 | ----------- | -------- |
-| Control+Shift+R | reload the currently selected song and regenerate the cache for it |
-| Control+S | save current profile |
-| Control+Q | reload new song packs that have been placed in the songs folder since the game was started |
+| Control+Shift+R | Reload the currently selected song and regenerate the cache for it |
+| Control+S | Save current profile |
+| Control+Q | Reload new song packs that have been placed in the songs folder since the game was started |
 | Ctrl+Backspace | Permanently delete the selected song |
 | F9 | Switch between transliterated and original song titles |
 
@@ -47,7 +47,7 @@ Select opens options list if metric "UseOptionsList" is true. (Using the select 
 | ------------------- | -------------------- | ------------ |
 | Down,Down<br>MenuDown,MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty easier |
 | Up,Up<br>MenuUp,MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty harder |
-| Left+Right<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | switch the sorting mode |
+| Left+Right<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | Switch the sorting mode |
 | MenuUp,MenuRight,MenuRight | NextGroup | Jump to next folder |
 | (no default) | PrevGroup | Jump to previous folder |
 | Up,Down,Up,Down<br>MenuUp,MenuDown,MenuUp,MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu |
@@ -58,7 +58,7 @@ Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Support
 
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
-| Left,Right,Left,Right,Left,Right,Left,Right | CancelAll | remove all modifiers |
+| Left,Right,Left,Right,Left,Right,Left,Right | CancelAll | Remove all modifiers |
 | DownRight,DownLeft,UpRight,UpLeft,DownRight,DownLeft,UpRight,UpLeft,Center | CodeDetector setting | Enables/Disables the [Mirror](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
 | (no default combo) | Left | Enables/Disables the [Left](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifer. |
 | (no default combo) | Right | Enables/Disables the [Right](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
