@@ -135,10 +135,10 @@ Self explanatory.
 
 # Fail type
 
-Immediate: Fail when the lifebar or battery is empty.
+Immediate: Fail when the lifebar or battery is empty. Known as "FailImmediateContinue" internally.
 
 Delayed:
 
-Fail at end: Fail at the end of the song if your lifebar or battery is empty.
+Fail at end: Fail at the end of the song if your lifebar or battery is empty. Known as "FailAtEnd" internally.
 
-Off: You can't fail.
+Off: You can't fail. Known as "FailOff" internally.
