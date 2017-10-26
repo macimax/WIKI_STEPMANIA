@@ -136,6 +136,9 @@ At this time, only generated [Xcode](https://developer.apple.com/xcode/) project
 To generate an Xcode project you will need to use Cmake.
 ```
 brew install cmake
+git clone --depth=1 https://github.com/stepmania/stepmania.git
+cd stepmania
+git submodule update --init
 cd Build
 cmake -G 'Xcode' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 open StepMania.xcodeproj
