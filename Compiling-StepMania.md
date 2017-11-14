@@ -133,9 +133,11 @@ sudo apt-get install antimicro
 
 At this time, only generated [Xcode](https://developer.apple.com/xcode/) projects are supported.
 
+XCode 9 currently does not work, please use Xcode 8
+
 To generate an Xcode project you will need to use Cmake.
 ```
-brew install cmake
+brew install cmake yasm
 git clone --depth=1 https://github.com/stepmania/stepmania.git
 cd stepmania
 git submodule update --init
