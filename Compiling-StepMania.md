@@ -26,9 +26,17 @@ Ensure the following items are installed:
 * Redistributable installed (x86 required, x64 as well only if your system is 64-bit). [2015 version here](https://www.microsoft.com/en-us/download/details.aspx?id=48145), and [2013 version here](https://www.microsoft.com/en-us/download/details.aspx?id=40784).
 * [Windows Platform SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk).
 
+(Installer Related)
+* NSIS (http://nsis.sourceforge.net/Download)
+* Perl (http://strawberryperl.com/) I am unsure if this is required but, there are .pl files in Utils. So... Maybe...
+
 Currently we only support using generated [Visual Studio](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) solution files from CMake. Any edition of Visual Studio 2013 or 2015 will work, but the focus will be on the Community editions.
 
 However, if you're feeling adventurous but not that adventurous, you can acquire Windows binaries of the latest nightly build [here](http://smnightly.katzepower.com/).
+
+(Installer Related)
+
+If you intend to release SM as a Windows Installer, you will need NSIS and possibly Perl. Once installed, use cmake, config/generate the solution file, and open it, you will have to change two things before it will work. Right click the "Solution" area for the StepMania Project and click properties. With ALL_BUILD configuration selected, find INSTALL and PACKAGE, and click the check mark for for Build. By default, they are disabled. Once SM builds, it will start a new task that will build the installer. It should go in: <Directory>\Build\_CPack_Packages\win32\NSIS once complete.
 
 ### Linux ###
 
