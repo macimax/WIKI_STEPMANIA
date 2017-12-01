@@ -33,6 +33,32 @@ Boomerang: Notes fly in from the top (or bottom if reverse), decelerate towards 
 
 ## Effects
 
+Most effects can be amplified if you use them in #ATTACK segments. They can also be stacked.
+
+Dizzy: The notes spin in their lanes
+
+Twirl: The notes spin in 3D
+
+Confusion: The notes and note receptors spin.
+
+Drunk: The notes and note receptors sway to the left and right
+
+Beat: The note and note receptors bounce left and right to the beat of the song
+
+Tornado: notes fly in to the left, then to the right as they line up with the receptors
+
+Mini: Makes the notefield small
+
+Big: Makes the notefield big
+
+XMode: The notes come in from a certain angle (You probably want to use this with #ATTACK so you can amplify it)
+
+Bumpy: The notefield is "bumpy" in that the notes ripple towards and back in your direction.
+
+Invert: The receptors are inverted. (Down, Left, Right, Up)
+
+Flip: the receptors are flipped. (Right, Up, Down, Left)
+
 ## Appearance
 
 Hidden: Notes become invisible 3/4ths of the way before reaching the receptors.
