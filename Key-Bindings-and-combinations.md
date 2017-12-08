@@ -13,6 +13,12 @@ If a setting has more than one combination it will be listed on another line.
 | Ctrl+F2 | Reload scripts |
 | Holding F3 | Open the debug menu. I wont go in depth about it, since it states what buttons do what in the debug menu. |
 
+# Universal shortcuts
+
+| Combination | Function |
+| ----------- | -------- |
+| Alt+Enter | Switches between windowed and fullscreen... Except it's kind of buggy. |
+
 # Music Select
 
 ## Debugger shortcuts
