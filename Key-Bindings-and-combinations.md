@@ -45,8 +45,8 @@ Select opens options list if metric "UseOptionsList" is true. (Using the select 
 
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
-| Down,Down<br>MenuDown,MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty easier |
-| Up,Up<br>MenuUp,MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty harder |
+| Down,Down<br>MenuDown,MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty harder |
+| Up,Up<br>MenuUp,MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty easier |
 | Left+Right<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | Switch the sorting mode |
 | MenuUp,MenuRight,MenuRight | NextGroup | Jump to next folder |
 | (no default) | PrevGroup | Jump to previous folder |
