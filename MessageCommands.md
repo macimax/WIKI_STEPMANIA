@@ -62,6 +62,16 @@ Self explanatory.
 
 Replace 'X' with either 1 or 2 (for the player number). Triggered when the Trail is changed. Might work in other screens?
 
+## ScreenGameplay
+
+### LifeChangedMessageCommand
+
+Activated whenever a player's life changes. Params include Player, LifeMeter, LivesLost, and LostLife.
+
+### ScoreChangedMessageCommand
+
+Activated whenever a player's score changes. Params include PlayerNumber and MultiPlayer.
+
 # ActorScroller specific
 
 ### GainFocusCommand
