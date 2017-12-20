@@ -83,7 +83,7 @@ Contrary to their names the styles each have an additional turntable 'key', exce
 
 ## Ez2
 
-Simulates EZ2DJ & EZ2AC, probably?
+Simulates EZ2Dancer.
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
