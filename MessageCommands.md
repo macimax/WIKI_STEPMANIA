@@ -72,6 +72,12 @@ Activated whenever a player's life changes. Params include Player, LifeMeter, Li
 
 Activated whenever a player's score changes. Params include PlayerNumber and MultiPlayer.
 
+## ScreenNameEntryTraditional
+
+### MenuTimerExpiredMessageCommand
+
+Triggered when the timer reaches 0.
+
 # ActorScroller specific
 
 ### GainFocusCommand
