@@ -2,7 +2,7 @@
 
 (This wiki page is in progress... Feel free to alter it as needed...)
 
-Stepmania's .sm format was updated to include more tags and more organization. Thus, .scc was born. You can refer to the [.sm](https://github.com/stepmania/stepmania/wiki/sm) wiki to see the differences.
+Stepmania's .sm format was updated to include more tags and more organization. Thus, .ssc was born. You can refer to the [.sm](https://github.com/stepmania/stepmania/wiki/sm) wiki to see the differences.
 
 # Header Tags
 
@@ -46,7 +46,7 @@ Sets the Song's Genre.
 
 ## \#CREDIT
 
-Sets the .scc Creator/Credits.
+Sets the .ssc Creator/Credits.
 
 ## \#BANNER
 
