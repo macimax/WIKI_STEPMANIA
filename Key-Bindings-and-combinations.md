@@ -65,19 +65,19 @@ Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Support
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
 | Left,Right,Left,Right,Left,Right,Left,Right | CancelAll | Remove all modifiers |
-| DownRight,DownLeft,UpRight,UpLeft,DownRight,DownLeft,UpRight,UpLeft,Center | CodeDetector setting | Enables/Disables the [Mirror](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
+| DownRight, DownLeft, UpRight, UpLeft, DownRight, DownLeft, UpRight, UpLeft, Center | CodeDetector setting | Enables/Disables the [Mirror](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
 | (no default combo) | Left | Enables/Disables the [Left](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifer. |
 | (no default combo) | Right | Enables/Disables the [Right](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
-| UpLeft,UpRight,UpLeft,UpRight,DownLeft,DownRight,DownLeft,DownRight,Center | Shuffle | Enables/Disables the [Shuffle](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
-| UpLeft,UpRight,DownLeft,DownRight,UpLeft,UpRight,DownLeft,DownRight,Center | SuperShuffle | Enables/Disables the [SuperShuffle](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers) modifier. |
+| UpLeft, UpRight, UpLeft, UpRight, DownLeft, DownRight, DownLeft, DownRight, Center | Shuffle | Enables/Disables the [Shuffle](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
+| UpLeft, UpRight, DownLeft, DownRight, UpLeft, UpRight, DownLeft, DownRight, Center | SuperShuffle | Enables/Disables the [SuperShuffle](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers) modifier. |
 | (no default combo) | NextTransform | Cycles between transform modifiers |
-| UpLeft,UpRight,UpLeft,UpRight,Center | NextScrollSpeed | Jumps to the next scroll speed (ex: 1x -> 2x, 2x -> 3x) |
-| UpRight,UpLeft,UpRight,UpLeft,Center | PreviousScrollSpeed | Jumps to the previous scroll speed |
+| UpLeft, UpRight, UpLeft, UpRight, Center | NextScrollSpeed | Jumps to the next scroll speed (ex: 1x -> 2x, 2x -> 3x) |
+| UpRight, UpLeft, UpRight, UpLeft, Center | PreviousScrollSpeed | Jumps to the previous scroll speed |
 | (no default combo) | NextAccel | Cycles between [Accel](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#acceleration) modifiers | 
 | (no default combo) | NextEffect | Cycles between [Effect](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#effects) modifiers |
 | (no default combo) | NextAppearance | Cycles between [Appearnace](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#appearance) modifiers |
 | (no default combo) | NextTurn | Cycles between [Turn](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifiers |
-| UpLeft,DownLeft,UpRight,DownRight,UpLeft,DownLeft,UpRight,DownRight,DownRight | Reverse | Enables/Disables the [Reverse](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#scroll) modifier |
+| UpLeft, DownLeft, UpRight, DownRight, UpLeft, DownLeft, UpRight, DownRight, DownRight | Reverse | Enables/Disables the [Reverse](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#scroll) modifier |
 | (no default combo) | HoldNotes | You know what this does. |
 | (no default combo) | Mines | You know what this does. |
 | (no default combo) | Dark | You know what this does. |
