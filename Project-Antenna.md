@@ -4,7 +4,7 @@ Project Antenna is a proposal to revamp StepMania's netcode to offer more flexib
 
 ## StepMania
  * Optional online connectivity to multiplayer servers (SMO).
- * Decentralized distribution of content (although the main SMO server does have a pack repository/hosting area with search among popular packs).
+ * Decentralized distribution of songs and other add-on content (although the main SMO server does have a repository of song packs with a search tool).
  * When SMO is active, user is prompted to login and is placed in a lobby.
  * Public and private rooms for multiple players to play the same song at once.
  * The main SMO server has a song scanning system.
