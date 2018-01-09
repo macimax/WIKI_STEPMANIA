@@ -49,3 +49,12 @@ Divide StepMania online functionality into two modes;
  * Possibly a way to create an account from within SM?
  * Ability to scan and verify simfiles/other configuration settings to ensure songs and other settings are not modified to abuse the system.
  * Relevant Lua bindings
+
+## Possible workflow
+1. The user first creates an account on the server-side’s website component.
+2. The user goes into SM and accesses the “Online Options” menu in the options menu.
+3. The previous Network Options menu would be replaced so that SMO-related stuff is moved to a new Multiplayer option in the main menu.
+4. The user types in the Antenna server domain, and logs in with their username and password. This login would be bound to a player’s in-game profile.
+5. Once SM connects to the server, they are told of anything of note (i.e. a MOTD, supported packs if applicable, etc.). This screen will then contain an on-off toggle for enabling the online connection, or disassociating the local SM profile from the online account.
+6. UI elements (maybe an “ONLINE” prompt in the system overlay a la DDR) would signify the player’s online status once this is configured. If no online account is configured on the profile, these elements would not display.
+7. The theme would be able to support loading selected statistics from the online server (such as on ScreenSelectMusic, Evaluation, etc.)
