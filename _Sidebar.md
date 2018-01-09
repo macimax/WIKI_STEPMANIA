@@ -10,10 +10,10 @@
   * [Manually changing preferences](Manually-Changing-Preferences)
   * [Static mount points for USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
 ## Play
-  * [Game modes](Supported-Game-Modes))
-  * [Play modes](Play-Modes))
-  * [Modifiers](List-of-Song-Modifiers))
-  * [Key bindings](Key-Bindings-and-combinations))
+  * [Game modes](Supported-Game-Modes)
+  * [Play modes](Play-Modes)
+  * [Modifiers](List-of-Song-Modifiers)
+  * [Key bindings](Key-Bindings-and-combinations)
 ## For creators and developers
   * [Themes](Theming)
   * [MessageCommands](MessageCommands)
