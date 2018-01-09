@@ -30,3 +30,22 @@ Project Antenna is a proposal to revamp StepMania's netcode to offer more flexib
 
 ## Step ManiaX
  * Seems to involve results screen QR codes and a mobile app.
+
+# Brainstorming
+## Goal
+Divide StepMania online functionality into two modes;
+ * “Legacy”/Multiplayer Lobby server (what SMO currently is now) - SMLan, etc. (see also https://github.com/stepmania/stepmania/blob/master/Docs/Devdocs/SMLanProtocol.txt)
+ * “Online Service Server” (Project Antenna, an “Antenna server”) - a passive mode that sends player results to a specified online server over the course of standard gameplay. Essentially, something more like e-Amusement or AM.NET (i.e. a remote user profile with online score saving, etc.). The latter could theoretically be used to implement the former in a saner and futureproof manner.
+
+## Requirements
+ * Ability to stream player results to a specified server over the course of normal gameplay.
+ * Ability to have server-side profiles and leaderboards for players and songs associated with the server.
+ * Ability to enforce/override specific settings or at least recognize and acknowledge them (i.e. specific modifiers, timings, etc.)
+ * The server-side username should be separate from the user profile name in SM (this is just a personal pet peeve with the current system).
+ * Ability for a server to whitelist or blacklist specific packs/playlists (mainly if it is to serve specific audiences/projects/products. I.e. just ITG official packs, just TrotMania, just StepManiaX, etc.)
+ * A Packs table and a Packs_members joining table in postgres will be the most efficient way to do this
+ * Server backend has to be open source. Preferably under the same license as SM itself (MIT or some other BSD-like)
+ * Server backend needs an API so it can be polled for other things (such as integration with websites).
+ * Possibly a way to create an account from within SM?
+ * Ability to scan and verify simfiles/other configuration settings to ensure songs and other settings are not modified to abuse the system.
+ * Relevant Lua bindings
