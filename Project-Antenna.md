@@ -58,3 +58,10 @@ Divide StepMania online functionality into two modes;
 5. Once SM connects to the server, they are told of anything of note (i.e. a MOTD, supported packs if applicable, etc.). This screen will then contain an on-off toggle for enabling the online connection, or disassociating the local SM profile from the online account.
 6. UI elements (maybe an “ONLINE” prompt in the system overlay a la DDR) would signify the player’s online status once this is configured. If no online account is configured on the profile, these elements would not display.
 7. The theme would be able to support loading selected statistics from the online server (such as on ScreenSelectMusic, Evaluation, etc.)
+
+## Things to look into
+* gRPC
+ * “it has support for bidirectional streaming”
+ * “so you can make a call with a stream of game events that you write to and recieve a stream of game events back”
+ * “(not to mention the fact that protocol buffers are unable to be interpreted any way other than correctly, including type-safety for all things passed through)”
+ * “it's over TLS by default, gRPC doesn't have to worry about session hijacking because that's TLS' job”
