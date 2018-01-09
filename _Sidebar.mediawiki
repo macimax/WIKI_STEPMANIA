@@ -17,7 +17,7 @@
 ** [[MessageCommands]]
 ** [[Creating Static Mount Points For USB Profiles (Linux)]]
 ** [[Timing Segments]]
-* Adding new lua functions to the source
+** [[Adding new lua functions to the source]]
 ** [[Blend Modes]]
 ** [[Label segments]]
 ** [[Note Types]]
