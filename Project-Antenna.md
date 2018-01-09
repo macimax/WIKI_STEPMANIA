@@ -61,7 +61,7 @@ Divide StepMania online functionality into two modes;
 
 ## Things to look into
 * gRPC
- * “it has support for bidirectional streaming”
- * “so you can make a call with a stream of game events that you write to and recieve a stream of game events back”
- * “(not to mention the fact that protocol buffers are unable to be interpreted any way other than correctly, including type-safety for all things passed through)”
- * “it's over TLS by default, gRPC doesn't have to worry about session hijacking because that's TLS' job”
+   * “it has support for bidirectional streaming”
+   * “so you can make a call with a stream of game events that you write to and recieve a stream of game events back”
+   * “(not to mention the fact that protocol buffers are unable to be interpreted any way other than correctly, including type-safety for all things passed through)”
+   * “it's over TLS by default, gRPC doesn't have to worry about session hijacking because that's TLS' job”
