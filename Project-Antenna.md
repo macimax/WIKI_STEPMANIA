@@ -1,5 +1,7 @@
 Project Antenna is a proposal to revamp StepMania's netcode to offer more flexible online functionality, including the ability for passive, online service servers (akin to e-Amusement or AM.NET) that can stream player statistics and scores to a score tracking server. Unlike SMO, this would be able to occur in the background during normal gameplay, without requiring the user to log into a network lobby server in order to take advantage of such features.
 
+Tracking of progress related to Antenna is taking place on a [project board](https://github.com/stepmania/stepmania/projects/1).
+
 # Comparison of current online functionality between SM and other products
 
 ## StepMania
