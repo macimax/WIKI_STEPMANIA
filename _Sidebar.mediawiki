@@ -1,0 +1,28 @@
+* Basics
+** [[Versions]]
+** [[Compiling StepMania]]
+** [[Minimum Requirements]]
+** [[Linux dependencies]]
+** [[File Formats]]
+** [[User Data Locations]]
+** [[Preferences.ini|Preferences]]
+** [[Manually Changing Preferences]]
+* Play
+** [[Supported Game Modes]]
+** [[Play Modes]]
+** [[List of Song Modifiers]]
+** [[Key Bindings and combinations]]
+* For creators and developers
+** [[Theming]]
+** [[MessageCommands]]
+** [[Creating Static Mount Points For USB Profiles (Linux)]]
+** [[Timing Segments]]
+* Adding new lua functions to the source
+** [[Blend Modes]]
+** [[Label segments]]
+** [[Note Types]]
+* Future features and projects
+** [[NewField mod system]]
+** [[NewSkin Guide]]
+** [[Project Antenna]]
+** [[SMPackage]]
