@@ -1,4 +1,4 @@
-StepMania supports various game modes; they are divided into _games_ (an overarching definition of a specific number of columns and the directions or actions they represent, i.e. 4-panel in cardinal directions, vs. 5 panels in the corners and center of the pad), and _styles_ (variations of a _game_ that determine how many inputs are used; i.e. single vs. double):
+StepMania supports various game modes; they are divided into _games_ (an overarching definition of a specific number of columns and the directions or actions they represent, i.e. 4 inputs in cardinal directions for `dance`, vs. 5 inputs in the corners and center of the pad for `pump`), and _styles_ (variations of a _game_ that determine how many inputs are used; i.e. single vs. double):
 
 *All StepsTypes are prefixed with `StepsType_`, this is omitted here for readability.
 
