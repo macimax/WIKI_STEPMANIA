@@ -14,6 +14,7 @@
   * [Play modes](Play-Modes)
   * [Modifiers](List-of-Song-Modifiers)
   * [Key bindings](Key-Bindings-and-combinations)
+  * [Customization(Customization)
 ## For creators and developers
   * [Themes](Theming)
   * [MessageCommands](MessageCommands)
