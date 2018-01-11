@@ -19,7 +19,7 @@ There is Single (4key), Solo (6key), Double (8key), or Versus (2 players, 4key e
 | Routine | Dance_Routine | It's like Couple in that it's for two players, but the notefield is adjusted to a doubles width and charts can feature crossovers between pads. |
 
 ## Pump
-A 5-column mode, designed for simulating Pump It Up (or in the case of _Pro_ and _Infinity_, officially being part of the franchise). Four arrows are pointed diagonally, with an additional 5th step in the center.
+A 5-column mode, designed for simulating Pump It Up (or in the case of _Pump it Up Pro_ and _Pump it Up Infinity_, using it as part of an official title that uses StepMania as its engine). Four arrows are pointed diagonally, with an additional 5th step in the center.
 
 This mode uses the same chart files as dance.
 
