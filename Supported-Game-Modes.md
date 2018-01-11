@@ -1,9 +1,9 @@
-StepMania supports multiple game modes:
+StepMania supports various game modes; they are divided into _games_ (an overarching definition of a specific number of columns and the directions or actions they represent, i.e. 4-panel in cardinal directions, vs. 5 panels in the corners and center of the pad), and _styles_ (variations of a _game_ that determine how many inputs are used; i.e. single vs. double):
 
 *All StepsTypes are prefixed with `StepsType_`, this is omitted here for readability.
 
 ## Dance
-Your regular DDR simulation game mode.
+The standard 4-column dance game, as popularized by franchises such as _Dance Dance Revolution_ and _In the Groove_.
 
 This mode uses SM, SSC, SMA, or DWI chart files.
 
@@ -19,15 +19,14 @@ There is Single (4key), Solo (6key), Double (8key), or Versus (2 players, 4key e
 | Routine | Dance_Routine | It's like Couple in that it's for two players, but the notefield is adjusted to a doubles width and charts can feature crossovers between pads. |
 
 ## Pump
-Your regular 5key game mode, used for simulating Pump It Up.
-Four arrows are pointed diagonally, with an additional 5th step in the center.
+A 5-column mode, designed for simulating Pump It Up (or in the case of _Pro_ and _Infinity_, officially being part of the franchise). Four arrows are pointed diagonally, with an additional 5th step in the center.
 
 This mode uses the same chart files as dance.
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
-| Single | Pump_Single | It's Single. But for Pump It Up. |
-| HalfDouble | Pump_halfdouble | The player stands in the center of the P1 and P2 pad. Only six panels are used. |
+| Single | Pump_Single | Single, 5-panel pad. |
+| HalfDouble | Pump_halfdouble | Uses only six panels in the middle of the pad (the 1p Center and right corners, and 2p left corners and center) |
 | Double | Pump_Double | Same as Dance. |
 | Couple | Pump_Couple | Same as Dance, although this style isn't used much. |
 | Routine | Pump_Routine | Same as Dance. Note that in PIU, this is usually called Double Performance or Co-op x2. |
@@ -35,11 +34,11 @@ This mode uses the same chart files as dance.
 Additionally, you should know that StepF2 uses the #DESCRIPTION tag to mark a chart as Double Performance or Single Performance. It will have DP or SP in the tag.
 
 ## kb7
-7keys mode.
+A 7-column game influenced by PC-based rhythm games (such as o2Jam and Osu!Mania 7K mode) that typically divide the notes into two banks of three columns each (usually mapped to the SDF and JKL keys respectively), which flank a central column in the middle (usually mapped to the spacebar).
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
-| Single | Kb7_Single | ?????? |
+| Single | Kb7_Single | Standard kb7 layout  |
 
 ## kickbox
 
@@ -59,7 +58,7 @@ Used for testing the lights of a StepMania cabinet, or how you want your simfile
 | ??? | Lights_Cabinet |
 
 ## para
-para para paradise game mode.
+Simulates _Para Para Paradise_; it is a 5-key mode, except using left, upleft, up, upright, and right directions (originally designed to be used with a hand sensor array).
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
@@ -83,16 +82,16 @@ Contrary to their names the styles each have an additional turntable 'key', exce
 
 ## Ez2
 
-Simulates EZ2Dancer.
+Simulates EZ2Dancer (upleft, down, and upright steps, and two columns for hand sensors).
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
-| Single | Ez2_Single | ??? |
-| Double | Ez2_Double | ??? |
-| Real | Ez2_Real | ??? |# 
+| Single | Ez2_Single | 1 pad |
+| Double | Ez2_Double | 2 pad |
+| Real | Ez2_Real | Divides the hand sensors into upper and lower halves. |# 
 
 ## popn
-
+Simulates _Pop'n music_.
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
 | five | Pnm_Five | 5key game mode. |
@@ -101,7 +100,7 @@ Simulates EZ2Dancer.
 Some songs are keysounded. This mode uses PMS chart files for songs.
 
 ## techno
-TechnoMotion.
+Simulates TechnoMotion.
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
