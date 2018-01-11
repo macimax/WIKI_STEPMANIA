@@ -11,6 +11,12 @@ Official
 * [StepMania 4.0 beta](versions/stepmania-4-0-beta)
 * [StepMania 5.0](versions/stepmania-5-0)
 
+## StepMania 5.0
+**StepMania 5.0.x** is the current stable release of StepMania. Based on the 4.0 alpha fork sm-ssc, it provides a number of new and improved features over 3.9, including a new default theme, a Lua backend, support for different screen aspect ratios, new features for charts (such as rolls, warps, fake arrows, and lifts), the new game mode `kb7` (inspired by games such as DJMax and o2Jam), improvements to the `pump` game mode, and other internal improvements.
+
+## StepMania 5.1
+**StepMania 5.1** (also known as [5_1-new](https://github.com/stepmania/stepmania/tree/5_1-new)) is an upcoming refresh release of the 5.0.x series, which focuses on incremental improvements and maintaining compatibility with 5.0.x. It features a new high-definition default theme, support for loading songs out of user profiles on USB drives, and new internal features of interest to content creators, such as an expanded suite of song modifier effects and a new image caching system.
+
 Unofficial
 ----------
 As StepMania is an open source project, there have been specific forks designed to serve specific niches and communities.
