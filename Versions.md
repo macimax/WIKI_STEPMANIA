@@ -21,7 +21,9 @@ Official
 
 ## Experimental branch
 ### StepMania 5.2
-StepMania's master branch (also known as **StepMania 5.2**) contains bleeding edge changes to multiple core components of the game, such as a rewritten notefield and associated modifier system, a new noteskin system (which allows a single noteskin to support multiple game types), and a new Lua-based menu framework with support for mouse input. Changes from 5.1, such as the new default theme, USB custom songs, and the new modifiers (implemented through a compatibility layer), are also present in this branch.
+StepMania's master branch (also known as **StepMania 5.2**) contains bleeding edge changes to multiple core components of the game, such as a rewritten notefield and associated modifier system, a new noteskin system (which allows a single noteskin to support multiple game types), a new preferences framework, and a new Lua-based menu system with support for mouse input. Changes from 5.1, such as the new default theme, USB custom songs, and the new modifiers (implemented through a compatibility layer), are also present in this branch.
+
+Due to these changes, themes designed for 5.0 and 5.1 must be modified in order to operate correctly on these builds (in other words, it's not 100% backwards compatible).
 
 Unofficial
 ----------
