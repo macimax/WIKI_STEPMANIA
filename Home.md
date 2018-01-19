@@ -6,10 +6,6 @@ Hey, listen!
 -------
 The docs need a TON of work! Please ask on the forums and suggest anything you think should be in here. We devs know way too much detailed technical stuff and it's hard to pick up what people actually want to know - so any requests for documentation are really welcomed.
 
-Portable Mode
--------------
-If you wish to make your copy of StepMania portable, create a blank file called `Portable.ini` in the StepMania install folder. This will create the various save folders in the directory itself. (As a side effect, this makes it similar to an install of [StepMania 3.9](versions/stepmania-3-9).)
-
 Command Line
 ------------
 StepMania accepts a number of command line arguments.
@@ -22,11 +18,13 @@ Basic Engine Info
 ------------
 [Versions](https://github.com/stepmania/stepmania/wiki/Versions)
 
-[Supported File formats](https://github.com/stepmania/stepmania/wiki/File-Formats)
+[User data locations](https://github.com/stepmania/stepmania/wiki/User-Data-Locations)
 
-[Supported Game Modes](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
+[Supported file formats](https://github.com/stepmania/stepmania/wiki/File-Formats)
 
-[Play Modes](https://github.com/stepmania/stepmania/wiki/Play-Modes)
+[Supported games](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
+
+[Play modes](https://github.com/stepmania/stepmania/wiki/Play-Modes)
 
 
 Charting Help
@@ -43,7 +41,7 @@ Theming Help
 ------------
 [Theming](https://github.com/stepmania/stepmania/wiki/Theming)
 
-[NewSkin guide](https://github.com/stepmania/stepmania/wiki/NewSkin-Guide)
+[5.2 noteskin guide](https://github.com/stepmania/stepmania/wiki/NewSkin-Guide)
 
 [MessageCommands](https://github.com/stepmania/stepmania/wiki/MessageCommands)
 
