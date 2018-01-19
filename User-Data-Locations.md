@@ -4,12 +4,12 @@ Modern operating systems have user profiles; by default, StepMania 5.0 and later
 
 * **Windows**: `%APPDATA%\StepMania 5\`
 * **Linux**: `~/.stepmania-5.0/`
-* **Mac OS X**: `~/Library/Application Support/StepMania 5/`
+* **macOS**: `~/Library/Application Support/StepMania 5/`
 
-#### Mac OS X
+Songs and other add-ons can be loaded from StepMania's user data directory, using the subfolders provided within.
+
+#### macOS notes
 The *~/Library* directory is hidden from Finder by default, which makes adding content on OS X somewhat cumbersome.  You can follow the instructions from the Wiki page on [Manually Changing Preferences](Manually-Changing-Preferences) but use the path provided above to access your StepMania profile directory.
-
-Songs and other add-ons can be loaded from StepMania's user data directory, using the folders provided within.
 
 Portable Mode
 --------------
