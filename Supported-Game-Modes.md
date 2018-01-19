@@ -51,7 +51,7 @@ The StepsType is missing from the lua documentation. (Maybe this mode was remove
 | ??? | ??? | 8key |
 
 ## lights
-Used for testing the lights of a StepMania cabinet, or how you want your simfile to control the lights. It's not playable.
+This game type is used for testing lighting cues (primarily on arcade cabinets), and defining custom lighting cues within a simfile. It is not playable.
 
 | Style | StepsType |
 | ----- | --------- |
@@ -82,7 +82,7 @@ Contrary to their names the styles each have an additional turntable 'key', exce
 
 ## Ez2
 
-Simulates EZ2Dancer (upleft, down, and upright steps, and two columns for hand sensors).
+Simulates _EZ2Dancer_ (upleft, down, and upright steps, and two columns for hand sensors).
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
