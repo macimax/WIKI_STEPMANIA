@@ -19,7 +19,7 @@ Adds additional songs. The engine will treat the path as a folder named `/Additi
 
 ## AdditionalFolders
 
-Adds additional folders.
+Adds additional content. The engine will treat the path similarly to the user data folder, so multiple subfolders of content and add-ons (i.e. "Songs", "NoteSkins", "Themes", etc.) can be placed inside it.
 
 # Memory Cards
 
