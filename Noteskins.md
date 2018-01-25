@@ -99,7 +99,8 @@ local t = Def.ActorFrame {
 		InitCommand=cmd(spin;effectclock,'beat';effectmagnitude,0,0,-33);
 	};
 };
-return t;```
+return t;
+```
 
 ## Explosions
 Note explosions are defined under the ``[GhostArrowDim]`` and ``[GhostArrowBright]`` sections of metrics.ini, and are merely commands acting upon a sprite of a "glowing" note graphic. The animation and its color can be changed between the different note judgments (they go downward from W1 to W5, with W1 as the top judgement usually referred to as "Flawless", "Fantastic", or "Marvelous", and W5 being the worst before a miss) with standard tweens and diffuses.
