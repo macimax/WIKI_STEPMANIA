@@ -34,7 +34,7 @@ This mode uses the same chart files as dance.
 Additionally, you should know that StepF2 uses the #DESCRIPTION tag to mark a chart as Double Performance or Single Performance. It will have DP or SP in the tag.
 
 ## kb7
-A 7-column game influenced by PC-based rhythm games (such as o2Jam and Osu!Mania 7K mode) that typically divide the notes into two banks of three columns each (usually mapped to the SDF and JKL keys respectively), which flank a central column in the middle (usually mapped to the spacebar).
+A 7-column mode influenced by PC-based rhythm games (such as DJMax and o2Jam; this style is also emulated by Osu!Mania 7K mode) that typically divide the notes into two banks of three columns each (usually mapped to the SDF and JKL keys respectively), which flank a central column (usually mapped to the spacebar).
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
