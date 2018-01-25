@@ -72,9 +72,11 @@ Noteskins can either be _flat_ (all notes are the same color), or _[quantized](h
 
 For noteskins with colors based on quantification, all the different colors for notes are contained within the same image file, which are arranged in frames of equal size (in the default noteskin, each frame is 128x128 in size) in a single column. The ``1x8`` hint contained in the file name of the arrow sheet (``_arrow 1x8.png``), tells StepMania to treat this image as eight rows of single-frame sprites.
 
-# Animation
+## Animation
+### Sprite-based
 The easiest way to add animation to a tap note is to extend its respective graphic out horizontally with additional frames. StepMania will play the series of sprites on a loop based on the song's current BPM (don't forget to change the hint in the file name to match the new size!). Usually, such an animation would have 4 or 8 frames (so it would be ``_arrow 8x8.png``) for example.
 
+#### Vivid
 Normally, note animations in StepMania only use the frames within the row corresponding to the respective note quantization. However, StepMania can also animate the noteskin in such a way that the animation continues to cycle through the other colors in the sheet rather than only being one color; this is referred to as a **vivid** animation, as it resembles the behaviour of the "Vivid" arrows from _Dance Dance Revolution_ (the midi-vivid noteskin bundled with StepMania also uses this behaviour).
 
 This mode is activated by changing the metrics like so;
