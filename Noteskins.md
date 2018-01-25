@@ -90,7 +90,7 @@ TapAdditionAnimationIsVivid=1
 
 ### Actor commands
 In some cases, commands applied to the to a note's actor can also be used to add motion effects. For instance, this ``Down Tap Mine.lua`` file makes the mine spin;
-``
+```Lua
 local t = Def.ActorFrame {
 	Def.Sprite {
 		Texture=NOTESKIN:GetPath( '_down', 'tap mine' );
@@ -99,4 +99,4 @@ local t = Def.ActorFrame {
 		InitCommand=cmd(spin;effectclock,'beat';effectmagnitude,0,0,-33);
 	};
 };
-return t;``
+return t;```
