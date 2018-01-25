@@ -65,7 +65,7 @@ If you want to use a distinct graphic for a column's notes - for example, Left, 
  * Change the Rotation table so that it does not rotate its sprite at all
 
 ## Metrics
-Much like themes, there is also a Metrics.ini file, which is used to define certain settings and parameters.
+Much like themes, there is also a metrics.ini file, which is used to define certain settings and parameters.
 
 # Notes
 Noteskins can either be _flat_ (all notes are the same color), or _[quantized](https://en.wikipedia.org/wiki/Quantization_(music))_ (all arrows are coloured by their note values, i.e. 4th, 8th, 16th, etc.). 
@@ -100,3 +100,6 @@ local t = Def.ActorFrame {
 	};
 };
 return t;```
+
+## Explosions
+Note explosions are defined under the ``[GhostArrowDim]`` and ``[GhostArrowBright]`` sections of metrics.ini, and are merely commands acting upon a sprite of a "glowing" note graphic. The animation and its color can be changed between the different note judgments (they go downward from W1 to W5, with W1 as the top judgement usually referred to as "Flawless", "Fantastic", or "Marvelous", and W5 being the worst before a miss) with standard tweens and diffuses.
