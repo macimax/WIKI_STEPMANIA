@@ -17,6 +17,7 @@
   * [Customization](Customization)
 ## For creators and developers
   * [Themes](Theming)
+  * [Noteskins (5.0-5.1)](Noteskins)
   * [MessageCommands](MessageCommands)
   * [Timing segments](Timing-Segments)
   * [Adding Lua functions to source](Adding-new-lua-functions-to-the-source)
