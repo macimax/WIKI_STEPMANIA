@@ -74,7 +74,7 @@ For noteskins with colors based on quantification, all the different colors for 
 
 ## Animation
 ### Sprite-based
-The easiest way to add animation to a tap note is to extend its respective graphic out horizontally with additional frames. StepMania will play the series of sprites on a loop based on the song's current BPM. Usually, such an animation would have 4 or 8 frames; (don't forget to change the hint in the file name to match the new frame count, which in this case would be  ``_arrow 4x8.png`` or ``_arrow 8x8.png`` for example.
+The easiest way to add animation to a tap note is to extend its respective graphic out horizontally with additional frames. StepMania will play the series of sprites on a loop based on the song's current BPM. Usually, such an animation would have 4 or 8 frames; don't forget to change the hint in the file name to match the new frame count, which in this case would be  ``_arrow 4x8.png`` or ``_arrow 8x8.png`` for example.
 
 Similar techniques can be used to add animation to other tap sprites too, such as mines and lifts.
 
