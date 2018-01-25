@@ -140,8 +140,6 @@ sudo apt-get install antimicro
 
 At this time, only generated [Xcode](https://developer.apple.com/xcode/) projects are supported.
 
-XCode 9 currently does not work, please use Xcode 8
-
 To generate an Xcode project you will need to use Cmake.
 ```
 brew install cmake yasm
@@ -152,5 +150,10 @@ cd Build
 cmake -G 'Xcode' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 open StepMania.xcodeproj
 ```
-Xcode should open with the project, from here you can build Stepmania.
+Xcode should open with the project, from here you can build StepMania.
 
+The above `cmake` command will generate a release build of StepMania that will be tagged with the most recent Git commit hash.  If you have been designated as the macOS developer to build a formal, major release for distribution purposes, you can generate such an Xcode project from the Build directory via
+
+```
+cmake -G Xcode -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release ..
+```
