@@ -173,9 +173,13 @@ This folder contains miscellaneous files used in themes.
 Often while developing your theme, you will run into a number of errors. These errors will pop up in game but tend to disappear fast. You can get them to stay by holding F3, bringing up the debug overlay, pressing F6 to bring up the theme section of the menu, and pressing 9, labeled as “Show Recent Errors” or something similar.
 This menu also contains a number of other useful tools, including reloading the current screen (to put your changes to the current screen in effect) and reloading metrics and new textures/images. Use this menu often.
 
-## <a name="newfield">NewField</a> ##  
+## <a name="52_incompatibilities">5.2 incompatibilities</a> ##  
 #### [Back to top](#top)  
-You will most likely wish to use the NewField in your theme. The newfield has a number of differences from the old NoteField, such as an advanced mod system and a new refined noteskin system. However, the NewField is not the default notefield, since the system is not yet complete. To learn how to utilize the NewField, check out [Themes/_fallback/Scripts/02 NoteField.lua](https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/02%20NoteField.lua) (also in your install of StepMania), where a number of functions and explanations for how to use the newfield are defined. [NewField.md](https://github.com/stepmania/stepmania/blob/master/Docs/Themerdocs/5.1_incompatibilities/NewField.md) also goes over this in great detail.
+On the StepMania master branch (5.2), there are several major changes that a theme must account for, including;
+
+* The new **notefield** system (previously known as **newfield**). It is designed to be more flexible, and integrates with several other new components such as a new options menu system, and a new modifier framework. To learn how to utilize the new notefield, check out [Themes/_fallback/Scripts/02 NoteField.lua](https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/02%20NoteField.lua) (also in your install of StepMania), where a number of functions and explanations for how to use the notefield are defined. [NewField.md](https://github.com/stepmania/stepmania/blob/master/Docs/Themerdocs/5.1_incompatibilities/NewField.md) also goes over this in great detail.
+* The new **menu framework** can be used to construct nested menu hierarchies with Lua code. It has a number of advantages, including being Lua-based, and having mouse support. [menu_system.md](https://github.com/stepmania/stepmania/blob/master/Docs/Themerdocs/5.1_incompatibilities/menu_system.md) provides details on its usage.
+* **lua_config** is used in place of ThemePrefs. It is documented [here](https://github.com/stepmania/stepmania/blob/master/Docs/Themerdocs/lua_config_system.md)
 
 ## <a name="cust">Customization</a> ##  
 #### [Back to top](#top)  
