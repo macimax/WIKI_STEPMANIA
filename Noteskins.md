@@ -5,7 +5,7 @@ Unlike theming (where we explicitly recommended that you _not_ do this), it is o
 
 # Files
 ## Sprites
-Noteskins consist of a series of sprites divided into several categories. They include (using the standard ``dance`` mode as an example;
+Noteskins consist of a series of sprites divided into several categories. They include, using the standard ``dance`` mode as an example;
 
 * **Taps**: An individual note. Tap notes are usually either a 2D sprite or a 3D model, but ease of explanation, the examples in this guide will use 2D noteskins. Types of tap notes include, for instance
   * **Notes**: A normal note.
