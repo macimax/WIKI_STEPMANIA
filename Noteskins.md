@@ -4,8 +4,8 @@ On StepMania 5.0 and 5.1, noteskins are specific to a single [game mode](https:/
 Unlike theming (where we explicitly recommended that you _not_ do this), it is okay to copy the Default noteskin to use as a base for your own. A more complex example is midi-note, which closer resembles the look and behavior of _Dance Dance Revolution_ noteskins.
 
 # Files
-## Sprites
-Noteskins consist of a series of sprites divided into several categories. They include, using the standard ``dance`` mode as an example;
+## Actors
+Noteskins consist of a series of actors divided into several categories. They include, using the standard ``dance`` mode as an example;
 
 * **Taps**: An individual note. Tap notes are usually either a 2D sprite or a 3D model, but ease of explanation, the examples in this guide will use 2D noteskins. Types of tap notes include, for instance
   * **Notes**: A normal note.
@@ -56,8 +56,9 @@ local t = Def.ActorFrame {
 };
 return t;
 ```
-
-NoteSkin.lua contains definitions for the sprites in use. The ``RedirTable`` tells StepMania which Lua files to load for the note sprites in each column. Usually in a Dance noteskin, they are all set to Down, and then the ``ret.Rotate`` table is used to specify how many degrees the Down arrow is rotated to transform it into the note for a different column (i.e. rotating down 180 degrees to make Up, 90 degrees for Left, etc).
+If your noteskin contains multiple frames, as most do, StepMania will apply texture coordinate translation to switch between the frames corresponding to each note type. This applies to _all_ Sprites that are contained within the actor.
+ 
+NoteSkin.lua contains definitions for the actors in use. The ``RedirTable`` tells StepMania which Lua files to load for the note sprites in each column. Usually in a Dance noteskin, they are all set to Down, and then the ``ret.Rotate`` table is used to specify how many degrees the Down arrow is rotated to transform it into the note for a different column (i.e. rotating down 180 degrees to make Up, 90 degrees for Left, etc).
 
 If you want to use a distinct graphic for a column's notes - for example, Left, you must;
  * Create a new Lua file for that actor (i.e. ``Left Tap Note.lua``) and a relevant graphic
