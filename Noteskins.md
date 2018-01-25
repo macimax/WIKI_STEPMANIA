@@ -68,7 +68,8 @@ If you want to use a distinct graphic for a column's notes - for example, Left, 
 ## Metrics
 Much like themes, there is also a metrics.ini file, which is used to define certain settings and parameters.
 
-# Notes
+# Details
+## Notes
 Noteskins can either be _flat_ (all notes are the same color), or _[quantized](https://en.wikipedia.org/wiki/Quantization_(music))_ (all arrows are coloured by their note values, i.e. 4th, 8th, 16th, etc.). 
 
 For noteskins with colors based on quantification, all the different colors for notes are contained within the same image file, which are arranged in frames of equal size (in the default noteskin, each frame is 128x128 in size) in a single column. The ``1x8`` hint contained in the file name of the arrow sheet (``_arrow 1x8.png``), tells StepMania to treat this image as eight rows of single-frame sprites.
