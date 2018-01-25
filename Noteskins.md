@@ -7,7 +7,7 @@ Unlike theming (where we explicitly recommended that you _not_ do this), it is o
 ## Actors
 Noteskins consist of a series of actors divided into several categories. They include, using the standard ``dance`` mode as an example;
 
-* **Taps**: An individual note. Tap notes are usually either a 2D sprite or a 3D model, but ease of explanation, the examples in this guide will use 2D noteskins. Types of tap notes include, for instance
+* **Taps**: An individual note. Tap notes are usually either a 2D sprite or a 3D model, but for ease of explanation, the examples in this guide will use 2D noteskins. Types of tap notes include, for instance
   * **Notes**: A normal note.
   * **Mines**: Avoid at all cost.
   * **Lifts**: A note where you must hold on the panel and let go as it reaches the receptors, rather than pressing it when it reaches the receptors.
@@ -102,6 +102,13 @@ local t = Def.ActorFrame {
 };
 return t;
 ```
+## Holds and Rolls
+Holds are divided into inactive and active states. A hold is active when it is actually being held. A roll typically flashes between the inactive and active states as it is being repeatedly tapped.
+
+The hold tail is divided into three separate graphics in each state; the top cap, the bottom cap, and the the body - which is a tiled texture.
+
+## Receptors
+The receptors are the targets that signify when to actually hit a note. They typically blink to the current BPM of the song, and can provide visual feedback when the corresponding button/pad/etc. is pressed and/or held down.
 
 ## Explosions
 Note explosions are defined under the ``[GhostArrowDim]`` and ``[GhostArrowBright]`` sections of metrics.ini, and are merely commands acting upon a sprite of a "glowing" note graphic. The animation and its color can be changed between the different note judgments (they go downward from W1 to W5, with W1 as the top judgement usually referred to as "Flawless", "Fantastic", or "Marvelous", and W5 being the worst before a miss) with standard tweens and diffuses.
