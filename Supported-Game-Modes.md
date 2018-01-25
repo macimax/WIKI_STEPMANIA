@@ -92,6 +92,7 @@ Simulates _EZ2Dancer_ (upleft, down, and upright steps, and two columns for hand
 
 ## popn
 Simulates _Pop'n music_.
+
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
 | five | Pnm_Five | 5key game mode. |
