@@ -1,7 +1,7 @@
 **Noteskins** define the appearance of notes. They are constructed in a similar manner to [Themes](https://github.com/stepmania/stepmania/wiki/Theming) (with a mixture of graphics, metrics, and Lua scripts), although they are, by nature, not _as_ complicated. 
 On StepMania 5.0 and 5.1, noteskins are specific to a single [game mode](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
 
-Unlike theming (where we explicitly recommended that you _not_ do this), it is okay to copy the Default noteskin to use as a base for your own. A more complex example is midi-note, which closer resembles the look and behavior of _Dance Dance Revolution_ noteskins.
+Unlike theming (where we explicitly recommended that you _not_ do this), it is okay to copy the Default noteskin to use as a base for your own, as they don't have as many "moving parts" you need to learn by working from a blank slate. A more complex example is midi-note, which closer resembles the look and behavior of _Dance Dance Revolution_ noteskins.
 
 # Files
 ## Actors
