@@ -60,22 +60,22 @@ If you need to see some examples of certain actors in action, check out [Docs/Th
 
 # <a name="how">How do I start a theme?</a> #  
 #### [Back to top](#top)  
-To create a theme, it is recommended that you have graphics programs (vector-based programs such as Affinity Designer, Illustrator, Inkscape, and Fireworks [RIP] are a great tool for design work, and bitmap editors such as GIMP, Paint.net, or Photoshop may also be useful) and a coding-focused text editor with syntax highlighting (i.e. on Windows, something that is not Notepad. If you hate yourself feel free to use Notepad though.) On Windows, another useful program to have around is AstroGrep, since it is good for doing full-text searches of files.
+To create a theme, it is recommended that you have graphics programs (programs such as Adobe Illustrator, Affinity Designer, Inkscape, and Fireworks [RIP] are a great tool for design work, and bitmap editors such as GIMP, Paint.net, or Photoshop may also be useful) and a coding-focused text editor with syntax highlighting (i.e. on Windows, something that is _not_ Notepad. If you hate yourself feel free to use Notepad though. Atom, Notepad++, and Sublime Text are good options). On Windows, another useful program to have around is AstroGrep, since it is good for doing full-text searches of files.
  
-The first step is **not to just copy and paste fallback or Default and modify it**.
-Feel free to poke around at it, but this tutorial isn’t about just making a graphical re-skin of the default like every first-time themer did in the 3.9 era. However, the Default theme is still useful, as it is, by virtue, one of the most complete themes, so you can lift assets and code from it to work from.
-Fallback is not meant to be a user-facing theme, but base code used by all themes. All themes, unless otherwise noted, are children of Fallback. If changes are made to Fallback on later releases, they apply to all themes unless otherwise overridden.
+The first step is **not to just copy and paste fallback or Default and modify it**. Feel free to poke around at it, but this tutorial isn’t about just making a graphical re-skin of the default like every first-time themer did in the 3.9 era. However, the Default theme is still useful, as it is, by virtue, one of the most complete themes, so you can lift assets and code from it to work from. Don't forget, StepMania is open source.
+
+Fallback is not meant to be a user-facing theme, but base metrics and scripts used by all themes; all StepMania 5.x themes are ultimately children of Fallback. This way changes are made to Fallback on later releases, they apply to all themes unless otherwise overridden.
  
 The real first step is to create a blank folder. Then, you will create several other folders:
 * [BGAnimations/](#bganim) - Scripts that control screen behavior.
 * [Graphics/](#graphics) - Graphics assets and some scripts.
 * [Languages/](#lang) - Files specifying translatable text.
 * [Fonts/](#fonts) - Font files. Self explanatory.
-* [Scripts/](#scripts) - Functions that can be invoked anywhere in the theme.
+* [Scripts/](#scripts) - Files containing Lua functions that can be invoked anywhere in the theme.
 * [Sounds/](#sounds) - Ding! Boom! Bang!
 * [Other/](#other) - Miscellaneous files.
  
-You will also need a [metrics.ini](#metrics). Some metrics you will need, such as for defining new screens, however some themers have resorted to moving things previously present in metrics to lua files, as working with metrics is more cumbersome and not very future-proof. An optional file is [ThemeInfo.ini](#themeinfo), which can be used to list the theme’s author, and a display name for the theme in the StepMania settings menu.
+You will also need a [metrics.ini](#metrics). Some metrics you will need, such as for defining new screens, however some themers have resorted to moving things previously present in metrics to lua files, as working with metrics is more cumbersome and not very future-proof. An optional file is [ThemeInfo.ini](#themeinfo), which can be used to enter a display name and author information that is shown on startup, and in the StepMania settings menu.
 
 ## <a name="metrics">metrics.ini</a> ##  
 #### [Back to top](#top)  
