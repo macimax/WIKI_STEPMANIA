@@ -74,7 +74,9 @@ For noteskins with colors based on quantification, all the different colors for 
 
 ## Animation
 ### Sprite-based
-The easiest way to add animation to a tap note is to extend its respective graphic out horizontally with additional frames. StepMania will play the series of sprites on a loop based on the song's current BPM (don't forget to change the hint in the file name to match the new size!). Usually, such an animation would have 4 or 8 frames (so it would be ``_arrow 8x8.png``) for example.
+The easiest way to add animation to a tap note is to extend its respective graphic out horizontally with additional frames. StepMania will play the series of sprites on a loop based on the song's current BPM. Usually, such an animation would have 4 or 8 frames; (don't forget to change the hint in the file name to match the new frame count, which in this case would be  ``_arrow 4x8.png`` or ``_arrow 8x8.png`` for example.
+
+Similar techniques can be used to add animation to other tap sprites too, such as mines and lifts.
 
 #### Vivid
 Normally, note animations in StepMania only use the frames within the row corresponding to the respective note quantization. However, StepMania can also animate the noteskin in such a way that the animation continues to cycle through the other colors in the sheet rather than only being one color; this is referred to as a **vivid** animation, as it resembles the behaviour of the "Vivid" arrows from _Dance Dance Revolution_ (the midi-vivid noteskin bundled with StepMania also uses this behaviour).
@@ -85,3 +87,16 @@ This mode is activated by changing the metrics like so;
 TapNoteAnimationIsVivid=1
 TapAdditionAnimationIsVivid=1
 ```
+
+### Actor commands
+In some cases, commands applied to the to a note's actor can also be used to add motion effects. For instance, this ``Down Tap Mine.lua`` file makes the mine spin;
+``
+local t = Def.ActorFrame {
+	Def.Sprite {
+		Texture=NOTESKIN:GetPath( '_down', 'tap mine' );
+		Frame0000=0;
+		Delay0000=1;
+		InitCommand=cmd(spin;effectclock,'beat';effectmagnitude,0,0,-33);
+	};
+};
+return t;``
