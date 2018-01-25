@@ -108,7 +108,7 @@ Holds are divided into inactive and active states. A hold is active when it is a
 The hold tail is divided into three separate graphics in each state; the top cap, the bottom cap, and the the body - which is a tiled texture.
 
 ## Receptors
-The receptors are the targets that signify when to actually hit a note. They typically blink to the current BPM of the song, and can provide visual feedback when the corresponding button/pad/etc. is pressed and/or held down.
+The receptors are the targets that signify when to actually hit a note. They typically blink to the current BPM of the song, and can provide visual feedback when the corresponding button/pad/etc. is pressed and/or held down. Their behaviour is defined in metrics.
 
 ## Explosions
 Note explosions are defined under the ``[GhostArrowDim]`` and ``[GhostArrowBright]`` sections of metrics.ini, and are merely commands acting upon a sprite of a "glowing" note graphic. The animation and its color can be changed between the different note judgments (they go downward from W1 to W5, with W1 as the top judgement usually referred to as "Flawless", "Fantastic", or "Marvelous", and W5 being the worst before a miss) with standard tweens and diffuses.
