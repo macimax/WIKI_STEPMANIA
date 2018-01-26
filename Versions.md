@@ -19,6 +19,8 @@ Official
 ### StepMania 5.1
 **StepMania 5.1** (also known as [5_1-new](https://github.com/stepmania/stepmania/tree/5_1-new)) is an upcoming refresh release of the 5.0.x series, which focuses on incremental improvements and maintaining compatibility with 5.0.x content such as themes. It features a new high-definition default theme, support for loading songs out of user profiles on USB drives, and new internal features of interest to content creators, such as an expanded suite of song modifier effects and a new image caching system.
 
+Its first public beta was officially released on January 25, 2018.
+
 ## Experimental branch
 ### StepMania 5.2
 StepMania's master branch (also known as **StepMania 5.2**) contains bleeding edge changes to multiple core components of the game, such as a rewritten notefield and associated modifier system, a new noteskin system (which allows a single noteskin to support multiple game types), a new preferences framework, and a new Lua-based menu system with support for mouse input. Changes from 5.1, such as the new default theme, USB custom songs, and the new modifiers (implemented through a compatibility layer), are also present in this branch.
