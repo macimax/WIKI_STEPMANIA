@@ -79,7 +79,7 @@ Backwards: The chart is mirrored?
 
 Left: Left becomes down, down becomes right, right becomes up, up becomes left.
 
-Right:
+Right: Left becomes up, down becomes left, right becomes down, up becomes right.
 
 Shuffle: The chart is randomized, but tries to prevent jacks(?).
 
@@ -153,11 +153,12 @@ Normal: Self explanatory
 
 No Recover: Don't recover life upon scoring well.
 
-Sudden Death: Same as Battery + 1 life. If you miss a note you fail.
+Sudden Death: Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a note you fail.
 
 # Battery Lives
 
-Self explanatory.
+Self explanatory. 
+**Note**: 1 LIFE = RISKY on _DDR_ series.
 
 # Fail type
 
