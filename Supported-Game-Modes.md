@@ -91,7 +91,7 @@ Simulates _EZ2Dancer_ (upleft, down, and upright steps, and two columns for hand
 | Real | Ez2_Real | Divides the hand sensors into upper and lower halves. |# 
 
 ## popn
-Simulates _Pop'n music_.
+Simulates _Pop'n music_. Note: _Battle_ charts are unimplemented.
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
