@@ -1,5 +1,7 @@
 # General
 
+**Note**: Some themes may not shown all options.
+
 ## Speed Modifiers
 XMod (default): Change the speed of arrows by a decimal value (x0.25, x0.5, x1, x2, x8, etc.)
 
