@@ -147,6 +147,8 @@ Random Attacks: Randomly add and remove different modifiers during gameplay.
 
 # Life Type
 
+**Note**: Some themes have this option in Player Options instead of Song Options.
+
 Bar: Normal lifebar type.
 
 Battery: Miss a note and lose a life. If you run out of lives, you fail the song.
@@ -162,6 +164,7 @@ Sudden Death: Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a no
 # Battery Lives
 
 Self explanatory. 
+
 **Note**: 1 LIFE = RISKY on _DDR_ series.
 
 # Fail type
