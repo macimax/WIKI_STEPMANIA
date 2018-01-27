@@ -151,7 +151,7 @@ Random Attacks: Randomly add and remove different modifiers during gameplay.
 
 **Note**: Some themes have this option in Player Options instead of Song Options. Aslo, may change the options depending on theme.
 
-Bar: Normal lifebar type. This is known as NORMAL on _DDR_ series.
+Bar: Normal lifebar type. Known as "Normal" on _DDR_ series.
 
 Battery: Miss a note and lose a life. If you run out of lives, you fail the song.
 
@@ -167,7 +167,7 @@ Sudden Death: Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a no
 
 Self explanatory. 
 
-**Note**: 1 LIFE = RISKY on _DDR_ series.
+**Note**: "1 life" = RISKY on _DDR_ series.
 
 # Fail type
 
