@@ -5,6 +5,8 @@ Your regular play mode, normally with 3 stages, plus an [[Extra Stage]] if the p
 
 When Event Mode is enabled there are infinite stages and no Extra Stage.
 
+Some themes uses this default mode.
+
 ## Nonstop
 Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups.
 
