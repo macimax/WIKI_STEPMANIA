@@ -1,7 +1,7 @@
 # General
 
 ## Speed Modifiers
-XMod (default): Change the speed of arrows by a decimal value (0.5x, 1.5x, 2.0x, 2.75, etc)
+XMod (default): Change the speed of arrows by a decimal value (x0.25, x0.5, x1, x2, x8, etc.)
 
 CMod: Short for "Constant Mod", this allows you to set a constant speed for arrows. The song bpm and stops are ignored.
 
@@ -61,6 +61,8 @@ Flip: the receptors are flipped. (Right, Up, Down, Left)
 
 ## Appearance
 
+(Some themes have capacity of enable Hidden+ and Sudden+)
+
 Hidden: Notes become invisible 3/4ths of the way before reaching the receptors.
 
 Sudden: Notes are invisible, then become visible 1/4th of the way towards the receptors.
@@ -77,9 +79,9 @@ Mirror: The chart is mirrored.
 
 Backwards: The chart is mirrored?
 
-Left: Left becomes down, down becomes right, right becomes up, up becomes left.
+Left: The chart is turn left.
 
-Right: Left becomes up, down becomes left, right becomes down, up becomes right.
+Right: The chart is turn right.
 
 Shuffle: The chart is randomized, but tries to prevent jacks(?).
 
@@ -93,7 +95,9 @@ Soft Shuffle: Left and right are flipped.
 
 Removes notes to make the song easier.
 
-Little:
+Little: Removes notes requiring you to hit out of 1/4 beat.
+
+Big: Removes notes requiring you to hit out of 1/8 beat.
 
 No Jumps: Removes notes requiring you to hit two arrows at the same time.
 
