@@ -149,9 +149,9 @@ Random Attacks: Randomly add and remove different modifiers during gameplay.
 
 # Life Type
 
-**Note**: Some themes have this option in Player Options instead of Song Options.
+**Note**: Some themes have this option in Player Options instead of Song Options. Aslo, may change the options depending on theme.
 
-Bar: Normal lifebar type.
+Bar: Normal lifebar type. This is known as NORMAL on _DDR_ series.
 
 Battery: Miss a note and lose a life. If you run out of lives, you fail the song.
 
