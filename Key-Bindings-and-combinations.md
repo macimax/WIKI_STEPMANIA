@@ -40,12 +40,12 @@ The following was taken from https://github.com/stepmania/stepmania/blob/master/
 | Left | PreviousSongButton | Previous song |
 | Right | NextSongButton | Next Song |
 | Start | (hardcoded) | Begin Song |
-| Start,Start | (hardcoded) | Open Options Screen |
+| Start,Start<br>Holding Start | (hardcoded) | Open Options Screen |
 | Select | (hardcoded) | Open Options List |
 | (Not used) | PreviousDifficultyButton | Switches to the previous difficulty. By default, CodeDetector is used instead. |
 | (not used) | NextDifficultyButton | Switches to the next difficulty. By default, CodeDetector is used instead. |
 
-Start,Start opens the options screen if metric "OptionsMenuAvailable" is true.
+Start,Start or Holding Start opens the options screen if metric "OptionsMenuAvailable" is true.
 
 Select opens options list if metric "UseOptionsList" is true. (Using the select button to open the options list is hardcoded and can't be changed, but you can add an additional combo to open the OptionsList using CodeDetector.)
 
