@@ -129,6 +129,8 @@ Centered:
 
 ## Holds
 
+(Known as "Frezze Arrows" on _DDR_ series)
+
 No Holds: Removes hold notes, obviously.
 
 Planted: Adds more holds. A lot of them.
