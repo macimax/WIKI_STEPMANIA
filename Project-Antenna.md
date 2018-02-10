@@ -20,7 +20,7 @@ Tracking of progress related to Antenna is taking place on a [project board](htt
  * Online functionality is passive, game was built around it from the start.
  * Has multiplayer with up to 16 players on the same song/chart (no I am not calling it a “map”.)
  * Has a better editor (I know it’s not online related but it’s still an advantage)
- * Is the subject of ridicule within certain segments of the music gaming community as a whole
+ * Is the subject of ridicule within certain segments of the music gaming community as a whole. But the fact that all this is seamless and well-implemented is likely the reason why it's so popular.
 
 ## DDR 
  * Contactless card and PIN login system
