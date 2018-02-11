@@ -16,7 +16,7 @@ Tracking of progress related to Antenna is taking place on a [project board](htt
 
 ## Osu
  * Account required to play
- * Centralized song distribution with per-song leaderboards
+ * Centralized song distribution with per-song leaderboards accessible in-game.
  * Online functionality is passive, game was built around it from the start.
  * Has multiplayer with up to 16 players on the same song/chart (no I am not calling it a “map”.)
  * Has a better editor (I know it’s not online related but it’s still an advantage)
@@ -50,7 +50,7 @@ Divide StepMania online functionality into two modes;
  * Server backend needs an API so it can be polled for other things (such as integration with websites).
  * Possibly a way to create an account from within SM?
  * Ability to scan and verify simfiles/other configuration settings to ensure songs and other settings are not modified to abuse the system.
- * Relevant Lua bindings
+ * Relevant Lua bindings to allow for features such as displaying per-song leaderboards within SM (i.e. on ScreenSelectMusic)
 
 ## Possible workflow
 1. The user first creates an account on the server-side’s website component.
