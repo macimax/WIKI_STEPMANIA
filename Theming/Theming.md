@@ -20,9 +20,9 @@
     * [Useful Resources](#res)
 
 -----------------
-One of the most frequent criticisms of StepMania 5 is its theme system; it is not hard to see why, given its heavier reliance on a Lua API for various aspects of theme coding, rather than hardcoded behaviours and a collection of graphics and .ini/xml files. However, at the same time, Lua scripts enable richer, more dynamic, and customizable experiences within StepMania. It’s a little trickier to figure out at first, but you can get used to it easily.
+One of the most frequent criticisms of StepMania 5 is its theme system. What was once merely an .ini file of metrics and a collection of graphics and .ini/XML files in the 3.0 and 3.9 days, has now become a scripting-capable environment with support for Lua.
 
-Themes have changed a lot since the StepMania 3.0 and 3.9 days. What was once merely an .ini file of metrics and a collection of graphics and BGAnimations has now become a scripting-capable environment.
+On StepMania 5.x, the Lua API enables more dynamic and customizable experiences within the game. It’s a little trickier to figure out at first, but you can get used to it easily.
 
 # <a name="lua">Basic Lua Concepts</a>  #
 
