@@ -7,6 +7,8 @@ Modern operating systems have user profiles; by default, StepMania 5.0 and later
 
 Songs and other add-ons can be loaded from StepMania's user data directory, using the subfolders provided within.
 
+For songs, the folder hierarchy ''must'' be `Songs/Group name/Song folder`. Similarly, themes must be `Themes/Theme name/[theme folders and metrics.ini]`. If these folders are any deeper in hierarchy, SM will not load them properly.
+
 #### macOS notes
 The *~/Library* directory is hidden from Finder by default, which makes adding content on OS X somewhat cumbersome.  You can follow the instructions from the Wiki page on [Manually Changing Preferences](Manually-Changing-Preferences) but use the path provided above to access your StepMania profile directory.
 
