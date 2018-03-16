@@ -186,7 +186,7 @@ Sets this Chart's Style Custom Name.
 
 ## \#DIFFICULTY
 
-Sets this Chart's Difficulty.
+Sets this Chart's Difficulty. Possible values are: `Beginner`/`Easy`/`Medium`/`Hard`/`Challenge`/`Edit`
 
 ## \#METER
 
