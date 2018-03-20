@@ -8,7 +8,7 @@ AutoStepper is a Java console program designed to automatically create StepMania
 * Multiple beat detection methods
 * Cross-platform support
 
-So, here it is -- AutoStepper by Phr00t's Software:
+So, here it is -- AutoStepper by Phr00t's Software (www.phr00t.com):
 
 https://drive.google.com/open?id=18_1sJcSyEAxM-7RX4BOWgO3qzyS_XvwW
 
