@@ -26,6 +26,6 @@ It is best to let AutoStepper run through a whole bunch of music, and ones that 
 
 You can also use the output as a base to further edit & perfect songs, with AutoStepper doing most of the dirty work.
 
-Enjoy, it is free!
+I will add it is optimized for pad use, not keyboard use (e.g. difficulty isn't high enough). Enjoy, it is free!
 
 - Phr00t
