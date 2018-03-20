@@ -12,6 +12,8 @@ So, here it is -- AutoStepper by Phr00t's Software (www.phr00t.com):
 
 https://drive.google.com/open?id=18_1sJcSyEAxM-7RX4BOWgO3qzyS_XvwW
 
+Open-source github link: https://github.com/phr00t/AutoStepper
+
 It works on a common line with arguments, which are all optional. If you just run the Java program, it will scan & process all mp3s (and wavs) in the current directory, and spit out folders for each song in the same directory (90 seconds worth of steps).
 
 The arguments are:
