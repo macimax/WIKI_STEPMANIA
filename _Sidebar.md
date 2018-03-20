@@ -16,6 +16,7 @@
   * [Key bindings](Key-Bindings-and-combinations)
   * [Customization](Customization)
 ## For creators and developers
+  * [Auto Generation](AutoStepper-Generation)
   * [Themes](Theming)
   * [Noteskins (5.0-5.1)](Noteskins)
   * [MessageCommands](MessageCommands)
