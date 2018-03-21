@@ -10,15 +10,13 @@ AutoStepper is a Java console program designed to automatically create StepMania
 
 So, here it is -- AutoStepper by Phr00t's Software (www.phr00t.com):
 
-https://github.com/phr00t/AutoStepper/tree/master/dist
-
-Open-source github root: https://github.com/phr00t/AutoStepper
+https://github.com/phr00t/AutoStepper
 
 It works on a common line with arguments, which are all optional. If you just run the Java program, it will scan & process all mp3s (and wavs) in the current directory, and spit out folders for each song in the same directory (90 seconds worth of steps).
 
 The arguments are:
 
-input=[file/dir] output=[songs dir] duration=[seconds to process] synctime=[offset start time in seconds] tap=[true/false]
+input=[file/dir] output=[songs dir] duration=[seconds to process] synctime=[offset start time in seconds] tap=[true/false] hard=[true/false]
 
 If you set tap=true, AutoStepper won't try and automatically calculate the BPM or offset, and will instead prompt you to hit ENTER along with 30 consecutive beats. AutoStepper will then do the rest.
 
