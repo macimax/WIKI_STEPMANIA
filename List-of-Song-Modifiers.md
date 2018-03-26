@@ -93,6 +93,8 @@ Soft Shuffle: Left and right are flipped.
 
 ## Insert
 
+Wide: Extra jumps on 1/4 beats.
+
 Big: Adds notes on 1/8th beats.
 
 Could someone add descriptions for the rest of the moddifiers in this section please? Thanks.
