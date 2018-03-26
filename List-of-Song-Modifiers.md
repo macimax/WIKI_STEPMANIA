@@ -1,6 +1,6 @@
 # General
 
-**Note**: Some themes may not shown all options.
+**Note**: Some themes may not show all options.
 
 ## Speed Modifiers
 XMod (default): Change the speed of arrows by a decimal value (x0.25, x0.5, x1, x2, x8, etc.)
@@ -93,13 +93,15 @@ Soft Shuffle: Left and right are flipped.
 
 ## Insert
 
+Big: Adds notes on 1/8th beats.
+
+Could someone add descriptions for the rest of the moddifiers in this section please? Thanks.
+
 ## Remove
 
 Removes notes to make the song easier.
 
 Little: Removes notes requiring you to hit out of 1/4 beat.
-
-Big: Removes notes requiring you to hit out of 1/8 beat.
 
 No Jumps: Removes notes requiring you to hit two arrows at the same time.
 
