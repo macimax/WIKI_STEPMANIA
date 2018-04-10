@@ -1,6 +1,6 @@
 Because this is seemingly documented nowhere?
 
-"-" means held at the same time. "," means one after the other.
+"+" means held at the same time. "," means one after the other.
 If a setting has more than one combination it will be listed on another line.
 
 # Universal debugger shortcuts
