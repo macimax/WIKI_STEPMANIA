@@ -40,7 +40,7 @@ The following was taken from https://github.com/stepmania/stepmania/blob/master/
 | Left | PreviousSongButton | Previous song |
 | Right | NextSongButton | Next Song |
 | Start | (hardcoded) | Begin Song |
-| Start, Start<br>Holding Start | (hardcoded) | Open Options Screen |
+| Start, Start<br>OR<br>Holding Start | (hardcoded) | Open Options Screen |
 | Select | (hardcoded) | Open Options List |
 | (Not used) | PreviousDifficultyButton | Switches to the previous difficulty. By default, CodeDetector is used instead. |
 | (not used) | NextDifficultyButton | Switches to the next difficulty. By default, CodeDetector is used instead. |
@@ -51,12 +51,12 @@ Select opens options list if metric "UseOptionsList" is true. (Using the select 
 
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
-| Down, Down<br>MenuDown, MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty harder |
-| Up, Up<br>MenuUp, MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty easier |
-| Left+Right<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | Switch the sorting mode |
+| Down, Down<br>OR<br>MenuDown, MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty harder |
+| Up, Up<br>OR<br>MenuUp, MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty easier |
+| Left+Right<br>OR<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | Switch the sorting mode |
 | MenuUp, MenuRight, MenuRight | NextGroup | Jump to next folder |
 | (no default) | PrevGroup | Jump to previous folder |
-| Up, Down, Up, Down<br>MenuUp, MenuDown, MenuUp, MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu |
+| Up, Down, Up, Down<br>OR<br>MenuUp, MenuDown, MenuUp, MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu |
 | MenuUp-MenuDown | CloseCurrentFolder | Close the current folder |
 ### Modifier codes
 
