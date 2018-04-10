@@ -40,23 +40,23 @@ The following was taken from https://github.com/stepmania/stepmania/blob/master/
 | Left | PreviousSongButton | Previous song |
 | Right | NextSongButton | Next Song |
 | Start | (hardcoded) | Begin Song |
-| Start,Start<br>Holding Start | (hardcoded) | Open Options Screen |
+| Start, Start<br>Holding Start | (hardcoded) | Open Options Screen |
 | Select | (hardcoded) | Open Options List |
 | (Not used) | PreviousDifficultyButton | Switches to the previous difficulty. By default, CodeDetector is used instead. |
 | (not used) | NextDifficultyButton | Switches to the next difficulty. By default, CodeDetector is used instead. |
 
-Start,Start or Holding Start opens the options screen if metric "OptionsMenuAvailable" is true.
+Start, Start or Holding Start opens the options screen if metric "OptionsMenuAvailable" is true.
 
 Select opens options list if metric "UseOptionsList" is true. (Using the select button to open the options list is hardcoded and can't be changed, but you can add an additional combo to open the OptionsList using CodeDetector.)
 
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
-| Down,Down<br>MenuDown,MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty harder |
-| Up,Up<br>MenuUp,MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty easier |
+| Down, Down<br>MenuDown, MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty harder |
+| Up, Up<br>MenuUp, MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty easier |
 | Left+Right<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | Switch the sorting mode |
-| MenuUp,MenuRight,MenuRight | NextGroup | Jump to next folder |
+| MenuUp, MenuRight, MenuRight | NextGroup | Jump to next folder |
 | (no default) | PrevGroup | Jump to previous folder |
-| Up,Down,Up,Down<br>MenuUp,MenuDown,MenuUp,MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu |
+| Up, Down, Up, Down<br>MenuUp, MenuDown, MenuUp, MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu |
 | MenuUp-MenuDown | CloseCurrentFolder | Close the current folder |
 ### Modifier codes
 
@@ -64,7 +64,7 @@ Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Support
 
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
-| Left,Right,Left,Right,Left,Right,Left,Right | CancelAll | Remove all modifiers |
+| Left, Right, Left, Right, Left, Right, Left, Right | CancelAll | Remove all modifiers |
 | DownRight, DownLeft, UpRight, UpLeft, DownRight, DownLeft, UpRight, UpLeft, Center | CodeDetector setting | Enables/Disables the [Mirror](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
 | (no default combo) | Left | Enables/Disables the [Left](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifer. |
 | (no default combo) | Right | Enables/Disables the [Right](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifier. |
