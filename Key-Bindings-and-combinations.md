@@ -89,4 +89,4 @@ Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Support
 ## Default combinations
 | Default combination | CodeDetector setting | What it does |
 | ------------------- | -------------------- | ------------ |
-| MenuLeft-MenuRight<br>Select | SaveScreenshot1<br>SaveScreenshot2 | Save a screenshot. |
+| MenuLeft-MenuRight<br>OR<br>Select | SaveScreenshot1<br>SaveScreenshot2 | Save a screenshot. |
