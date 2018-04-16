@@ -107,7 +107,7 @@ Could someone add descriptions for the rest of the moddifiers in this section pl
 
 Removes notes to make the song easier.
 
-Little: Removes notes requiring you to hit out of 1/4 beat.
+Little: Removes notes requiring you to hit out of 1/4 beat. Known as CUT on _DDR_ series.
 
 No Jumps: Removes notes requiring you to hit two arrows at the same time.
 
@@ -141,7 +141,7 @@ Centered:
 
 (Known as "Frezze Arrows" on _DDR_ series)
 
-No Holds: Removes hold notes, obviously.
+No Holds: Removes hold notes to make the song easier.
 
 Planted: Adds more holds. A lot of them.
 
