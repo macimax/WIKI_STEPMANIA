@@ -11,7 +11,7 @@ Themes are installed in the `Themes` subfolder of your user data directory. Note
 ## Noteskins
 Noteskins change the appearance of the notes, from standard arrows, to spheres or even bars. 
 
-Noteskins are installed in the `NoteSkins` subfolder of your user data directory. On StepMania 5.1 and older, noteskins only support one [game mode](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes) at a time, and are placed in subfolders of the `NoteSkins` directory that correspond to the game they are designed for (i.e. ``dance`` or ``pump`` for instance).
+Noteskins are installed in the `NoteSkins` subfolder of your user data directory. On StepMania 5.1 and older, noteskins only support one [game mode](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes) at a time, and are placed in subfolders of the `NoteSkins` directory that correspond to the game they are designed for (i.e. ``dance`` or ``pump`` for instance). Noteskins compatible with 5.0.12 are also compatible with 5.1, but neither 5.0.12 or 5.1 support noteskins from older versions (such as 3.9 and 4.0).
 
 StepMania 5.2 uses a different noteskin system, where a single noteskin can support multiple games by containing graphics for their respective notes. Hence, noteskins for 5.2 are not stored in game-specific subfolders.
 
