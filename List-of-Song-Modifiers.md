@@ -161,11 +161,11 @@ Bar: Normal lifebar type. Known as "Normal" on _DDR_ series.
 
 Battery: Miss a note and lose a life. If you run out of lives, you fail the song.
 
-Some themes have 4 LIVES, that is same as Battery + 4 lives, and RISKY, that is same as Battery + 1 life, replacing to the Battery option.
+Some themes have 4 LIVES, that is same as Battery + 4 lives, and RISKY, that is same as Battery + 1 life, replacing to the Battery option and both "Bar Drain" and "Battery Lives" modifiers.
 
 # Bar Drain
 
-Normal: Self explanatory
+Normal: Self explanatory. Known as "Normal-Drain" internally.
 
 No Recover: Don't recover life upon scoring well.
 
