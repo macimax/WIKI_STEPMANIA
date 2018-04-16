@@ -23,6 +23,8 @@ Distant: The notefield is tilted away from the player, but on a lesser angle.
 
 ## Acceleration
 
+Normal: Notes moves at the same speed.
+
 Boost: Notes start slow and accelerate towards the receptors.
 
 Brake: Notes start fast and decelerate towards the receptors.
@@ -64,6 +66,8 @@ Flip: the receptors are flipped. (Right, Up, Down, Left)
 ## Appearance
 
 (Some themes have capacity of enable Hidden+ and Sudden+)
+
+Visible: Notes are completely visible.
 
 Hidden: Notes become invisible 3/4ths of the way before reaching the receptors.
 
@@ -121,6 +125,8 @@ No Fakes: Removes fake notes.
 
 ## Scroll
 
+Normal: Notes come from bottom to top.
+
 Reverse: Notes come from top to bottom.
 
 Split:
@@ -144,6 +150,8 @@ Twister: Adds more holds, but allows for the possibility of more than two holds 
 Holds To Rolls: All holds are now rolls.
 
 ## Mines
+
+Could someone add descriptions for the moddifiers in this section please? Thanks.
 
 ## Attacks
 
