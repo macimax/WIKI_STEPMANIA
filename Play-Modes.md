@@ -5,7 +5,7 @@ Your regular play mode, normally with 3 stages, plus an [[Extra Stage]] if the p
 
 When Event Mode is enabled there are infinite stages and no Extra Stage.
 
-Some themes uses this default mode, and if the player pass FINAL STAGE, EXTRA STAGE or ENCORE EXTRA, ScreenEvaluationStage (Results on actual stage) change to ScreenEvaluationSummary (TOTAL RESULTS).
+Some themes uses this default mode, some themes shown ScreenEvaluationStage (Results on actual stage) if any player pass or fail the song, and if the player pass FINAL STAGE, EXTRA STAGE or ENCORE EXTRA, ScreenEvaluationStage change to ScreenEvaluationSummary (TOTAL RESULTS).
 
 ## Course
 Note for themers: During this mode, you stay in ScreenGameplay until the course ends and then you're taken to ScreenEvaluationNormal.
