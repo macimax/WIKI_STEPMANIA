@@ -7,7 +7,7 @@ The standard 4-column dance game, as popularized by franchises such as _Dance Da
 
 This mode uses SM, SSC, SMA, or DWI chart files.
 
-There is Single (4key), Solo (6key), Double (8key), or Versus (2 players, 4key each) styles.
+There is Single (4key), Double (8key), or Versus (2 players, 4key each) styles, Solo (6key) optional.
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
