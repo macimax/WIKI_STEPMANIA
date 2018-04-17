@@ -37,7 +37,7 @@ Boomerang: Notes fly in from the top (or bottom if reverse), decelerate towards 
 
 ## Effects
 
-Most effects can be amplified if you use them in #ATTACK segments. They can also be stacked.
+Most effects can be amplified if you use them in the #ATTACKS field in a simfile. They can also be stacked.
 
 Dizzy: The notes spin in their lanes
 
