@@ -166,7 +166,7 @@ After these tags have been set, you can now start setting up the notedata. (Char
 
 ## \#NOTEDATA
 
-This tag has no value (NOTEDATA:;) and represents the beginning of a notedata section in the file.
+This tag has no value (#NOTEDATA:;) and represents the beginning of a note data section in the file.
 
 ## \#CHARTNAME
 
