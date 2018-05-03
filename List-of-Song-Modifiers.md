@@ -131,11 +131,11 @@ Reverse: Notes come from top to bottom.
 
 Split:
 
-Alternate:
+Alternate: The orientation of the receptor switches every time, so the first one is upright, the second one is down, the third is up, the fourth is down.
 
-Cross:
+Cross: The outer receptors are upright, and the inner receptors are at the bottom.
 
-Centered:
+Centered: The receptors are vertically centered.
 
 ## Holds
 
