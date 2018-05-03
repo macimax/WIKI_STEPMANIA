@@ -65,8 +65,6 @@ Flip: the receptors are flipped. (Right, Up, Down, Left)
 
 ## Appearance
 
-(Some themes have capacity of enable Hidden+ and Sudden+)
-
 Visible: Notes are completely visible.
 
 Hidden: Notes become invisible 3/4ths of the way before reaching the receptors.
@@ -76,6 +74,12 @@ Sudden: Notes are invisible, then become visible 1/4th of the way towards the re
 Stealth: Notes are completely invisible.
 
 Blink: Notes flash between visible and invisible.
+
+These two aren't part of StepMania's default, but some custom themes implement them:
+
+Sudden+: Cover the bottom half of the notefield with a window or image that can be adjusted with EffectUp or EffectDown.
+
+Hidden+: Cover the top half of the notefield (where the receptors are) with a window that can be adjusted with EffectUp or EffectDown.
 
 ## Turn
 
