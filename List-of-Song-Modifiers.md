@@ -163,6 +163,16 @@ On: If the simfile has an #ATTACKS section, it will play scripted modifiers duri
 
 Random Attacks: Randomly add and remove different modifiers during gameplay.
 
+## Hide
+
+These can be stacked.
+
+Dark: The note receptors are invisible.
+
+Blind: Your combo and judgements are invisible.
+
+Cover: The BGA is darkened.
+
 # Extra
 
 # Life Type
