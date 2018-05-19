@@ -10,5 +10,5 @@ StepMania supports various file formats for loading and saving chart data, both 
 
 Other formats that StepMania can recognize that are useful to know:
 
-* [CRS](crs) - Courses
+* [CRS](https://github.com/stepmania/stepmania/blob/master/Docs/CourseFormat.txt) - Courses
 * [LRC](lrc) - Lyrics
