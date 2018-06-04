@@ -106,7 +106,7 @@ The file names (values 2 and 8) and the colors (values 10 and 11) are passed to 
 ### \#FGCHANGES
 Defines the foreground changes for this song. Format is the same as `#BGCHANGES`, except only the start beat and first file are used (values 1 and 2).
  
-##Chart Tags
+## Chart Tags
 The .sm format only contains a single tag for a chart, unlike the (later) .ssc format.
  
 ### \#NOTES
