@@ -1,4 +1,5 @@
 #Data Locations
+
 Modern operating systems have user profiles; by default, StepMania 5.0 and later store user data (such as score data and settings) within a folder in your operating system's home directory. The exact location varies by platform;
 
 * **Windows**: `%APPDATA%\StepMania 5\`
