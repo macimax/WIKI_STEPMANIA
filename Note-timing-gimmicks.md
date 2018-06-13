@@ -13,3 +13,6 @@ Add a warp somewhere and copy and paste the same notes, minus the one you want t
 
 ## Make stopped notes appear and disappear in the playfield
 ???
+
+## Stutter gimmick
+Add a delay for the length of time until the next note.
