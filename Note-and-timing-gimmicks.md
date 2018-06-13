@@ -12,7 +12,7 @@ If you want to make the notes disappear and not count for your score, add a fake
 Add a warp somewhere and copy and paste the same notes, minus the one you want to disappear. When the player crosses the warp and jumps to the new set of notes, it will make it look like the notes disappeared.
 
 ## Make stopped notes appear and disappear in the playfield
-???
+Make a warp that lands on a segment with a scrolling factor of 0. then 0.25 after, set the scrolling factor back to 1 with a warp that jumps past the note you want to make disappear.
 
 ## Stutter gimmick
 Add a delay for the length of time until the next note.
