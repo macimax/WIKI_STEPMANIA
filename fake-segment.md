@@ -1,0 +1,1 @@
+Notes placed in this segment are fake notes. They won't count for or against you.
