@@ -37,6 +37,8 @@ Charting Help
 
 [Label segments](https://github.com/stepmania/stepmania/wiki/Label-segments)
 
+[Note And Timing Gimmicks](https://github.com/stepmania/stepmania/wiki/Note-and-timing-gimmicks)
+
 [(advanced) NewField Mod System](https://github.com/stepmania/stepmania/wiki/NewField-mod-system)
 
 Theming Help
