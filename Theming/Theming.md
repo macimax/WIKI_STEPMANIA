@@ -33,7 +33,7 @@ Now that you’re familiar with lua, you’ll need to learn how to use it in SM5
 ## <a name="actors">Actors</a> ##  
 #### [Back to top](#top)  
 
-A basic concept when working with Lua scripts in StepMania themes and BGAnimations is the actor model. Everything rendered in StepMania is an actor, whether it’s a simple sprite or even an entire script of its own. For a more complete explanation, we’ll refer you to [dkb2’s very helpful primer on the concept](http://dguzek.github.io/Lua-For-SM5/Introduction/Foreword.html#).
+A basic concept when working with Lua scripts in StepMania themes and BGAnimations is the actor model. Everything rendered in StepMania is an actor, whether it’s a simple sprite or even an entire script of its own. For a more complete explanation, we’ll refer you to [dkb2’s very helpful primer on the concept](http://dguzek.github.io/Lua-For-SM5/foreword).
  
 The most basic form of script used to load a single actor is this;
 
