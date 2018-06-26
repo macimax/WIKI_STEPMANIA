@@ -67,9 +67,9 @@ Flip: the receptors are flipped. (Right, Up, Down, Left)
 
 Visible: Notes are completely visible.
 
-Hidden: Notes become invisible 3/4ths of the way before reaching the receptors.
+Hidden: Notes become invisible 3/4ths of the way before reaching the receptors. ATTACKS: Visibility range can be adjusted with an argument.
 
-Sudden: Notes are invisible, then become visible 1/4th of the way towards the receptors.
+Sudden: Notes are invisible, then become visible 1/4th of the way towards the receptors. ATTACKS: Visibility range can be adjusted with an argument.
 
 Stealth: Notes are completely invisible.
 
@@ -135,7 +135,7 @@ Reverse: Notes come from top to bottom.
 
 Split:
 
-Alternate: The orientation of the receptor switches every time, so the first one is upright, the second one is down, the third is up, the fourth is down.
+Alternate: The orientation of the receptor switches every time, so the first one is upright, the second one is downscroll, the third is up, the fourth is down.
 
 Cross: The outer receptors are upright, and the inner receptors are at the bottom.
 
@@ -177,7 +177,7 @@ Cover: The BGA is darkened.
 
 # Life Type
 
-**Note**: Some themes have this option in Player Options instead of Song Options. Aslo, may change the options depending on theme.
+**Note**: Some themes have this option in Player Options instead of Song Options. Also, may change the options depending on theme.
 
 Bar: Normal lifebar type. Known as "Normal" on _DDR_ series.
 
