@@ -24,9 +24,15 @@ Executed when your animation is finished (If you have one)
 
 Executed when any button is pressed. You must have CodeNames set in the respective screen in metrics.ini for this to function correctly.
 
+### StorageDevicesChangedMessageCommand
+
+Executed when the state of a memory card changes. (Refer to the MemoryCardState Enum for more info)
+
 ### Condition
 
 While not exactly a command, it is something you can put inside your Actor. If it evaluates to false the Actor will not be shown.
+
+Many more global commands can be found by looking at MessageManager.cpp in the source.
 
 # Screen Specific
 
