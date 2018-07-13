@@ -34,7 +34,7 @@ Default width for a glyph.
 ### AdvanceExtraPixels
 Rudimentary way to control letter spacing (TODO: What does this mean?)
 ### TextureHints
-An alternative to throwing the TextureHints in the filename. (TODO: What hints?)
+An alternative to throwing the [TextureHints](https://github.com/stepmania/stepmania/wiki/Theming#image-hints) in the filename.
 
 ## (general commands)
 ### MAP
