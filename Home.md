@@ -45,6 +45,8 @@ Theming Help
 ------------
 [Theming](https://github.com/stepmania/stepmania/wiki/Theming)
 
+[Fonts](https://github.com/stepmania/stepmania/wiki/Fonts)
+
 [Noteskins](https://github.com/stepmania/stepmania/wiki/Noteskins)
 
 [MessageCommands](https://github.com/stepmania/stepmania/wiki/MessageCommands)
