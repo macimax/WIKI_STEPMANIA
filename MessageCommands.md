@@ -24,6 +24,10 @@ Executed when your animation is finished (If you have one)
 
 Executed when any button is pressed. You must have CodeNames set in the respective screen in metrics.ini for this to function correctly.
 
+params:
+* Name, which is the name of the code you specified. So if you have `Codeleft="Left"` in metrics.ini and you press left, params.Name would be "left".
+* PlayerNumber: Self explanatory.
+
 ### StorageDevicesChangedMessageCommand
 
 Executed when the state of a memory card changes. (Refer to the MemoryCardState Enum for more info)
