@@ -15,16 +15,18 @@
   * [Modifiers](List-of-Song-Modifiers)
   * [Key bindings](Key-Bindings-and-combinations)
   * [Customization](Customization)
-## For creators and developers
+## Charting
   * [Auto Generation](AutoStepper-Generation)
+  * [Timing segments](Timing-Segments)
+  * [Label segments](Label-segments)
+  * [Note types](Note-Types)
+  * [Note and Timing Gimmicks](Note-and-timing-gimmicks)
+## For themers and developers
   * [Themes](Theming)
   * [Noteskins (5.0-5.1)](Noteskins)
   * [MessageCommands](MessageCommands)
-  * [Timing segments](Timing-Segments)
   * [Adding Lua functions to source](Adding-new-lua-functions-to-the-source)
   * [Blend modes](Blend-Modes)
-  * [Label segments](Label-segments)
-  * [Note types](Note-Types)
 ## Future features and projects
   * [Notefield mod system (5.2)](NewField-mod-system)
   * [5.2 noteskin system](NewSkin-Guide)
