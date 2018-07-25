@@ -33,7 +33,7 @@ If a setting has more than one combination it will be listed on another line.
 ## Default gameplay combos & buttons
 The following was taken from https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/03%20Gameplay.lua#L272
 
-### Song select stuff
+### Music Select
 
 | Default combination | metrics setting | What it does |
 | ------------------- | --------------- | ------------ |
@@ -44,6 +44,7 @@ The following was taken from https://github.com/stepmania/stepmania/blob/master/
 | Select | (hardcoded) | Open Options List |
 | (Not used) | PreviousDifficultyButton | Switches to the previous difficulty. By default, CodeDetector is used instead. |
 | (not used) | NextDifficultyButton | Switches to the next difficulty. By default, CodeDetector is used instead. |
+| Ctrl+any letter | (hardcoded) | Switches the sorting to alphabetical and then jumps to the letter you've pressed. |
 
 Start, Start or Holding Start opens the options screen if metric "OptionsMenuAvailable" is true.
 
@@ -53,7 +54,7 @@ Select opens options list if metric "UseOptionsList" is true. (Using the select 
 | ------------------- | -------------------- | ------------ |
 | Down, Down<br>OR<br>MenuDown, MenuDown | PrevSteps1<br>PrevSteps2 | Make the difficulty harder |
 | Up, Up<br>OR<br>MenuUp, MenuUp | NextSteps1<br>NextSteps2 | Make the difficulty easier |
-| Left+Right<br>OR<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | Switch the sorting mode |
+| Left+Right<br>OR<br>MenuLeft-MenuRight | NextSort1<br>NextSort2<br>NextSort3<br>NextSort4 | Cycle between sorting modes |
 | MenuUp, MenuRight, MenuRight | NextGroup | Jump to next folder |
 | (no default) | PrevGroup | Jump to previous folder |
 | Up, Down, Up, Down<br>OR<br>MenuUp, MenuDown, MenuUp, MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu |
