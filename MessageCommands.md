@@ -82,6 +82,10 @@ Activated whenever a player's life changes. Params include Player, LifeMeter, Li
 
 Activated whenever a player's score changes. Params include PlayerNumber and MultiPlayer.
 
+### ComboChangedMessageCommand
+
+Activated whenever a combo changes. Params include Player, OldCombo, and OldMissCombo, and also PlayerState and PlayerStageStats if they're currently present.
+
 ## ScreenNameEntryTraditional
 
 ### MenuTimerExpiredMessageCommand
