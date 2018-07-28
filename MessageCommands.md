@@ -78,7 +78,7 @@ Replace 'X' with either 1 or 2 (for the player number). Triggered when the Trail
 
 Activated whenever a player's life changes. Params include Player and LifeMeter.
 
-If the lifebar is type is battery it will also have LivesLost and LostLife.
+If the lifebar is type is battery it will also have LivesLeft and LostLife.
 
 ### ScoreChangedMessageCommand
 
