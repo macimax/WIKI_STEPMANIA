@@ -1,6 +1,6 @@
 StepMania supports a number of play modes, normally selectable after you pick your profile and style.
 
-## Regular
+### Regular
 Your regular play mode, normally with 3 stages, plus an [[Extra Stage]] if the player gets all AA's or higher (and Extra Stage is enabled), plus a Special Stage (More commonly known as Encore Extra Stage or One More Extra Stage) if the player passes the Extra Stage.
 
 When Event Mode is enabled there are infinite stages and no Extra Stage.
@@ -22,8 +22,5 @@ The same as Course mode, but the lifebar type is set to 4 LIVES. Originally know
 ### Endless
 Play songs until you fail.
 
-## Battle
-2 player battle mode.
-
-## Rave
-The same as battle, but with random [[Modifiers]].
+### Battle / Versus
+2 player battle mode. Basically the same as regular except there's two players.
