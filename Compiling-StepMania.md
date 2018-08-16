@@ -38,7 +38,7 @@ However, if you're feeling adventurous but not that adventurous, you can acquire
 If you intend to release SM as a Windows Installer, you will need NSIS. Once installed, use cmake, config/generate the solution file, and open it, you will have to change two things before it will work. Right click the "Solution" area for the StepMania Project and click properties. With ALL_BUILD configuration selected, find INSTALL and PACKAGE, and click the check mark for for Build. By default, they are disabled. Once SM builds, it will start a new task that will build the installer. It should go in: <Directory>\Build\_CPack_Packages\win32\NSIS once complete.
 
 ### Linux ###
-
+**Warning: Do not use autogen.sh to compile StepMania. It is not maintained at all and you will likely run into issues such as no sound.**
 #### 1-a: Prepare dependencies(Debian Based systems) ####
 
 Open a terminal and:
