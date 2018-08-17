@@ -2,7 +2,7 @@ Most of this was taken from Docs/CourseFormat.txt, which may or may not be outda
 
 To set up a course, create a text file in a folder in Courses with a .crs extension, then fill it with the tags available below.
 
-A complete example of a course (this one comes with StepMania):
+A complete example of a course (this one comes with StepMania, you can see it for yourself at `Courses/Default/Jupiter.crs`):
 ```#COURSE:Jupiter;
 #SCRIPTER:Midiman;
 #METER:Medium:5;
