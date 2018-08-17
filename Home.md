@@ -28,6 +28,8 @@ Basic Engine Info
 
 [Play modes](https://github.com/stepmania/stepmania/wiki/Play-Modes)
 
+[Courses](https://github.com/stepmania/stepmania/wiki/Courses)
+
 
 Charting Help
 ------------
