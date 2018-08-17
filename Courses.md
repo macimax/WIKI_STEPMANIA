@@ -113,3 +113,7 @@ barring the player from making it easier or harder ( Gauntlets & Survivals
 do not allow you to change difficulties ).
 
 Finally, `award*`, where `*` is a number, allows you to control how many lives the player gains from successfully completing a course in Oni mode.
+
+# Some information for themers
+
+If a song in a course uses a wildcard to pick a song like `#SONG:*:Medium:2x;`, doing `course:GetCourseEntry(i):GetSong();` (where course is the instance of your course and i is the index of the song) will return `nil`. Make sure you account for that and indicate that the song is random in the course screen.
