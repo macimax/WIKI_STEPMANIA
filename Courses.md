@@ -64,22 +64,7 @@ Ex. `#METER:Beginner:3;`
 
 # Song Content
 Song Content makes up the entries in the course, and also allows for timed modifiers.
-[Modifiers](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers) can be assigned in a variety of formats, the most effective three being the following:
 
-1. Repeated Modifier Block w/ Length:
-```#MODS:TIME:0.500:LEN:0.500:MODS:2x;
-#MODS:TIME:1.500:LEN:0.500:MODS:0.5x;
-```
-2. Nested Modifier Block w/ Length:
-```#MODS:
-	TIME:0.500:LEN:0.500:MODS:2x;
-	TIME:1.500:LEN:0.500:MODS:0.5x;
-```
-3. Nested Modifier Block w/ Ends:
-```#MODS:
-	TIME:0.500:END:1.000:MODS:2x;
-	TIME:1.500:END:1.500:MODS:0.5x;
-```
 ## #GAINSECONDS
 The number of seconds gained before starting a song. This and #LIVES are
 mutually exclusive: you can either have one, the other, or none: both
@@ -113,6 +98,28 @@ barring the player from making it easier or harder ( Gauntlets & Survivals
 do not allow you to change difficulties ).
 
 Finally, `award*`, where `*` is a number, allows you to control how many lives the player gains from successfully completing a course in Oni mode.
+
+## #MODS
+To add [Modifiers](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers), place a #MODS tag below the #SONG tag with your modifiers. If instead you would like the mods to apply to all songs, put the #MODS tag above the first #SONG tag (not 100% sure on this one).
+
+Modifiers can be assigned in a variety of formats, the most effective three being the following:
+
+1. Repeated Modifier Block w/ Length:
+```#MODS:TIME:0.500:LEN:0.500:MODS:2x;
+#MODS:TIME:1.500:LEN:0.500:MODS:0.5x;
+```
+2. Nested Modifier Block w/ Length:
+```
+#MODS:
+	TIME:0.500:LEN:0.500:MODS:2x;
+	TIME:1.500:LEN:0.500:MODS:0.5x;
+```
+3. Nested Modifier Block w/ Ends:
+```
+#MODS:
+	TIME:0.500:END:1.000:MODS:2x;
+	TIME:1.500:END:1.500:MODS:0.5x;
+```
 
 # Some information for themers
 
