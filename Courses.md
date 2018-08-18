@@ -64,7 +64,7 @@ Ex. `#METER:Beginner:3;`
 
 # Song Content
 Song Content makes up the entries in the course, and also allows for timed modifiers.
-Modifiers can be assigned in a variety of formats, the most effective three being the following:
+[Modifiers](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers) can be assigned in a variety of formats, the most effective three being the following:
 
 1. Repeated Modifier Block w/ Length:
 ```#MODS:TIME:0.500:LEN:0.500:MODS:2x;
