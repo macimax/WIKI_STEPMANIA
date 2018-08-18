@@ -84,6 +84,10 @@ Sets the Song's CD Title.
 
 Sets the path to the Song. (Based on the current Song's directory.)
 
+## \#PREVIEW
+
+Sets the path to a Preview file. (Based on the current Song's directory.)
+
 ## \#OFFSET
 
 Sets the Song's Offset. (Effects the timing of the start of the NOTES.)
