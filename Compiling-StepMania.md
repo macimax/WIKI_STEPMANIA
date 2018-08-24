@@ -79,10 +79,10 @@ The job count passed to make should not be more than double the number of cores 
 *Note: 5.1 was renamed to 5.2 after 5.1.-3 so an intermediate release could be made.*
 
 #### Fetching the 5.1 branch ####
-Use the `5_1-new` branch instead of `master`.
+`git clone --single-branch -b 5_1-new --depth=1 https://github.com/stepmania/stepmania.git`
 
 #### Fetching the 5.0 branch ####
-Use the `5_0` branch instead of `master`.
+`git clone --single-branch -b 5_0 --depth=1 https://github.com/stepmania/stepmania.git`
 
 #### 3: Making a Launcher ####
 
