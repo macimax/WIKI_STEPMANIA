@@ -1,6 +1,7 @@
 A **timing segment** is an element of a simfile that can affect gameplay. There are multiple types:
 
 ## BPM
+change the speed for x beats, overwriting the old BPM.
 
 ## Stop
 Stops scrolling for x beats/seconds.
