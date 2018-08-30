@@ -24,9 +24,10 @@ Executed when your animation is finished (If you have one)
 
 Executed when any button is pressed. You must have CodeNames set in the respective screen in metrics.ini for this to function correctly.
 
-params:
-* Name, which is the name of the code you specified. So if you have `Codeleft="Left"` in metrics.ini and you press left, params.Name would be "left".
-* PlayerNumber: Self explanatory.
+| Parameters | Description |
+| ---------- | ----------- |
+| Name | the name of the code you specified. So if you have `Codeleft="Left"` in metrics.ini and you press left, params.Name would be "left" |
+| PlayerNumber | PLAYER_1 or PLAYER_2 |
 
 ### StorageDevicesChangedMessageCommand
 
@@ -43,6 +44,20 @@ Many more global commands can be found by looking at MessageManager.cpp in the s
 ## ScreenSelectMusic
 
 Note: You can probably find more in ScreenSelectMusic.cpp by checking what is broadcasted to MESSAGEMAN.
+
+### SetMessageCommand
+This command also works in Course mode.
+
+Broadcast when a MusicWheelItem is being set with new information, such as when scrolling up and down. Can access parameters using SetMessageCommand=function(self, params)
+
+| Parameters | Description |
+| ---------- | ----------- |
+| Song | An instance of the Song that was just set to the MusicWheelItem. |
+| Course | If in course mode, an instance of the Course that was just set to the MusicWheelItem. |
+| Index | The index of the MusicWheelItem that was just set. |
+| HasFocus | If the MusicWheelItem is focused or not. |
+| Text | The name of the song group this MusicWheelItem is from? |
+
 
 ### CurrentStepsPXChangedMessageCommand
 
@@ -76,7 +91,12 @@ Replace 'X' with either 1 or 2 (for the player number). Triggered when the Trail
 
 ### LifeChangedMessageCommand
 
-Activated whenever a player's life changes. Params include Player and LifeMeter.
+Activated whenever a player's life changes.
+
+| Parameters | Description |
+| ---------- | ----------- |
+| Player | Either PLAYER_1 or PLAYER_2 |
+| LifeMeter | Amount of life in a decimal from 0 to 1 |
 
 If the lifebar is type is battery it will also have LivesLeft and LostLife.
 
@@ -86,7 +106,15 @@ Activated whenever a player's score changes. Params include PlayerNumber and Mul
 
 ### ComboChangedMessageCommand
 
-Activated whenever a combo changes. Params include Player, OldCombo, and OldMissCombo, and also PlayerState and PlayerStageStats if they're currently present.
+Activated whenever a combo changes.
+
+| Parameters | Description |
+| ---------- | ----------- |
+| Player | Either PLAYER_1 or PLAYER_2 |
+| OldCombo | ??? |
+| OldMissCombo | ??? |
+| PlayerState | An instance of PlayerState. This may not always be present. |
+| PlayerStageStats | An instance of PlayerStageStats. This may not always be present. |
 
 ## ScreenNameEntryTraditional
 
