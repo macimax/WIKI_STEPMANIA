@@ -74,7 +74,7 @@ Sets the path to the Disc Image. (Based on the current Song's directory.)
 
 ## \#LYRICSPATH
 
-Sets the path to the Lyrics. (Based on the current Song's directory.)
+Sets the path to the [LRC](https://github.com/stepmania/stepmania/wiki/lrc) file containing the song's lyrics. (Based on the current Song's directory.)
 
 ## \#CDTITLE
 
@@ -142,11 +142,11 @@ Sets the Song's Rate(?) at certain times. (Can have multiple changes.)
 
 ## \#FAKES
 
-Sets the Song's Fakes at certain times. (Can have multiple Fakes.)
+Contains the Song's [Fake segments](https://github.com/stepmania/stepmania/wiki/Timing-Segments#fake). (Can have multiple Fake segments.)
 
 ## \#LABELS
 
-Sets the Song's Label at certain times. (Can have multiple Labels.)
+Contains the Song's [Label segments](https://github.com/stepmania/stepmania/wiki/Label-segments). (Can have multiple Label segments.)
 
 ## \#LASTSECONDHINT
 
