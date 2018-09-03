@@ -23,8 +23,4 @@ Make a warp that lands on a segment with a scrolling factor of 0. then 0.25 afte
 Add a delay for the length of time until the next note.
 
 ## Fake Notes
-StepMania only supports setting a segment as fake. StepF2 uses the notation {t|n|1|0} where t is the NoteType (everything else is constant).
-
-For example, a line with three fake holds in the middle and two real ones on the side would look like `2{2|n|1|0}{2|n|1|0}{2|n|1|0}2`.
-
-StepMania will get confused and drop a couple notes if it encounters this, but the song won't go offsync.
+It seems you must manually go into the simfile and type F to insert a fake note.
