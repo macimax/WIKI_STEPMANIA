@@ -17,6 +17,7 @@ Anything during this segment will be skipped.
 Affects the amount of combo ticks you get during a hold note in pump mode(?)
 
 ## Label
+Label segments allow charts to have segments that are labeled with a name, like in many Harmonix rhythm games and the Guitar Hero series. These do not affect the chart visually at all, and though themes could display them or take other actions based on them, there are very few, if any, themes that actually do. As such, they aren't very popular among chart creators either, though some of the StepMania 5 bundled songs do use them.
 
 ## Speed
 * **Percent**: A percent of 2 will make the song scroll twice as fast, multiplying the player's current speed.
