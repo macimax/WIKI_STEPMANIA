@@ -14,7 +14,7 @@ There is Single (4key), Double (8key), or Versus (2 players, 4key each) styles, 
 | Single | Dance_Single | Your normal 4 panel dance mode. |
 | Double | Dance_Double | Both P1 & P2 pads are used for one player. |
 | Solo | Dance_Solo | 4-panel, except with additional top-left and top-right columns. Due to its origins from a _DDR_ spin-off with 1-player cabinets, and other limitations, this mode can only be played by a single player. |
-| Couple | Dance_Couple |  One chart, but P1 & P2 have different steps. Like old IIDX doubles. |
+| Couple | Dance_Couple |  One chart, but P1 & P2 have different steps. The playing fields are kept separate. (You can think of this like old IIDX doubles or 'duel' custom charts in other rhythm games) |
 | Threepanel | Dance_Threepanel | Like Single, but the down arrow isn't used. |
 | Routine | Dance_Routine | It's like Couple in that it's for two players, but the notefield is adjusted to a doubles width and charts can feature crossovers between pads. |
 
