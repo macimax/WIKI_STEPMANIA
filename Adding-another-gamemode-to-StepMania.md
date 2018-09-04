@@ -45,3 +45,6 @@ Finally, edit the `static const Game *g_Games[]` array to point to the new gamem
 
 # Step 3. Adding the noteskin
 ???
+
+# Step 4. Registering a new NotesLoader to load charts for your new gamemode
+Copy and paste an existing one and... Good luck. I don't know enough C++ to tell you how it works.
