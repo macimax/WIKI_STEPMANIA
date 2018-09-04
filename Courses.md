@@ -44,6 +44,8 @@ Ex. `#REPEAT:YES;`
 ## #LIVES
 The maximum(?) number of lives attainable in the course. Enabling this will automatically force your course into an Oni course. Ex. `#LIVES:4;`
 
+Setting it to 0 lives will make this course a nonstop course.
+
 ## #DESCRIPTION
 A description for your course, if any theme uses it. Ex. `#DESCRIPTION:Hello world!`
 
