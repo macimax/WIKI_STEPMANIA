@@ -11,7 +11,7 @@ Some themes uses this default mode and don't be changed, some themes show Screen
 
 ### Rave
 Battle against another player or a CPU. A gauge at the top determines who is winning or losing, and a gauge at the bottom fills up as you hit notes. When the gauge is full an attack modifier is temporarily applied to the opposite player.
-The gauge fills up to level 3 and then restarts at 0. (I don't know if the attacks are stronger at higher levels, but probably.)
+The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in `Characters\[Character Name Here]\character.ini`.
 
 ### Nonstop / Course
 Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups.
