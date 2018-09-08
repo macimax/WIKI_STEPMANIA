@@ -155,7 +155,13 @@ Holds To Rolls: All holds are now rolls.
 
 ## Mines
 
-Could someone add descriptions for the moddifiers in this section please? Thanks.
+Off: Removes mine notes.
+
+On (Default): Mine notes are present. Hitting mine note drains the life bar or removes a life in battery mode.
+
+Additive: Some tap notes are turned to mine notes, some mine notes are added at the end of holds.
+
+Attack Mines: Hitting mine notes adds a modifier during gameplay that decays instead of draining the life bar or removing a life in battery mode.
 
 ## Attacks
 
