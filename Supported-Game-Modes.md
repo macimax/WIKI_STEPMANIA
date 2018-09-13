@@ -105,12 +105,12 @@ Simulates TechnoMotion.
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
-| Single4 | Techno_Single4 | 4key |
-| Single5 | Techno_Single5 | 5key |
-| Single8 | Techno_Single8 | 8key |
-| Double4 | Techno_Double4 | 8(double) |
-| Double5 | Techno_Double5 | 10(double) |
-| Double8 | Techno_Double8 | 16(double) |
+| Single4 | Techno_Single4 | Identical to dance_single |
+| Single5 | Techno_Single5 | Identical to pump_single |
+| Single8 | Techno_Single8 | eight panels are used: ⬅⬇⬆➡↙↘↗↖ |
+| Double4 | Techno_Double4 | Identical to dance_double |
+| Double5 | Techno_Double5 | Identical to pump_double |
+| Double8 | Techno_Double8 | 16 panels (doubles) |
 
 ## ds3ddx
 Dance Station 3DDX.
