@@ -8,11 +8,11 @@ Unlike theming (where we explicitly recommended that you _not_ do this), it is o
 Noteskins consist of a series of actors divided into several categories. They include, using the standard ``dance`` mode as an example;
 
 * **Taps**: An individual note. Tap notes are usually either a 2D sprite or a 3D model, but for ease of explanation, the examples in this guide will use 2D noteskins. Types of tap notes include, for instance
-  * **Notes**: A normal note.
-  * **Mines**: Avoid at all cost.
-  * **Lifts**: The opposite of a normal note; you let go of the note when it reaches the receptors, rather than pressing it.
-  * **Fakes**: They don't do anything.
-* **Holds** and **Rolls**: a tail that must be held or repeatedly tapped for a length of time. They are typically divided into three parts; top and bottom caps, and a body that is tiled for the length of the note. They also have active and inactive states.
+  * **Notes**: A standard note.
+  * **Mines**: Hitting them deducts score and health.
+  * **Lifts**: A note that must be let go when it reaches the receptors, rather than pressing it.
+  * **Fakes**: A note that does not affect scoring at all.
+* **Holds** and **Rolls**: A tail that must be held or repeatedly tapped for a length of time. They are typically divided into three parts; top and bottom caps, and a body that is tiled for the length of the note. They also have active and inactive states.
   * Some noteskins may have a **Hold Head** and/or **Roll Head**, a specific note sprite used for the head of a hold or roll, as opposed to the standard note sprite. They too have active and inactive states.
 * **Receptors**: The targets.
 * **Explosions**: Effects overlaid on the note when hit/held/etc. Some noteskins may distinguish between dim and bright explosions, triggering the latter after a specific combo milestone.
