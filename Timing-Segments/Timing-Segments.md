@@ -4,9 +4,9 @@ A **timing segment** is an element of a simfile that can affect gameplay. There 
 Change the speed for x beats, replacing the old BPM per a new one.
 
 ## Stop
-Stops scrolling for x beats/seconds.
+Stops scrolling for x beats/seconds. Notes placed on the same segment must be pressed before the pause.
 ## Delay
-Seems to do the same thing as Stop.
+Same thing as Stop, but notes on the same segment must be pressed after the pause.
 ## Time Signature
 
 ## Warp
