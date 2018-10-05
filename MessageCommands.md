@@ -124,6 +124,18 @@ Activated whenever a player's score changes. Params include PlayerNumber and Mul
 | ---------- | ----------- |
 | PlayerNumber | Either PLAYER_1 or PLAYER_2 |
 | MultiPlayer | ??? |
+### JudgmentMessageCommand
+Triggered when a judgment happens, either because a player stepped on a note or they completely missed it.
+
+| Parameters | Description |
+| ---------- | ----------- |
+| Player | Either PLAYER_1 or PLAYER_2 |
+| MultiPlayer | If they're multiplayer, probably |
+| TapNoteSccre | The TapNoteScore |
+| Early | True if early, false if late |
+| TapNoteOffset | Offset of the judgement |
+| HoldNoteScore | The HoldNoteScore |
+
 ### ComboChangedMessageCommand
 
 Activated whenever a combo changes.
