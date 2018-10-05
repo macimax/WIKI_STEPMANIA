@@ -99,11 +99,31 @@ Activated whenever a player's life changes.
 | LifeMeter | Amount of life in a decimal from 0 to 1 |
 
 If the lifebar is type is battery it will also have LivesLeft and LostLife.
+### HealthStateChangedMessageCommand
+
+Activated whenever a player's health state changes...
+
+| Parameters | Description |
+| ---------- | ----------- |
+| PlayerNumber | Either PLAYER_1 or PLAYER_2 |
+| HealthState | A HealthState Enum, which is either `HealthState_Hot`, `HealthState_Alive`, `HealthState_Danger`, or `HealthState_Dead`. |
+| OldHealthState | self explanatory. |
+
+### PlayerFailedMessageCommand
+This one's obvious.
+
+| Parameters | Description |
+| ---------- | ----------- |
+| PlayerNumber | Either PLAYER_1 or PLAYER_2 |
 
 ### ScoreChangedMessageCommand
 
-Activated whenever a player's score changes. Params include PlayerNumber and MultiPlayer.
+Activated whenever a player's score changes. Params include PlayerNumber and MultiPlayer, but can also include ToastyCombo in certain cases.
 
+| Parameters | Description |
+| ---------- | ----------- |
+| PlayerNumber | Either PLAYER_1 or PLAYER_2 |
+| MultiPlayer | ??? |
 ### ComboChangedMessageCommand
 
 Activated whenever a combo changes.
@@ -115,6 +135,24 @@ Activated whenever a combo changes.
 | OldMissCombo | ??? |
 | PlayerState | An instance of PlayerState. This may not always be present. |
 | PlayerStageStats | An instance of PlayerStageStats. This may not always be present. |
+
+### ToastyAchievedMessageCommand
+
+| Parameters | Description |
+| ---------- | ----------- |
+| PlayerNumber | Either PLAYER_1 or PLAYER_2 |
+| ToastyCombo | ??? |
+| Level | ??? |
+
+### ToastyDroppedMessageCommand
+
+| Parameters | Description |
+| ---------- | ----------- |
+| PlayerNumber | Either PLAYER_1 or PLAYER_2 |
+### DoneLoadingNextSongMessageCommand
+
+Unknown, might be triggered during course mode
+
 
 ## ScreenNameEntryTraditional
 
