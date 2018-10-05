@@ -158,7 +158,7 @@ Unknown, might be triggered during course mode
 
 ### MenuTimerExpiredMessageCommand
 
-Triggered when the timer reaches 0.
+Triggered when the timer reaches 0. (Why this even exists is unknown)
 
 # ActorScroller specific
 
