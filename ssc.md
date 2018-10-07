@@ -108,6 +108,13 @@ Sets the Song's Selectivity. (YES OR NO)
 
 Sets the Song's Beats Per Minute's at certain times. (Can have multiple changes.)
 
+### \#DISPLAYBPM
+This can be used to override the BPM shown on ScreenSelectMusic. This tag supports three types of values:
+ 
+* A number by itself (e.g. `#DISPLAYBPM:180;`) will show a static BPM.
+* Two numbers in a range (e.g. `#DISPLAYBPM:90:270;`) will show a BPM that changes between two values.
+* An asterisk (`#DISPLAYBPM:*;`) will show a BPM that randomly changes.
+
 ## \#STOPS
 
 Sets the Song's Stops at certain times. (Can have multiple changes.)
