@@ -16,7 +16,7 @@ The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per
 ### Nonstop / Course
 Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups.
 
-Note for themers: During this mode, you stay in ScreenGameplay until the course ends and then you're taken to ScreenEvaluationNormal.
+Note for themers: During this mode, you stay in ScreenGameplay until the course ends (or fails) and then you're taken to ScreenEvaluationNormal.
 
 ### Oni / Challenge
 The same as Course mode, but the lifebar type is set to 4 LIVES.
