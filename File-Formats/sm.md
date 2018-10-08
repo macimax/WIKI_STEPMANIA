@@ -71,7 +71,7 @@ This can be used to override the BPM shown on ScreenSelectMusic. This tag suppor
 * An asterisk (`#DISPLAYBPM:*;`) will show a BPM that randomly changes.
  
 ### \#SELECTABLE
-Determines if the song is selectable under normal conditions. Valid values are `YES` and `NO`. Some versions or variants have `RO`(ROULETTE) and numbers (1 = FINAL STAGE).
+Determines if the song is selectable under normal conditions. Valid values are `YES` and `NO`. Earlier versions or some variants can support `RO`(ROULETTE) and numbers (1 = FINAL STAGE).
  
 ### \#BGCHANGES
 The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear.
