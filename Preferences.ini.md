@@ -106,7 +106,7 @@ Color depth of StepMania. Either `16` or `32`.
 
 ## MovieDrivers
 
-???
+FFMpeg, DShow, or Null. Leave blank for automatic selection (recommended).
 
 ## HighResolutionTextures
 
