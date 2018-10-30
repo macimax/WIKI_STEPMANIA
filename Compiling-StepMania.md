@@ -42,14 +42,17 @@ If you intend to release SM as a Windows Installer, you will need NSIS. Once ins
 #### 1-a: Prepare dependencies(Debian Based systems) ####
 
 Open a terminal and:
-```
-sudo apt-get install build-essential
-sudo apt-get install cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk2.0-dev libmad0-dev libudev-dev libva-dev
-```
-##### On Ubuntu 17.04 or Debian >= 9.0 ####
+
+##### On Ubuntu 17.04 or Debian >= 9.0. Worked on 18.04. ####
 ```
 sudo apt-get install build-essential
 sudo apt-get install cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk2.0-dev libmad0-dev libudev-dev libva-dev nasm
+```
+
+##### Older, doesn't work on 18.04
+```
+sudo apt-get install build-essential
+sudo apt-get install cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk2.0-dev libmad0-dev libudev-dev libva-dev
 ```
 
 #### 1-b: Prepare dependencies(Fedora Based systems) ####
