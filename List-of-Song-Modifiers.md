@@ -214,3 +214,5 @@ Delayed:
 Fail at end: Fail at the end of the song if your lifebar or battery is empty. Known as "FailAtEnd" internally.
 
 Off: You can't fail. Known as "FailOff" internally.
+
+Due to a bug, playing SM 3.9 and variants using "Battery", 4 LIVES or RISKY options will change the fail type to Immediate. Some themes have other fail type called IIDX, that fail if the life bar is <= 80%.
