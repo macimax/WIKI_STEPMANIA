@@ -5,7 +5,7 @@
 ## Speed Modifiers
 XMod (default): Change the speed of arrows by a decimal value (x0.25, x0.5, x1, x2, x8, etc.)
 
-CMod: Short for "Constant Mod", this allows you to set a constant speed for arrows. The song bpm and stops are ignored.
+CMod: Short for "Constant Mod", this allows you to set a constant speed for arrows. The song bpm, speed changes and stops are ignored.
 
 MMod: Set a minimum speed for arrows. If a song has a variable BPM it will match the minimum BPM. Meaning if your MMod is m600 and the song goes from 150 to 300 bpm, your note speed will be from 600 to 750.
 
@@ -217,4 +217,4 @@ Off: You can't fail. Known as "FailOff" internally.
 
 Due to a bug, playing SM 3.9 and variants using "Battery", 4 LIVES or RISKY options will change the fail type to Immediate. 
 
-Some themes have other fail type called IIDX, that fail if the life bar is <= 80%. Known as "FailIIDX" internally.
+Some themes or versions have other fail type called IIDX, that fail if the life bar is <= 80%. Known as "FailIIDX" internally.
