@@ -1,5 +1,5 @@
 # Supported Game Modes
-Only modes from the Dance Dance Revolution series of games are supported. The specific list includes:
+Only modes from the Dance Dance Revolution series of games are supported (Shock Arrows are not available yet). The specific list includes:
 
 * Single/Versus Mode
 * Couple Mode
