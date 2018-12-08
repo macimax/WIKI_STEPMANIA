@@ -42,7 +42,9 @@ Sets the Song's Genre.
 
 ## \#ORIGIN
 
-(someone edit this section.)
+Where the song came from if it's a crossover from an existing game.
+
+No theme is known to use this, so it's essentially useless.
 
 ## \#CREDIT
 
@@ -165,7 +167,9 @@ Sets the Song's Background Change. (Can have multiple changes.)
 
 ## \#KEYSOUNDS
 
-(someone edit this section.)
+Play a sound at a certain time. Keysounds aren't tied to notes.
+
+Note: Missing documentation on how this works, check [NotesLoader.cpp](https://github.com/stepmania/stepmania/blob/master/src/NotesLoaderSSC.cpp#L239) for the source code
 
 ## \#ATTACKS
 
