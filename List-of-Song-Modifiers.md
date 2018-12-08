@@ -1,25 +1,32 @@
 # General
 
-**Note**: Some themes may not show all options.
+**Note**: Some themes may not show all options. Refer to the PlayerOptions section in the luadoc for more information.
+
+Unless otherwise specified, all functions are assumed to take (float) value, (float) approach_speed as arguments.
+
+## General/etc
+| Name | Function name | Function Arguments | Description |
+| ----------- | ------------- | ------------------ | ----------- |
+| NoteSkin | NoteSkin | (string) the name of the noteskin | Changes the noteskin. (Probably can't be applied during a song.) |
 
 ## Speed Modifiers
-XMod (default): Change the speed of arrows by a decimal value (x0.25, x0.5, x1, x2, x8, etc.)
 
-CMod: Short for "Constant Mod", this allows you to set a constant speed for arrows. The song bpm, speed changes and stops are ignored.
-
-MMod: Set a minimum speed for arrows. If a song has a variable BPM it will match the minimum BPM. Meaning if your MMod is m600 and the song goes from 150 to 300 bpm, your note speed will be from 600 to 750.
+| Name | Function name | Description |
+| ----------- | ------------- | ----------- |
+| XMod | XMod | (default) Change the speed of arrows by a decimal value (x0.25, x0.5, x1, x2, x8, etc.) |
+| CMod | CMod | Short for "Constant Mod", this allows you to set a constant speed for arrows. The song bpm, speed changes and stops are ignored. |
+| MMod | MMod | Set a minimum speed for arrows. If a song has a variable BPM it will match the minimum BPM. Meaning if your MMod is m600 and the song goes from 150 to 300 bpm, your note speed will be from 600 to 750. |
+| Random Speed | RandomSpeed | Unknown.
 
 ## Perspective
-
-Incoming: The notefield is tiled towards the player. Notes will appear from farther away and zoom towards the note receptors.
-
-Overhead (default): Notes will scroll on a flat surface from bottom to top.
-
-Space: The notefield is tilted away from the player.
-
-Hallway: The notefield is tilted towards the player at a lesser angle.
-
-Distant: The notefield is tilted away from the player, but on a lesser angle.
+| Name | Function name | Description |
+| ----------- | ------------- | ----------- |
+| Incoming | Incoming |  The notefield is tiled towards the player. Notes will appear from farther away and zoom towards the note receptors.
+| Overhead | Overhead | (default) Notes will scroll on a flat surface from bottom to top. |
+| Space | Space | The notefield is tilted away from the player.
+| Hallway | Hallway | The notefield is tilted towards the player at a lesser angle. |
+| Distant | Distant | The notefield is tilted away from the player, but on a lesser angle. |
+| (not selectable by player) | Skew | Skew is one of the mods for controlling the perspective.<br>Skew moves the vanishing point for the note field away from the center of the screen.<br>Skew has no effect in single mode if Center1Player is true.<br>Skew has no effect in double mode. |
 
 ## Acceleration
 
@@ -75,11 +82,15 @@ Stealth: Notes are completely invisible.
 
 Blink: Notes flash between visible and invisible.
 
+RandomVanish: Unknown function.
+
 These two aren't part of StepMania's default, but some custom themes implement them:
 
 Sudden+: Cover the bottom half of the notefield with a window or image that can be adjusted with EffectUp or EffectDown.
 
 Hidden+: Cover the top half of the notefield (where the receptors are) with a window that can be adjusted with EffectUp or EffectDown.
+
+StealthPastReceptors: Exactly what it says on the tin (5.1 only)
 
 ## Turn
 
@@ -167,7 +178,7 @@ Attack Mines: Hitting mine notes adds a random modifier during gameplay that dec
 
 On: If the simfile has an #ATTACKS section, it will play scripted modifiers during gameplay.
 
-Random Attacks: Randomly add and remove different modifiers during gameplay.
+Random Attacks: Randomly add and remove different modifiers during gameplay. Known as "RandAttack" internally.
 
 ## Hide
 
@@ -215,6 +226,6 @@ Fail at end: Fail at the end of the song if your lifebar or battery is empty. Kn
 
 Off: You can't fail. Known as "FailOff" internally.
 
-Due to a bug, playing SM 3.9 and variants using "Battery", 4 LIVES or RISKY options will change the fail type to Immediate. 
+IIDX: This fail type is custom and is in some themes. If your lifebar is <=80% at the end of the song, you will fail. Known as "FailIIDX" internally.
 
-Some themes or versions have other fail type called IIDX, that fail if the life bar is <= 80%. Known as "FailIIDX" internally.
+Due to a bug, playing SM 3.9 and variants using "Battery", 4 LIVES or RISKY options will change the fail type to Immediate. 
