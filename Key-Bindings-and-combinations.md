@@ -18,7 +18,9 @@ If a setting has more than one combination it will be listed on another line.
 | Combination | Function |
 | ----------- | -------- |
 | Alt+Enter | Switches between windowed and fullscreen... Except it's kind of buggy. |
-| Tab | Speeds up UI significantly, including animations and selections. |
+| Tab | Speeds up UI to 2x while held, including animations and selections. |
+| ~ | Slows down UI and animations to 0.25x(?) while held. |
+
 
 # Music Select
 
