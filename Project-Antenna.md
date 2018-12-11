@@ -22,7 +22,7 @@ Tracking of progress related to Antenna is taking place on a [project board](htt
  * Has a better editor (I know it’s not online related but it’s still an advantage)
  * Is the subject of ridicule within certain segments of the music gaming community as a whole. But the fact that all this is seamless and well-implemented is likely the reason why it's so popular.
 
-## DDR 
+## Some Konami games connected to e-amusement
  * Contactless card and PIN login system
  * Arcade game.
  * Rival system (compare high scores with specific friends).
