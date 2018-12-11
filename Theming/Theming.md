@@ -72,7 +72,7 @@ The real first step is to create a blank folder. Then, you will create several o
 * [Languages/](#lang) - Files specifying translatable text.
 * [Fonts/](#fonts) - Font files. Self explanatory.
 * [Scripts/](#scripts) - Files containing Lua functions that can be invoked anywhere in the theme.
-* [Sounds/](#sounds) - Ding! Boom! Bang!
+* [Sounds/](#sounds) - BGM and sound effect files. Self explanatory.
 * [Other/](#other) - Miscellaneous files.
  
 You will also need a [metrics.ini](#metrics). Some metrics you will need, such as for defining new screens, however some themers have resorted to moving things previously present in metrics to lua files, as working with metrics is more cumbersome and not very future-proof. An optional file is [ThemeInfo.ini](#themeinfo), which can be used to enter a display name and author information that is shown on startup, and in the StepMania settings menu.
