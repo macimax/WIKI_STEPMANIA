@@ -23,4 +23,4 @@ Make a warp that lands on a segment with a scrolling factor of 0. then 0.25 afte
 Add a delay for the length of time until the next note.
 
 ## Fake Notes
-It seems you must manually go into the simfile and type F to insert a fake note.
+Press N/M in the editor to switch between special note types (Mine/Lift/Fake) to insert fakes.
