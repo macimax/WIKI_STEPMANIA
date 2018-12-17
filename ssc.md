@@ -135,7 +135,7 @@ Sets the Song's Timing Signatures at certain times. (Can have multiple changes.)
 
 ## \#TICKCOUNTS
 
-(someone edit this section.)
+Sets the Song's checkpoint-hold tick count rate. (Can have multiple changes.)
 
 ## \#COMBOS
 
