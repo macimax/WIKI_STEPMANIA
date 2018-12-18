@@ -197,8 +197,8 @@ Cover: The BGA is darkened.
 | ----------- | ------------- | ----------- |
 | Bar | Bar | Normal lifebar type. Known as "Normal" on _DDR_ series. |
 | Battery | Battery | Miss a note and lose a life. If you run out of lives, you fail the song. |
-| 4 LIVES | Battery + 4 lives | You have 4 lives by default. If you run out of lives, you fail the song. |
-| RISKY | Battery + 1 life | Miss a note and fail the song. |
+| 4 LIVES (Only on some themes) | Battery + 4 lives | You have 4 lives by default. If you run out of lives, you fail the song. |
+| RISKY (Only on some themes) | Battery + 1 life | Miss a note and fail the song. |
 
 **Note**: Some themes have this option in Player Options instead of Song Options. Also, may change the options depending on theme.
 
