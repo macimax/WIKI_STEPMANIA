@@ -13,7 +13,7 @@ Unless otherwise specified, all functions are assumed to take (float) value, (fl
 
 | Name | Function name | Description |
 | ----------- | ------------- | ----------- |
-| XMod | XMod | (default) Change the speed of arrows by a decimal value (x0.25, x0.5, x1, x2, x8, etc.) |
+| XMod | XMod | (default) Change the speed of arrows by a decimal value. (Default: 1x, Usually have x1, x0.5, x0.25 or x0.1 increments) |
 | CMod | CMod | Short for "Constant Mod", this allows you to set a constant speed for arrows. The song bpm, speed changes and stops are ignored. |
 | MMod | MMod | Set a minimum speed for arrows. If a song has a variable BPM it will match the minimum BPM. Meaning if your MMod is m600 and the song goes from 150 to 300 bpm, your note speed will be from 600 to 750. |
 | Random Speed | RandomSpeed | Unknown.
@@ -195,12 +195,12 @@ Cover: The BGA is darkened.
 # Life Type
 
 **Note**: Some themes have this option in Player Options instead of Song Options. Also, may change the options depending on theme.
-
-Bar: Normal lifebar type. Known as "Normal" on _DDR_ series.
-
-Battery: Miss a note and lose a life. If you run out of lives, you fail the song.
-
-Some themes have 4 LIVES, that is same as Battery + 4 lives, and RISKY, that is same as Battery + 1 life, replacing to the Battery option and both "Bar Drain" and "Battery Lives" modifiers.
+| Name | Function name | Description |
+| ----------- | ------------- | ----------- |
+| Bar | Bar | Normal lifebar type. Known as "Normal" on _DDR_ series. |
+| Battery | Battery | Miss a note and lose a life. If you run out of lives, you fail the song. |
+| 4 LIVES | Battery + 4 lives | You have 4 lives by default. If you run out of lives, you fail the song. |
+| RISKY | Battery + 1 life | Miss a note and fail the song. |
 
 # Bar Drain
 
