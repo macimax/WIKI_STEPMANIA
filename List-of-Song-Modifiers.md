@@ -120,7 +120,7 @@ Could someone add descriptions for the rest of the moddifiers in this section pl
 
 ## Remove
 
-Removes notes to make the song easier.
+Removes notes to make the song easier and some themes enable assist clear.
 
 Little: Removes notes requiring you to hit out of 1/4 beat. Known as CUT on _DDR_ series.
 
@@ -200,7 +200,7 @@ Cover: The BGA is darkened.
 | 4 LIVES (Only on some themes) | Battery + 4 lives | You have 4 lives by default. If you run out of lives, you fail the song. |
 | RISKY (Only on some themes) | Battery + 1 life | Miss a note and fail the song. |
 
-**Note**: Some themes have this option in Player Options instead of Song Options. Also, may change the options depending on theme.
+**Note**: Some themes have this option in Player Options instead of Song Options, and some themes enable hard clear. Also, may change the options depending on theme.
 
 # Bar Drain
 
