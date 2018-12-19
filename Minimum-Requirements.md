@@ -5,7 +5,7 @@ These are the minimums we are targeting for StepMania 6.
 
 ## Windows
 
-- Windows Vista
+- Windows 7
 - x86: Intel Pentium 4 or AMD Athlon 64, essentially anything with SSE2. ARM: Raspberry Pi 2.
 - 1GB RAM
 - OpenGL 3.0-capable video card, or 2.1 depending on when this is released.
@@ -30,14 +30,15 @@ The system requirements have not been finalized for StepMania 5.
 
 Here are some back of the envelope specs:
 
--    Windows XP+ (Vista and up users: read the installer!); Linux; Mac OS X 10.6+
--    512 MB of RAM
+-    Windows 7+ (Vista and up users: read the installer!); Linux; Mac OS X 10.6+
+-    512 MB of RAM (1 GB recommended)
 -    700MHz minimum (Multi-core recommended)
 -    Video card with support for 16-bit color, 128MB video RAM and OpenGL 2.1 or higher.
 -    DirectX 9.0 or later (Windows only)
 -    Sound card (of course :D)
 
-
+Unsupoorted systems since 5.0.12:
+-    Windows XP and Vista
 
 StepMania 3.9 (and variants)
 ----------------------------
