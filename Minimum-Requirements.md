@@ -37,7 +37,7 @@ Here are some back of the envelope specs:
 -    DirectX 9.0 or later (Windows only)
 -    Sound card (of course :D)
 
-Unsupoorted systems since 5.0.12:
+Unsupported systems since 5.0.12:
 -    Windows XP and Vista
 
 StepMania 3.9 (and variants)
