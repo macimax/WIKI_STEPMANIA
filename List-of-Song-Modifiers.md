@@ -156,7 +156,7 @@ Centered: The receptors are vertically centered.
 
 (Known as "Frezze Arrows" on _DDR_ series)
 
-No Holds: Removes hold notes to make the song easier.
+No Holds: Removes hold notes to make the song easier (Some themes enable assist clear).
 
 Planted: Adds more holds. A lot of them.
 
