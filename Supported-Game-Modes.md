@@ -78,7 +78,7 @@ This mode uses BMS chart files for songs.
 | double7 | Bm_Double7 | Both sides are used. |
 | versus7 | Bm_Versus7 | Unknown (see versus5) |
 
-Contrary to their names the styles each have an additional turntable 'key', except for doubles having two.
+Contrary to their names the styles each have an additional turntable 'key', except for doubles having two. A turntable key is splitted on turn left and turn right.
 
 ## Ez2
 
