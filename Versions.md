@@ -13,7 +13,7 @@ Official
 
 ## Stable
 ### StepMania 5.0
-**StepMania 5.0.x** is the current stable release of StepMania. Based on the 4.0 alpha fork sm-ssc, it provides a number of new and improved features over 3.9, including a new default theme, a Lua backend, support for different screen aspect ratios, new features for charts (such as rolls, warps, fake arrows, and lifts), the new game mode `kb7` (inspired by games such as DJMax and o2Jam), improvements to the `pump` game mode, and other internal improvements.
+**StepMania 5.0.x** is the current stable release of StepMania. Based on the 4.0 alpha fork sm-ssc, it provides a number of new and improved features over 3.9, including new default themes (Midiman on SSC and 5.0.x branch; Lambda on 5.1.x branch), a Lua backend, support for different screen aspect ratios, new features for charts (such as rolls, warps, fake arrows, and lifts), the new game mode `kb7` (inspired by games such as DJMax and o2Jam), improvements to the `pump` game mode, and other internal improvements.
 
 ## Unstable branch
 ### StepMania 5.1
