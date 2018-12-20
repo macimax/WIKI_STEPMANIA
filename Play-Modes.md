@@ -9,6 +9,15 @@ When Event Mode is enabled there are infinite stages, no TOTAL RESULTS and no Ex
 
 Some themes uses this default mode and don't be changed, some themes show ScreenEvaluationStage (Results on actual stage) regards if any player passes or fails the song, and if the player passes FINAL STAGE, EXTRA STAGE or ENCORE EXTRA, the last result is showned and changes to ScreenEvaluationSummary (TOTAL RESULTS).
 
+#### Evaluation
+* NO PLAY: Song/course not played
+* FAILED: Fail the song/course
+* ASSIST CLEAR: Clear the song/course using NO HOLDS/REMOVE options
+* CLEAR: Clear the song/course without using NO HOLDS/REMOVE options
+* HARD CLEAR: Clear the song/course using PRESSURE/SUDDENDEATH/BATTERY/4 LIVES/RISKY options
+* FULL COMBO: Clear the song/course with FULL COMBO
+* ALL W1: Clear the song/course with W1 (Fantastic on default themes) FULL COMBO
+
 ### Rave
 Battle against another player or a CPU. A gauge at the top determines who is winning or losing, and a gauge at the bottom fills up as you hit notes. When the gauge is full an attack modifier is temporarily applied to the opposite player. A draw can be happenned.
 The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in `Characters\[Character Name Here]\character.ini`.
