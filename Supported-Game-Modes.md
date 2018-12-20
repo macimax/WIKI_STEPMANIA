@@ -5,7 +5,7 @@ StepMania supports various game modes; they are divided into _games_ (an overarc
 ## Dance
 The standard 4-column dance game, as popularized by franchises such as _Dance Dance Revolution_ and _In the Groove_, with columns corresponding to the four cardinal directions.
 
-This mode uses SM, SSC, SMA, or DWI chart files.
+This mode uses SM, SSC (on SSC and 5.x branch), SMA (on AMX and 5.x branch), or DWI chart files.
 
 There is Single (4key), Double (8key), or Versus (2 players, 4key each) styles, Solo (6key) and Couple optional.
 
