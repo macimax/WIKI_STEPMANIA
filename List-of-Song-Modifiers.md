@@ -13,7 +13,7 @@ Unless otherwise specified, all functions are assumed to take (float) value, (fl
 
 | Name | Function name | Description |
 | ----------- | ------------- | ----------- |
-| XMod | XMod | (default) Change the speed of arrows by a decimal value. (Default: 1x, Usually have x1, x0.5, x0.25 or x0.1 increments, this last on some themes) |
+| XMod | XMod | (default) Change the speed of arrows by a decimal value. Possible maximum SPEED is 10x on some themes and 8x on most themes. (Default: 1x, Usually have x1, x0.5, x0.25 or x0.1 increments, this last on some themes) |
 | CMod | CMod | Short for "Constant Mod", this allows you to set a constant speed for arrows. The song bpm, speed changes and stops are ignored. |
 | MMod | MMod | Set a minimum speed for arrows. If a song has a variable BPM it will match the minimum BPM. Meaning if your MMod is m600 and the song goes from 150 to 300 bpm, your note speed will be from 600 to 750. |
 | Random Speed | RandomSpeed | Unknown.
