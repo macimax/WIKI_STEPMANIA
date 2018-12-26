@@ -46,9 +46,10 @@ The StepsType is missing from the lua documentation. (Maybe this mode was remove
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
-| ??? | ??? | 4key |
-| ??? | ??? | 6key |
-| ??? | ??? | 8key |
+| Human | kickbox_human | 4key |
+| Quadarm | kickbox_quadarm | 4key 
+| Insect | kickbox_insect | 6key |
+| Arachnid | kickbox_arachnid | 8key |
 
 ## lights
 This game type is used for testing lighting cues (primarily on arcade cabinets), and defining custom lighting cues within a simfile. It is not playable.
