@@ -9,6 +9,7 @@
   * [Preferences file](Preferences.ini)
   * [Manually changing preferences](Manually-Changing-Preferences)
   * [Static mount points for USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
+  * [Static mount points for USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
 ## Play
   * [Game modes](Supported-Game-Modes)
   * [Play modes](Play-Modes)
