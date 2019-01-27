@@ -2,4 +2,4 @@
 
 For example, ScreenSelectMusic course music.redir containing the text "_Music menu" will redirect to a file with that name.
 
-You can chain redirs. Extension for the file you are redirecting to is not required inside the redir.
+You can chain redirects. Extension for the file you are redirecting to is not required inside the redir.
