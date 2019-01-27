@@ -5,4 +5,4 @@ For example, ScreenSelectMusic course music.redir containing the text "_Music me
 You can chain redirects. Extension for the file you are redirecting to is not required inside the redir.
 
 Note that putting a redir in a folder will make StepMania start again from the source folder.
-For example, if you have a redir inside Graphics/ComboNumbers/ named Combo100.redir and you want it to point to a file named Combo110.png inside Graphics/ComboNumbers, you must put `Graphics/ComboNumbers/Combo100` instead of `Combo100` inside the redir.
+For example, if you have a redir inside Graphics/ComboNumbers/ named Combo100.redir and you want it to point to a file named Combo110.png inside Graphics/ComboNumbers, you must put `Graphics/ComboNumbers/Combo110` instead of `Combo110` inside the redir.
