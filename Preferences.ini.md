@@ -135,3 +135,8 @@ The refresh rate of StepMania. Usually `60`.
 ## ShowMouseCursor
 
 `1` shows the mouse cursor, `0` hides it. Linux only.
+
+# Timing Windows
+
+## TimingWindowSecondsW1
+The timing window, in seconds, for a W1 judgement
