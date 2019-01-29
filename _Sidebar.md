@@ -4,6 +4,7 @@
   * [Compiling](Compiling-StepMania)
   * [System requirements](Minimum-Requirements)
   * [Linux dependencies](Linux-dependencies)
+  * [Installing on macOS](Installing-on-macOS)
   * [Supported file formats](File-Formats)
   * [User data locations](User-Data-Locations)
   * [Preferences file](Preferences.ini)
