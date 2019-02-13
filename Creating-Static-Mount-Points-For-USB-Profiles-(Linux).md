@@ -56,3 +56,11 @@ MemoryCardUsbPortP1=-1
 MemoryCardUsbPortP2=-1
 MemoryCards=1
 ```
+
+### Step 4: Disable automount
+
+If you are using an OS like Ubuntu, it is configured to mount USB devices automatically. This will cause them to get mounted before StepMania can mount them, breaking USB memory card support.
+- The best practice is to run StepMania 5 in its own xsession with nothing else, which you should be doing in the first place if you want to dedicate this to a cabinet.
+- (Ubuntu only) DO NOT mount your drives at /media! Use /mnt instead.
+- If you're using xfce, open Thunar -> File Manager Preferences -> Advanced -> untick Enable Volume Management
+- search "Removable Drives and Media" in the settings and untick every single automount option.
