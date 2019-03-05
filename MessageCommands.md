@@ -96,6 +96,7 @@ Triggered when a player opens/closes the OptionsList.
 
 ### OptionsListQuickChange
 Triggered when a player changes their selection on the OptionsList by pressing a button. Only broadcast when the list type is SELECT_ONE.
+
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
@@ -103,18 +104,21 @@ Triggered when a player changes their selection on the OptionsList by pressing a
 | Selection | The index of the currently selected item? |
 ### OptionsListLeft / OptionsListRight
 Triggered when a player presses left/right?
+
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
 | Selection | The index of the currently selected item? |
 ### OptionsMenuChanged
 Triggered when the player enters a new menu in the OptionsList?
+
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
 | Menu | Unknown, possibly the name of the new menu. |
 ### OptionsListPop
 Unknown, possibly when the player exits from an OptionsList submenu.
+
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
@@ -122,11 +126,13 @@ Unknown, possibly when the player exits from an OptionsList submenu.
 Same as above except when entering a submenu.
 ### OptionsListStart
 Unknown.
+
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
 ### OptionsListReset
 Triggered when they press the reset button in the OptionsList, resetting their modifiers to ModsLevel_Preferred.
+
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
