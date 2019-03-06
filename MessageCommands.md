@@ -110,12 +110,12 @@ Triggered when a player presses left/right?
 | Player | Either PLAYER_1 or PLAYER_2 |
 | Selection | The index of the currently selected item? |
 ### OptionsMenuChanged
-Triggered when the player enters a new menu in the OptionsList?
+Triggered when the player enters or exits a menu in the OptionsList.
 
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
-| Menu | Unknown, possibly the name of the new menu. |
+| Menu | The name of the the new menu in the OptionsList, as defined in metrics under ScreenOptionsMaster. |
 ### OptionsListPop
 Unknown, possibly when the player exits from an OptionsList submenu.
 
