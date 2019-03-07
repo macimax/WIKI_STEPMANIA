@@ -155,7 +155,7 @@ Add to each timing window?
 ## TimingWindowScale
 Scale the window bigger or smaller.
 
-## TimingWindowSeconds(..)
+## TimingWindowSeconds(...)
 The timing windows of each different kind of note and judgment.
 Attack = Attack notes. Checkpoint = Checkpoint holds in the Pump gamemode.
 
@@ -164,3 +164,14 @@ Unknown.
 
 ## TugMeterPercent(...)
 Unknown, maybe for Battle playmode.
+
+## SuperMeterPercent(...)
+Unknown, maybe for Battle playmode.
+
+# Various
+
+## UseUnlockSystem
+Enable the [Unlock System](https://github.com/stepmania/stepmania/wiki/Unlock-System).
+
+## EasterEggs
+Enable Easter Eggs. The default theme no longer has any, so this option does nothing without a theme.
