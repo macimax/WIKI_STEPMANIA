@@ -136,7 +136,31 @@ The refresh rate of StepMania. Usually `60`.
 
 `1` shows the mouse cursor, `0` hides it. Linux only.
 
+# Customization
+
+## Announcer
+The current announcer. Note that the setting in the main section is not used anymore, the announcer is per gamemode.
+
+## Theme
+The current theme. This is listed under each game mode.
+
+## DefaultModifiers
+The default modifier, per gamemode.
+
 # Timing Windows
 
-## TimingWindowSecondsW1
-The timing window, in seconds, for a W1 judgement
+## TimingWindowAdd
+Add to each timing window?
+
+## TimingWindowScale
+Scale the window bigger or smaller.
+
+## TimingWindowSeconds(..)
+The timing windows of each different kind of note and judgment.
+Attack = Attack notes. Checkpoint = Checkpoint holds in the Pump gamemode.
+
+## TimeMeterSeconds(...)
+Unknown.
+
+## TugMeterPercent(...)
+Unknown, maybe for Battle playmode.
