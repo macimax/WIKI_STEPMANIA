@@ -17,6 +17,7 @@ There are multiple **note types** available in StepMania.
 These note types are not implemented in StepMania and they likely never will be, but they are documented here in case you ever need to convert a SF2 chart to SM5.
 
 StepF2 uses a different note syntax: `{player|note type|unknown|unknown}`, where player is X for P1, Y for P2, and Z for P3 and note type is a StepF2 or StepMania note type.
+
 | Note Types | Key Symbol | Comments |
 | ---------- | ---------- | -------- |
 | Sudden | S | Acts like the sudden modifier, but per note. Will suddenly appear halfway up. |
