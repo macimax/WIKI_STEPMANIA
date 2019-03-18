@@ -20,6 +20,10 @@ StepF2 uses a different note syntax: `{player|note type|unknown|unknown}`, where
 
 | Note Types | Key Symbol | Comments |
 | ---------- | ---------- | -------- |
+| P1 Tap Note | X | |
+| P1 Hold Head | x | |
+| P2 Tap Note | Y | |
+| P2 Hold Head | y | |
 | Sudden | S | Acts like the sudden modifier, but per note. Will suddenly appear halfway up. |
 | Vanish | v | Acts like the hidden modifier, but per note. Will disappear halfway up. |
 | Hidden | H | This note cannot be seen. |
