@@ -12,3 +12,13 @@ There are multiple **note types** available in StepMania.
 <tr><td>Fake</td><td>F</td><td>You can ignore this note: it does nothing for or against you.</td></tr>
 </tbody><tr>
 </table>
+
+## StepF2 Notes
+These note types are not implemented in StepMania and they likely never will be, but they are documented here in case you ever need to convert a SF2 chart to SM5.
+
+StepF2 uses a different note syntax: `{player|note type|unknown|unknown}`, where player is X for P1, Y for P2, and Z for P3 and note type is a StepF2 or StepMania note type.
+| Note Types | Key Symbol | Comments |
+| ---------- | ---------- | -------- |
+| Sudden | S | Acts like the sudden modifier, but per note. Will suddenly appear halfway up. |
+| Vanish | v | Acts like the hidden modifier, but per note. Will disappear halfway up. |
+| Hidden | H | This note cannot be seen. |
