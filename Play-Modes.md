@@ -9,7 +9,7 @@ When Event Mode is enabled there are infinite stages, no TOTAL RESULTS and no Ex
 
 Some themes uses this default mode and don't be changed, and some themes use different scoring systems (as ITG, EXTREME, Supernova2, Etc.).
 
-Note for players: the _D_ance _P_oints (on Dance Mode) is showned as EX-SCORE.
+Note for players: the Dance Points (or DP) is showned on some themes as EX-SCORE.
 
 Note for themers: some themes show ScreenEvaluationStage (Results on actual stage) regards if any player passes or fails the song, and if the player passes FINAL STAGE, EXTRA STAGE or ENCORE EXTRA, the last result is showned and changes to ScreenEvaluationSummary (TOTAL RESULTS).
 
