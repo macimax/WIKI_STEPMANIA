@@ -7,7 +7,11 @@ Your regular play mode, normally with 3 stages, plus an [[Extra Stage]] if the p
 
 When Event Mode is enabled there are infinite stages, no TOTAL RESULTS and no Extra Stage.
 
-Some themes uses this default mode and don't be changed, some themes show ScreenEvaluationStage (Results on actual stage) regards if any player passes or fails the song, and if the player passes FINAL STAGE, EXTRA STAGE or ENCORE EXTRA, the last result is showned and changes to ScreenEvaluationSummary (TOTAL RESULTS).
+Some themes uses this default mode and don't be changed, and some themes use different scoring systems (as ITG, EXTREME, Supernova2, Etc.).
+
+Note for players: the _D_ance _P_oints (on Dance Mode) is showned as EX-SCORE.
+
+Note for themers: some themes show ScreenEvaluationStage (Results on actual stage) regards if any player passes or fails the song, and if the player passes FINAL STAGE, EXTRA STAGE or ENCORE EXTRA, the last result is showned and changes to ScreenEvaluationSummary (TOTAL RESULTS).
 
 #### Evaluation
 * NO PLAY: Song/course not played
@@ -16,7 +20,7 @@ Some themes uses this default mode and don't be changed, some themes show Screen
 * CLEAR: Clear the song/course without using NO HOLDS/REMOVE options
 * HARD CLEAR: Clear the song/course using PRESSURE/SUDDENDEATH/BATTERY/4 LIVES/RISKY options
 * FULL COMBO: Clear the song/course with FULL COMBO
-* ALL W1: Clear the song/course with W1 (Fantastic on default themes) FULL COMBO
+* ALL W1: Clear the song/course with _W1-only_ judges (marked as _Fantastic_ on default themes of the 5.x branch) and displays the maximum score.
 
 ### Rave
 Battle against another player or a CPU. A gauge at the top determines who is winning or losing, and a gauge at the bottom fills up as you hit notes. When the gauge is full an attack modifier is temporarily applied to the opposite player. A draw can be happenned.
