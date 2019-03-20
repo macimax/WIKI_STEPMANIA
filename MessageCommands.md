@@ -95,7 +95,7 @@ Triggered when a player opens/closes the OptionsList.
 | Player | Either PLAYER_1 or PLAYER_2 |
 
 ### OptionsListQuickChange
-Triggered when a player changes their selection on the OptionsList by pressing a button. Only broadcast when the list type is SELECT_ONE.
+Triggered when a player changes their selection on the OptionsList by pressing a button. Only broadcast when the list type is SELECT_ONE... Or it should, but this doesn't seem to broadcast at all.
 
 | Parameters | Description |
 | ---------- | ----------- |
@@ -108,7 +108,7 @@ Triggered when a player presses left/right?
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
-| Selection | The index of the currently selected item? |
+| Selection | The index of the currently selected item, starting at 0 |
 ### OptionsMenuChanged
 Triggered when the player enters or exits a menu in the OptionsList.
 
