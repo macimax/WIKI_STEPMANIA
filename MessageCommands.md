@@ -95,7 +95,7 @@ Triggered when a player opens/closes the OptionsList.
 | Player | Either PLAYER_1 or PLAYER_2 |
 
 ### OptionsListQuickChange
-Triggered when a player changes their selection on the OptionsList by pressing a button. Only broadcast when the list type is SELECT_ONE... Or it should, but this doesn't seem to broadcast at all.
+Triggered when a player is in an OptionsList menu, highlights a submenu, then holds start and presses left or right to quickly switch the option.
 
 | Parameters | Description |
 | ---------- | ----------- |
