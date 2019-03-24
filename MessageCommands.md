@@ -103,12 +103,30 @@ Triggered when a player is in an OptionsList menu, highlights a submenu, then ho
 | Direction | Either 1 or -1. |
 | Selection | The index of the currently selected item? |
 ### OptionsListLeft / OptionsListRight
-Triggered when a player presses left/right?
+Triggered when a player presses left/right.
 
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
 | Selection | The index of the currently selected item, starting at 0 |
+### OptionsListStart
+The same as OptionsListLeft/Right except the Selection is NOT broadcast.
+The selection will always be one more then the number of rows.
+To get the number of rows you can add an OptionsMenuChanged listener like in this example.
+numRows would be a variable kept outside this function and then accessed inside the OptionsListStartMessageCommand funciton.
+This will not work for any lua OptionsList functions, since those don't use metrics and thus do not have an OptionsListMaster entry.
+```lua
+OptionsMenuChangedMessageCommand=function(self,params)
+	if params.Player == pn then
+		numRows = tonumber(THEME:GetMetric("ScreenOptionsMaster",params.Menu))
+	end;
+end;
+```
+
+
+| Parameters | Description |
+| ---------- | ----------- |
+| Player | Either PLAYER_1 or PLAYER_2 |
 ### OptionsMenuChanged
 Triggered when the player enters or exits a menu in the OptionsList.
 
@@ -124,12 +142,6 @@ Unknown, possibly when the player exits from an OptionsList submenu.
 | Player | Either PLAYER_1 or PLAYER_2 |
 ### OptionsListPush
 Same as above except when entering a submenu.
-### OptionsListStart
-Unknown.
-
-| Parameters | Description |
-| ---------- | ----------- |
-| Player | Either PLAYER_1 or PLAYER_2 |
 ### OptionsListReset
 Triggered when they press the reset button in the OptionsList, resetting their modifiers to ModsLevel_Preferred.
 
