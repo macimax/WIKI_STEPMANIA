@@ -159,7 +159,8 @@ Contains the Song's [Label segments](https://github.com/stepmania/stepmania/wiki
 
 ## \#LASTSECONDHINT
 
-Sets the Song's Last Second Hint.
+A float value. Tells StepMania when to end the song if your longest chart is shorter than this value.
+Required if your chart has only EDIT difficulties.
 
 ## \#BGCHANGES
 
