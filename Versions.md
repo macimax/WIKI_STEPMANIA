@@ -5,6 +5,7 @@ Manias have been stepped all throughout the ages and here is a sampling of some 
 
 Official
 --------
+* [StepMania 0.95](versions/stepmania-0-95)
 * [StepMania 3.0](versions/stepmania-3-0)
 * [StepMania 3.9](versions/stepmania-3-9)
 * [StepMania 4.0 alpha](versions/stepmania-4-0-alpha)
