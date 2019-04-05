@@ -20,7 +20,7 @@ There may be some specific things to watch out for. This section covers that.
 
 ### Windows ###
 
-Ensure the following items are installed:
+**Ensure the following items are installed:**
 
 * [Direct X Summer 2010 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) installed.
 * Redistributable installed (x86 required, x64 as well only if your system is 64-bit). [2015 version here](https://www.microsoft.com/en-us/download/details.aspx?id=48145), and [2013 version here](https://www.microsoft.com/en-us/download/details.aspx?id=40784).
@@ -37,6 +37,33 @@ However, if you're feeling adventurous but not that adventurous, you can acquire
 
 If you intend to release SM as a Windows Installer, you will need NSIS. Once installed, use cmake, config/generate the solution file, and open it, you will have to change two things before it will work. Right click the "Solution" area for the StepMania Project and click properties. With ALL_BUILD configuration selected, find INSTALL and PACKAGE, and click the check mark for for Build. By default, they are disabled. Once SM builds, it will start a new task that will build the installer. It should go in: <Directory>\Build\_CPack_Packages\win32\NSIS once complete.
 
+**Then, to compile:**
+
+Before you do anything:
+```batch
+git clone --single-branch -b 5_1-new --depth=1 https://github.com/stepmania/stepmania.git
+cd stepmania
+git submodule update --init
+```
+
+To compile with a GUI:
+1. Open cmake-gui from your start menu. Click browse source, then navigate to where you cloned the stepmania dir.
+2. Click browse build, then navigate to the Build folder in the cloned stepmania dir.
+3. Click configure.
+4. Click generate.
+5. Click Open Project, or if you're feeling adventurous you can navigate to the Build folder yourself and double click on the .sln.
+6. Set the build type to release, then click build. The files will get put in the "Program" directory of stepmania.
+
+If you would like to build StepMania on Windows without a GUI (headless server, etc):
+
+Launch the Visual Studio Command Prompt from the start menu, or if you don't have access to the start menu you can cd to `%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\VC\bin` and run `vcvars32.bat`.
+```batch
+:: substitute 'cd stepmania' with the location of where you cloned stepmania.
+cd stepmania
+cd Build
+cmake -DCMAKE_BUILD_TYPE=Release .. && cmake ..
+devenv StepMania.sln /Build Release
+```
 ### Linux ###
 **Warning: Do not use autogen.sh to compile StepMania. It is not maintained at all and you will likely run into issues such as no sound.**
 #### 1-a: Prepare dependencies(Debian Based systems) ####
