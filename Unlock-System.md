@@ -17,7 +17,7 @@ Here is a list of the unlock requirements you can set:
 | name | description | argument |
 | ---- | ----------- | -------- |
 | UnlockRequirement_ArcadePoints | Get a certain number of arcade points. | Num points to unlock |
-| UnlockRequirement_DancePoints | Get a certain number of dance points. | Num points to unlock |
+| UnlockRequirement_DancePoints | Get a certain number of dance points (or EX-SCORE). | Num points to unlock |
 | UnlockRequirement_SongPoints | Get a certain number of song points. | Num points to unlock |
 | UnlockRequirement_ExtraCleared | Pass the extra stage. | None |
 | UnlockRequirement_ExtraFailed | Fail the extra stage. | None |
