@@ -26,6 +26,7 @@
 ## For themers and developers
   * [Themes](Theming)
   * [Noteskins (5.0-5.1)](Noteskins)
+  * [Unlock System](Unlock-System)
   * [MessageCommands](MessageCommands)
   * [Adding Lua functions to source](Adding-new-lua-functions-to-the-source)
   * [Blend modes](Blend-Modes)
