@@ -153,7 +153,7 @@ Triggered when they press the reset button in the OptionsList, resetting their m
 (All children of ScreenOptions class will broadcast these too, ex. ScreenPlayerOptions)
 
 ### ChangeValue
-Triggered when left or right is pressed.
+Triggered... Never. This is inside the function ScreenOptions::ChangeValueInRowAbsolute(), but it's never called.
 
 | Parameters | Description |
 | ---------- | ----------- |
