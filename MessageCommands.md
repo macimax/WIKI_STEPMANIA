@@ -24,10 +24,10 @@ Executed when your animation is finished (If you have one)
 
 Executed when any button is pressed. You must have CodeNames set in the respective screen in metrics.ini for this to function correctly.
 
-| Parameters | Description |
-| ---------- | ----------- |
-| Name | the name of the code you specified. So if you have `Codeleft="Left"` in metrics.ini and you press left, params.Name would be "left" |
-| PlayerNumber | PLAYER_1 or PLAYER_2 |
+| Parameters | Description | Return Type |
+| ---------- | ----------- | ----------- |
+| Name | the name of the code you specified. So if you have `Codeleft="Left"` in metrics.ini and you press left, params.Name would be "left" | String (CodeName) |
+| PlayerNumber | PLAYER_1 or PLAYER_2 | String (PlayerNumber) |
 
 ### StorageDevicesChangedMessageCommand
 
@@ -50,13 +50,13 @@ This command also works in Course mode.
 
 Broadcast when a MusicWheelItem is being set with new information, such as when scrolling up and down. Can access parameters using SetMessageCommand=function(self, params)
 
-| Parameters | Description |
-| ---------- | ----------- |
-| Song | An instance of the Song that was just set to the MusicWheelItem. |
-| Course | If in course mode, an instance of the Course that was just set to the MusicWheelItem. |
-| Index | The index of the MusicWheelItem that was just set. |
-| HasFocus | If the MusicWheelItem is focused or not. |
-| Text | The name of the song group this MusicWheelItem is from? |
+| Parameters | Description | Return Type |
+| ---------- | ----------- | ----------- |
+| Song | An instance of the Song that was just set to the MusicWheelItem. | Song |
+| Course | If in course mode, an instance of the Course that was just set to the MusicWheelItem. | Course |
+| Index | The index of the MusicWheelItem that was just set. | int |
+| HasFocus | If the MusicWheelItem is focused or not. | boolean |
+| Text | The name of the song group this MusicWheelItem is from? | String |
 
 
 ### CurrentStepsPXChangedMessageCommand
@@ -148,6 +148,36 @@ Triggered when they press the reset button in the OptionsList, resetting their m
 | Parameters | Description |
 | ---------- | ----------- |
 | Player | Either PLAYER_1 or PLAYER_2 |
+
+## ScreenOptions
+(All children of ScreenOptions class will broadcast these too, ex. ScreenPlayerOptions)
+
+### ChangeValue
+Triggered when left or right is pressed.
+
+| Parameters | Description |
+| ---------- | ----------- |
+| PlayerNumber | PLAYER_1 or PLAYER_2 |
+| RowIndex | The current index of the selected item |
+
+### ChangeRow
+Triggered when row is changed.
+
+| Parameters | Description | Return Type |
+| ---------- | ----------- | ----------- |
+| PlayerNumber | PLAYER_1 or PLAYER_2 | String (PlayerNumber) |
+| RowIndex | The current index of the newly selected row | int |
+| ChangedToExit | If the new row is an exit row | boolean |
+
+### SelectMultiple
+Triggered when a selection on a SelectMultiple row is changed.
+
+| Parameters | Description | Return Type |
+| ---------- | ----------- | ----------- |
+| PlayerNumber | PLAYER_1 or PLAYER_2 | String (PlayerNumber) |
+| RowIndex | The current index of the hovered item?? | int |
+| ChoiceInRow | ???? | int |
+| Selected | If the current selection was just selected or deselected. | boolean |
 
 ## ScreenGameplay
 
