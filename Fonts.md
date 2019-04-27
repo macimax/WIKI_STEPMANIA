@@ -38,8 +38,13 @@ An alternative to throwing the [TextureHints](https://github.com/stepmania/stepm
 
 ## (general commands)
 ### MAP
-Maps a keyword to a frame number. (e.g. `map up=0` maps the word 'up' to the first frame of the bitmap)
+Maps a keyword to a frame number. e.g. `map up=0` maps the word 'up' to the first frame of the bitmap. In your text, use `&UP;` to show that graphic.
 ### RANGE
 Defines a Unicode range to use.
 ### LINE
 What characters are on which line of the bitmap image. For example, if the first row of your image has ABCDEFGH, you would put down `Line 0=ABCDEFGH`
+
+# Examples
+`&BACK; Exit &START; Select &SELECT; Options &MENULEFT;&MENURIGHT;&MENUUP;&MENUDOWN; Move`
+
+Words starting with & and ending with ; are mapped words which are replaced with graphics.
