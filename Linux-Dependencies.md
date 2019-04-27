@@ -7,7 +7,7 @@ You will absolutely, positively need:
 * GLEW 1.5 or newer (Debian: depending on your OS version, libglew1.5-dev or libglew1.6-dev or libglew1.7-dev and so on)
 * X11 libraries and headers
 * Especially: Xtst and Xrandr (Debian: libxtst-dev and libxrandr-dev respectively)
-* libpng (Debian: libpng12-dev)
+* libpng (Debian: libpng-dev)
 * libjpeg (Debian: libjpeg8-dev)
 * zlib (Debian: zlib1g-dev)
 * libBZ2 (Debian: libbz2-dev)
@@ -26,7 +26,7 @@ You may also want:
 
 ### Debian or Mint
 ```
-sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev libjack-dev binutils-dev libgtk2.0-dev libmad0-dev libjack0 libudev-dev libva-dev
+sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev libjack-dev binutils-dev libgtk2.0-dev libmad0-dev libjack0 libudev-dev libva-dev
 ```
 
 ### Fedora 23
