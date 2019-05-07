@@ -77,7 +77,8 @@ sudo apt-get install cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxt
 ```
 
 ```
-# Older, doesn't work on 18.04
+# THE FOLLOWING ARE OUT OF DATE
+# Doesn't work on 18.04
 sudo apt-get install build-essential
 sudo apt-get install cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk2.0-dev libmad0-dev libudev-dev libva-dev
 ```
