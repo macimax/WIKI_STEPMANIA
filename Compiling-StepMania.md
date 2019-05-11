@@ -64,6 +64,11 @@ cd Build
 cmake -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 devenv StepMania.sln /Build Release
 ```
+Alternatively you can attempt to compile with msbuild instead of devenv but it's unsupported:
+```batch
+msbuild.exe StepMania.sln /t:Build/p:Configuration=Release;Platform=Win32
+```
+
 ### Linux ###
 **Warning: Do not use autogen.sh to compile StepMania. It is not maintained at all and you will likely run into issues such as no sound.**
 #### 1-a: Prepare dependencies(Debian Based systems) ####
