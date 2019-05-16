@@ -66,7 +66,7 @@ devenv StepMania.sln /Build Release
 ```
 Alternatively you can attempt to compile with msbuild instead of devenv but it's unsupported:
 ```batch
-msbuild.exe StepMania.sln /t:Build/p:Configuration=Release;Platform=Win32
+msbuild.exe StepMania.sln /t:Build /p:Configuration=Release;Platform=Win32
 ```
 
 ### Linux ###
