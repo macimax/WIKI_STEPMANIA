@@ -35,7 +35,7 @@ Executed when the state of a memory card changes. (Refer to the MemoryCardState 
 
 ### Condition
 
-While not exactly a command, it is something you can put inside your Actor. If it evaluates to false the Actor will not be shown.
+While not exactly a command, it is something you can put inside your Actor. If it evaluates to false the Actor will not be created.
 
 Many more global commands can be found by looking at MessageManager.cpp in the source.
 
