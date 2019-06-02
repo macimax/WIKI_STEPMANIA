@@ -12,11 +12,17 @@ With that established, if you wish to proceed, you'll need to quit StepMania fir
 The location of your *Preferences.ini* file depends on your operating system.
 
 ## Windows
-Path: `%appdata%\StepMania 5\Save\Preferences.ini`
+
+SM5.0.x Path: `%appdata%\StepMania 5\Save\Preferences.ini`
+
+SM5.1-beta Path: `%appdata%\StepMania 5.1\Save\Preferences.ini`
 
 
 ## OS X
-**Path:** `~/Library/Preferences/StepMania 5/Preferences.ini`
+
+SM5.0.x Path: `~/Library/Preferences/StepMania 5/Preferences.ini`
+
+SM5.1-beta Path: `~/Library/Preferences/StepMania 5.1/Preferences.ini`
 
 For better or worse, Apple hides the *Library* directory by default but there are a few ways to get there.
 
@@ -27,4 +33,7 @@ Finder's *Go* menu has a *Go To Folder...* item which brings up a dialog box.  C
 Alternatively, it is possible to [un-hide the Library directory from Finder](http://osxdaily.com/2014/12/16/show-user-library-folder-os-x-yosemite/) which would allow you to navigate it like any other folder.
 
 ## Linux
-**Path:** `~/.stepmania-5.0/Save/Preferences.ini`
+
+SM5.0.x Path: `~/.stepmania-5.0/Save/Preferences.ini`
+
+SM5.1-beta Path: `~/.stepmania-5.1/Save/Preferences.ini`
