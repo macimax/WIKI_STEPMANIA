@@ -118,6 +118,38 @@ Big: Adds notes on 1/8th beats.
 
 Could someone add descriptions for the rest of the moddifiers in this section please? Thanks.
 
+## SCROLL
+
+Normal: Notes come from bottom to top.
+
+Reverse: Notes come from top to bottom.
+
+Split:
+
+Alternate: The orientation of the receptor switches every time, so the first one is upright, the second one is downscroll, the third is up, the fourth is down.
+
+Cross: The outer receptors are upright, and the inner receptors are at the bottom.
+
+Centered: The receptors are vertically centered.
+
+## Attacks
+
+On: If the simfile has an #ATTACKS section, it will play scripted modifiers during gameplay.
+
+Random Attacks: Randomly add and remove different modifiers during gameplay. Known as "RandAttack" internally.
+
+## Hide
+
+These can be stacked.
+
+Dark: The STEP ZONE (note receptors) are disabled (invisible).
+
+Blind: Your combo and judgements are invisible.
+
+Cover: The BGA is darkened.
+
+# ASSIST options
+
 ## Remove
 
 Removes notes to make the song easier and some themes enable assist clear.
@@ -138,31 +170,17 @@ No Lifts: Removes lift notes.
 
 No Fakes: Removes fake notes.
 
-## SCROLL
-
-Normal: Notes come from bottom to top.
-
-Reverse: Notes come from top to bottom.
-
-Split:
-
-Alternate: The orientation of the receptor switches every time, so the first one is upright, the second one is downscroll, the third is up, the fourth is down.
-
-Cross: The outer receptors are upright, and the inner receptors are at the bottom.
-
-Centered: The receptors are vertically centered.
-
 ## Holds
 
 (Known as "Frezze Arrows" on _DDR_ series)
 
-No Holds: Removes hold notes to make the song easier (Some themes enable assist clear).
+No Holds: Disables hold notes to make the song easier (Some themes enable assist clear).
 
 Planted: Adds more holds. A lot of them.
 
 Twister: Adds more holds, but allows for the possibility of more than two holds at a time.
 
-Holds To Rolls: All holds are now rolls.
+Holds To Rolls: All holds are changed by rolls.
 
 ## Mines
 
@@ -174,25 +192,9 @@ Additive: Some tap notes are turned to mine notes, some mine notes are added at 
 
 Attack Mines: Hitting mine notes adds a random modifier during gameplay that decays instead of draining the life bar or removing a life in battery mode.
 
-## Attacks
-
-On: If the simfile has an #ATTACKS section, it will play scripted modifiers during gameplay.
-
-Random Attacks: Randomly add and remove different modifiers during gameplay. Known as "RandAttack" internally.
-
-## Hide
-
-These can be stacked.
-
-Dark: The STEP ZONE (note receptors) are disabled (invisible).
-
-Blind: Your combo and judgements are invisible.
-
-Cover: The BGA is darkened.
-
 # Extra
 
-# LIFE GAUGE
+## LIFE GAUGE
 | Name | Function name | Description |
 | ----------- | ------------- | ----------- |
 | Bar | Bar | Normal lifebar type. Known as "Normal" on _DDR_ series. |
@@ -202,7 +204,7 @@ Cover: The BGA is darkened.
 
 **Note**: Some themes have this option in Player Options instead of Song Options, and some themes enable hard clear. Also, may change the options depending on theme.
 
-# Gauge Drain
+## Gauge Drain
 
 NORMAL: Self explanatory. Known as "Normal-Drain" internally.
 
@@ -212,13 +214,13 @@ Sudden Death: Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a no
 
 **Note**: Some versions/variants implement custom LIFE GAUGE changes that alterate PRESSURE and SUDDENDEATH in the _Preferences.ini_ or _stepmania.ini_ on earlier versions, that may be changed by the user.
 
-# Battery Lives
+## Battery Lives
 
 Self explanatory. 
 
 **Note**: "1 life" = RISKY on _DDR_ series.
 
-# Fail type
+## Fail type
 
 Immediate: Fail when the lifebar or battery is empty. Known as "FailImmediateContinue" internally.
 
