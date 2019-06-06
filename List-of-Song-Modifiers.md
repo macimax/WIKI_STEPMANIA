@@ -9,7 +9,7 @@ Unless otherwise specified, all functions are assumed to take (float) value, (fl
 | ----------- | ------------- | ------------------ | ----------- |
 | NoteSkin | NoteSkin | (string) the name of the noteskin | Changes the noteskin. (Probably can't be applied during a song.) |
 
-## Speed Modifiers
+## SPEED
 
 | Name | Function name | Description |
 | ----------- | ------------- | ----------- |
@@ -70,7 +70,7 @@ Invert: The receptors are inverted. (Down, Left, Right, Up)
 
 Flip: the receptors are flipped. (Right, Up, Down, Left)
 
-## Appearance
+## APPAREANCE
 
 Visible: Notes are completely visible.
 
@@ -92,7 +92,7 @@ Hidden+: Cover the top half of the notefield (where the receptors are) with a wi
 
 StealthPastReceptors: Exactly what it says on the tin (5.1 only)
 
-## Turn
+## TURN
 
 (This changes the notes themselves instead of how they appear)
 
@@ -138,7 +138,7 @@ No Lifts: Removes lift notes.
 
 No Fakes: Removes fake notes.
 
-## Scroll
+## SCROLL
 
 Normal: Notes come from bottom to top.
 
@@ -192,7 +192,7 @@ Cover: The BGA is darkened.
 
 # Extra
 
-# Life Type
+# LIFE GAUGE
 | Name | Function name | Description |
 | ----------- | ------------- | ----------- |
 | Bar | Bar | Normal lifebar type. Known as "Normal" on _DDR_ series. |
@@ -202,15 +202,15 @@ Cover: The BGA is darkened.
 
 **Note**: Some themes have this option in Player Options instead of Song Options, and some themes enable hard clear. Also, may change the options depending on theme.
 
-# Bar Drain
+# Gauge Drain
 
-Normal: Self explanatory. Known as "Normal-Drain" internally.
+NORMAL: Self explanatory. Known as "Normal-Drain" internally.
 
-No Recover: Don't recover life upon scoring well.
+PRESSURE: Don't recover life upon scoring well. Known as "NoRecover" internally.
 
 Sudden Death: Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a note you fail.
 
-**Note**: Some versions/variants implements custom LIFE GAUGE changes in the _Preferences.ini_ or _stepmania.ini_ on earlier versions, that may be changed by the user.
+**Note**: Some versions/variants implement custom LIFE GAUGE changes that alterate PRESSURE and SUDDENDEATH in the _Preferences.ini_ or _stepmania.ini_ on earlier versions, that may be changed by the user.
 
 # Battery Lives
 
