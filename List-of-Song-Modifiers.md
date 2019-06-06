@@ -210,6 +210,8 @@ No Recover: Don't recover life upon scoring well.
 
 Sudden Death: Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a note you fail.
 
+**Note**: Some versions/variants implements custom LIFE GAUGE changes in the _Preferences.ini_ or _stepmania.ini_ on earlier versions, that may be changed by the user.
+
 # Battery Lives
 
 Self explanatory. 
