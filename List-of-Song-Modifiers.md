@@ -206,11 +206,11 @@ Attack Mines: Hitting mine notes adds a random modifier during gameplay that dec
 
 ## Gauge Drain
 
-NORMAL: Self explanatory. Known as "Normal-Drain" internally.
-
-PRESSURE: Don't recover life upon scoring well. Known as "NoRecover" internally.
-
-Sudden Death: Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a note you fail.
+| Name | Function name | Description |
+| ----------- | ------------- | ----------- |
+| NORMAL | Normal-Drain | Self explanatory. |
+| PRESSURE | NoRecover | Don't recover life upon scoring well. |
+| Sudden Death | SuddenDeath | Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a note you fail. |
 
 **Note**: Some versions/variants implement custom LIFE GAUGE changes that alterate PRESSURE and SUDDENDEATH in the _Preferences.ini_ or _stepmania.ini_ on earlier versions, that may be changed by the user.
 
