@@ -12,7 +12,14 @@ Sets default stroke color. (e.g. #00000000)
 
 # [main]
 ### import
-Imports a font page into the current font.
+Imports a font page into the current font. This is useful when you want to import a button character font without having to combine the images together.
+
+Example usage:
+```ini
+import=_game chars 16px
+```
+Where `_game chars 16px` is the name of another font ini file.
+
 
 ## (per-page)
 ### DrawExtraPixelsLeft
