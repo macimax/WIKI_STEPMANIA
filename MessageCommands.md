@@ -57,6 +57,10 @@ Broadcast when a MusicWheelItem is being set with new information, such as when 
 | Index | The index of the MusicWheelItem that was just set. | int |
 | HasFocus | If the MusicWheelItem is focused or not. | boolean |
 | Text | The name of the song group this MusicWheelItem is from? | String |
+| DrawIndex | ??? | int |
+| Type | The type of the item, as a string | WheelItemDataType enum? |
+| Color | The color of this item. Colors are set by preferred sort or metrics. | ??? |
+| Label | ??? | ??? |
 
 
 ### CurrentStepsPXChangedMessageCommand
