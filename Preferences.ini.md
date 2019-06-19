@@ -149,6 +149,11 @@ The default modifier, per gamemode.
 
 # Timing Windows
 
+## AllowW1
+Allow the tightest timing window, usually called Fantastic or Marvelous.
+
+Possible values are AllowW1_Everywhere, AllowW1_CoursesOnly, AllowW1_Never.
+
 ## TimingWindowAdd
 Add to each timing window?
 
