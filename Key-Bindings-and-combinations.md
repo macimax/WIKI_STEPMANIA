@@ -89,6 +89,13 @@ Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Support
 | (no default combo) | Dark | You know what this does. |
 | (no default combo) | Hidden | You know what this does. |
 | (no default combo) | RandomVanish | You know what this does. |
+| (no default combo) | NextTheme **(DEPRECIATED)** | Cycles to the next theme. |
+| (no default combo) | NextTheme2 **(DEPRECIATED)** | Cycles to the next theme. |
+| (no default combo) | NextAnnouncer **(DEPRECIATED)** | Cycles to the next announcer. |
+| (no default combo) | NextAnnouncer2 **(DEPRECIATED)** | Cycles to the next announcer. |
+| (no default combo) | BackInEventMode | ??? |
+| (no default combo) | PrevOptionsList | Goes to the previous options list menu, if UseOptionsList is enabled on the music select screen metrics. |
+| (no default combo) | NextOptionsList | Goes to the next options list menu, if UseOptionsList is enabled on the music select screen metrics. |
 
 # Evaluation Screen
 
