@@ -132,6 +132,9 @@ Def.BitmapText{
 # MeterDisplay
 # Model
 Class that loads models.
+## Materials, Meshes,Bones
+The Materials, Meshes, and Bones for the model of course. The full path must be supplied.
+
 # ModIconRow
 # PaneDisplay
 # PercentageDisplay
