@@ -1,7 +1,7 @@
 Under construction
 
 ## **Updated "Custom" Unlock System**
-**### Step 1) Locking**
+### **Step 1) Locking**
 In your metrics.ini file you need to tell the theme what songs are unlocks. Under **[UnlockManager]** add the following:
 
 `[UnlockManager]`
@@ -9,7 +9,8 @@ In your metrics.ini file you need to tell the theme what songs are unlocks. Unde
 `UnlockNames="1,2"`
 `Unlock1Command=song,"DDR 4thMIX/.59";require,"UnlockRequirement_StagesCleared",0`
 `Unlock2Command=song,"DDR 2ndMIX/MAKE IT BETTER (So-REAL Mix)";require,"UnlockRequirement_StagesCleared",0`
-**### Explaination)**
+
+### **Explaination)**
 Now, with the example above, it's locking **.59** from **4thMIX** and **MAKE IT BETTER (So-REAL Mix)** from **2ndMIX**.
 
 The way these lines work is you need to identify them with the **UnlockNames** line. Whatever goes between the words **Unlock** and **Command** is what you put where the example has **"1,2"**. Using numbers helps so when you're setting what songs to unlock later, you can know which one you're unlocking without needing a long text line.
