@@ -1,6 +1,6 @@
 Under construction
 
-## **Updated "Custom" Unlock System**
+# **Updated "Custom" Unlock System**
 ### **Step 1) Locking**
 In your metrics.ini file you need to tell the theme what songs are unlocks. Under **[UnlockManager]** add the following:
 
@@ -65,6 +65,8 @@ This line locks or keeps locked the song if the requirements are not met. This i
 ------------
 
 
+
+# **Built In Unlock System (Original)**
 
 # Step 1.
 Copy and paste the [UnlockManager] section from _fallback into the metrics.ini of your theme somewhere, such as below `[Common]`.
