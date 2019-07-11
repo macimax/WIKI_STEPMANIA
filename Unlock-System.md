@@ -1,16 +1,20 @@
+
 Under construction
 
-# **Updated "Custom" Unlock System**
-### **Step 1) Locking**
+# Updated "Custom" Unlock System
+
+## Step 1.  Locking
 In your metrics.ini file you need to tell the theme what songs are unlocks. Under **[UnlockManager]** add the following:
 
-`[UnlockManager]`
-`AutoLockChallengeSteps=false`
-`UnlockNames="1,2"`
-`Unlock1Command=song,"DDR 4thMIX/.59";require,"UnlockRequirement_StagesCleared",0`
-`Unlock2Command=song,"DDR 2ndMIX/MAKE IT BETTER (So-REAL Mix)";require,"UnlockRequirement_StagesCleared",0`
+```ini
+[UnlockManager]
+AutoLockChallengeSteps=false
+UnlockNames="1,2"
+Unlock1Command=song,"DDR 4thMIX/.59";require,"UnlockRequirement_StagesCleared",0
+Unlock2Command=song,"DDR 2ndMIX/MAKE IT BETTER (So-REAL Mix)";require,"UnlockRequirement_StagesCleared",0
+```
 
-### **Explaination)**
+### Explanation
 Now, with the example above, it's locking **.59** from **4thMIX** and **MAKE IT BETTER (So-REAL Mix)** from **2ndMIX**.
 
 The way these lines work is you need to identify them with the **UnlockNames** line. Whatever goes between the words **Unlock** and **Command** is what you put where the example has **"1,2"**. Using numbers helps so when you're setting what songs to unlock later, you can know which one you're unlocking without needing a long text line.
@@ -21,60 +25,78 @@ It doesn't matter what the requirement is because SM5 doesn't automatically unlo
 
 So now if you close SM5 and reopen it, you'll notice that the songs you've listed are now hidden/locked on your music select screen.
 
-**IMPORTANT NOTE:** If you edit the **[UnlockManager]** lines in the **metrics.ini** you need to restart SM rather than just pressing F2 for the metrics to reload. The songs get locked while the songs are being cached before the game fully boots up. So they won't lock if you don't restart the game (if it's already open that is).
+**IMPORTANT NOTE:** If you edit the **[UnlockManager]** lines in your **Metrics.ini** you'll need to restart SM rather than just pressing F2 for the metrics to reload. The songs get locked while the songs are being cached before the game fully boots up. So they won't lock if you don't restart the game (if it's already open that is).
 
-### **Step 2) Unlocking**
+## Step 2.  Unlocking
 In your themes folder under **BGAnimations\ScreenSelectMusic in** (you could do this elsewhere but this is where we're doing it for this example). Add the following in the default.lua:
 
-`if (PROFILEMAN:GetProfile(PLAYER_1):GetNumTotalSongsPlayed() >= 10) or (PROFILEMAN:GetProfile(PLAYER_2):GetNumTotalSongsPlayed() >= 10) then`
-	`UNLOCKMAN:UnlockEntryID('1');`
-`else`
-	`UNLOCKMAN:LockEntryID('1');`
-`end;`
+```lua
+if (PROFILEMAN:GetProfile(PLAYER_1):GetNumTotalSongsPlayed() >= 10)
+or (PROFILEMAN:GetProfile(PLAYER_2):GetNumTotalSongsPlayed() >= 10) 
+then
+	UNLOCKMAN:UnlockEntryID('1')
+else
+	UNLOCKMAN:LockEntryID('1')
+end
+```
 
-`if (PROFILEMAN:GetProfile(PLAYER_1):GetNumTotalSongsPlayed() >= 20) or (PROFILEMAN:GetProfile(PLAYER_2):GetNumTotalSongsPlayed() >= 20) then`
-	`UNLOCKMAN:UnlockEntryID('2');`
-`else`
-	`UNLOCKMAN:LockEntryID('2');`
-`end;`
+```lua
+if (PROFILEMAN:GetProfile(PLAYER_1):GetNumTotalSongsPlayed() >= 20) 
+or (PROFILEMAN:GetProfile(PLAYER_2):GetNumTotalSongsPlayed() >= 20) 
+then
+	UNLOCKMAN:UnlockEntryID('2')
+else
+	UNLOCKMAN:LockEntryID('2')
+end
+```
 
-**### Explaination)**
+### Explanation
 In this example these lines of code now unlock the songs based off number of songs played on the currently loaded profiles and locks the songs if they number of songs haven't been met. This is a long way to code it so you could make it more concise.
 
-The break down for the code is as follows:
-**if (PROFILEMAN:GetProfile(PLAYER_1):GetNumTotalSongsPlayed() >= ##) or (PROFILEMAN:GetProfile(PLAYER_2):GetNumTotalSongsPlayed() >= ##) then**
+The breakdown for the code is as follows:
 
-This line checks if Player 1's profile _OR_ Player 2's profile have played greater than or equal to the number of songs you want to set as the songs unlock requirement.
+```lua
+if (PROFILEMAN:GetProfile(PLAYER_1):GetNumTotalSongsPlayed() >= ##) 
+or (PROFILEMAN:GetProfile(PLAYER_2):GetNumTotalSongsPlayed() >= ##) 
+then
+```
 
-In terms of the way these unlock, you're free check for whatever here - you could check for number of calories burnt, number of songs played, total jumps made by the player etc. Pretty much anything you can pull from the **PROFILE MANAGER (PROFILEMAN)** or elsewhere. This opens up a world of possibilities for an unlocking system and doesn't hold us back with just the few unlock options listed in the lua doc in the github.
+This condition checks if Player 1's profile _OR_ Player 2's profile have played greater than or equal to the number of songs you want to set as the songs unlock requirement.
+
+In terms of the way these unlock, you're free check for whatever here - you could check for number of calories burnt, number of songs played, total jumps made by the player etc. Pretty much anything you can pull from the **PROFILE MANAGER (PROFILEMAN)** or elsewhere. This opens up a world of possibilities for an unlocking system and doesn't hold us back with just the few unlock options currently provided by the StepMania engine through UNLOCKMAN.
 
 For example, if you placed this code on the Evaluation screen, you could even show what song was unlocked by the player. So the options and features you could tie to this are plentiful.
 
 ------------
 
-**UNLOCKMAN:UnlockEntryID('#');**
+```lua
+UNLOCKMAN:UnlockEntryID('#')
+```
 
-This line unlocks the unlock ID that we set back in the metrics.ini. This makes the song available if Player 1 or Player 2 have hit the milestone.
-
-------------
-
-**UNLOCKMAN:LockEntryID('#');**
-
-This line locks or keeps locked the song if the requirements are not met. This is an important line as if you set the song as "unlocked", it will remain unlocked until you lock it again, so if Player 1 for example unlocks it and you don't have the "lock" command here it will remain unlocked for any player, even if they haven't passed the milestone. So to keep it locked for each profile till they unlock it themselves, set this.
+This line unlocks the unlock ID that we set back in your Metrics.ini. This makes the song available if Player 1 or Player 2 have hit the milestone.
 
 ------------
 
+```lua
+UNLOCKMAN:LockEntryID('#')
+```
+
+This line locks the song if the requirements are not met.  If the song was already locked, it will stay locked.  This is an important line because once you set the song as "unlocked", it will remain unlocked until you lock it again.  So, if Player 1 unlocks it and you don't have the "lock" command here, it will remain unlocked for all players, even if they haven't passed the milestone.  This code is one strategy for keeping a song locked for each individual player until they meet the requirement themselves.
+
+------------
 
 
-# **Built In Unlock System (Original)**
 
-# Step 1.
-Copy and paste the [UnlockManager] section from _fallback into the metrics.ini of your theme somewhere, such as below `[Common]`.
+# Built In Unlock System (Original)
 
-# Step 2
+## Step 1.
+Copy and paste the [UnlockManager] section from _fallback into the Metrics.ini of your theme somewhere, such as below `[Common]`.
+
+## Step 2
 You can already see some examples of its usage in the section, but to start off, add a name to the `UnlockNames` field. Then use that name to make an unlock command for the song or course you want to lock.
 
 For example:
+
 ```ini
 UnlockNames="Unlock1"
 Unlock1Command=song,"Pledge";require,"UnlockRequirement_ArcadePoints",500
