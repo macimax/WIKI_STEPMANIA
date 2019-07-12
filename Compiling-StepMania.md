@@ -193,3 +193,11 @@ The above `cmake` command will generate a release build of StepMania that will b
 ```
 cmake -G Xcode -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release ..
 ```
+
+By default, the Xcode project is set to the Debug build configuration. If you want to build the Release version of StepMania:
+1. Go to **Product > Scheme** and select **StepMania**
+2. Go back to **Product > Scheme** and select **Edit Scheme...**
+3. For the **Run** action, change the **Build Configuration** to **Release**
+4. Uncheck **Debug executable**
+5. Finally, go to **Product > Build For** and select **Running**.
+6. StepMania.app should appear within the root directory of the repository.
