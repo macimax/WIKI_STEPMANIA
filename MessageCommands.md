@@ -15,7 +15,7 @@ Many more global commands can be found by looking at MessageManager.cpp in the s
 # GameSoundManager
 (This is mostly global, but it's only really usable during gameplay or if you've configured your theme's audio to align to the beat)
 
-## CrossedBeat
+## BeatCrossed
 
 | Parameters | Description | Return Type |
 | ---------- | ----------- | ----------- |
