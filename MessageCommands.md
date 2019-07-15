@@ -5,17 +5,39 @@ Non MessageCommands are located at https://github.com/stepmania/stepmania/wiki/A
 Note: This list is incomplete. All commands are suffixed with MessageCommand when used in an actor, this is omitted for readability.
 
 # Universal MessageCommands
+Many more global commands can be found by looking at [MessageManager.cpp](https://github.com/stepmania/stepmania/blob/5_1-new/src/MessageManager.cpp) in the source.
 
+### ScreenChanged
+Broadcast when the screen changes, of course. Useful if you use SCREENMAN:AddNewScreenToTop()
+
+### UpdateScreenHeader
+
+### PlayerJoined
+
+### PlayerUnjoined
+
+### MenuSelectionChanged
+
+### CoinsChanged
+
+### PlayModeChanged
+
+### CurrentStyleChanged
+
+### CurrentGameChanged
+Since changing the game restarts the theme, this messagecommand is useless.
+
+## Memory Card Related
 ### StorageDevicesChanged
 
 Executed when the state of a memory card changes. (Refer to the MemoryCardState Enum for more info)
 
-Many more global commands can be found by looking at MessageManager.cpp in the source.
+### CardRemovedP1 & CardRemovedP2
 
-# GameSoundManager
+## GameSoundManager
 (This is mostly global, but it's only really usable during gameplay or if you've configured your theme's audio to align to the beat)
 
-## BeatCrossed
+### BeatCrossed
 
 | Parameters | Description | Return Type |
 | ---------- | ----------- | ----------- |
@@ -63,11 +85,15 @@ Also probably works in ScreenSelectCourse. Triggered when steps are changed. Nee
 
 params.Player is always PLAYER_1 or PLAYER_2 and params.Direction is always 1 or -1.
 
+### PreferredSongGroupChanged
+
 ## ScreenSelectCourse
 
 ### CurrentCourseChanged
 
 Self explanatory.
+
+### PreferredCourseGroupChanged
 
 ### CurrentTrailPXChanged
 
