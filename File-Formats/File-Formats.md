@@ -13,3 +13,7 @@ Other formats that StepMania can recognize that are useful to know:
 * [CRS](Courses) - Courses
 * [LRC](lrc) - Lyrics
 * [REDIR](https://github.com/stepmania/stepmania/wiki/REDIR) - Theme redirects
+
+INI is also used for various theme elements:
+* [Fonts](https://github.com/stepmania/stepmania/wiki/Fonts)
+* Metrics.ini
