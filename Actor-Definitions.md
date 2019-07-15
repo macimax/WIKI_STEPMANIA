@@ -1,4 +1,4 @@
-A list of classes and what constructors they take. All classes are prefixed with `Def.` when used in a lua file.
+A list of classes and what constructors and commands they take. All classes are prefixed with `Def.` when used in a lua file.
 
 # Universal
 These constructors & commands can be used in ANY class.
@@ -103,6 +103,14 @@ TransformFunction=function(self,offset,itemIndex,numItems)
     self:y(32*offset)
 end,
 ```
+## GainFocusCommand
+
+Triggered when the ActorScroller is selected. Can be used in any child item of the ActorScroller.
+
+## LoseFocusCommand
+
+Triggered when the ActorScroller is deselected. Can be used in any child item of the ActorScroller.
+
 # ActorSound
 # Banner
 # BGAnimation
