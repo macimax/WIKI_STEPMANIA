@@ -53,6 +53,8 @@ Theming Help
 
 [MessageCommands](https://github.com/stepmania/stepmania/wiki/MessageCommands)
 
+[Commands & Constructors](https://github.com/stepmania/stepmania/wiki/Actor-Definitions)
+
 Programming Help
 ------------
 [Compiling StepMania](https://github.com/stepmania/stepmania/wiki/Compiling-StepMania)
