@@ -1,5 +1,7 @@
 A list of classes and what constructors and commands they take. All classes are prefixed with `Def.` when used in a lua file.
 
+Usually you would use LoadActor(), which loads the correct actor for you.
+
 # Universal
 These constructors & commands can be used in ANY class.
 
@@ -222,7 +224,7 @@ The color of the closest zero to the number. For example, if you were to make Le
 # SongMeterDisplay
 # Sound
 # Sprite
-Sprite class for displaying static or animated sprites.
+Sprite class for displaying static or animated sprites. Will also play video files.
 ## Texture
 Sets the texture of the sprite.
 # StepsDisplay
