@@ -1,7 +1,33 @@
 A list of classes and what constructors they take. All classes are prefixed with `Def.` when used in a lua file.
 
 # Universal
-These constructors can be used in ANY class.
+These constructors & commands can be used in ANY class.
+
+## InitCommand
+
+Executed before the screen displays it's 'on' state. Useful for positioning your graphic.
+
+## OnCommand
+
+Executed as the screen is displayed. Useful for animations as the player enters a screen. Note that if StepMania has to process something during this screen the render thread will not update, so if you're planning on doing a heavy operation you should create a static screen using InitCommands instead.
+
+## OffCommand
+
+Executed as the screen is being exited (Ex: Player picked a choice in a menu)
+
+## AnimationFinishedCommand
+
+Executed when your animation is finished (If you have one)
+
+## CodeMessageCommand
+
+Executed when any button is pressed. You must have CodeNames set in the respective screen in metrics.ini for this to function correctly.
+
+| Parameters | Description | Return Type |
+| ---------- | ----------- | ----------- |
+| Name | the name of the code you specified. So if you have `Codeleft="Left"` in metrics.ini and you press left, params.Name would be "left" | String (CodeName) |
+| PlayerNumber | PLAYER_1 or PLAYER_2 | String (PlayerNumber) |
+
 ## Condition
 If this evaluates to false, the actor will not be created.
 Example:
