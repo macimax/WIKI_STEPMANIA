@@ -1,39 +1,25 @@
-Below is a list of commands you can use inside Actors. They're also usable in ActorFrames, although not every function that works on an Actor will work on an ActorFrame.
+Below is a list of MessageCommands you can use inside Actors.
 
-Note: This list is incomplete.
+Non MessageCommands are located at https://github.com/stepmania/stepmania/wiki/Actor-Definitions
 
-# Universal Commands
+Note: This list is incomplete. All commands are suffixed with MessageCommand when used in an actor, this is omitted for readability.
 
-### InitCommand
+# Universal MessageCommands
 
-Executed before the screen displays it's 'on' state. Useful for positioning your graphic.
-
-### OnCommand
-
-Executed as the screen is displayed. Useful for animations as the player enters a screen. Note that if StepMania has to process something during this screen the render thread will not update, so if you're planning on doing a heavy operation you should create a static screen using InitCommands instead.
-
-### OffCommand
-
-Executed as the screen is being exited (Ex: Player picked a choice in a menu)
-
-### AnimationFinishedCommand
-
-Executed when your animation is finished (If you have one)
-
-### CodeMessageCommand
-
-Executed when any button is pressed. You must have CodeNames set in the respective screen in metrics.ini for this to function correctly.
-
-| Parameters | Description | Return Type |
-| ---------- | ----------- | ----------- |
-| Name | the name of the code you specified. So if you have `Codeleft="Left"` in metrics.ini and you press left, params.Name would be "left" | String (CodeName) |
-| PlayerNumber | PLAYER_1 or PLAYER_2 | String (PlayerNumber) |
-
-### StorageDevicesChangedMessageCommand
+### StorageDevicesChanged
 
 Executed when the state of a memory card changes. (Refer to the MemoryCardState Enum for more info)
 
 Many more global commands can be found by looking at MessageManager.cpp in the source.
+
+# GameSoundManager
+(This is mostly global, but it's only really usable during gameplay or if you've configured your theme's audio to align to the beat)
+
+## CrossedBeat
+
+| Parameters | Description | Return Type |
+| ---------- | ----------- | ----------- |
+| Beat | The current beat. | float? Maybe int? |
 
 # Screen Specific
 
@@ -41,7 +27,7 @@ Many more global commands can be found by looking at MessageManager.cpp in the s
 
 Note: You can probably find more in ScreenSelectMusic.cpp by checking what is broadcasted to MESSAGEMAN.
 
-### SetMessageCommand
+### Set
 This command also works in Course mode.
 
 Broadcast when a MusicWheelItem is being set with new information, such as when scrolling up and down. Can access parameters using SetMessageCommand=function(self, params)
@@ -59,19 +45,19 @@ Broadcast when a MusicWheelItem is being set with new information, such as when 
 | Label | ??? | ??? |
 
 
-### CurrentStepsPXChangedMessageCommand
+### CurrentStepsPXChanged
 
 Replace 'X' with either 1 or 2 (for the player number). Triggered when the currently selected steps change, whether it be by changing the difficulty or selecting another song.
 
-### CurrentSongChangedMessageCommand
+### CurrentSongChanged
 
 Self explanatory.
 
-### PreviousSongMessageCommand or NextSongMessageCommand
+### PreviousSong or NextSong
 
 Triggered when the player selects a different song in the songwheel by tapping left or right.
 
-### ChangeStepsMessageCommand
+### ChangeSteps
 
 Also probably works in ScreenSelectCourse. Triggered when steps are changed. Need to check player & direction using ChangeStepsMessageCommand=function(self, params) then params.Player and params.Direction.
 
@@ -79,11 +65,11 @@ params.Player is always PLAYER_1 or PLAYER_2 and params.Direction is always 1 or
 
 ## ScreenSelectCourse
 
-### CurrentCourseChangedMessageCommand
+### CurrentCourseChanged
 
 Self explanatory.
 
-### CurrentTrailPXChangedMessageCommand
+### CurrentTrailPXChanged
 
 Replace 'X' with either 1 or 2 (for the player number). Triggered when the Trail is changed. Might work in other screens?
 ## OptionsList
@@ -181,7 +167,7 @@ Triggered when a selection on a SelectMultiple row is changed.
 
 ## ScreenGameplay
 
-### LifeChangedMessageCommand
+### LifeChanged
 
 Activated whenever a player's life changes.
 
@@ -191,7 +177,7 @@ Activated whenever a player's life changes.
 | LifeMeter | Amount of life in a decimal from 0 to 1 |
 
 If the lifebar is type is battery it will also have LivesLeft and LostLife.
-### HealthStateChangedMessageCommand
+### HealthStateChanged
 
 Activated whenever a player's health state changes...
 
@@ -201,14 +187,14 @@ Activated whenever a player's health state changes...
 | HealthState | A HealthState Enum, which is either `HealthState_Hot`, `HealthState_Alive`, `HealthState_Danger`, or `HealthState_Dead`. |
 | OldHealthState | self explanatory. |
 
-### PlayerFailedMessageCommand
+### PlayerFailed
 This one's obvious.
 
 | Parameters | Description |
 | ---------- | ----------- |
 | PlayerNumber | Either PLAYER_1 or PLAYER_2 |
 
-### ScoreChangedMessageCommand
+### ScoreChanged
 
 Activated whenever a player's score changes. Params include PlayerNumber and MultiPlayer, but can also include ToastyCombo in certain cases.
 
@@ -216,7 +202,7 @@ Activated whenever a player's score changes. Params include PlayerNumber and Mul
 | ---------- | ----------- |
 | PlayerNumber | Either PLAYER_1 or PLAYER_2 |
 | MultiPlayer | ??? |
-### JudgmentMessageCommand
+### Judgment
 Triggered when a judgment happens, either because a player stepped on a note or they completely missed it.
 
 | Parameters | Description |
@@ -228,7 +214,7 @@ Triggered when a judgment happens, either because a player stepped on a note or 
 | TapNoteOffset | Offset of the judgement |
 | HoldNoteScore | The HoldNoteScore |
 
-### ComboChangedMessageCommand
+### ComboChanged
 
 Activated whenever a combo changes.
 
@@ -240,7 +226,7 @@ Activated whenever a combo changes.
 | PlayerState | An instance of PlayerState. This may not always be present. |
 | PlayerStageStats | An instance of PlayerStageStats. This may not always be present. |
 
-### ToastyAchievedMessageCommand
+### ToastyAchieved
 
 | Parameters | Description |
 | ---------- | ----------- |
@@ -248,28 +234,17 @@ Activated whenever a combo changes.
 | ToastyCombo | ??? |
 | Level | ??? |
 
-### ToastyDroppedMessageCommand
+### ToastyDropped
 
 | Parameters | Description |
 | ---------- | ----------- |
 | PlayerNumber | Either PLAYER_1 or PLAYER_2 |
-### DoneLoadingNextSongMessageCommand
+### DoneLoadingNextSong
 
 Unknown, might be triggered during course mode
 
-
 ## ScreenNameEntryTraditional
 
-### MenuTimerExpiredMessageCommand
+### MenuTimerExpired
 
 Triggered when the timer reaches 0. (Why this even exists is unknown)
-
-# ActorScroller specific
-
-### GainFocusCommand
-
-Triggered when the ActorScroller is selected
-
-### LoseFocusCommand
-
-Triggered when the ActorScroller is deselected
