@@ -44,15 +44,6 @@ Executed as the screen is being exited (Ex: Player picked a choice in a menu)
 
 Executed when your animation is finished (If you have one)
 
-## CodeMessageCommand
-
-Executed when any button is pressed. You must have CodeNames set in the respective screen in metrics.ini for this to function correctly.
-
-| Parameters | Description | Return Type |
-| ---------- | ----------- | ----------- |
-| Name | the name of the code you specified. So if you have `Codeleft="Left"` in metrics.ini and you press left, params.Name would be "left" | String (CodeName) |
-| PlayerNumber | PLAYER_1 or PLAYER_2 | String (PlayerNumber) |
-
 ## Condition
 If this evaluates to false, the actor will not be created.
 Example:
