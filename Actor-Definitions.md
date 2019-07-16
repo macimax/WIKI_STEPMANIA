@@ -237,6 +237,10 @@ The color of the closest zero to the number. For example, if you were to make Le
 The file for this sound to load.
 ## SupportPan
 set to `true` or `false`, defaults to false if omitted. When set to `true` the command `playforplayer()` is usable.
+## SupportRateChanging
+set to `true` or `false`, defaults to false if omitted. When set to true the RageSound can be adjusted.
+## IsAction
+set to `true` or `false`, defaults to false if omitted. When set to true it will be muted if MuteActions is on.
 # Sprite
 Sprite class for displaying static or animated sprites. Will also play video files.
 ## Texture
