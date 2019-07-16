@@ -1,6 +1,29 @@
-A list of classes and what constructors and commands they take. All classes are prefixed with `Def.` when used in a lua file.
+A list of classes and what constructors and commands they take.
 
-Usually you would use LoadActor(), which loads the correct actor for you.
+There are three ways of loading classes:
+1. `LoadActor()`, which chooses the correct class and loads the file for you. In this example "Graphics/Reimu.png" is being loaded and LoadActor is choosing to load it as a Sprite class. (The .png on the end is not necessary, SM will pick the closest file name.)
+```lua
+LoadActor(THEME:GetPathG("","Reimu.png"))..{
+    InitCommand=cmd(zoom,0.3;addy,2;animate,false);
+};
+```
+2. Prefixing the class name with with `Def.` when used in a lua file, then using one of the constructors listed below.
+```lua
+Def.Sprite{
+    Texture=THEME:GetPathG("","Reimu");
+    InitCommand=cmd(zoom,0.3;addy,2;animate,false);
+};
+```
+3. Using the `Class` constructor.
+
+Example:
+```lua
+{
+    Class=Sprite,
+    Texture=THEME:GetPathG("","Reimu"),
+    InitCommand=cmd(Center)
+}
+```
 
 # Universal
 These constructors & commands can be used in ANY class.
