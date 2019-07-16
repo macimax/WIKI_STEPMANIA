@@ -40,10 +40,6 @@ Executed as the screen is displayed. Useful for animations as the player enters 
 
 Executed as the screen is being exited (Ex: Player picked a choice in a menu)
 
-## AnimationFinishedCommand
-
-Executed when your animation is finished (If you have one)
-
 ## Condition
 If this evaluates to false, the actor will not be created.
 Example:
@@ -245,6 +241,11 @@ set to `true` or `false`, defaults to false if omitted. When set to `true` the c
 Sprite class for displaying static or animated sprites. Will also play video files.
 ## Texture
 Sets the texture of the sprite.
+
+## AnimationFinishedCommand
+
+Executed when your animation is finished (If this is an animated sprite)
+
 # StepsDisplay
 # StepsDisplayList
 # TextBanner
