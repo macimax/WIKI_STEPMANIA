@@ -19,7 +19,7 @@ Another example:
 #METER:Medium:8;
 
 #MODS:
-	TIME:1.00:END:50.00:MODS:C150;
+	TIME=1.00:END=50.00:MODS=C150;
 #SONG:In The Groove/Dawn:Overhead;
 #SONG:In The Groove/Mouth:;
 #SONG:In The Groove 2/Funk Factory:;
@@ -107,21 +107,26 @@ To add [Modifiers](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modi
 Modifiers can be assigned in a variety of formats, the most effective three being the following:
 
 1. Repeated Modifier Block w/ Length:
-```#MODS:TIME:0.500:LEN:0.500:MODS:2x;
-#MODS:TIME:1.500:LEN:0.500:MODS:0.5x;
+```
+#MODS:TIME=0.500:LEN=0.500:MODS=2x;
+#MODS:TIME=1.500:LEN=0.500:MODS=0.5x;
 ```
 2. Nested Modifier Block w/ Length:
 ```
 #MODS:
-	TIME:0.500:LEN:0.500:MODS:2x;
-	TIME:1.500:LEN:0.500:MODS:0.5x;
+	TIME=0.500:LEN=0.500:MODS=2x;
+	TIME=1.500:LEN=0.500:MODS=0.5x;
 ```
 3. Nested Modifier Block w/ Ends:
 ```
 #MODS:
-	TIME:0.500:END:1.000:MODS:2x;
-	TIME:1.500:END:1.500:MODS:0.5x;
+	TIME=0.500:END=1.000:MODS=2x;
+	TIME=1.500:END=1.500:MODS=0.5x;
 ```
+
+Multiple mods can be assigned like this:
+
+`#MODS:TIME=0.000:END=300.000:MODS=*2 2x,Metal,Overhead,-1000% Cover,*4 90% Mini;`
 
 # Some information for themers
 
