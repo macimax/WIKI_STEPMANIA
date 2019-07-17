@@ -139,7 +139,7 @@ LoadFont("Common Normal")..{
 };
 ```
 ## Font
-Sets the font file using a font from the Fonts folder of your theme. Example:
+Sets the font file using a font from the Fonts folder of your theme. Example which is functionally identical to the above LoadFont():
 ```lua
 Def.BitmapText{
     Font="Common Normal";
@@ -149,6 +149,8 @@ Def.BitmapText{
 ```
 ## File
 The same as Font except you have to provide a full path. (This has been depreciated for years, but it still hasn't been removed. At this point it's unlikely to ever get removed so you're probably fine to continue using it.)
+
+LoadFont() uses this internally.
 
 Example:
 ```lua
@@ -261,6 +263,21 @@ Def.Sprite{
 	}
 },
 ```
+Alternative example with the third and fourth arguments supplied:
+```lua
+{
+{Frame= 0, Delay= .016, {0, 0}, {.25, .25}},
+{Frame= 1, Delay= .016, {0, 0}, {.25, .25}},
+{Frame= 2, Delay= .016, {0, 0}, {.25, .25}},
+{Frame= 3, Delay= .016, {0, 0}, {.25, .25}},
+}
+```
+Frame is optional, defaulting to 0.
+
+Delay is optional, defaulting to 0.
+
+The two tables are optional upper left and lower right corners of the fraction of the frame to use.  The example makes the sprite only use the upper left corner of each frame.
+
 Normally one would use the command 'SetAllStateDelays' if their sprite has the same delay for each frame of animation instead of using the Frames constructor.
 
 ## AnimationFinishedCommand
