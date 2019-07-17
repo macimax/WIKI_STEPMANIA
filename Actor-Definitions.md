@@ -245,6 +245,23 @@ set to `true` or `false`, defaults to false if omitted. When set to true it will
 Sprite class for displaying static or animated sprites. Will also play video files.
 ## Texture
 Sets the texture of the sprite.
+## Frames
+A table containing the frame rate of your animated sprite. For example:
+```lua
+Def.Sprite{
+	Name= "title",
+	Texture= "Idle 11x1",
+	Frames= {
+		{Frame= 0, Delay= 0.025},
+		{Frame= 1, Delay= 0.03},
+		{Frame= 2, Delay= 0.025},
+		{Frame= 3, Delay= 0.03},
+		{Frame= 4, Delay= 0.025},
+		{Frame= 5, Delay= 0.03},
+	}
+},
+```
+Normally one would use the command 'SetAllStateDelays' if their sprite has the same delay for each frame of animation instead of using the Frames constructor.
 
 ## AnimationFinishedCommand
 
