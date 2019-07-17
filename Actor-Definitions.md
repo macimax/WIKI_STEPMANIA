@@ -1,6 +1,6 @@
 A list of classes and what constructors and commands they take.
 
-**If you are looking for function commands and not InitCommand, OnCommand, etc then open the Docs/Luadoc/Lua.xht file in
+**If you are looking for functions and not InitCommand, OnCommand, etc then open the Docs/Luadoc/Lua.xht file included with your StepMania installation.**
 
 There are three ways of loading classes:
 1. `LoadActor()`, which chooses the correct class and loads the file for you. In this example "Graphics/Reimu.png" is being loaded and LoadActor is choosing to load it as a Sprite class. (The .png on the end is not necessary, SM will pick the closest file name.)
