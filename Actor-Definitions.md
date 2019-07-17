@@ -282,6 +282,18 @@ The two tables are optional upper left and lower right corners of the fraction o
 
 Normally one would use the command 'SetAllStateDelays' if their sprite has the same delay for each frame of animation instead of using the Frames constructor.
 
+## FrameXXXX, DelayXXXX
+The old way of setting frames and delays. Replace XXXX with a number. This may be beneficial in some situations because you can actually reuse an existing frame in the sprite. Example:
+```lua
+Def.Sprite{
+    Texture="yukari 10x1.png";
+    Frame0000=7; --Uses frame 7 in the sprite
+    Delay0000=0;
+    Frame0001=1; --Uses frame 1 in the sprite
+    Delay0001=7.884;
+};
+```
+
 ## AnimationFinishedCommand
 
 Executed when your animation is finished (If this is an animated sprite)
