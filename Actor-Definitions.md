@@ -1,6 +1,8 @@
-A list of classes and what constructors and commands they take.
+This is a list of Actor classes available to SM5's Lua API along with the constructors and commands each takes.
 
-**If you are looking for functions and not InitCommand, OnCommand, etc then open the Docs/Luadoc/Lua.xht file included with your StepMania installation or view it online [here](https://dguzek.github.io/Lua-For-SM5/API/Lua.xml)**
+If you are looking for functions specific to each Actor class (i.e., not `InitCommand`, `OnCommand`, etc.), then open the Docs/Luadoc/Lua.xml file included with your StepMania installation or view the [online API docs](http://dguzek.github.io/Lua-For-SM5/LuaAPI).
+
+---
 
 There are three ways of loading classes:
 1. `LoadActor()`, which chooses the correct class and loads the file for you. In this example "Graphics/Reimu.png" is being loaded and LoadActor is choosing to load it as a Sprite class. (The .png on the end is not necessary, SM will pick the closest file name.)
@@ -150,7 +152,7 @@ Def.BitmapText{
 };
 ```
 ## File
-The same as Font except you have to provide a full path. (This has been depreciated for years, but it still hasn't been removed. At this point it's unlikely to ever get removed so you're probably fine to continue using it.)
+The same as Font except you have to provide a full path. (This has been deprecated for years, but it still hasn't been removed. At this point it's unlikely to ever get removed so you're probably fine to continue using it.)  Providing a full path to the font's ini file like this is currently the only way to load a custom Font into a BitmapText actor within the context of a Lua-scripted simfile.
 
 LoadFont() uses this internally.
 
