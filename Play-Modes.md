@@ -5,7 +5,7 @@ The name before the slash is what it's referred to in fallback, the name after t
 ### Normal / Regular
 Your regular play mode, normally with 3 stages, plus an [[Extra Stage]] if the player gets any method used depending on theme (AA on FINAL STAGE in the default theme) (and Extra Stage is enabled), plus a Special Stage (More commonly known as Encore Extra Stage or One More Extra Stage) if the player passes the Extra Stage.
 
-When Event Mode is enabled there are infinite stages, no TOTAL RESULTS and no Extra Stage.
+When Event Mode is enabled there, all stages are unlimited and are renamed EXTRA STAGE, and no TOTAL RESULTS.
 
 Some themes uses this default mode and don't be changed, and some themes use different scoring systems (as ITG, EXTREME, Supernova2, Etc.).
 
