@@ -64,6 +64,9 @@ Select opens options list if metric "UseOptionsList" is true. (Using the select 
 | (no default) | PrevGroup | Jump to previous folder |
 | Up, Down, Up, Down<br>OR<br>MenuUp, MenuDown, MenuUp, MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu |
 | MenuUp-MenuDown | CloseCurrentFolder | Close the current folder |
+
+Some themes use Left+Right for Sort menu instead of Cycle between sorting modes, leaving this function disabled.
+
 ### Modifier codes
 
 Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes#pump) mode, which is where the UpLeft, UpRight, DownLeft, DownRight buttons come from. They don't affect [Dance](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes#dance) mode, so you can ignore them if you don't play Pump mode.
