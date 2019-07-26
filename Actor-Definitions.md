@@ -119,6 +119,10 @@ TransformFunction=function(self,offset,itemIndex,numItems)
     self:y(32*offset)
 end,
 ```
+## ScrollerSubdivision
+Normally the scroller will only calculate the next point for the actor to scroll towards in the TransformFunction. Setting this to a value above 1 will add a point for it to tween towards before stopping at the end point.
+(In English: you can make circular strollers with it.)
+
 ## GainFocusCommand
 
 Triggered when the ActorScroller is selected. Can be used in any child item of the ActorScroller.
