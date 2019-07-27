@@ -172,7 +172,7 @@ sudo apt-get update
 sudo apt-get install antimicro 
 ```
 
-### Mac OS X ###
+### macOS ###
 
 At this time, only generated [Xcode](https://developer.apple.com/xcode/) projects are supported.
 
