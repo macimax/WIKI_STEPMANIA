@@ -32,3 +32,5 @@ Double click _service_register.cmd
 # Step 5. Assign letters in preferences.ini
 
 Refer to the preferences.ini wiki for this, but MAKE SURE the backslash to your drive letter has been replaced with a forward slash.
+
+Or if you're on the latest and greatest 5.1-new, put the letter, the colon, and no slash.
