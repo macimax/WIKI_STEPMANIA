@@ -222,7 +222,7 @@ Self explanatory.
 
 ## Fail type
 
-Immediate: Fail when the lifebar or battery is empty. Known as "FailImmediateContinue" internally.
+Immediate: Fail when the LIFE GAUGE or battery is empty. Known as "FailImmediateContinue" internally.
 
 Delayed:
 
