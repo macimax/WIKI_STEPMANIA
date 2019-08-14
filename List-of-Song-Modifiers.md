@@ -226,10 +226,10 @@ Immediate: Fail when the lifebar or battery is empty. Known as "FailImmediateCon
 
 Delayed:
 
-Fail at end: Fail at the end of the song if your lifebar or battery is empty. Known as "FailAtEnd" internally.
+Fail at end: Fail at the end of the song if your LIFE GAUGE or battery is empty. Known as "FailAtEnd" internally.
 
 Off: You can't fail. Known as "FailOff" internally.
 
-IIDX: This fail type is custom and is in some themes. If your lifebar is <=80% at the end of the song, you will fail. Known as "FailIIDX" internally.
+IIDX: This fail type is custom and is in some themes, and LIFE GAUGE is replaced by GROOVE GAUGE. If your GROOVE GAUGE is <=80% at the end of the song, you will fail. Known as "FailIIDX" internally.
 
 Due to a bug, playing SM 3.9 and variants using "Battery", 4 LIVES or RISKY options will change the fail type to Immediate. 
