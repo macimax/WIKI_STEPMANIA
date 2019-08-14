@@ -7,7 +7,7 @@ Your regular play mode, normally with 3 stages, plus an EXTRA STAGE if the playe
 
 When Event Mode is enabled, all stages are unlimited and are renamed EXTRA STAGE, and no TOTAL RESULTS.
 
-Some themes uses this default mode and don't be changed, and some themes use different scoring systems (as ITG, EXTREME, Supernova2, Etc.).
+Some themes uses this default mode and don't be changed, and some themes use different scoring systems (as ITG, EXTREME, Supernova2, Money Score, Etc.).
 
 Note for players: the Dance Points (or DP) is showned on some themes as EX-SCORE.
 
@@ -27,7 +27,7 @@ Battle against another player or a CPU. A gauge at the top determines who is win
 The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in `Characters\[Character Name Here]\character.ini`.
 
 ### Nonstop
-Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups (examples of theses courses are CLASS grades).
+Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups (examples of theses courses are CLASS grades). Some themes disables access to some or all OPTIONS.
 
 Note for themers: During this mode, you stay in ScreenGameplay until the course ends (or fails) and then you're taken to ScreenEvaluationNormal.
 
