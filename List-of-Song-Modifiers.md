@@ -184,20 +184,20 @@ Holds To Rolls: All holds are changed by rolls.
 
 ## Mines
 
-Off: Removes mine notes.
+Off: Removes negative notes.
 
-On (Default): Mine notes are present. Hitting mine note drains the life bar or removes a life in battery mode.
+On (Default): Negative notes (as mines or SHOCK ARROWS) are present. Hitting negative note drains the LIFE GAUGE or removes a life in battery modes.
 
-Additive: Some tap notes are turned to mine notes, some mine notes are added at the end of holds.
+Additive: Some tap notes are turned to negative notes, some negative notes are added at the end of holds.
 
-Attack Mines: Hitting mine notes adds a random modifier during gameplay that decays instead of draining the life bar or removing a life in battery mode.
+Attack Mines: Hitting negative notes adds a random modifier during gameplay that decays instead of draining the LIFE GAUGE or removing a life in battery modes.
 
 # Extra
 
 ## LIFE GAUGE
 | Name | Function name | Description |
 | ----------- | ------------- | ----------- |
-| Bar | Bar | Normal lifebar type. Known as "Normal" on _DDR_ series. |
+| NORMAL | Bar | Normal lifebar type. Known as "Normal" on _DDR_ series. |
 | Battery | Battery | Miss a note and lose a life. If you run out of lives, you fail the song. |
 | 4 LIVES (Only on some themes) | Battery + 4 lives | You have 4 lives by default. If you run out of lives, you fail the song. |
 | RISKY (Only on some themes) | Battery + 1 life | Miss a note and fail the song. |
