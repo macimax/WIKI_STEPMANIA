@@ -142,7 +142,7 @@ Random Attacks: Randomly add and remove different modifiers during gameplay. Kno
 
 These can be stacked.
 
-Dark: The STEP ZONE (note receptors) are disabled (invisible).
+Dark: The STEP ZONE (or note receptors) is disabled.
 
 Blind: Your combo and judgements are invisible.
 
