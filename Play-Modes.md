@@ -2,7 +2,7 @@ StepMania supports a number of play modes, normally selectable after you pick yo
 
 The name before the slash is what it's referred to in fallback, the name after the slash is the common name.
 
-### Normal / Regular
+### Normal
 Your regular play mode, normally with 3 stages, plus an EXTRA STAGE if the player gets any method used depending on theme (AA on FINAL STAGE in the default theme) (and EXTRA STAGE is enabled), plus a Special Stage (More commonly known as Encore Extra Stage or One More Extra Stage) if the player passes the Extra Stage.
 
 When Event Mode is enabled, all stages are unlimited and are renamed EXTRA STAGE, and no TOTAL RESULTS.
@@ -27,7 +27,7 @@ Battle against another player or a CPU. A gauge at the top determines who is win
 The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in `Characters\[Character Name Here]\character.ini`.
 
 ### Nonstop
-Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups (examples of theses courses are CLASS grades). Some themes disables access to some or all OPTIONS.
+Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups (examples of theses courses are CLASS grades). Some themes disables access to some or all OPTIONS, LIFE GAUGE or difficulties.
 
 Note for themers: During this mode, you stay in ScreenGameplay until the course ends (or fails) and then you're taken to ScreenEvaluationNormal.
 
