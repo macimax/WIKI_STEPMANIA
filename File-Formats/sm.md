@@ -71,7 +71,11 @@ This can be used to override the BPM shown on ScreenSelectMusic. This tag suppor
 * An asterisk (`#DISPLAYBPM:*;`) will show a BPM that randomly changes.
  
 ### \#SELECTABLE
-Determines if the song is selectable under normal conditions. Valid values are `YES` and `NO`. Earlier versions or some variants can support `RO`(ROULETTE) and numbers (1 = FINAL STAGE).
+Determines if the song is selectable from the MusicWheel under normal conditions. Valid values are `YES` and `NO`.  
+
+Players can ignore the \#SELECTABLE tag by setting `HiddenSongs=0` in [Preferences.ini](../Preferences.ini) which will result in all songs always being selectable.  The `HiddenSongs` preference is set to `0` by default with fresh installs of StepMania.
+
+Earlier versions (and forks) of StepMania supported `ROULETTE`, `ES` (Extra Stage), `OMES` (One More Extra Stage) and integers (`1` = FINAL STAGE) as valid values, but these are not supported in SM5 and will have the same effect as `YES`.
  
 ### \#BGCHANGES
 The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear.
