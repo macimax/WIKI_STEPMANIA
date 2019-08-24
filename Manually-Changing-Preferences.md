@@ -18,7 +18,7 @@ SM5.0.x Path: `%appdata%\StepMania 5\Save\Preferences.ini`
 SM5.1-beta Path: `%appdata%\StepMania 5.1\Save\Preferences.ini`
 
 
-## OS X
+## macOS
 
 SM5.0.x Path: `~/Library/Preferences/StepMania 5/Preferences.ini`
 
