@@ -4,7 +4,7 @@
 - Is error reporting enabled? (F3+F6, make sure "show errors" is not greyed out)
 - Make sure this file is not a duplicate of an existing screen, such as a ScreenTitleMenu overlay folder and then a lua file named ScreenTitleMenu overlay.lua.
 
-# "must return an actorframe" error when entering screen
+# "must return an actor" error when entering screen
 You probably forgot to return the ActorFrame table in one of your files.
 
 # "invalid class" or "unknown class" error when entering a screen
