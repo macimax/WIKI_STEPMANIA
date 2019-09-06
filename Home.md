@@ -18,54 +18,39 @@ StepMania accepts a number of command line arguments.
 
 Configuration & Setup
 ------------
-[Manually Changing Preferences](Manually-Changing-Preferences)
-[Installing on macOS](Installing-on-macOS)
-[System requirements](Minimum-Requirements)
-[Linux dependencies](Linux-dependencies)
-[Static mount points for USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
-[Static mount points for USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
+* [Manually Changing Preferences](Manually-Changing-Preferences)
+* [Installing on macOS](Installing-on-macOS)
+* [System requirements](Minimum-Requirements)
+* [Linux dependencies](Linux-dependencies)
+* [Static mount points for USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
+* [Static mount points for USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
 
 Basic Engine Info
 ------------
-[Versions](https://github.com/stepmania/stepmania/wiki/Versions)
-
-[User data locations](https://github.com/stepmania/stepmania/wiki/User-Data-Locations)
-
-[Supported file formats](https://github.com/stepmania/stepmania/wiki/File-Formats)
-
-[Supported games](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
-
-[Play modes](https://github.com/stepmania/stepmania/wiki/Play-Modes)
-
-[Courses](https://github.com/stepmania/stepmania/wiki/Courses)
-
+* [Versions](https://github.com/stepmania/stepmania/wiki/Versions)
+* [User data locations](https://github.com/stepmania/stepmania/wiki/User-Data-Locations)
+* [Supported file formats](https://github.com/stepmania/stepmania/wiki/File-Formats)
+* [Supported games](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
+* [Play modes](https://github.com/stepmania/stepmania/wiki/Play-Modes)
+* [Courses](https://github.com/stepmania/stepmania/wiki/Courses)
 
 Charting Help
 ------------
-[Note types](https://github.com/stepmania/stepmania/wiki/Note-Types)
-
-[Timing segments](https://github.com/stepmania/stepmania/wiki/Timing-Segments)
-
-[Label segments](https://github.com/stepmania/stepmania/wiki/Label-segments)
-
-[Note And Timing Gimmicks](https://github.com/stepmania/stepmania/wiki/Note-and-timing-gimmicks)
-
-[(advanced) NewField Mod System](https://github.com/stepmania/stepmania/wiki/NewField-mod-system)
+* [Note types](https://github.com/stepmania/stepmania/wiki/Note-Types)
+* [Timing segments](https://github.com/stepmania/stepmania/wiki/Timing-Segments)
+* [Label segments](https://github.com/stepmania/stepmania/wiki/Label-segments)
+* [Note And Timing Gimmicks](https://github.com/stepmania/stepmania/wiki/Note-and-timing-gimmicks)
+* [(advanced) NewField Mod System](https://github.com/stepmania/stepmania/wiki/NewField-mod-system)
 
 Theming Help
 ------------
-[Theming](https://github.com/stepmania/stepmania/wiki/Theming)
-
-[Fonts](https://github.com/stepmania/stepmania/wiki/Fonts)
-
-[Noteskins](https://github.com/stepmania/stepmania/wiki/Noteskins)
-
-[MessageCommands](https://github.com/stepmania/stepmania/wiki/MessageCommands)
-
-[Commands & Constructors](https://github.com/stepmania/stepmania/wiki/Actor-Definitions)
+* [Theming](https://github.com/stepmania/stepmania/wiki/Theming)
+* [Fonts](https://github.com/stepmania/stepmania/wiki/Fonts)
+* [Noteskins](https://github.com/stepmania/stepmania/wiki/Noteskins)
+* [MessageCommands](https://github.com/stepmania/stepmania/wiki/MessageCommands)
+* [Commands & Constructors](https://github.com/stepmania/stepmania/wiki/Actor-Definitions)
 
 Programming Help
 ------------
-[Compiling StepMania](https://github.com/stepmania/stepmania/wiki/Compiling-StepMania)
-
-[Adding new lua functions](https://github.com/stepmania/stepmania/wiki/Adding-new-lua-functions-to-the-source)
+* [Compiling StepMania](https://github.com/stepmania/stepmania/wiki/Compiling-StepMania)
+* [Adding new lua functions](https://github.com/stepmania/stepmania/wiki/Adding-new-lua-functions-to-the-source)
