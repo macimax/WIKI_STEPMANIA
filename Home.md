@@ -16,6 +16,15 @@ StepMania accepts a number of command line arguments.
 * `--language=lang` - Sets the language to use.
 * `--ExportLuaInformation` - Exports Lua documentation to `Lua.xml`.
 
+Configuration & Setup
+------------
+[Manually Changing Preferences](Manually-Changing-Preferences)
+[Installing on macOS](Installing-on-macOS)
+[System requirements](Minimum-Requirements)
+[Linux dependencies](Linux-dependencies)
+[Static mount points for USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
+[Static mount points for USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
+
 Basic Engine Info
 ------------
 [Versions](https://github.com/stepmania/stepmania/wiki/Versions)
