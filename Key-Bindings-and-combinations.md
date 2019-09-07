@@ -1,7 +1,14 @@
-Because this is seemingly documented nowhere?
-
 "+" means held at the same time. "," means one after the other.
 If a setting has more than one combination it will be listed on another line.
+
+# The very basics
+The default keybindings can be changed by going into the key configuration settings in the options menu. Here are the very basics to get you started:
+
+| key | action |
+| --- | ------ |
+| Enter | Go forward through a menu or screen |
+| Escape | Return to a previous screen |
+| Arrow keys | Navigate the menus (and press arrows during gameplay) |
 
 # Universal debugger shortcuts
 
@@ -9,9 +16,9 @@ If a setting has more than one combination it will be listed on another line.
 | ----------- | -------- |
 | F1 | Insert coin |
 | F2 | Reload metrics and resources |
-| Shift+F2 | Reload metrics |
+| Shift+F2 | Reload metrics (also reloads language files) |
 | Ctrl+F2 | Reload scripts |
-| Holding F3 | Open the debug menu. I wont go in depth about it, since it states what buttons do what in the debug menu. |
+| Holding F3 | Open the debug menu. While displaying the debug menu you can press the listed keys to switch menus and toggle debug functions. |
 
 # Universal shortcuts
 
@@ -20,8 +27,9 @@ If a setting has more than one combination it will be listed on another line.
 | Alt+Enter | Switches between windowed and fullscreen... Except it's kind of buggy. |
 | Tab | Speeds up UI to 2x while held, including animations and selections. |
 | ~ | Slows down UI and animations to 0.25x(?) while held. |
+| Scroll Lock | Jump immediately to the options menu. You can change this key binding in settings. |
 | Screenshot key (PrintScreen or F13 by default) | Save a lossy screenshot. You can change this key binding in settings. |
-| Screenshot key + Shift | Save a lossless screenshot. |
+| Shift + Screenshot key | Save a lossless screenshot. |
 
 
 # Music Select
