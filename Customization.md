@@ -16,4 +16,4 @@ Noteskins are installed in the `NoteSkins` subfolder of your user data directory
 StepMania 5.2 uses a different noteskin system, where a single noteskin can support multiple games by containing graphics for their respective notes. Hence, noteskins for 5.2 are not stored in game-specific subfolders.
 
 ## Announcers
-Announcers are used to provide voice clips triggered by specific screens, in-game events, etc.
+Announcers are used to provide voice clips triggered by specific screens, in-game events, etc. Announcers are compatible with any version of StepMania, for example an announcer created for StepMania 3.9 will still work in StepMania 5.
