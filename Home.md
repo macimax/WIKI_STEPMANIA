@@ -18,6 +18,7 @@ StepMania accepts a number of command line arguments.
 
 Configuration & Setup
 ------------
+* [The Beginner's Guide](https://raw.githubusercontent.com/stepmania/stepmania/5_1-new/Docs/Userdocs/sm5_beginner.txt)
 * [Manually Changing Preferences](Manually-Changing-Preferences)
 * [Installing on macOS](Installing-on-macOS)
 * [System requirements](Minimum-Requirements)
