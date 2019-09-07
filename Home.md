@@ -21,6 +21,7 @@ Configuration & Setup
 * [Manually Changing Preferences](Manually-Changing-Preferences)
 * [Installing on macOS](Installing-on-macOS)
 * [System requirements](Minimum-Requirements)
+* [Customization](Customization)
 * [Linux dependencies](Linux-dependencies)
 * [Static mount points for USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
 * [Static mount points for USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
