@@ -52,6 +52,7 @@ Theming Help
 * [MessageCommands](https://github.com/stepmania/stepmania/wiki/MessageCommands)
 * [Commands & Constructors](https://github.com/stepmania/stepmania/wiki/Actor-Definitions)
 * [Unlock System](Unlock-System)
+* [Preferred Sort](Preferred-Sort)
 
 Programming Help
 ------------
