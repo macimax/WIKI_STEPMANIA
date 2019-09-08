@@ -35,6 +35,6 @@ SONGMAN:SetPreferredSongs("NameOfMySort.txt");
 (I forgot how to do it)
 
 # Bonus: Using lua to write custom preferred sorts
-So obviously there are more novel ways to use preferred sorts than just making a preferred sort by hand and then setting it. For example: A favorites manager which creates a preferred sort that adds a group with your favorite songs after you select your profile, a preferred sort that contains only easy songs, etc.
+There are more novel ways to use preferred sorts than just making a preferred sort by hand and then setting it. For example: A favorites manager which creates a preferred sort that adds a group with your favorite songs after you select your profile, a preferred sort that contains only easy songs, etc.
 
 (TODO)
