@@ -12,6 +12,8 @@ For a song you can do `SongGroup/SongFolder` or just `SongFolder`, where `SongGr
 
 To add every single song in a group, do `SongGroup/*`
 
+Due to how the music wheel is designed you cannot have the same song in more than one group, but you can have multiple of the same song in the same group. The technical reason for this is that the preferred sort reader function creates an array containing every song that would be used in the preferred sort (including duplicates), but the function that creates the folders in the music wheel iterates through the array and returns the first preferred folder it finds that contains the song. The other technical reason is that the music wheel is designed to take an array of songs then sort it for different sorts then generate the folders for the sorted array afterwards.
+
 A group named "Unlocks" will be pushed to the bottom of the groups list. Groups with 0 valid songs will not be added.
 
 ### Example File
@@ -39,6 +41,6 @@ Make sure your text file in the Other folder of your theme is named `SongManager
 In the `[ScreenSelectMusic]` section of your metrics.ini, add `DefaultSort="Preferred"`.
 
 # Bonus: Using lua to write custom preferred sorts
-There are more novel ways to use preferred sorts than just making a preferred sort by hand and then setting it. For example: A favorites manager which creates a preferred sort that adds a group with your favorite songs after you select your profile, a preferred sort that contains only easy songs, etc.
+There are more novel ways to use preferred sorts than just making a preferred sort by hand and then setting it. For example: a preferred sort that contains only easy songs
 
 (TODO)
