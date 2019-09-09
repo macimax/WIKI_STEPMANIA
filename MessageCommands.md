@@ -97,6 +97,9 @@ params.Player is always PLAYER_1 or PLAYER_2 and params.Direction is always 1 or
 
 ### PreferredSongGroupChanged
 
+### SortOrderChanged
+Broadcast when the sort order is changed for any reason.
+
 ## ScreenSelectCourse
 
 ### CurrentCourseChanged
