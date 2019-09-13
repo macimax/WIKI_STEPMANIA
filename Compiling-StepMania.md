@@ -21,7 +21,7 @@ There may be some specific things to watch out for. This section covers that.
 ### Windows ###
 
 **Ensure the following items are installed:**
-
+* .NET Framework 3.5, which can be installed through the "Add Programs and Features" section in the Control Panel (Required for DX2010SDK)
 * [Direct X Summer 2010 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) installed.
 * Redistributable installed (x86 required, x64 as well only if your system is 64-bit). [2015 version here](https://www.microsoft.com/en-us/download/details.aspx?id=48145), and [2013 version here](https://www.microsoft.com/en-us/download/details.aspx?id=40784).
 * [Windows Platform SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk).
