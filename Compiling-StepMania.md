@@ -46,7 +46,7 @@ cd stepmania
 git submodule update --init
 ```
 
-To compile with a GUI:
+**To compile with a GUI:**
 1. Open cmake-gui from your start menu. Click browse source, then navigate to where you cloned the stepmania dir.
 2. Click browse build, then navigate to the Build folder in the cloned stepmania dir.
 3. Click configure.
@@ -54,7 +54,7 @@ To compile with a GUI:
 5. Click Open Project, or if you're feeling adventurous you can navigate to the Build folder yourself and double click on the .sln.
 6. Set the build type to release, then click build. The files will get put in the "Program" directory of stepmania.
 
-If you would like to build StepMania on Windows without a GUI (headless server, etc):
+**If you would like to build StepMania on Windows without a GUI (headless server, etc):**
 
 Launch the Visual Studio Command Prompt from the start menu, or if you don't have access to the start menu you can cd to `%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\VC\bin` and run `vcvars32.bat`.
 ```batch
@@ -64,8 +64,12 @@ cd Build
 cmake -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 devenv StepMania.sln /Build Release
 ```
-Alternatively you can attempt to compile with msbuild instead of devenv but it's unsupported:
+
+If you have the visual studio installer, the C++ build tools, and the CMake tools, and vcvars32.bat and would rather compile without installing Visual Studio:
 ```batch
+cd stepmania
+cd Build
+cmake -G "Visual Studio 16 2019" -A Win32 -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 msbuild.exe StepMania.sln /t:Build /p:Configuration=Release;Platform=Win32
 ```
 
