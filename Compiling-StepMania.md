@@ -67,9 +67,11 @@ devenv StepMania.sln /Build Release
 
 If you have the visual studio installer, the C++ build tools, and the CMake tools, and vcvars32.bat and would rather compile without installing Visual Studio:
 ```batch
+::If you are using anything other than 2015 this will be in a different location.
+"%ProgramFiles(x86)%\Microsoft Visual Studio 14.0\VC\bin\vcvars32.bat"
 cd stepmania
 cd Build
-cmake -G "Visual Studio 16 2019" -A Win32 -DCMAKE_BUILD_TYPE=Release .. && cmake ..
+cmake -G "Visual Studio 14 2015" -A Win32 -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 msbuild.exe StepMania.sln /t:Build /p:Configuration=Release;Platform=Win32
 ```
 
