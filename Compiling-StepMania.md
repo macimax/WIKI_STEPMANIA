@@ -1,5 +1,9 @@
 For those that are either adventurous or wish to have the latest bug-fixes, compiling the source code is an option.
 
+You can download Windows & Linux binaries of the latest 5.1-new nightly builds [here](http://secret.amaryllis.works:9999/SM5BuildServer)
+
+You can download Windows binaries of the latest 5.2 nightly build [here](http://smnightly.katzepower.com/). 5.2 is an abandoned branch, so you probably don't want those.
+
 ## Common Items ##
 
 No matter what, both the source code and a way to build the source code are required.
@@ -30,8 +34,6 @@ There may be some specific things to watch out for. This section covers that.
 * NSIS (http://nsis.sourceforge.net/Download)
 
 Currently we only support using generated [Visual Studio](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx) solution files from CMake. Any edition of Visual Studio 2013 or 2015 will work, but the focus will be on the Community editions.
-
-However, if you're feeling adventurous but not that adventurous, you can acquire Windows binaries of the latest nightly build [here](http://smnightly.katzepower.com/).
 
 (Installer Related)
 
