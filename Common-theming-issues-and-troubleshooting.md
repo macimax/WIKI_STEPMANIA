@@ -12,3 +12,6 @@ You might be returning a table instead of an Actor.
 
 # SCREENMAN:SystemMessage() does not work
 BGAnimations/ScreenSystemLayer overlay has been overwritten and is missing the messagecommand required to show messages.
+
+# Actor not appearing in ActorFrame
+If you've manually inserted it into the ActorFrame at a specific index, remember that lua is 1-indexed and actors at an index of 0 and below will not be compiled.
