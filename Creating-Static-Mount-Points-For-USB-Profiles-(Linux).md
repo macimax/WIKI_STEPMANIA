@@ -6,7 +6,7 @@ The process is **moderately technical** and assumes you are comfortable editing 
 
 ### Step 1 - Finding the USB port _by-path_
 
-Since disk names `sda`, `sdb`, and so on are not deterministic, depending on the order in which devices are plugged, we can't use them to reliably identify players.  Fortunately, Linux allows us to select a disk "by path," which amounts to defining a specific USB _port_ as a given drive, which is typically what we want for USB profiles.
+Since disk names `sda`, `sdb`, and so on are not deterministic, depending on the order in which devices are plugged, we can't use them to reliably identify players.  Fortunately, Linux allows us to select a disk "by path," which amounts to associating a physical USB _port_ as a specific device, which is typically what we want for USB profiles.
 
 To find the correct device path, plug a single USB drive into the port you with to associate with PLAYER_1, then run the following command:
 ```bash
@@ -21,11 +21,11 @@ lrwxrwxrwx 1 root root  9 Jun  2 00:05 pci-0000:00:14.0-usb-0:10:1.0-scsi-0:0:0:
 lrwxrwxrwx 1 root root 10 Jun  2 00:05 pci-0000:00:14.0-usb-0:10:1.0-scsi-0:0:0:0-part1 -> ../../sdb1
 ```
 
-Copy this output to a text editor and repeat command with the USB stick plugged into the USB port you wish to associate with PLAYER_2.  Copy that output as well.
+Copy this output to a text editor and repeat the command with the USB stick plugged into the USB port you wish to associate with PLAYER_2.  Copy that output as well.
 
 ### Step 2 - Create _fstab_ Entries
 
-You will use part of the output from the previous step to create entries in `/etc/fstab`, the file which associates specific devices (in this case a USB port _by-path_) with named mount points that can be passed to StepMania. 
+You will use part of the output from the previous step to create new entries in `/etc/fstab`, the file which associates specific devices (in this case a USB port _by-path_) with named mount points that can be passed to StepMania. 
 
 The resulting _fstab_ entries will look like:
 
@@ -36,11 +36,25 @@ The resulting _fstab_ entries will look like:
 /dev/disk/by-path/pci-0000:00:14.0-usb-0:4:1.0-scsi-0:0:0:0 		/mnt/player2 auto rw,user,noauto,noatime 0 0
 ```
 
-Note that depending on your Linux distribution, you may want/need to create your named mount points elsewhere than in `/mnt/`; some distros use `/media/` for this purpose.  You can also create an empty directory anywhere in the filesystem to use as a custom mount point.
+**Note:** There will be other entries already defined in _fstab_ when you edit it (for example, the entry to mount your Linux filesystem to `/`).  You should leave those alone and just append the new entries for StepMania to the end of the file.
 
 <!-- no need to reboot or re-mount, since the drive isn't currently mounted anyway and the mount command re-reads fstab on execution -->
 
-### Step 3 - StepMania Preferences
+
+### Step 3 - Create the Mount Points for StepMania
+
+Next, you'll need to create the directories you specified in the previous step.  If you had wanted to use `/mnt/player1` and `/mnt/player2`, then you could create the directories using
+
+```
+mkdir /mnt/player1/
+mkdir /mnt/player2/
+```
+
+Depending on the permissions of the location you chose, you may need to create the directories using `sudo`.
+
+If you are seeing output in your logs like `mount: /mnt/player1/: mount point does not exist.` then you should ensure that you have completed this step.
+
+### Step 4 - StepMania Preferences
 
 Finally, update your Preferences.ini file to include the following values:
 
@@ -57,10 +71,30 @@ MemoryCardUsbPortP2=-1
 MemoryCards=1
 ```
 
-### Step 4: Disable automount
+### Step 5 - Disable automount
 
-If you are using an OS like Ubuntu, it is configured to mount USB devices automatically. This will cause them to get mounted before StepMania can mount them, breaking USB memory card support.
-- The best practice is to run StepMania 5 in its own xsession with nothing else, which you should be doing in the first place if you want to dedicate this to a cabinet.
-- (Ubuntu only) DO NOT mount your drives at /media! Use /mnt instead.
-- If you're using xfce, open Thunar -> File Manager Preferences -> Advanced -> untick Enable Volume Management
-- search "Removable Drives and Media" in the settings and untick every single automount option.
+Some distros like Ubuntu (and [Ubuntu derivatives](https://wiki.ubuntu.com/DerivativeTeam/Derivatives) such as Mint), come preconfigured to automount USB devices as soon as they are inserted.  This conflicts with the way StepMania mounts drives and breaks USB memorycard support.
+
+If you are unable to get USB memorycards working and and you see log output like
+
+```
+WARNING: failed to execute 'mount /dev/disk/by-path/pci-0000:00:1d.7-usb-0:4:1.0-scsi-0:0:0:0' with error 8192
+```
+
+your distro is likely automounting USB disks and you'll need to disable this.
+
+If you are using **xfce** as your desktop environment you can 
+
+ 1. Thunar -> File Manager Preferences -> Advanced -> untick Enable Volume Management
+ 2. search "Removable Drives and Media" in the settings and untick every single automount option
+ 
+If you are using **Cinnamon** as your desktop environment you can
+
+ 1. Open a file browser window -> Edit menu -> Preferences -> Behavior -> untick all automount options under "Media Handling"
+ 
+ 
+### Troubleshooting Suggestions
+
+With Ubuntu, do NOT mount your drives at `/media`!  Use `/mnt` instead.
+
+If you are going through the trouble of configuring USB memory cards, you're probably setting up a dedicated arcade machine.  The best practice for such setups is to run StepMania 5 in its own xsession without a desktop environment or graphical file manager.  This should improve StepMania's performance (at the cost of being more confusing to use if you are less comfortable with Linux).
