@@ -71,6 +71,19 @@ MemoryCardUsbPortP2=-1
 MemoryCards=1
 ```
 
+You may also want to modify `MemoryCardProfileSubdir` and `MemoryCardProfileImportSubdirs` to suit your needs.  
+
+StepMania uses `MemoryCardProfileSubdir` first when looking for profiles on USB memory cards.  If your Preferences.ini has `MemoryCardProfileSubdir=StepMania 5` then StepMania will look for a profile in a `StepMania 5` directory in the root of that USB disk.  It would not find any profiles if they were in a `StepMania 5.1` directory in the root of the same USB disk.
+
+Fortunately, you can use `MemoryCardProfileImportSubdirs` to provide a semicolon delimited list of extra places to check.  So a configuration like this
+
+```ini
+MemoryCardProfileImportSubdirs=asdf;StepMania 5.1
+MemoryCardProfileSubdir=StepMania 5
+```
+
+would look for profiles in `StepMania 5` first, then `asdf`, then `StepMania 5.1`.  This can be helpful for public machines that need to cater to various player needs.
+
 ### Step 5 - Disable automount
 
 Some distros like Ubuntu (and [Ubuntu derivatives](https://wiki.ubuntu.com/DerivativeTeam/Derivatives) such as Mint), come preconfigured to automount USB devices as soon as they are inserted.  This conflicts with the way StepMania mounts drives and breaks USB memorycard support.
@@ -95,6 +108,6 @@ If you are using **Cinnamon** as your desktop environment you can
  
 ### Troubleshooting Suggestions
 
-With Ubuntu, do NOT mount your drives at `/media`!  Use `/mnt` instead.
+Ubuntu seems to have a lot of autoconfig "magic" surrounding `/media`, so you may have an easier time using `/mnt` for USB profiles instead.
 
 If you are going through the trouble of configuring USB memory cards, you're probably setting up a dedicated arcade machine.  The best practice for such setups is to run StepMania 5 in its own xsession without a desktop environment or graphical file manager.  This should improve StepMania's performance (at the cost of being more confusing to use if you are less comfortable with Linux).
