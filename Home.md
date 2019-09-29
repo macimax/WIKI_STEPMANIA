@@ -35,6 +35,7 @@ Basic Engine Info
 * [Supported games](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
 * [Play modes](https://github.com/stepmania/stepmania/wiki/Play-Modes)
 * [Courses](https://github.com/stepmania/stepmania/wiki/Courses)
+* [Key Bindings](Key-Bindings-and-combinations)
 
 Charting Help
 ------------
