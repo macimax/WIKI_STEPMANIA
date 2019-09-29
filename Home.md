@@ -2,7 +2,7 @@ Welcome!
 -------
 StepMania is a free and open source, cross-platform rhythm game. It supports common key-based rhythm game formats (including 4-panel and 5-panel dance games among others), as well as keyboard and dance pad controllers. It is customizable with user-made add-ons such as themes, and provides an integrated editor for creating your own simfiles. 
 
-StepMania can also be used with dance game cabinets, and has been used as the basis for several major commercial products including _Pump it Up Infinity_ and _Step Maniax_.
+StepMania can also be used with dance game cabinets, and has been used as the basis for several major commercial products including _Pump it Up Infinity_ and _StepManiaX_.
 
 Hey, listen!
 -------
