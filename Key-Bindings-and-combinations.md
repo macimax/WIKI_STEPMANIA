@@ -53,6 +53,8 @@ The following was taken from https://github.com/stepmania/stepmania/blob/master/
 | Left | PreviousSongButton | Previous song |
 | Right | NextSongButton | Next Song |
 | Start | (hardcoded) | Begin Song |
+| Left+Right+Select| (hardcoded) | Opens sort prompt |
+| Left,Left,Right,Right| (hardcoded) | Exit |
 | Start, Start<br>OR<br>Holding Start | (hardcoded) | Open Options Screen |
 | Select | (hardcoded) | Open Options List |
 | (Not used) | PreviousDifficultyButton | Switches to the previous difficulty. By default, CodeDetector is used instead. |
