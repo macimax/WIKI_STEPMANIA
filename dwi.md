@@ -9,13 +9,12 @@ Only modes from the Dance Dance Revolution series of games are supported (Shock 
 # The Step Syntax
 Each chart consists of a string of numbers and letters. The string is usually made up of 8th notes: more specific notes can be utilized as follows:
 
-```
-Beginning Character	Ending Character	Note Type
-(	)	16th
-[	]	24th
-{	}	64th
-`	'	192nd
-```
+| Beginning Character | Ending Character | Note Type |
+| ------------------- | ---------------- | --------- |
+| (                   | )                | 16th      |
+| [                   | ]                | 24th      |
+| {                   | }                | 64th      |
+| `                   | '                | 192nd     |
 
 The arrows are mostly represented via the numpad. The <kbd>2</kbd> key represents a down arrow, <kbd>4</kbd> a left, <kbd>6</kbd> a right, and <kbd>8</kbd> an up arrow. The <kbd>1</kbd>, <kbd>3</kbd>, <kbd>7</kbd>, and <kbd>9</kbd> keys represent the corner jumps. To have a jump with the left and right arrows, use the <kbd>B</kbd> key: up and down jumps use <kbd>A</kbd>. The solo mode has extra keyboard keys for representing the diagonals and their jump combinations.
 
