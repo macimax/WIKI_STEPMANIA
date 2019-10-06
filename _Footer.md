@@ -1,1 +1,1 @@
-Step up or step out, it's Stepmania!
+Step up or step out, it's StepMania!
