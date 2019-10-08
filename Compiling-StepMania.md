@@ -183,6 +183,8 @@ sudo apt-get install antimicro
 
 At this time, only generated [Xcode](https://developer.apple.com/xcode/) projects are supported.
 
+First, install [Homebrew](https://brew.sh/).
+
 To generate an Xcode project you will need to use Cmake.
 ```
 brew install cmake yasm
