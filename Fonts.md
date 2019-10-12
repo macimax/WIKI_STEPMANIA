@@ -54,8 +54,8 @@ What characters are on which line of the bitmap image. For example, if the first
 Due to a bug, earlier versions of StepMania don't support extra spaces (ex: `Line (some spaces) 0=ABCDEFGH`)
 
 # Examples
-*`Select with &MENULEFT;&MENURIGHT;&MENUUP;&MENUDOWN; &START; Confirm`
-*`Use &DOWN;&DOWN; or &UP;&UP; for change difficulty`
-*`&BACK; Exit &SELECT; Options`
+`Select with &MENULEFT;&MENURIGHT;&MENUUP;&MENUDOWN; &START; Confirm`<br>
+`Use &DOWN;&DOWN; or &UP;&UP; for change difficulty`<br>
+`&BACK; Exit &SELECT; Options`<br>
 
 Words starting with & and ending with ; are mapped words which are replaced with graphics.
