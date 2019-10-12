@@ -51,7 +51,7 @@ Defines a Unicode range to use.
 ### LINE
 What characters are on which line of the bitmap image. For example, if the first row of your image has ABCDEFGH, you would put down `Line 0=ABCDEFGH`
 
-Due to a bug, earlier versions of StepMania don't support extra spaces (ex: `Line     0=ABCDEFGH`)
+Due to a bug, earlier versions of StepMania don't support extra spaces (ex: `Line (some spaces) 0=ABCDEFGH`)
 
 # Examples
 `&BACK; Exit &START; Select &SELECT; Options &MENULEFT;&MENURIGHT;&MENUUP;&MENUDOWN; Move`
