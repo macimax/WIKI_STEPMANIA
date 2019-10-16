@@ -8,13 +8,6 @@ Hey, listen!
 -------
 The docs need a TON of work! Please ask on the forums and suggest anything you think should be in here. We devs know way too much detailed technical stuff and it's hard to pick up what people actually want to know - so any requests for documentation are really welcomed.
 
-Command Line
-------------
-StepMania accepts a number of command line arguments.
-
-* `--theme="themename"` - Sets the theme to use.
-* `--language=lang` - Sets the language to use.
-* `--ExportLuaInformation` - Exports Lua documentation to `Lua.xml`.
 
 Configuration & Setup
 ------------
@@ -59,3 +52,11 @@ Programming Help
 ------------
 * [Compiling StepMania](https://github.com/stepmania/stepmania/wiki/Compiling-StepMania)
 * [Adding new lua functions](https://github.com/stepmania/stepmania/wiki/Adding-new-lua-functions-to-the-source)
+
+Command Line Arguments
+------------
+StepMania accepts a number of command line arguments.
+
+* `--theme="themename"` - Sets the theme to use.
+* `--language=lang` - Sets the language to use.
+* `--ExportLuaInformation` - Exports Lua documentation to `Lua.xml`.
