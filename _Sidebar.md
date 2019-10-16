@@ -1,6 +1,7 @@
 # [Home](https://github.com/stepmania/stepmania/wiki)
 ## Basics
   * [Versions](Versions)
+  * [Install Guide](Install-Guide)
   * [Compiling](Compiling-StepMania)
   * [System requirements](Minimum-Requirements)
   * [Linux dependencies](Linux-dependencies)
