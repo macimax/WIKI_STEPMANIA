@@ -6,7 +6,7 @@ Precompiled binaries for Linux may be provided with releases, and instructions f
 
 
 ## Windows
-You'll need to install [DirectX and Visual Studio runtime packages](https://github.com/stepmania/stepmania-site/issues/64) first.
+You'll need to install Microsoft's [Visual C++ x86 Redistributable for Visual Studio 2015](http://www.microsoft.com/en-us/download/details.aspx?id=48145) first.
 
 With that done, follow along with the StepMania installer, ensuring that you **do not install to Program Files** to avoid conflicts with Windows UAC.  By default, the installer will install to `C:\Games\` and this is fine for most players.
 
