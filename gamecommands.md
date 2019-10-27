@@ -25,7 +25,7 @@ Clears any credits that have been inserted.  No argument.
 Sets the current course to the argument.
 
 # difficulty
-Sets the difficulty property of this GameCommand.
+Sets the preferred difficulty for both players.
 Acceptable args are:
 Beginner, Easy, Medium, Hard, Challenge, Edit
 
