@@ -216,6 +216,8 @@ Sets this Chart's Radar Values. (someone edit this section more.)
 
 Sets this Chart's Creators/Credits.
 
+(TODO it is unclear how this is different from #CREDIT used as a header tag above)
+
 ## \#NOTES
 
 Sets this Chart's Notes.
