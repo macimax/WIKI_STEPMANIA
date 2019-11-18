@@ -29,8 +29,45 @@ There are also many other useful settings, so you may want to read the help file
 # Step 4. Register the service
 Double click _service_register.cmd
 
-# Step 5. Assign letters in preferences.ini
+# Step 5. Update Preferences.ini
 
-Refer to the preferences.ini wiki for this, but MAKE SURE the backslash to your drive letter has been replaced with a forward slash.
+Refer to the [Preferences.ini page](./Preferences.ini) for this, but MAKE SURE the backslash to your drive letter has been replaced with a forward slash.
+
+```ini
+# for example
+MemoryCardOsMountPointP1=D:\
+MemoryCardOsMountPointP2=E:\
+```
 
 Or if you're on the latest and greatest 5.1-new, put the letter, the colon, and no slash.
+
+```ini
+# for example
+MemoryCardOsMountPointP1=D:
+MemoryCardOsMountPointP2=E:
+```
+
+You should also ensure that these Preferences are set:
+```ini
+MemoryCardProfiles=1
+MemoryCardUsbBusP1=-1
+MemoryCardUsbBusP2=-1
+MemoryCardUsbLevelP1=-1
+MemoryCardUsbLevelP2=-1
+MemoryCardUsbPortP1=-1
+MemoryCardUsbPortP2=-1
+MemoryCards=1
+```
+
+You may also want to modify `MemoryCardProfileSubdir` and `MemoryCardProfileImportSubdirs` to suit your needs.  
+
+StepMania uses `MemoryCardProfileSubdir` first when looking for profiles on USB memory cards.  If your Preferences.ini has `MemoryCardProfileSubdir=StepMania 5` then StepMania will look for a profile in a `StepMania 5` directory in the root of that USB disk.
+
+You can also use `MemoryCardProfileImportSubdirs` to provide a semicolon delimited list of extra places to check.  So a configuration like this
+
+```ini
+MemoryCardProfileImportSubdirs=asdf;StepMania 5.1
+MemoryCardProfileSubdir=StepMania 5
+```
+
+would look for profiles in `StepMania 5` first, then `asdf`, then `StepMania 5.1`.  This can be helpful for public machines that need to cater to various player needs.
