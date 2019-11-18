@@ -48,7 +48,7 @@ No theme is known to use this, so it's essentially useless.
 
 ## \#CREDIT
 
-Sets the .ssc Creator/Credits.
+Sets this chart's Creators/Credits.
 
 ## \#BANNER
 
@@ -211,10 +211,6 @@ Sets this Chart's Foot Meter. (Any Number.)
 ## \#RADARVALUES
 
 Sets this Chart's Radar Values. (someone edit this section more.)
-
-## \#CREDIT
-
-Sets this Chart's Creators/Credits.
 
 ## \#NOTES
 
