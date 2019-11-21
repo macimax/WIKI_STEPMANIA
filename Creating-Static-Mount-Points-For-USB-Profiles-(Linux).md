@@ -73,7 +73,7 @@ MemoryCards=1
 
 You may also want to modify `MemoryCardProfileSubdir` and `MemoryCardProfileImportSubdirs` to suit your needs.  
 
-StepMania uses `MemoryCardProfileSubdir` first when looking for profiles on USB memory cards.  If your Preferences.ini has `MemoryCardProfileSubdir=StepMania 5` then StepMania will look for a profile in a `StepMania 5` directory in the root of that USB disk.  It would not find any profiles if they were in a `StepMania 5.1` directory in the root of the same USB disk.
+StepMania uses `MemoryCardProfileSubdir` first when looking for profiles on USB memory cards.  If your Preferences.ini has `MemoryCardProfileSubdir=StepMania 5` then StepMania will look for a profile in a `StepMania 5` directory in the root of that USB disk.
 
 Fortunately, you can use `MemoryCardProfileImportSubdirs` to provide a semicolon delimited list of extra places to check.  So a configuration like this
 
