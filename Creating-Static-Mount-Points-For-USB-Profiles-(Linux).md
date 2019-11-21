@@ -30,10 +30,10 @@ You will use part of the output from the previous step to create new entries in 
 The resulting _fstab_ entries will look like:
 
 ```
-/dev/disk/by-path/pci-0000:00:14.0-usb-0:10:1.0-scsi-0:0:0:0-part1 	/mnt/player1 auto rw,user,noauto,noatime 0 0
-/dev/disk/by-path/pci-0000:00:14.0-usb-0:10:1.0-scsi-0:0:0:0 		/mnt/player1 auto rw,user,noauto,noatime 0 0
-/dev/disk/by-path/pci-0000:00:14.0-usb-0:4:1.0-scsi-0:0:0:0-part1 	/mnt/player2 auto rw,user,noauto,noatime 0 0
-/dev/disk/by-path/pci-0000:00:14.0-usb-0:4:1.0-scsi-0:0:0:0 		/mnt/player2 auto rw,user,noauto,noatime 0 0
+/dev/disk/by-path/pci-0000:00:14.0-usb-0:10:1.0-scsi-0:0:0:0-part1  /mnt/player1 auto rw,user,noauto,noatime 0 0
+/dev/disk/by-path/pci-0000:00:14.0-usb-0:10:1.0-scsi-0:0:0:0        /mnt/player1 auto rw,user,noauto,noatime 0 0
+/dev/disk/by-path/pci-0000:00:14.0-usb-0:4:1.0-scsi-0:0:0:0-part1   /mnt/player2 auto rw,user,noauto,noatime 0 0
+/dev/disk/by-path/pci-0000:00:14.0-usb-0:4:1.0-scsi-0:0:0:0         /mnt/player2 auto rw,user,noauto,noatime 0 0
 ```
 
 **Note:** There will be other entries already defined in _fstab_ when you edit it (for example, the entry to mount your Linux filesystem to `/`).  You should leave those alone and just append the new entries for StepMania to the end of the file.
