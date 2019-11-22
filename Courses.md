@@ -56,8 +56,8 @@ A banner for your course. Ex. `#BANNER:My Banner.png;`
 A background for your course. Currently only available in SM5 and sm-ssc. Ex. `#BACKGROUND:My Background.png;`
 
 ## #STYLE
-Denote which styles may be played on this course. This is useful for cloning courses for doubles and single styles.
-Ex. `#STYLE:SINGLE,VERSUS;`
+Denote which styles may be played on this course. This is useful for cloning courses or creating CLASS courses for single and double styles.
+Ex. `#STYLE:SINGLE,VERSUS;` or `#STYLE:DOUBLE;`
 
 ## #METER
 A custom-set meter for that course difficulty. You may set the difficulty
