@@ -16,7 +16,24 @@ Each chart consists of a string of numbers and letters. The string is usually ma
 | {                   | }                | 64th      |
 | `                   | '                | 192nd     |
 
-The arrows are mostly represented via the numpad. The <kbd>2</kbd> key represents a down arrow, <kbd>4</kbd> a left, <kbd>6</kbd> a right, and <kbd>8</kbd> an up arrow. The <kbd>1</kbd>, <kbd>3</kbd>, <kbd>7</kbd>, and <kbd>9</kbd> keys represent the corner jumps. To have a jump with the left and right arrows, use the <kbd>B</kbd> key: up and down jumps use <kbd>A</kbd>. The solo mode has extra keyboard keys for representing the diagonals and their jump combinations.
+The arrows are mostly represented via the numpad. The <kbd>2</kbd> key represents a down arrow, <kbd>4</kbd> a left, <kbd>6</kbd> a right, and <kbd>8</kbd> an up arrow. The <kbd>1</kbd>, <kbd>3</kbd>, <kbd>7</kbd>, and <kbd>9</kbd> keys represent the corner jumps. To have a jump with the left and right arrows, use the <kbd>B</kbd> key: up and down jumps use <kbd>A</kbd>. 
+
+The solo mode has extra keyboard keys for representing the diagonals and their jump combinations.  These are:
+
+| Key | Arrow Combination         |
+| --- | ------------------------- |
+| <kbd>C</kbd> | UpLeft           |
+| <kbd>D</kbd> | UpRight          |
+| <kbd>E</kbd> | UpLeft+Left      |
+| <kbd>F</kbd> | UpLeft+Down      |
+| <kbd>G</kbd> | UpLeft+Up        |
+| <kbd>H</kbd> | UpLeft+Right     |
+| <kbd>I</kbd> | UpRight+Left     |
+| <kbd>J</kbd> | UpRight+Down     |
+| <kbd>K</kbd> | UpRight+Up       |
+| <kbd>L</kbd> | UpRight+Right    |
+| <kbd>M</kbd> | UpLeft+UpRight   |
+
 
 It is also possible to hit more than two arrows at once. Simply surround any combination of step/jump keys with \<Angle Brackets\>.
 
