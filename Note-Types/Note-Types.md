@@ -13,7 +13,15 @@ There are multiple **note types** available in StepMania.
 ## StepF2 Notes
 These note types are not implemented in StepMania and they likely never will be, but they are documented here in case you ever need to convert a SF2 chart to SM5.
 
-StepF2 uses a different note syntax: `{player|note type|unknown|unknown}`, where player is X for P1, Y for P2, and Z for P3 and note type is a StepF2 or StepMania note type.
+StepF2 uses a different note syntax: `{note type|attribute|fake flag|unknown flag}`.
+
+Note type: read below
+
+Attribute: v,s,h for vanish, sudden, and hidden
+
+fake: if 1, this note is a fake note. If 0, this note is judged normally.
+
+unknown flag: unknown
 
 | Note Types | Key Symbol | Comments |
 | ---------- | ---------- | -------- |
@@ -21,6 +29,9 @@ StepF2 uses a different note syntax: `{player|note type|unknown|unknown}`, where
 | P1 Hold Head | x | |
 | P2 Tap Note | Y | |
 | P2 Hold Head | y | |
+| P3 Tap Note| Z | |
+| P3 Hold Head | z | |
+| Heart | F | This note does nothing? |
 | Sudden | S | Acts like the sudden modifier, but per note. Will suddenly appear halfway up. |
-| Vanish | v | Acts like the hidden modifier, but per note. Will disappear halfway up. |
+| Vanish | V | Acts like the hidden modifier, but per note. Will disappear halfway up. |
 | Hidden | H | This note cannot be seen. |
