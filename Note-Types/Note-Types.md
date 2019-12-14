@@ -15,13 +15,7 @@ These note types are not implemented in StepMania and they likely never will be,
 
 StepF2 uses a different note syntax: `{note type|attribute|fake flag|unknown flag}`.
 
-Note type: read below
-
-Attribute: v,s,h for vanish, sudden, and hidden
-
-fake: if 1, this note is a fake note. If 0, this note is judged normally.
-
-unknown flag: unknown
+Some older songs also have `{1e0}` but what it is is a mystery... For now, anyway.
 
 | Note Types | Key Symbol | Comments |
 | ---------- | ---------- | -------- |
@@ -31,7 +25,21 @@ unknown flag: unknown
 | P2 Hold Head | y | |
 | P3 Tap Note| Z | |
 | P3 Hold Head | z | |
+| P4 Tap Note | 1 | Turns into P4 ONLY when P1, P2, and P3 is present, otherwise it's a regular note. |
+| P4 Hold Head | 2 | Same as P4 tap note |
 | Heart | F | This note does nothing? |
 | Sudden | S | Acts like the sudden modifier, but per note. Will suddenly appear halfway up. |
 | Vanish | V | Acts like the hidden modifier, but per note. Will disappear halfway up. |
 | Hidden | H | This note cannot be seen. |
+
+| Note Attributes | Key symbol | Comments |
+| --------------- | ---------- | -------- |
+| Normal | n | This note does not have an attribute. |
+| Vanish | v | see above |
+| Sudden | s | see above |
+| Hidden | h | see above |
+
+fake: if 1, this note is a fake note. If 0, this note is judged normally.
+
+unknown flag: unknown
+
