@@ -27,7 +27,7 @@ Some older songs also have `{1e0}` but what it is is a mystery... For now, anywa
 | P3 Hold Head | z | |
 | P4 Tap Note | 1 | Turns into P4 ONLY when P1, P2, and P3 is present, otherwise it's a regular note. |
 | P4 Hold Head | 2 | Same as P4 tap note |
-| Heart | F | This note does nothing? |
+| Heart | F | This note does nothing. Uses heart icon ONLY when P1,P2, and P3 is present otherwise it's a fake note. |
 | Sudden | S | Acts like the sudden modifier, but per note. Will suddenly appear halfway up. |
 | Vanish | V | Acts like the hidden modifier, but per note. Will disappear halfway up. |
 | Hidden | H | This note cannot be seen. |
