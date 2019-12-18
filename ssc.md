@@ -230,3 +230,7 @@ Sets this Chart's Creators/Credits.
 ## \#NOTES
 
 Sets this Chart's Notes.
+
+## \#NOTES2
+
+Whatever this tag is, it doesn't seem to actually be used...
