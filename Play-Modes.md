@@ -3,9 +3,17 @@ StepMania supports a number of play modes, normally selectable after you pick yo
 The name before the slash is what it's referred to in fallback, the name after the slash is the common name.
 
 ### Normal
-Your regular play mode, normally with 3 stages, plus an EXTRA STAGE if the player gets any method used depending on theme (AA on FINAL STAGE in the default theme) (and EXTRA STAGE is enabled), plus a Special Stage (More commonly known as Encore Extra Stage or One More Extra Stage) if the player passes the Extra Stage.
+Your regular play mode, normally with 3 stages.
 
-When Event Mode is enabled, all stages are unlimited and are renamed EXTRA STAGE, and no TOTAL RESULTS.
+Plus an additional EXTRA STAGE if:
+* Extra Stage is enabled in the options.
+* the player achieves the theme's requirements to unlock the extra stage. In the default theme an AA on the final stage is required, but themes can choose to make this easier or harder.
+
+Plus a Special Stage (More commonly known as Encore Extra Stage or One More Extra Stage) if:
+* the player passes the Extra Stage.
+* the player achieves the theme's requirements to unlock the Special Stage. Usually this is an AA on the Extra Stage.
+
+When Event Mode is enabled, stages are unlimited and named Event Stage. You are always taken back to the music select after song results, so there is no total results. Extra and Special stage are not accessible.
 
 Some themes uses this default mode and don't be changed, and some themes use different scoring systems (as ITG, EXTREME, Supernova2, Money Score, Etc.).
 
