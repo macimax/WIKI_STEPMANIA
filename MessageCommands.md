@@ -64,7 +64,7 @@ This command also works in Course mode.
 
 Broadcast when a MusicWheelItem is being set with new information, such as when scrolling up and down. Can access parameters using SetMessageCommand=function(self, params)
 
-| Parameters | Description | Return Type |
+| Parameters | Description | Variable Type |
 | ---------- | ----------- | ----------- |
 | Song | An instance of the Song that was just set to the MusicWheelItem. | Song |
 | Course | If in course mode, an instance of the Course that was just set to the MusicWheelItem. | Course |
@@ -74,7 +74,7 @@ Broadcast when a MusicWheelItem is being set with new information, such as when 
 | DrawIndex | ??? | int |
 | Type | The type of the item, as a string | WheelItemDataType enum? |
 | Color | The color of this item. Colors are set by preferred sort or metrics. | ??? |
-| Label | ??? | ??? |
+| Label | The text of this item, using the string translations (ex. en.ini) | String |
 
 
 ### CurrentStepsPXChanged
@@ -99,6 +99,15 @@ params.Player is always PLAYER_1 or PLAYER_2 and params.Direction is always 1 or
 
 ### SortOrderChanged
 Broadcast when the sort order is changed for any reason.
+
+## TwoPartSelect
+(Part of ScreenSelectMusic, but only available if you've turned on TwoPartSelect)
+### TwoPartConfirmCanceledMessageCommand
+Two part confirm was cancelled. The confirm only shows in multiplayer.
+### SongUnchosenMessageCommand
+Two Part Select was exited.
+### SongChosenMessageCommand
+Two part select was opened.
 
 ## ScreenSelectCourse
 
