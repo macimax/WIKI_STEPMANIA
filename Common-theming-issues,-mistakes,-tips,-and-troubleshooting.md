@@ -17,7 +17,7 @@ BGAnimations/ScreenSystemLayer overlay has been overwritten and is missing the m
 ## Actor not appearing in ActorFrame
 If you've manually inserted it into the ActorFrame at a specific index, remember that lua is 1-indexed and actors at an index of 0 and below will not be compiled.
 
-# Common beginner mistakes
+# Common beginner mistakes and solutions
 List of things that beginners do. Don't do this!!
 ## Making a file/actor then copypasting it for player 2
 **NOOOOOO!!!!!! DO NOT DO THIS!!!!!!!!** You are only making it harder for you and everyone else to debug your theme if you do this. You are making it take twice as long to implement your features if you do this. Seriously, **do not do this**.
@@ -60,6 +60,25 @@ t[#t+1] = LoadActor("Label", PLAYER_1);
 Then in the first line of Label.lua:
 ```lua
 local player = ...
+```
+## Variable allocation then usage than discarding
+This is fairly obvious. Don't allocate memory if you don't need to, only do it when you need to use a variable more than once.
+```lua
+CurrentSongChangedMessageCommand=function(self)
+  local song = GAMESTATE:GetCurrentSong();
+  if song then --Song is only being used once
+    local meter = GAMESTATE:GetCurrentSteps(PLAYER_1):GetMeter(); --meter is only being used once
+    self:settext(meter);
+  end;
+end;
+```
+This function could be changed to this:
+```lua
+CurrentSongChangedMessageCommand=function(self)
+  if GAMESTATE:GetCurrentSong() then
+    self:settext(GAMESTATE:GetCurrentSteps(PLAYER_1):GetMeter());
+  end;
+end;
 ```
 
 ## Putting both P1 and P2 messagecommands when not needed
