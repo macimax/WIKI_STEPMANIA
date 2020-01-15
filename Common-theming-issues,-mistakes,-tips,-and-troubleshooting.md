@@ -48,6 +48,19 @@ t[#t+1] = LoadActor("MyCoolSprite_"..pname(player))..{
   };
 end
 ```
+You might be asking "Okay, but my code is another lua file! How do I pass in the player?". Well, that's what the second argument of LoadActor is for.
+Let's say you have a file named "label.lua"
+```lua
+t[#t+1] = LoadActor("Label");
+```
+You can supply the player (or anything, actually) as the second argument to LoadActor, where it will be passed in as a variable named `...`.
+```lua
+t[#t+1] = LoadActor("Label", PLAYER_1);
+```
+Then in the first line of Label.lua:
+```lua
+local player = ...
+```
 
 ## Putting both P1 and P2 messagecommands when not needed
 Let's say you have a function that returns an Actor and one of the parameters for that function is the player. But CurrentStepsChanged is an old style of MessageCommand, so you think it's impossible and put both in. Don't do this.
