@@ -116,6 +116,13 @@ local function GetDiffAsInt(d)
     return Difficulty:Reverse()[d];
 end;
 ```
+
+## Creating an array for an existing enum
+```lua
+local difficulties = {"Difficulty_Beginner", "Difficulty_Easy", "Difficulty_Medium", "Difficulty_Hard", "Difficulty_Challenge", "Difficulty_Edit"}
+```
+enums are iterable. this is the same as `local difficulties = Difficulty`. In fact you don't need to declare a variable at all, because you can access a value from the enum using Enum[i] where i is the position to access. Ex. `Difficulty[1]` returns `"Difficulty_Beginner"`.
+
 ## copypasted actors that use enums
 Enums are iterable with for loops. You don't need to copy and paste the actor you're trying to generate every time.
 ```lua
