@@ -92,8 +92,8 @@ CurrentTrailP2ChangedMessageCommand=cmd(playcommand,"Set");
 ```
 The solution (assume player is a variable that is either PLAYER_1 or PLAYER_2):
 ```lua
-["CurrentSteps"]..pname(player)..["ChangedMessageCommand"]=cmd(playcommand,"Set");
-["CurrentTrail"]..pname(player)..["ChangedMessageCommand"]=cmd(playcommand,"Set");
+["CurrentSteps"..pname(player).."ChangedMessageCommand"]=cmd(playcommand,"Set");
+["CurrentTrail"..pname(player).."ChangedMessageCommand"]=cmd(playcommand,"Set");
 ```
 This will ensure your actor only listens to the commands it needs.
 
