@@ -135,6 +135,22 @@ CurrentSongChangedMessageCommand=function(self)
   end;
 end;
 ```
+(Of course, you are free to ignore this one if you don't care about wasting memory)
+
+## Using cmd
+cmd() has a performance penalty because it has to be translated.
+```lua
+Def.Quad{
+    OnCommand=cmd(addx,-300;linear,0.15;addx,300);
+}
+```
+Use function(self) instead.
+```lua
+Def.Quad{
+    OnCommand=function(self) self:addx(-300):linear(0.15):addx(300) end;
+}
+```
+(Of course, you are free to ignore this one if you don't care about causing lag)
 
 ## Putting both P1 and P2 messagecommands when not needed
 Let's say you have a function that returns an Actor and one of the parameters for that function is the player. But CurrentStepsChanged is an old style of MessageCommand, so you think it's impossible and put both in. Don't do this.
