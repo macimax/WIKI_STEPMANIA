@@ -18,7 +18,62 @@ BGAnimations/ScreenSystemLayer overlay has been overwritten and is missing the m
 If you've manually inserted it into the ActorFrame at a specific index, remember that lua is 1-indexed and actors at an index of 0 and below will not be compiled.
 
 # Common beginner mistakes and solutions
-List of things that beginners do. Don't do this!!
+List of things that beginners do. Don't do this!! Every beginning themer should read this before it's too late and you have to spend hours fixing your theme!
+## Lack of ActorFrames / Not understanding the purpose of an ActorFrame
+Example 1 of what not to do:
+```lua
+t[#t+1] = Def.ActorFrame{
+  LoadActor("Sprite1")..{
+    InitCommand=cmd(xy,200,300);
+  };
+  LoadActor("Sprite2")..{
+    InitCommand=cmd(xy,200,350);
+  };
+  LoadActor("Sprite3")..{
+    InitCommand=cmd(xy,200,400);
+  };
+  LoadActor("Sprite4")..{
+    InitCommand=cmd(xy,200,450);
+  };
+};
+```
+In this example, only the y value is changing, and it's only changing by 50 steps every time. Plus if you want to change the position to say, x=200 and y=500, you'd have to adjust the position of all four items. This defeats the purpose of using an ActorFrame in the first place.
+
+The correct solution is to do your positioning inside the ActorFrame, then adjust the offset of the item within the item.
+```lua
+t[#t+1] = Def.ActorFrame{
+  --This positions the ActorFrame and all objects inside it at 200,300.
+  --If you ever need to move the position of all the objects inside this
+  --ActorFrame, you can change this command only.
+  InitCommand=cmd(xy,200,300);
+  LoadActor("Sprite1")..{
+    --This sprite is not being adjusted, so there is no command needed.
+    --InitCommand=cmd(y,0);
+  };
+  LoadActor("Sprite2")..{
+    --[[
+    This sprite is being adjusted by 50 pixels. It's position on the screen
+    is the position of the ActorFrame plus any xy commands.
+    The resulting position of this object is 350.
+    ]]
+    InitCommand=cmd(y,50);
+  };
+  LoadActor("Sprite3")..{
+    InitCommand=cmd(y,100);
+  };
+  LoadActor("Sprite4")..{
+    InitCommand=cmd(y,150);
+  };
+};
+```
+
+Example 2 of what not to do:
+```lua
+--There is no positioning code here, it's all done inside the "MyCoolActor.lua" file
+t[#t+1] = LoadActor("MyCoolActor");
+```
+After reading the above, you can probably figure out why this is a bad idea.
+
 ## Making a file/actor then copypasting it for player 2
 **NOOOOOO!!!!!! DO NOT DO THIS!!!!!!!!** You are only making it harder for you and everyone else to debug your theme if you do this. You are making it take twice as long to implement your features if you do this. Seriously, **do not do this**.
 ```lua
