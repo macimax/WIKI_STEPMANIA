@@ -1,6 +1,6 @@
 For those that are either adventurous or wish to have the latest bug-fixes, compiling the source code is an option.
 
-You can download Windows & Linux binaries of the latest 5.1-new nightly builds [here](http://secret.amworks.games:9999/SM5BuildServer)
+You can download Windows & Linux binaries of the latest 5.1-new nightly builds [here](http://stepmania.amworks.games:9999/)
 
 You can download Windows binaries of the latest 5.2 nightly build [here](http://smnightly.katzepower.com/). 5.2 is an abandoned branch, so you probably don't want those.
 
