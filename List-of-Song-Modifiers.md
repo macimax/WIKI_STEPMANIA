@@ -22,7 +22,7 @@ Unless otherwise specified, all functions are assumed to take (float) value, (fl
 | Name | Function name | Description |
 | ----------- | ------------- | ----------- |
 | Incoming | Incoming |  The notefield is tiled towards the player. Notes will appear from farther away and zoom towards the note receptors.
-| Overhead | Overhead | (default) Notes will scroll on a flat surface from bottom to top. |
+| Vertical | Overhead | (default) Notes will scroll on a flat surface from bottom to top. |
 | Space | Space | The notefield is tilted away from the player.
 | Hallway | Hallway | The notefield is tilted towards the player at a lesser angle. |
 | Distant | Distant | The notefield is tilted away from the player, but on a lesser angle. |
