@@ -198,9 +198,9 @@ Attack Mines: Hitting negative notes adds a random modifier during gameplay that
 | Name | Function name | Description |
 | ----------- | ------------- | ----------- |
 | NORMAL | Bar | Normal lifebar type. Known as "Normal" on _DDR_ series. |
-| Battery | Battery | Miss a note and lose a life. If you run out of lives, you fail the song. |
-| 4 LIVES (Only on some themes) | Battery + 4 lives | You have 4 lives by default. If you run out of lives, you fail the song. |
-| RISKY (Only on some themes) | Battery + 1 life | Miss a note and fail the song. |
+| Battery | Battery | Getting any misstep you lose a life. If you run out of lives, you fail the song. |
+| 4 LIVES (Only on some themes) | Battery + 4 lives | The song ends on 4 missteps. This is an option for advanced players. |
+| RISKY (Only on some themes) | Battery + 1 life | Getting a single misstep will fail the song. |
 
 **Note**: Some themes have this option in Player Options instead of Song Options, and some themes enable hard clear. Also, may change the options depending on theme.
 
@@ -210,7 +210,7 @@ Attack Mines: Hitting negative notes adds a random modifier during gameplay that
 | ----------- | ------------- | ----------- |
 | NORMAL | Normal-Drain | Self explanatory. |
 | PRESSURE | NoRecover | Don't recover life upon scoring well. |
-| Sudden Death | SuddenDeath | Same as Battery + 1 life (RISKY on _DDR_ series). If you miss a note you fail. |
+| Sudden Death | SuddenDeath | Same as Battery + 1 life (RISKY on _DDR_ series). Getting any misstep will result in instant stage failure. |
 
 **Note**: Some versions/variants implement custom LIFE GAUGE changes that alterate PRESSURE and SUDDENDEATH in the _Preferences.ini_ or _stepmania.ini_ on earlier versions, that may be changed by the user.
 
