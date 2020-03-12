@@ -13,7 +13,7 @@ Plus a Special Stage (More commonly known as Encore Extra Stage or One More Extr
 * the player passes the Extra Stage.
 * the player achieves the theme's requirements to unlock the Special Stage. Usually this is an AA on the Extra Stage.
 
-When Event Mode is enabled, stages are unlimited and named Event Stage (in some themes, EVENT STAGE is renamed EXTRA STAGE). You are always taken back to the music select after song results, so there is no total results. Extra and Special stage are not accessible.
+When Event Mode is enabled, stages are unlimited and named Event Stage (in some themes, this is renamed EXTRA STAGE). You are always taken back to the music select after song results, so there is no total results. Extra and Special stage are not accessible.
 
 Some themes uses this default mode and don't be changed, and some themes use different scoring systems (as ITG, EXTREME, Supernova2, Money Score, Etc.).
 
@@ -30,8 +30,10 @@ Note for themers: some themes show ScreenEvaluationStage (Results on actual stag
 * FULL COMBO: Clear the song/course with FULL COMBO
 * ALL W1: Clear the song/course with _W1-only_ judges (marked as _Fantastic_ on default themes of the 5.x branch) and displays the maximum score.
 
+Grades can be applied (exc. in NO PLAY).
+
 ### Rave / Battle
-Battle against another player or a CPU. A gauge at the top determines who is winning or losing, and a gauge at the bottom fills up as you hit notes. When the gauge is full an attack modifier is temporarily applied to the opposite player. A draw can be happenned.
+Battle against another player or a CPU. Only SINGLE charts are used. A gauge at the top determines who is winning or losing, and a gauge at the bottom fills up as you hit notes. When the gauge is full an attack modifier is temporarily applied to the opposite player. A draw can be happenned.
 The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in `Characters\[Character Name Here]\character.ini`.
 
 ### Nonstop
