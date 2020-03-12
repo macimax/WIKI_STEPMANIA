@@ -177,9 +177,13 @@ TODO: Add more documentation here.
 
 ## \#KEYSOUNDS
 
-Play a sound at a certain time. Keysounds aren't tied to notes.
+Play a sound at a certain time, tied to a successful tap of a note or hold of a hold note.
 
-Note: Missing documentation on how this works, check [NotesLoader.cpp](https://github.com/stepmania/stepmania/blob/master/src/NotesLoaderSSC.cpp#L239) for the source code
+Alternatively if you add a keysound in an empty row it will be converted to an AutoKeysound and will play automatically.
+
+You can add keysounds using the editor.
+
+The \#KEYSOUNDS tag is formatted like `#KEYSOUNDS:\bgm.wav,01.wav,02.wav,` (yes, the `\` is intentional, the tag is actually written like that.)
 
 ## \#ATTACKS
 
@@ -233,4 +237,4 @@ Sets this Chart's Notes.
 
 ## \#NOTES2
 
-Whatever this tag is, it doesn't seem to actually be used...
+This tag is written instead of \#NOTES if you have keysounds in your ssc. Despite this, the ssc loader still loads it the same regardless of the tag.
