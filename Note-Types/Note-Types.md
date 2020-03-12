@@ -9,7 +9,7 @@ There are multiple **note types** available in StepMania.
 | Mine | M | Do not tap the negative notes (as mines, shock arrows, etc.) when it crosses or have your foot held down when it crosses. You will lose life! |
 | Lift | L | Have your foot on the arrow before it crosses. Lift up when it does cross. |
 | Fake | F | You can ignore this note: it does nothing for or against you. |
-| AutoKeysound | K | This 'note' is not really a note, it marks a keysound that will play automatically at this row. |
+| AutoKeysound | K | This 'note' is not really a note, it marks a keysound that will play automatically at this row. No note will appear here, and this is only used for empty rows. |
 
 ## StepF2 Notes
 These note types are not implemented in StepMania and they likely never will be, but they are documented here in case you ever need to convert a SF2 chart to SM5.
