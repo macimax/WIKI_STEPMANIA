@@ -19,7 +19,7 @@ Some themes uses this default mode and don't be changed, and some themes use dif
 
 Note for players: the Dance Points (or DP) is showned on some themes as EX-SCORE.
 
-Note for themers: some themes show ScreenEvaluationStage (Results on actual stage) regards if any player passes or fails the song, and, when Event Mode is disabled, if the player passes FINAL STAGE, EXTRA STAGE or ENCORE EXTRA (or fail the song in themes as DDR A), the last result is showned and changes to ScreenEvaluationSummary (TOTAL RESULTS).
+Note for themers: some themes show ScreenEvaluationStage (Results on actual stage) regards if any player passes or fails the song, and, when Event Mode is disabled, if the player passes FINAL STAGE, EXTRA STAGE or ENCORE EXTRA (or fail the song in themes as DDR A), the last result is showned and changes to ScreenEvaluationSummary (TOTAL RESULTS), this last can be configurated if the theme support songs failed.
 
 #### Evaluation
 * NO PLAY: Song/course not played
