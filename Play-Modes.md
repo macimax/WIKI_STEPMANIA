@@ -34,7 +34,7 @@ Grades can be applied (exc. in NO PLAY).
 
 ### Rave / Battle
 Battle against another player or a CPU. Only SINGLE charts are used. A gauge at the top determines who is winning or losing, and a gauge at the bottom fills up as you hit notes. When the gauge is full an attack modifier is temporarily applied to the opposite player. A draw can be happenned.
-The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in `Characters\[Character Name Here]\character.ini`.
+The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in `Characters\[Character Name Here]\character.ini`. Some themes disables access to some or all OPTIONS, and LIFE GAUGE option is disabled.
 
 ### Nonstop
 Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups (examples of theses courses are CLASS grades). Some themes disables access to some or all OPTIONS, LIFE GAUGE or difficulties.
