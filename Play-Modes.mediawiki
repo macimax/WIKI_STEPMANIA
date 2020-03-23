@@ -17,24 +17,25 @@ When Event Mode is enabled, stages are unlimited and named Event Stage (in some 
 
 Some themes uses this default mode and don't be changed, and some themes use different scoring systems (as ITG, EXTREME, Supernova2, Money Score, Etc.).
 
-Note for players: the Dance Points (or DP) is showned on some themes as EX-SCORE.
+'''Note for players''': the Dance Points (or DP) is showned on some themes as EX-SCORE.
 
-Note for themers: some themes show ScreenEvaluationStage (Results on actual stage) regards if any player passes or fails the song, and, when Event Mode is disabled, if the player passes FINAL STAGE, EXTRA STAGE or ENCORE EXTRA (or fail the song in themes as DDR A), the last result is showned and changes to ScreenEvaluationSummary (TOTAL RESULTS), this last can be configurated to support failed songs due to ZeroDivitionError during a count.
+'''Note for themers''': some themes show ScreenEvaluationStage (Results on actual stage) regards if any player passes or fails the song, and, when Event Mode is disabled, if the player passes FINAL STAGE, EXTRA STAGE or ENCORE EXTRA (or fail the song in themes as ''DDR A''), the last result is showned and changes to ScreenEvaluationSummary (TOTAL RESULTS), this last can be configurated to support failed songs due to ZeroDivitionError during a count.
 
 === Evaluation ===
-* NO PLAY: Song/course not played
-* FAILED: Fail the song/course
-* ASSIST CLEAR: Clear the song/course using NO HOLDS/REMOVE options
-* CLEAR: Clear the song/course without using NO HOLDS/REMOVE options
-* HARD CLEAR: Clear the song/course using PRESSURE/SUDDENDEATH/BATTERY/4 LIVES/RISKY options
-* FULL COMBO: Clear the song/course with FULL COMBO
-* ALL W1: Clear the song/course with ''W1-only'' judges (marked as ''Fantastic'' on default themes of the 5.x branch) and displays the maximum score.
+* '''NO PLAY''': Song/course not played
+* '''FAILED''': Fail the song/course
+* '''ASSIST CLEAR''': Clear the song/course using NO HOLDS/REMOVE options
+* '''CLEAR''': Clear the song/course without using NO HOLDS/REMOVE options
+* '''HARD CLEAR''': Clear the song/course using PRESSURE/SUDDENDEATH/BATTERY/4 LIVES/RISKY options
+* '''FULL COMBO''': Clear the song/course with FULL COMBO
+* '''ALL W1''': Clear the song/course with ''W1-only'' judges (marked as ''Fantastic'' on default themes of the 5.x branch) and displays the maximum score.
 
 Grades can be applied (exc. in NO PLAY).
 
 == Rave / Battle ==
 Battle against another player or a CPU. Only SINGLE charts are used. A gauge at the top determines who is winning or losing, and a gauge at the bottom fills up as you hit notes. When the gauge is full an attack modifier is temporarily applied to the opposite player. A draw can be happenned.
-The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in `Characters\[Character Name Here]\character.ini`. Some themes disables access to some or all OPTIONS, and LIFE GAUGE option is disabled.
+
+The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in <code>Characters\[Character Name Here]\character.ini</code>. Some themes disables access to some or all OPTIONS, and LIFE GAUGE option is disabled.
 
 == Courses ==
 === Nonstop ===
