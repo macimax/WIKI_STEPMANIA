@@ -72,7 +72,9 @@ Select opens options list if metric "UseOptionsList" is true. (Using the select 
 | (no default) | PrevGroup | Jump to previous folder |
 | Up, Down, Up, Down<br>OR<br>MenuUp, MenuDown, MenuUp, MenuDown | ModeMenu1<br>ModeMenu2 | Open up the sorting selection menu (in some themes) |
 | MenuUp-MenuDown | CloseCurrentFolder | Close the current folder |
+
 Use _Up, Up_, _MenuUp, MenuUp_, _Down, Down_ or _MenuDown, MenuDown_ for change difficulty.
+
 Some themes use Left+Right for Sort menu instead of Cycle between sorting modes, leaving this function disabled.
 
 ### Modifier codes
