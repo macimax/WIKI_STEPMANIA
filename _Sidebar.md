@@ -10,8 +10,6 @@
   * [User data locations](User-Data-Locations)
   * [Preferences file](Preferences.ini)
   * [Manually changing preferences](Manually-Changing-Preferences)
-  * [Static mount points for USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
-  * [Static mount points for USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
 ## Play
   * [Game modes](Supported-Game-Modes)
   * [Play modes](Play-Modes)
@@ -19,11 +17,11 @@
   * [Key bindings](Key-Bindings-and-combinations)
   * [Customization](Customization)
 ## Charting
-  * [Auto Generation](AutoStepper-Generation)
   * [Timing segments](Timing-Segments)
   * [Label segments](Label-segments)
   * [Note types](Note-Types)
   * [Note and Timing Gimmicks](Note-and-timing-gimmicks)
+  * [Auto Generation](AutoStepper-Generation)
 ## For themers and developers
   * [Themes](Theming)
   * [Noteskins (5.0-5.1)](Noteskins)
@@ -31,6 +29,10 @@
   * [MessageCommands](MessageCommands)
   * [Adding Lua functions to source](Adding-new-lua-functions-to-the-source)
   * [Blend modes](Blend-Modes)
+## Arcade machines
+  * [USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
+  * [USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
+  * [Drivers for PIUIO](Installing-PIUIO-Drivers-for-Windows-or-Linux)
 ## Future features and projects
   * [Notefield mod system (5.2)](NewField-mod-system)
   * [5.2 noteskin system](NewSkin-Guide)
