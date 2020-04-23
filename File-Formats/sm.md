@@ -137,7 +137,7 @@ These are the standard note values:
 * `2` – Hold head
 * `3` – Hold/Roll tail
 * `4` – Roll head
-* `M` – Mine
+* `M` – Mine (or other negative note)
  
 Later versions of StepMania accept other note values which may not work in older versions:
  
