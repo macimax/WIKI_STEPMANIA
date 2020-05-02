@@ -22,7 +22,7 @@ button on github to get a source zip, you will not be able to build that zip.
 
 There may be some specific things to watch out for. This section covers that.
 
-### Windows ###
+## Windows ##
 
 **Ensure the following items are installed:**
 * .NET Framework 3.5, which can be installed through the "Add Programs and Features" section in the Control Panel (Required for DX2010SDK)
@@ -31,7 +31,7 @@ There may be some specific things to watch out for. This section covers that.
 * [Windows Platform SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk).
 * [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/) 2015 or 2013. Any edition of Visual Studio 2013 or 2015 will work, but the focus will be on the Community editions.
 
-Currently we only support using generated Visual Studio solution files from CMake. 
+Currently we only support using generated Visual Studio solution files from CMake.
 
 (Installer Related)
 * NSIS (http://nsis.sourceforge.net/Download)
@@ -78,7 +78,7 @@ cmake -G "Visual Studio 14 2015" -A Win32 -DCMAKE_BUILD_TYPE=Release .. && cmake
 msbuild.exe StepMania.sln /t:Build /p:Configuration=Release;Platform=Win32
 ```
 
-### Linux ###
+## Linux ##
 **Warning: Do not use autogen.sh to compile StepMania. It is not maintained at all and you will likely run into issues such as no sound.**
 #### 1-a: Prepare dependencies(Debian Based systems) ####
 
@@ -143,21 +143,21 @@ right click it and make it executable in properties>permissions
 
 #### 4: Configuration ####
 
-Install songs in ~/.stepmania-5.0/Songs/ 
+Install songs in ~/.stepmania-5.0/Songs/
 
-Install themes in ~/.stepmania-5.0/Themes/ 
+Install themes in ~/.stepmania-5.0/Themes/
 
-Install noteskins in ~/.stepmania-5.0/NoteSkins/ 
+Install noteskins in ~/.stepmania-5.0/NoteSkins/
 
 (noteskins for Stepmania 5.1 also go in ~/.stepmania-5.0/NoteSkins/)
 
-Preferences are in ~/.stepmania-5.0/Save/Preferences.ini 
+Preferences are in ~/.stepmania-5.0/Save/Preferences.ini
 
-Profiles are in ~/.stepmania-5.0/Save/LocalProfiles/ 
+Profiles are in ~/.stepmania-5.0/Save/LocalProfiles/
 
 #### 5: Updating ###
 
-When you want to update your copy of SM5: 
+When you want to update your copy of SM5:
 
 cd into the stepmania folder you cloned, and run a git pull in terminal:
 
@@ -176,32 +176,43 @@ If not you might wanna have it emulate a keyboard using Antimicro
 simply add ppa:mdeguzis/libregeek to your ppa's in software sources
 ```
 sudo apt-get update
-sudo apt-get install antimicro 
+sudo apt-get install antimicro
 ```
 
-### macOS ###
+## macOS
 
-At this time, only generated [Xcode](https://developer.apple.com/xcode/) projects are supported.
+#### setup
 
-First, install [Homebrew](https://brew.sh/).
+First, install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) using Apple's App Store, and install [Homebrew](https://brew.sh/) by following the instructions on the Homebrew homepage.
 
-To generate an Xcode project you will need to use Cmake.
-```
+Use Homebrew to install cmake and yasm.
+```bash
 brew install cmake yasm
+```
+
+#### cloning StepMania from GitHub
+
+Use git's command-line interface to clone StepMania from GitHub.
+```bash
 git clone --depth=1 https://github.com/stepmania/stepmania.git
+```
+
+When that has completed, `cd` into your local copy of the repository and initialize your local project's submodules.
+```bash
 cd stepmania
 git submodule update --init
+```
+
+#### use cmake to generate build files
+
+Next, `cd` into your *Build* folder and use cmake to generate a Xcode project file.
+```bash
 cd Build
 cmake -G 'Xcode' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 open StepMania.xcodeproj
 ```
-Xcode should open with the project, from here you can build StepMania.
 
-The above `cmake` command will generate a release build of StepMania that will be tagged with the most recent Git commit hash.  If you have been designated as the macOS developer to build a formal, major release for distribution purposes, you can generate such an Xcode project from the Build directory via
-
-```
-cmake -G Xcode -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release ..
-```
+Xcode should open with the project, from here you can build StepMania by clicking the ▶ button to Build and Run.
 
 By default, the Xcode project is set to the Debug build configuration. If you want to build the Release version of StepMania:
 1. Go to **Product > Scheme** and select **StepMania**
@@ -209,4 +220,14 @@ By default, the Xcode project is set to the Debug build configuration. If you wa
 3. For the **Run** action, change the **Build Configuration** to **Release**
 4. Uncheck **Debug executable**
 5. Finally, go to **Product > Build For** and select **Running**.
-6. StepMania.app should appear within the root directory of the repository.
+
+StepMania.app should appear within the root directory of the repository.
+
+#### build a formal release
+
+The above `cmake` command will generate a release build of StepMania that will be tagged with the most recent Git commit hash.  If you have been designated as the macOS developer to build a formal, major release for distribution purposes, you can generate such an Xcode project from the Build directory via
+
+```bash
+cmake -G Xcode -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release ..
+```
+
