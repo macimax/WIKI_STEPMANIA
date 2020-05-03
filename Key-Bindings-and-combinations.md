@@ -6,30 +6,30 @@ The default keybindings can be changed by going into the key configuration setti
 
 | key | action |
 | --- | ------ |
-| Enter | Go forward through a menu or screen |
-| Escape | Return to a previous screen |
-| Arrow keys | Navigate the menus (and press arrows during gameplay) |
+| <kbd>Enter</kbd> | Go forward through a menu or screen |
+| <kbd>Escape</kbd> | Return to a previous screen |
+| Arrow keys (<kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, and <kbd>→</kbd>) | Navigate the menus (and press arrows during gameplay) |
 
 # Universal debugger shortcuts
 
 | Combination | Function |
 | ----------- | -------- |
-| F1 | Insert coin |
-| F2 | Reload metrics and resources |
-| Shift+F2 | Reload metrics (also reloads language files) |
-| Ctrl+F2 | Reload scripts |
-| Holding F3 | Open the debug menu. While displaying the debug menu you can press the listed keys to switch menus and toggle debug functions. |
+| <kbd>F1</kbd> | Insert coin |
+| <kbd>F2</kbd> | Reload metrics and resources |
+| <kbd>Shift</kbd> + <kbd>F2</kbd> | Reload metrics (also reloads language files) |
+| <kbd>Ctrl</kbd> + <kbd>F2</kbd> | Reload scripts |
+| Holding <kbd>F3</kbd> | Open the debug menu. While displaying the debug menu you can press the listed keys to switch menus and toggle debug functions. |
 
 # Universal shortcuts
 
 | Combination | Function |
 | ----------- | -------- |
-| Alt+Enter | Switches between windowed and fullscreen... Except it's kind of buggy. |
-| Tab | Speeds up UI to 2x while held, including animations and selections. |
-| ~ | Slows down UI and animations to 0.25x(?) while held. |
-| Scroll Lock | Jump immediately to the options menu. You can change this key binding in settings. |
-| Screenshot key (PrintScreen or F13 by default) | Save a lossy screenshot. You can change this key binding in settings. |
-| Shift + Screenshot key | Save a lossless screenshot. |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd> | Switches between windowed and fullscreen. |
+| <kbd>Tab</kbd> | Speeds up UI to 2x while held, including animations and selections. |
+| <kbd>~</kbd>| Slows down UI and animations to 0.25x(?) while held. |
+| <kbd>Scroll Lock</kbd> | Jump immediately to the options menu. You can change this key binding in settings. |
+| Screenshot key (<kbd>PrintScreen</kbd> or <kbd>F13</kbd> by default) | Save a lossy screenshot. You can change this key binding in settings. |
+| <kbd>Shift</kbd> + *Screenshot key* | Save a lossless screenshot. |
 
 
 # Music Select
@@ -37,11 +37,11 @@ The default keybindings can be changed by going into the key configuration setti
 ## Debugger shortcuts
 | Combination | Function |
 | ----------- | -------- |
-| Control+Shift+R | Reload the currently selected song and regenerate the cache for it |
-| Control+S | Save current profile |
-| Control+Q | Reload new song packs that have been placed in the songs folder since the game was started |
-| Ctrl+Backspace | Permanently delete the selected song |
-| F9 | Switch between transliterated and original song titles |
+| <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Reload the currently selected song and regenerate the cache for it |
+| <kbd>Control</kbd> + <kbd>S</kbd> | Save current profile |
+| <kbd>Control</kbd> + <kbd>Q</kbd> | Reload new song packs that have been placed in the songs folder since the game was started |
+| <kbd>Ctrl</kbd> + <kbd>Backspace</kbd> | Permanently delete the selected song |
+| <kbd>F9</kbd> | Switch between transliterated and original song titles |
 
 ## Default gameplay combos & buttons
 The following was taken from https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/03%20Gameplay.lua#L272
@@ -92,7 +92,7 @@ Some of these are for [Pump](https://github.com/stepmania/stepmania/wiki/Support
 | (no default combo) | NextTransform | Cycles between transform modifiers |
 | UpLeft, UpRight, UpLeft, UpRight, Center | NextScrollSpeed | Jumps to the next scroll speed (ex: 1x -> 2x, 2x -> 3x) |
 | UpRight, UpLeft, UpRight, UpLeft, Center | PreviousScrollSpeed | Jumps to the previous scroll speed |
-| (no default combo) | NextAccel | Cycles between [Accel](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#acceleration) modifiers | 
+| (no default combo) | NextAccel | Cycles between [Accel](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#acceleration) modifiers |
 | (no default combo) | NextEffect | Cycles between [Effect](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#effects) modifiers |
 | (no default combo) | NextAppearance | Cycles between [Appearnace](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#appearance) modifiers |
 | (no default combo) | NextTurn | Cycles between [Turn](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers#turn) modifiers |
