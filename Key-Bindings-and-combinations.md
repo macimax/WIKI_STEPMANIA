@@ -1,14 +1,11 @@
-"+" means held at the same time. "," means one after the other.
-If a setting has more than one combination it will be listed on another line.
-
 # The very basics
-The default keybindings can be changed by going into the key configuration settings in the options menu. Here are the very basics to get you started:
+These are the basic default keybindings to get you started.  They can be changed in the *Config Key/Joy Mappings* screen in the main options menu.
 
 | key | action |
 | --- | ------ |
 | <kbd>Enter</kbd> | Go forward through a menu or screen |
 | <kbd>Escape</kbd> | Return to a previous screen |
-| Arrow keys (<kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, and <kbd>→</kbd>) | Navigate the menus (and press arrows during gameplay) |
+| <kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, <kbd>→</kbd> | Navigate the menus (and press arrows during gameplay) |
 
 # Universal debugger shortcuts
 
@@ -40,11 +37,13 @@ The default keybindings can be changed by going into the key configuration setti
 | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Reload the currently selected song and regenerate the cache for it |
 | <kbd>Control</kbd> + <kbd>S</kbd> | Save current profile |
 | <kbd>Control</kbd> + <kbd>Q</kbd> | Reload new song packs that have been placed in the songs folder since the game was started |
-| <kbd>Ctrl</kbd> + <kbd>Backspace</kbd> | Permanently delete the selected song |
+| <kbd>Ctrl</kbd> + <kbd>Backspace</kbd> | Permanently delete the selected song (if `AllowSongDeletion` is enabled) |
 | <kbd>F9</kbd> | Switch between transliterated and original song titles |
 
 ## Default gameplay combos & buttons
 The following was taken from https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/03%20Gameplay.lua#L272
+
+"+" means held at the same time. "," means one after the other.  If a setting has more than one combination it will be listed on another line.
 
 ### Music Select
 
