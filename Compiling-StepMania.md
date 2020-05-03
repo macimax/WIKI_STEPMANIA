@@ -205,7 +205,7 @@ git submodule update --init
 
 #### use cmake to generate build files
 
-Next, `cd` into your *Build* folder and use cmake to generate a Xcode project file.
+Next, `cd` into your *Build* folder and use cmake to generate an Xcode project file.
 ```bash
 cd Build
 cmake -G 'Xcode' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
@@ -214,20 +214,20 @@ open StepMania.xcodeproj
 
 Xcode should open with the project, from here you can build StepMania by clicking the ▶ button to Build and Run.
 
-By default, the Xcode project is set to the Debug build configuration. If you want to build the Release version of StepMania:
-1. Go to **Product > Scheme** and select **StepMania**
-2. Go back to **Product > Scheme** and select **Edit Scheme...**
+By default, the generated Xcode project is set to the Debug build configuration. If you want to build a Release version of StepMania:
+
+1. Go to **Product > Scheme** and ensure that **StepMania** is checked
+2. From **Product > Scheme**, choose **Edit Scheme...**
 3. For the **Run** action, change the **Build Configuration** to **Release**
 4. Uncheck **Debug executable**
-5. Finally, go to **Product > Build For** and select **Running**.
+5. Finally, go to **Product > Build For** and choose **Running**.
 
-StepMania.app should appear within the root directory of the repository.
+StepMania.app should appear within the root directory of the cloned repository.
 
 #### build a formal release
 
-The above `cmake` command will generate a release build of StepMania that will be tagged with the most recent Git commit hash.  If you have been designated as the macOS developer to build a formal, major release for distribution purposes, you can generate such an Xcode project from the Build directory via
+The above `cmake` command will generate a build of StepMania that will be tagged with the most recent Git commit hash.  If you have been designated as the macOS developer to build a formal, major release for distribution purposes, you can generate such an Xcode project from the Build directory via
 
 ```bash
 cmake -G Xcode -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release ..
 ```
-
