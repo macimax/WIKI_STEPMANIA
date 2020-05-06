@@ -44,7 +44,7 @@ Course mode. Pick a course to play a series of songs in order. It reads from .cr
 '''Note for themers''': During this mode, you stay in ScreenGameplay until the course ends (or fails) and then you're taken to ScreenEvaluationNormal.
 
 === Oni / Challenge ===
-The same as Nonstop, but the LIFE GAUGE is set to 4 LIVES.
+The same as Nonstop, but the LIFE GAUGE is set to 4 LIVES. LIFE GAUGE is disabled but you can adjust the MAX number of lives.
 
 === Endless ===
 The same as Nonstop, but play songs until you fail.
