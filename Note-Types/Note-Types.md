@@ -3,8 +3,8 @@ There are multiple **note types** available in StepMania.
 | Note Type | Key Symbol | Comments |
 | --- | --- | --- |
 | Tap | 1 | Standard note type |
-| Hold Head | 2 | Tap the hold note (as charged note on beat, frezze arrows on dance, etc.) when it crosses the judgment row, then hold it down. |
-| Hold/Roll End | 3 | You can let go of the hold when the end crosses the judgment row. Note: Releasing the key during hold note in some themes breaks your combo. |
+| Hold Head | 2 | Tap the hold note (as charged note on beat, frezze arrows on dance, etc.) when it crosses the judgment row, then hold it down. Note: Releasing the key during hold note in some themes breaks your combo. |
+| Hold/Roll End | 3 | You can let go of the hold when the end crosses the judgment row. |
 | Roll Head | 4 | Tap the roll note when it crosses the judgment row, then hit repeatly it until the end. |
 | Mine | M | Do not tap the negative notes (as mines, shock arrows, etc.) when it crosses or have your foot held down when it crosses. You will lose life and in some themes breaks your combo! |
 | Lift | L | Have your foot on the arrow before it crosses. Lift up when it does cross. |
