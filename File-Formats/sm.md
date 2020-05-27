@@ -1,6 +1,6 @@
 # About
  
-In StepMania 5, `.sm` files have been superseded by [.ssc](file-formats/ssc) files, which are similar in format but contain additional tags and allow newer features (example: the BPM splitted across difficulties).  New charts created with StepMania 5 will be exported to the `.ssc` format, though the program still supports reading the `.sm` format.
+In StepMania 5, `.sm` files have been superseded by [.ssc](ssc) files, which are similar in format but contain additional tags and allow newer features (example: the BPM splitted across difficulties).  New charts created with StepMania 5 will be exported to the `.ssc` format, though the program still supports reading the `.sm` format.
  
  
 # `.sm` files
