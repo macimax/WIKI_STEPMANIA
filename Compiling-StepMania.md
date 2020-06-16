@@ -1,8 +1,11 @@
+# Compiling StepMania 
+
 For those that are either adventurous or wish to have the latest bug-fixes, compiling the source code is an option.
 
-You can download Windows & Linux binaries of the latest 5.1-new nightly builds [here](http://stepmania.amworks.games:9999/)
-
-You can download Windows binaries of the latest 5.2 nightly build [here](http://smnightly.katzepower.com/). 5.2 is an abandoned branch, so you probably don't want those.
+Operating System-specific instructions:
+* [Windows](#windows)
+* [Linux](#linux)
+* [macOS](#macos)
 
 ## Common Items ##
 
@@ -18,9 +21,6 @@ The master branch uses submodules for some external dependencies like ffmpeg,
 so they are not bundled. As a side effect, if you click the "Download ZIP"
 button on github to get a source zip, you will not be able to build that zip.
 
-## Operating System Specific #
-
-There may be some specific things to watch out for. This section covers that.
 
 ## Windows ##
 
