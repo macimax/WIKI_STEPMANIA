@@ -11,22 +11,23 @@ The docs need a TON of work! Please ask on the forums and suggest anything you t
 
 Configuration & Setup
 ------------
-* [The Beginner's Guide](https://raw.githubusercontent.com/stepmania/stepmania/5_1-new/Docs/Userdocs/sm5_beginner.txt) - a general guide for new players
-* [System requirements](Minimum-Requirements)
+* [Beginner's Guide](https://raw.githubusercontent.com/stepmania/stepmania/5_1-new/Docs/Userdocs/sm5_beginner.txt) - a general guide for new players
+* [System Requirements](Minimum-Requirements)
 * [Installing StepMania](Install-Guide) - install guide for Windows, macOS, and Linux
-* [Customizing StepMania](Customization) - information about custom themes, noteskins, and announcers
-* [Manually Changing Preferences](Manually-Changing-Preferences)
+* [Customizing StepMania](Customization) - information about custom Themes, NoteSkins, Announcers, etc.
+* [Changing StepMania Preferences](Manually-Changing-Preferences)
 
 
 Basic Engine Info
 ------------
-* [Versions](https://github.com/stepmania/stepmania/wiki/Versions)
-* [User data locations](https://github.com/stepmania/stepmania/wiki/User-Data-Locations)
-* [Supported file formats](https://github.com/stepmania/stepmania/wiki/File-Formats)
+* [Versions](https://github.com/stepmania/stepmania/wiki/Versions) - historical overview of StepMania versions
+* [User data locations](https://github.com/stepmania/stepmania/wiki/User-Data-Locations) -  where to install custom content
+* [Default Key Bindings](Key-Bindings-and-combinations)
 * [Supported games](https://github.com/stepmania/stepmania/wiki/Supported-Game-Modes)
 * [Play modes](https://github.com/stepmania/stepmania/wiki/Play-Modes)
+* [Supported file formats](https://github.com/stepmania/stepmania/wiki/File-Formats)
 * [Courses](https://github.com/stepmania/stepmania/wiki/Courses)
-* [Key Bindings](Key-Bindings-and-combinations)
+
 
 Charting Help
 ------------
@@ -34,7 +35,7 @@ Charting Help
 * [Timing segments](https://github.com/stepmania/stepmania/wiki/Timing-Segments)
 * [Label segments](https://github.com/stepmania/stepmania/wiki/Label-segments)
 * [Note And Timing Gimmicks](https://github.com/stepmania/stepmania/wiki/Note-and-timing-gimmicks)
-* [(advanced) NewField Mod System](https://github.com/stepmania/stepmania/wiki/NewField-mod-system)
+
 
 Theming Help
 ------------
@@ -49,15 +50,14 @@ Theming Help
 Programming Help
 ------------
 * [Compiling StepMania](https://github.com/stepmania/stepmania/wiki/Compiling-StepMania)
-* [Adding new lua functions](https://github.com/stepmania/stepmania/wiki/Adding-new-lua-functions-to-the-source)
+* [Adding new Lua functions](https://github.com/stepmania/stepmania/wiki/Adding-new-lua-functions-to-the-source)
 
 
-USB Profiles
+Arcade Machine Hardware
 ------------
-You may want to create static mount points for USB-based profiles. Doing so will allow you associate a USB port on your PC with a specific player's memorycard slot, as is common on arcade cabinets.
-
-* [Static mount points for USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
-* [Static mount points for USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
+* [USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
+* [USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
+* [Drivers for PIUIO](Installing-PIUIO-Drivers-for-Windows-or-Linux)
 
 
 Command Line Arguments
