@@ -20,18 +20,19 @@ You will absolutely, positively need:
 You may also want:
 
 * For even the slightest prayer of people helping you when things go wrong: libiberty (Debian: part of binutils-dev)
-* For a loading dialog: GTK+ 2 (Debian: libgtk2.0-dev)
+* For a loading dialog: GTK3 (Debian: libgtk3-dev)
 * For MP3 support: libMAD (Debian: libmad0-dev)
 
 
-### Debian or Mint
+### Debian and derivatives (Ubuntu, Mint, etc.)
 ```
-sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev libjack-dev binutils-dev libgtk2.0-dev libmad0-dev libjack0 libudev-dev libva-dev
+sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev libjack-dev binutils-dev libgtk3-dev libmad0-dev libjack0 libudev-dev libva-dev
 ```
 
 ### Fedora 23
 ```
 dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk2-devel systemd-devel
+dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk3-devel systemd-devel
 ```
-Dance pads are not supported on Fedora until someone else figures out what's wrong with them and posts instructions.
+
+Dance pads are not currently supported on Fedora.
