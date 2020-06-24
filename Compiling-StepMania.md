@@ -82,7 +82,7 @@ msbuild.exe StepMania.sln /t:Build /p:Configuration=Release;Platform=Win32
 **Warning:**
 Do not use autogen.sh to compile StepMania. It is not maintained and you will likely run into issues such as no sound.**
 
-#### 1-a: Prepare dependencies (Debian Based systems) ####
+#### 1-a: Prepare dependencies (Debian-based systems) ####
 
 Open a terminal and:
 
@@ -91,13 +91,7 @@ Open a terminal and:
 sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk-3-dev libmad0-dev libudev-dev libva-dev nasm
 ```
 
-```
-# THE FOLLOWING ARE OUT OF DATE
-# Doesn't work on 18.04
-sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk-3-dev libmad0-dev libudev-dev libva-dev
-```
-
-#### 1-b: Prepare dependencies(Fedora Based systems) ####
+#### 1-b: Prepare dependencies (Fedora-based systems) ####
 
 Open a terminal and:
 ```
@@ -116,14 +110,18 @@ cd Build
 cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 make -j8
 ```
-The job count passed to make should not be more than double the number of cores you have.
+The job count passed to `make` should not be more than double the number of cores you have.
 
 #### Fetching the 5.2 branch ####
-5.2 was merged into master.  Fetching master will fetch the 5.2 branch.
+5.2 was merged into master, so fetching master will fetch the 5.2 branch.
 
-*Note: 5.1 was renamed to 5.2 after 5.1.-3 so an intermediate release could be made.*
+*Note:* 5.1 was renamed to 5.2 after [5.1.-3](https://github.com/stepmania/stepmania/releases/tag/v5.1.0a3) so an intermediate release could be made.
+
+`git clone --single-branch -b master --depth=1 https://github.com/stepmania/stepmania.git`
 
 #### Fetching the 5.1 branch ####
+The current 5.1 branch (`5_1-new`) is the [default branch](https://github.com/stepmania/stepmania/issues/1873) on GitHub.
+
 `git clone --single-branch -b 5_1-new --depth=1 https://github.com/stepmania/stepmania.git`
 
 #### Fetching the 5.0 branch ####
