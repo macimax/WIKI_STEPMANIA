@@ -79,20 +79,22 @@ msbuild.exe StepMania.sln /t:Build /p:Configuration=Release;Platform=Win32
 ```
 
 ## Linux ##
-**Warning: Do not use autogen.sh to compile StepMania. It is not maintained at all and you will likely run into issues such as no sound.**
-#### 1-a: Prepare dependencies(Debian Based systems) ####
+**Warning:**
+Do not use autogen.sh to compile StepMania. It is not maintained and you will likely run into issues such as no sound.**
+
+#### 1-a: Prepare dependencies (Debian Based systems) ####
 
 Open a terminal and:
 
 ```
 # On Ubuntu 17.04 or Debian >= 9.0. Worked on 18.04, 19.04.
-sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk2.0-dev libmad0-dev libudev-dev libva-dev nasm
+sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk-3-dev libmad0-dev libudev-dev libva-dev nasm
 ```
 
 ```
 # THE FOLLOWING ARE OUT OF DATE
 # Doesn't work on 18.04
-sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk2.0-dev libmad0-dev libudev-dev libva-dev
+sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng12-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk-3-dev libmad0-dev libudev-dev libva-dev
 ```
 
 #### 1-b: Prepare dependencies(Fedora Based systems) ####
@@ -100,7 +102,7 @@ sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libg
 Open a terminal and:
 ```
 dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk2-devel glew-devel libudev-devel
+dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk3-devel glew-devel libudev-devel
 ```
 
 #### 2: Clone the stepmania git and compile stepmania ####
