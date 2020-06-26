@@ -9,6 +9,9 @@ Note: If you're on Windows, you must replace every backslash with a forward slas
 For example:
 `AdditionalSongFolders=H:/StepMania5/Songs`
 
+Relative paths are also supported. For example, you can have a folder named SongsExtra inside the StepMania folder and put down `AdditionalSongFolders=SongsExtra/`.
+Make sure you do not have a slash at the beginning, since that would turn a relative path into an absolute path.
+
 ## AdditionalCourseFolders
 
 Adds additional courses.
