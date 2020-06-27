@@ -42,5 +42,5 @@ Some older songs also have `{1e0}` but what it is is a mystery... For now, anywa
 
 fake: if 1, this note is a fake note. If 0, this note is judged normally.
 
-reserved flag: Not used for anything.
+reserved flag: Not used for anything. Does nothing.
 
