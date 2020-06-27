@@ -14,7 +14,7 @@ There are multiple **note types** available in StepMania.
 ## StepF2 Notes
 These note types are not implemented in StepMania and they likely never will be, but they are documented here in case you ever need to convert a SF2 chart to SM5.
 
-StepF2 uses a different note syntax: `{note type|attribute|fake flag|unknown flag}`.
+StepF2 uses a different note syntax: `{note type|attribute|fake flag|reserved flag}`.
 
 Some older songs also have `{1e0}` but what it is is a mystery... For now, anyway.
 
@@ -42,5 +42,5 @@ Some older songs also have `{1e0}` but what it is is a mystery... For now, anywa
 
 fake: if 1, this note is a fake note. If 0, this note is judged normally.
 
-unknown flag: unknown
+reserved flag: Not used for anything.
 
