@@ -42,7 +42,7 @@ Useful for endless & workout courses.
 Ex. `#REPEAT:YES;`
 
 ## #LIVES
-The maximum number of lives attainable in the course. Enabling this will automatically force your course into an Challenge course. Ex. `#LIVES:4;`
+The maximum number of lives attainable in the course. Enabling this will automatically force your course into a Challenge course. Ex. `#LIVES:4;`
 
 Setting it to 0 lives or deleting this tag will make this course a nonstop course.
 
