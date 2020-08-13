@@ -9,6 +9,12 @@ You'll need to install Microsoft's [http://www.microsoft.com/en-us/download/deta
 
 With that done, follow along with the StepMania installer, ensuring that you '''do not install to Program Files''' to avoid conflicts with Windows UAC. By default, the installer will install to "C:\Games\" and this is fine for most players.
 
+If you are running Windows 10, it's possible that Windows Defender could cause StepMania to load slowly the first time after your computer boots up. To speed up this initial load:
+* Open '''Windows Defender Security Center''' (start typing it into the Start menu)
+* Click on '''Virus & threat protection'''
+* Under Exclusions, click '''Add or remove exclusions''' and choose the '''Folder''' option.
+* Navigate to your [[User-Data-Locations|user data folder]] and choose the '''Cache''' folder.
+
 == macOS ==
 [[Installing on macOS]] is roundabout, but at least we have a guide that gently walks you through the process.
 
