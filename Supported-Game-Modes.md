@@ -2,6 +2,21 @@ StepMania supports various game modes; they are divided into _games_ (an overarc
 
 **All StepsTypes are prefixed with `StepsType_`, this is omitted here for readability.**
 
+Quick navigation:
+- [Dance](#dance)
+- [Pump](#pump)
+- [kb7](#kb7)
+- [kickbox](#kickbox)
+- [lights](#lights)
+- [para](#para)
+- [beat](#beat)
+- [Ez2](#ez2)
+- [popn](#popn)
+- [techno](#techno)
+- [ds3ddx](#ds3ddx)
+- [karaoke](#karaoke)
+- [Maniax](#maniax)
+
 ## Dance
 The standard 4-column dance game, as popularized by franchises such as _Dance Dance Revolution_ and _In the Groove_, with columns corresponding to the four cardinal directions.
 
