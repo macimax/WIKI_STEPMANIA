@@ -9,31 +9,58 @@ Before attempting to edit your *Preferences.ini* file, it is important to unders
 With that established, if you wish to proceed, you'll need to quit StepMania first if it is actively running.  This will ensure that any changes you make manually will stick when you start StepMania next time.
 
 # Finding *Preferences.ini*
-The location of your *Preferences.ini* file depends on your operating system.
+The location of your *Preferences.ini* file depends on your operating system and your version of SM5.
 
-## Windows
 
-SM5.0.x Path: `%appdata%\StepMania 5\Save\Preferences.ini`
+If you're using **SM5.0.12**:
 
-SM5.1-beta Path: `%appdata%\StepMania 5.1\Save\Preferences.ini`
+<table>
+<tbody>
+  <tr>
+    <td>Windows 10, 8, 7</td>
+    <td>C:\Users\<code>USERNAME</code>\AppData\Roaming\StepMania 5\Save\Preferences.ini</td>
+  </tr>
+  <tr>
+    <td>macOS</td>
+    <td>/Users/<code>USERNAME</code>/Library/Preferences/StepMania 5/Preferences.ini</td>
+  </tr>
+  <tr>
+    <td>Linux</td>
+    <td>/home/<code>USERNAME</code>/.stepmania-5.0/Save/Preferences.ini</td>
+  </tr>
+</tbody>
+</table>
+
+If you're using **SM5.1-beta**:
+
+<table>
+<tbody>
+  <tr>
+    <td>Windows 10, 8, 7</td>
+    <td>C:\Users\<code>USERNAME</code>\AppData\Roaming\StepMania 5.1\Save\Preferences.ini</td>
+  </tr>
+  <tr>
+    <td>macOS</td>
+    <td>/Users/<code>USERNAME</code>/Library/Preferences/StepMania 5.1/Preferences.ini</td>
+  </tr>
+  <tr>
+    <td>Linux</td>
+    <td>/home/<code>USERNAME</code>/.stepmania-5.1/Save/Preferences.ini</td>
+  </tr>
+</tbody>
+</table>
+
+In each of these paths, <code>USERNAME</code> will be your OS username.
+
+🔷 Tip: If you find yourself manually changing Preferences frequently, you may wish to create a shortcut there. The user content folder can be cumbersome to navigate to.
 
 
 ## macOS
 
-SM5.0.x Path: `~/Library/Preferences/StepMania 5/Preferences.ini`
-
-SM5.1-beta Path: `~/Library/Preferences/StepMania 5.1/Preferences.ini`
-
-For better or worse, Apple hides the *Library* directory by default but there are a few ways to get there.
+Apple hides the *Library* folder by default but there are a few ways to get there.
 
 Finder's *Go* menu has a *Go To Folder...* item which brings up a dialog box.  Copy and paste the path provided above and click *Go*.
 
 ![Go To Folder... + Preferences.ini path](http://i.imgur.com/xrUN4gHh.png)
 
-Alternatively, it is possible to [un-hide the Library directory from Finder](http://osxdaily.com/2014/12/16/show-user-library-folder-os-x-yosemite/) which would allow you to navigate it like any other folder.
-
-## Linux
-
-SM5.0.x Path: `~/.stepmania-5.0/Save/Preferences.ini`
-
-SM5.1-beta Path: `~/.stepmania-5.1/Save/Preferences.ini`
+Alternatively, it is possible to [un-hide the Library folder from Finder](https://apple.stackexchange.com/a/378378), allowing you to navigate to it like any other folder.
