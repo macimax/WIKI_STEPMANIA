@@ -5,7 +5,7 @@
   * [Installing on macOS](Installing-on-macOS)
   * [Nightly Builds](https://github.com/stepmania/stepmania/wiki/Nightly-Builds)
   * [System requirements](Minimum-Requirements)
-  * [Compiling from source code](Compiling-StepMania)
+  * [Compiling from source](Compiling-StepMania)
   * [Linux dependencies](Linux-dependencies)
   * [Supported file formats](File-Formats)
   * [User data locations](User-Data-Locations)
