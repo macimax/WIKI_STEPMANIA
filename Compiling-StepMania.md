@@ -181,21 +181,33 @@ sudo apt-get install antimicro
 
 ## macOS
 
-#### setup
+### setup
 
-First, install [Xcode](https://apps.apple.com/us/app/xcode/id497799835) using Apple's App Store, and install [Homebrew](https://brew.sh/) by following the instructions on the Homebrew homepage.
+First, install [Homebrew](https://brew.sh/) by following the instructions on the Homebrew homepage.
 
-Use Homebrew to install cmake and yasm.
+Once it is installed, use Homebrew to install cmake and yasm.
 ```bash
 brew install cmake yasm
 ```
 
-#### cloning StepMania from GitHub
+If your version of macOS is recent, you'll already have git installed.  You can check using
+```bash
+which git
+```
+which will return a path to where `git` is located on your computer if it's available, or `git not found` if not.  
+
+If you don't have git installed, use Homebrew to do so now.
+```bash
+brew install git
+```
+
+### clone StepMania from GitHub
 
 Use git's command-line interface to clone StepMania from GitHub.
 ```bash
 git clone --depth=1 https://github.com/stepmania/stepmania.git
 ```
+
 
 When that has completed, `cd` into your local copy of the repository and initialize your local project's submodules.
 ```bash
@@ -203,31 +215,28 @@ cd stepmania
 git submodule update --init
 ```
 
-#### use cmake to generate build files
+### use cmake to generate build files
 
-Next, `cd` into your *Build* folder and use cmake to generate an Xcode project file.
+Next, `cd` into your *Build* folder and use cmake to generate a makefile.
 ```bash
 cd Build
-cmake -G 'Xcode' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
-open StepMania.xcodeproj
+cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release .. && cmake  ..
 ```
 
-Xcode should open with the project, from here you can build StepMania by clicking the ▶ button to Build and Run.
-
-By default, the generated Xcode project is set to the Debug build configuration. If you want to build a Release version of StepMania:
-
-1. Go to **Product > Scheme** and ensure that **StepMania** is checked
-2. From **Product > Scheme**, choose **Edit Scheme...**
-3. For the **Run** action, change the **Build Configuration** to **Release**
-4. Uncheck **Debug executable**
-5. Finally, go to **Product > Build For** and choose **Running**.
-
-StepMania.app should appear within the root directory of the cloned repository.
-
-#### build a formal release
-
-The above `cmake` command will generate a build of StepMania that will be tagged with the most recent Git commit hash.  If you have been designated as the macOS developer to build a formal, major release for distribution purposes, you can generate such an Xcode project from the Build directory via
+If you have been designated as the macOS developer to build a formal, major release for distribution purposes, you can use the `WITH_FULL_RELEASE` flag.  This will remove any git hash from the StepMania version number in the resulting executable.
 
 ```bash
-cmake -G Xcode -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release ..
+cmake -G Xcode -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release .. && cmake  ..
 ```
+
+### build
+
+```
+# the number of build jobs should not exceed 2x your CPU cores
+# for example, if you have 4 cores, use -j8
+make -j8
+```
+
+### allow Input Monitoring
+
+⚠️ **Note:** For macOS 10.15 ("Catalina"), you'll need to explicitly grant StepMania *Input Monitoring* permissions in System Preferences for input to be recognized. You'll need to redo this every time you rebuild from source.
