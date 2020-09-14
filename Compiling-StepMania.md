@@ -137,7 +137,7 @@ From there, the steps of initializing submodules, generating a makefile, and bui
 
 
 
-#### 3: Making a Launcher ####
+### 3: Making a Launcher
 
 If you want to run StepMania from a launch button like some desktop environments have, make a shell script like this and set the launch button to run the shell script. This assumes that the stepmania folder is \~/stepmania.  "\~/" is shorthand for *the home folder of the current user on Linux*.
 
