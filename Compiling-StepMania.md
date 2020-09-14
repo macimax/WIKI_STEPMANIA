@@ -192,7 +192,7 @@ sudo apt-get install antimicro
 
 First, install [Homebrew](https://brew.sh/) by following the instructions on the Homebrew homepage.
 
-Once it is installed, use Homebrew to install cmake and yasm.
+Once it's installed, use Homebrew to install cmake and yasm.
 ```bash
 brew install cmake yasm
 ```
@@ -233,7 +233,7 @@ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release .. && cmake  ..
 If you have been designated as the macOS developer to build a formal, major release for distribution purposes, you can use the `WITH_FULL_RELEASE` flag.  This will remove any git hash from the StepMania version number in the resulting executable.
 
 ```bash
-cmake -G Xcode -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release .. && cmake  ..
+cmake -G "Unix Makefiles" -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release .. && cmake  ..
 ```
 
 ### build
