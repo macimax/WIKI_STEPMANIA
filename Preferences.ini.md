@@ -139,6 +139,26 @@ The refresh rate of StepMania. Usually `60`.
 
 `1` shows the mouse cursor, `0` hides it. Linux only.
 
+## PacDriveLightOrdering
+
+If you are using a [PacDrive](https://www.ultimarc.com/output/led-and-output-controllers/pac-drive/) to drive lights on an arcade cabinet or otherwise, there are two wiring standards to choose from. The default (nothing or `minimaid`) sets the lights in the following order on the PacDrive:
+
+  Marquee lights (0-3)
+  Bass Lights (4)
+  P1 Panel Lights (5-8)
+  P1 Selection Button Lights (9)
+  P2 Panel Lights (10-13)
+  P2 Selection Lights (14)
+
+If you have a LumenAR board, or have wiring that follows the OpenITG standard, you can instead set this preference to either `lumenar` or `openitg`. The wiring for these is as follows:
+
+  P1 Panel Lights (0-3)
+  P2 Panel Lights (4-7)
+  Marquee Lights (8-11)
+  P1 Selection Button Lights (12)
+  P2 Selection Button Lights (13)
+  Bass Lights (14)
+
 # Customization
 
 ## Announcer
