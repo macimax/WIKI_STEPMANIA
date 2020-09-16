@@ -238,9 +238,12 @@ cmake -G "Unix Makefiles" -DWITH_FULL_RELEASE=ON -DCMAKE_BUILD_TYPE=Release .. &
 
 ### build
 
+Finally, build StepMania.
+
+You can use the `-j` flag to compile more quickly by using multiple simultaneous build jobs. The number of build jobs should not exceed 2x your CPU cores.
+So if you have 4 cores, you can use `-j8`.  If you have 2 cores, you can use `-j4`.
+
 ```
-# the number of build jobs should not exceed 2x your CPU cores
-# for example, if you have 4 cores, use -j8
 make -j8
 ```
 
