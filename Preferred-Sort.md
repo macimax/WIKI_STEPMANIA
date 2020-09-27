@@ -38,7 +38,7 @@ SONGMAN:SetPreferredSongs("NameOfMySort.txt");
 ### Metrics way
 Make sure your text file in the Other folder of your theme is named `SongManager PreferredSongs.txt`.
 
-In the `[ScreenSelectMusic]` section of your metrics.ini, add `DefaultSort="Preferred"`.
+In the `[GameState]` section of your metrics.ini, add `DefaultSort="Preferred"`. (This metrics value is also in ScreenSelectMusic but it doesn't do anything there, so ignore it)
 
 # Bonus: Using lua to write custom preferred sorts
 There are more novel ways to use preferred sorts than just making a preferred sort by hand and then setting it. For example: a preferred sort that contains only easy songs
