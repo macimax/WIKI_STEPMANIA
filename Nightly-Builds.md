@@ -1,7 +1,7 @@
 ## Nightly Builds
 
 ### SM5.1-new
-You can download Windows & Linux binaries of the latest 5.1-new nightly builds [here](http://stepmania.amworks.games:9999/).
+You can download Windows & Linux binaries of the latest 5.1-new nightly builds [here](http://stepmania.amaryllisworks.pw:9999/).
 
 
 
