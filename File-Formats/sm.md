@@ -49,7 +49,7 @@ Sets the path to the CD Title, a small image meant to show the origin of the son
 Sets the path to the music file for this song.
  
 ### \#OFFSET
-Sets the offset between the beginning of the song and the start of the note data.
+Sets the offset between the beginning of the song and the start of the note data in seconds.
  
 ### \#BPMS
 Sets the BPMs for this song. BPMS are defined in the format `Beat=BPM`, with each value separated by a comma.
