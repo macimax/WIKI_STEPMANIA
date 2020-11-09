@@ -44,6 +44,33 @@ Executed as the screen is displayed. Useful for animations as the player enters 
 
 Executed as the screen is being exited (Ex: Player picked a choice in a menu)
 
+## StartTransitioningCommand
+
+This is supposed to play when a screen activates its transition to go to the next screen, but there are irregularities as to when it plays.
+
+The behaviour of this command is different between 5.1 and 5.3. In 5.1 it will play at the same time as an OnCommand.
+
+Supposedly StartTransitioningCommand will be fired when the screen begins to transition to the next screen, so it being played when the screen reaches its "On" state in 5.1 should be regarded as a glitch, not intended behaviour?
+
+In Transition.cpp:
+```cpp
+void Transition::StartTransitioning( ScreenMessage send_when_done )
+{
+    if( m_State != waiting )
+        return;	// ignore
+	
+    // If transition isn't loaded don't set state to transitioning.
+    // We assume elsewhere that m_sprTransition is loaded.
+    if( !m_sprTransition.IsLoaded() )
+        return;
+	
+    m_sprTransition->PlayCommand( "StartTransitioning" );
+
+    m_MessageToSendWhenDone = send_when_done;
+    m_State = transitioning;
+}
+```
+
 ## Condition
 If this evaluates to false, the actor will not be created.
 Example:
@@ -103,10 +130,30 @@ Refer to Docs/Themerdocs/Examples/Example_Actors/ActorFrameTexture.lua for more 
 # ActorMultiTexture
 
 # ActorMultiVertex
-Special actor with multiple vertices.
+Special actor with multiple vertices. Refer to [Docs/Themerdocs/ScreenAMVTest overlay.lua](https://github.com/stepmania/stepmania/blob/5_1-new/Docs/Themerdocs/ScreenAMVTest%20overlay.lua) for more information. 
 # ActorProxy
+A special actor that renders exactly like the actor you're cloning.
+
+DOES NOT support diffusing, it is rendered as is. You can zoom it or move it, though.
+
+Example:
+```lua
+Def.ActorFrame{
+    Def.Sprite {
+        Name="Background";
+        Texture=THEME:GetPathG("Videos","Background");
+    };
+    Def.ActorProxy {
+        Name="Banner2";
+        OnCommand=function(self)
+            self:SetTarget(self:GetParent():GetChild("Background"));
+        end;
+    };
+}
+```
 # ActorScroller
 Actor with children that allows you to scroll between them.
+Refer to [Docs/Themerdocs/Examples/Example_Actors/ActorScroller.lua](https://github.com/stepmania/stepmania/blob/5_1-new/Docs/Themerdocs/Examples/Example_Actors/ActorScroller.lua) for more information.
 
 ## NumItemsToDraw
 Number of items to draw. Default is 7 if this parameter is omitted.
@@ -123,13 +170,9 @@ end,
 Normally the scroller will only calculate the next point for the actor to scroll towards in the TransformFunction. Setting this to a value above 1 will add a point for it to tween towards before stopping at the end point.
 (In English: you can make circular strollers with it.)
 
-## GainFocusCommand
+## ~~GainFocusCommand & LoseFocusCommand~~
 
-Triggered when the ActorScroller is selected. Can be used in any child item of the ActorScroller.
-
-## LoseFocusCommand
-
-Triggered when the ActorScroller is deselected. Can be used in any child item of the ActorScroller.
+These two commands are not part of an ActorScroller. In fact, they're from ScreenSelectMaster. However since the two classes are nearly identical people expect GainFocus & LoseFocus to be in ActorScroller too... Unfortunately you'll have to write a workaround.
 
 # ActorSound
 # Banner
@@ -176,6 +219,9 @@ Def.BitmapText{
 # DeviceList
 # DifficultyIcon
 # DynamicActorScroller
+An ActorScroller that can add and delete children on the fly.
+
+It has no lua bindings, so it's useless to the end user.
 # FadingBanner
 # GradeDisplay
 # GraphDisplay
@@ -253,6 +299,22 @@ set to `true` or `false`, defaults to false if omitted. When set to true the Rag
 set to `true` or `false`, defaults to false if omitted. When set to true it will be muted if MuteActions is on.
 # Sprite
 Sprite class for displaying static or animated sprites. Will also play video files.
+
+You can set texture hints in the filename of a sprite. They do various things. For example: `testimage (stretch) (doubleres).png` sets the stretch and doubleres hint.
+
+| hint | what it does |
+| ---- | ------------ |
+| doubleres | Indicates that the image is high resolution and should be displayed at half the size your theme would normally display actors (The size of actors is determined by the ScreenHeight metric). This is useful when you want to make a 1080p theme without having to meticulously position your actors, so you use ScreenHeight=540 and give all the sprites the doubleres hint. |
+| res 123x456 | Override the resolution of your graphic. 123 would be the width and 456 the height in this example. |
+| dither | ??? |
+| stretch | Allows usage of customtexturerect and texcoordvelocity commands without graphical corruption. |
+| mipmaps | ??? |
+| nomipmaps | ??? |
+| grayscale | If the image is marked grayscale, then use all bits not used for alpha for the intensity.  This way, if an image has no alpha, you get an 8-bit grayscale; if it only has boolean transparency, you get a 7-bit grayscale. |
+| alphamap | This indicates that the only component in the texture is alpha; assume all color is white. |
+| 32bpp | Sets the color depth of the sprite to 32 bits. (I'm not sure why you'd ever need this) |
+| 16bpp | Same thing as 32bpp except 16 bits. |
+
 ## Texture
 Sets the texture of the sprite.
 ## Frames
