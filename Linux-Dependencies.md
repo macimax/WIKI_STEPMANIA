@@ -26,7 +26,7 @@ You may also want:
 
 ### Debian and derivatives (Ubuntu, Mint, etc.)
 ```
-sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev libjack-dev binutils-dev libgtk3-dev libmad0-dev libjack0 libudev-dev libva-dev
+sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev libjpeg62 zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev libjack-dev binutils-dev libgtk3-dev libmad0-dev libjack0 libudev-dev libva-dev
 ```
 
 ### Fedora 23
