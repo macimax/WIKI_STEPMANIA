@@ -249,4 +249,10 @@ make -j8
 
 ### allow Input Monitoring
 
-**⚠️ Note:** For macOS 10.15 ("Catalina"), you'll need to explicitly grant StepMania *Input Monitoring* permissions in System Preferences for input to be recognized. You'll need to redo this every time you rebuild from source.
+**⚠️ Note:** For macOS 10.15 ("Catalina") and newer, you'll need to explicitly grant StepMania *Input Monitoring* permissions in System Preferences for input to be recognized. 
+
+![grant StepMania Input Monitoring permissions for macOS](https://i.imgur.com/cWpnT9Jl.png)
+
+Add StepMania to the list of permitted applications in: System Preferences → Security & Privacy → Input Monitoring
+
+You'll need to remove StepMania from this list and re-add it every time you rebuild from source.
