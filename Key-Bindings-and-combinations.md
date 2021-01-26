@@ -51,7 +51,6 @@ These keyboard shortcuts are available when the Debug Menu is in *Main Debug Men
 | <kbd>F3</kbd> + <kbd>4</kbd> | Toggle *Lights Debug*, used to test arcade cabinet lighting |
 | <kbd>F3</kbd> + <kbd>5</kbd> | Toggle *Monkey Input*, used by themers for stress-testing input handling |
 | <kbd>F3</kbd> + <kbd>6</kbd> | Toggle *Visual Rendering Stats* (FPS, average FPS, and vertices per frame counts) |
-| <kbd>F3</kbd> + <kbd>6</kbd> | Toggle *Visual Rendering Stats* (FPS, average FPS, and vertices per frame counts) |
 | <kbd>F3</kbd> + <kbd>7</kbd> | Toggle Vsync |
 | <kbd>F3</kbd> + <kbd>8</kbd> | Toggle Multitexture (?) |
 | <kbd>F3</kbd> + <kbd>0</kbd> | Write Preferences.ini to disk |
