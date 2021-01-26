@@ -7,16 +7,6 @@ These are the basic default keybindings to get you started.  They can be changed
 | <kbd>Escape</kbd> | Return to a previous screen |
 | <kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, <kbd>→</kbd> | Navigate the menus (and press arrows during gameplay) |
 
-# Universal debugger shortcuts
-
-| Combination | Function |
-| ----------- | -------- |
-| <kbd>F1</kbd> | Insert coin |
-| <kbd>F2</kbd> | Reload metrics and resources |
-| <kbd>Shift</kbd> + <kbd>F2</kbd> | Reload metrics (also reloads language files) |
-| <kbd>Ctrl</kbd> + <kbd>F2</kbd> | Reload scripts |
-| Holding <kbd>F3</kbd> | Open the debug menu. While displaying the debug menu you can press the listed keys to switch menus and toggle debug functions. |
-
 # Universal shortcuts
 
 | Combination | Function |
@@ -28,10 +18,51 @@ These are the basic default keybindings to get you started.  They can be changed
 | Screenshot key (<kbd>PrintScreen</kbd> or <kbd>F13</kbd> by default) | Save a lossy screenshot. You can change this key binding in settings. |
 | <kbd>Shift</kbd> + *Screenshot key* | Save a lossless screenshot. |
 
+# Universal debugger shortcuts
+
+| Combination | Function |
+| ----------- | -------- |
+| <kbd>F1</kbd> | Insert coin |
+| <kbd>F2</kbd> | Reload metrics and resources |
+| <kbd>Shift</kbd> + <kbd>F2</kbd> | Reload metrics (also reloads language files) |
+| <kbd>Ctrl</kbd> + <kbd>F2</kbd> | Reload scripts |
+| Holding <kbd>F3</kbd> | Open the Debug Menu. |
+
+
+# Debug Menu
+
+The Debug Menu is accessed by holding <kbd>F3</kbd>.  From there, you can toggle between its three modes:
+
+| Combination | Mode |
+| ----------- | -------- |
+| <kbd>F3</kbd> + <kbd>F5</kbd> | **Main** Debug Menu |
+| <kbd>F3</kbd> + <kbd>F6</kbd> | **Theme** Debug Menu |
+| <kbd>F3</kbd> + <kbd>F7</kbd> | **Profile** Debug Menu |
+
+### Main Debug Menu
+
+These keyboard shortcuts are available when the Debug Menu is in *Main Debug Menu* mode.
+
+| Combination | Function |
+| ----------- | -------- |
+| <kbd>F3</kbd> + <kbd>1</kbd> | Toggle between Home mode, Freeplay, and Coin mode |
+| <kbd>F3</kbd> + <kbd>2</kbd> | Toggle slow animations |
+| <kbd>F3</kbd> + <kbd>3</kbd> | Halt rendering |
+| <kbd>F3</kbd> + <kbd>4</kbd> | Toggle *Lights Debug*, used to test arcade cabinet lighting |
+| <kbd>F3</kbd> + <kbd>5</kbd> | Toggle *Monkey Input*, used by themers for stress-testing input handling |
+| <kbd>F3</kbd> + <kbd>6</kbd> | Toggle *Visual Rendering Stats* (FPS, average FPS, and vertices per frame counts) |
+| <kbd>F3</kbd> + <kbd>6</kbd> | Toggle *Visual Rendering Stats* (FPS, average FPS, and vertices per frame counts) |
+| <kbd>F3</kbd> + <kbd>7</kbd> | Toggle Vsync |
+| <kbd>F3</kbd> + <kbd>8</kbd> | Toggle Multitexture (?) |
+| <kbd>F3</kbd> + <kbd>0</kbd> | Write Preferences.ini to disk |
+| <kbd>F3</kbd> + <kbd>E</kbd> | Pull back camera; useful for themers when designing screens |
+| <kbd>F3</kbd> + <kbd>R</kbd> | Decrease StepMania volume by 10% |
+| <kbd>F3</kbd> + <kbd>T</kbd> | Increase StepMania volume by 10% |
+| <kbd>F3</kbd> + <kbd>A</kbd> | Mute all "Actions" (typically theme sound effects) |
+
 
 # Music Select
 
-## Debugger shortcuts
 | Combination | Function |
 | ----------- | -------- |
 | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Reload the currently selected song and regenerate the cache for it |
