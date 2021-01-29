@@ -67,7 +67,7 @@ These keyboard shortcuts are available when the Debug Menu is in *Main Debug Men
 | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Reload the currently selected song and regenerate the cache for it |
 | <kbd>Control</kbd> + <kbd>S</kbd> | Save current profile |
 | <kbd>Control</kbd> + <kbd>Q</kbd> | Reload new song packs that have been placed in the songs folder since the game was started |
-| <kbd>Ctrl</kbd> + <kbd>Backspace</kbd> | Permanently delete the selected song (if `AllowSongDeletion` is enabled) |
+| <kbd>Control</kbd> + <kbd>Backspace</kbd> | Permanently delete the selected song (if `AllowSongDeletion` is enabled) |
 | <kbd>F9</kbd> | Switch between transliterated and original song titles |
 
 ## Default gameplay combos & buttons
