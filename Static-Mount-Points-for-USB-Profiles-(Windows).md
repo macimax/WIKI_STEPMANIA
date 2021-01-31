@@ -35,8 +35,8 @@ Refer to the [Preferences.ini page](./Preferences.ini) for this, but MAKE SURE t
 
 ```ini
 # for example
-MemoryCardOsMountPointP1=D:\
-MemoryCardOsMountPointP2=E:\
+MemoryCardOsMountPointP1=D:/
+MemoryCardOsMountPointP2=E:/
 ```
 
 Or if you're on the latest and greatest 5.1-new, put the letter, the colon, and no slash.
