@@ -2,7 +2,9 @@
 
 (This wiki page is in progress... Feel free to alter it as needed...)
 
-Stepmania's .sm format was updated to include more tags and more organization. Thus, .ssc was born. You can refer to the [.sm](https://github.com/stepmania/stepmania/wiki/sm) wiki to see the differences. Only .ssc files supportes BPM splitted across difficulties.
+Stepmania's [.sm](https://github.com/stepmania/stepmania/wiki/sm) format was updated to include more tags and more organization. Thus, .ssc was born.
+
+SSC also supports advanced timing data including per-chart timing data, delays, warps, scroll speed, fake sections, and more.
 
 # Header Tags
 
@@ -60,7 +62,7 @@ Sets the path to the Background. (Based on the current Song's directory.)
 
 ## \#PREVIEWVID
 
-Sets the path to the Preview Video. (Based on the current Song's directory.)
+Sets the path to the Preview Video. This is usually used in 'pump' based themes where there is a spot in the music select that plays the video. (Based on the current Song's directory.)
 
 ## \#JACKET
 
@@ -88,7 +90,7 @@ Sets the path to the Song. (Based on the current Song's directory.)
 
 ## \#PREVIEW
 
-Sets the path to a Preview file. (Based on the current Song's directory.)
+Sets the path to a Preview file. If a valid preview file is set it will be played in the music wheel instead of the samplestart/samplelength defined for the song. (Based on the current Song's directory.)
 
 ## \#OFFSET
 
@@ -96,7 +98,7 @@ Sets the Song's Offset. (Effects the timing of the start of the NOTES.)
 
 ## \#SAMPLESTART
 
-Sets the Song's Sample Start Timing.
+Sets when to play the song's sample when hovering over it in the music wheel.
 
 ## \#SAMPLELENGTH
 
@@ -159,8 +161,8 @@ Contains the Song's [Label segments](https://github.com/stepmania/stepmania/wiki
 
 ## \#LASTSECONDHINT
 
-A float value. Tells StepMania when to end the song if your longest chart is shorter than this value.
-Required if your chart has only EDIT difficulties.
+A float value. Tells StepMania when to end the song if your longest chart is shorter than this value. Normally song length is determined by the longest chart.
+Required if your chart has only EDIT difficulties, as EDITs are not factored into song length calculation.
 
 ## \#BGCHANGES
 
@@ -192,6 +194,10 @@ Sets the Song's Attacks. The syntax is identical to [how modifiers are applied i
 # NOTE DATA
 
 After these tags have been set, you can now start setting up the notedata. (Charts/Steps as StepMania would call it.)
+
+All timing related tags can also be used in the notedata section. Combo, Tickcount, Attacks, keysounds, also works. #MUSIC also works in the notedata section allowing you to have different songs for each steps, although in multiplayer it will pick the master player's song.
+
+\#DISPLAYBPM also seems to be supported in this section, but no theme displays per-chart BPMs.
 
 ## \#NOTEDATA
 
