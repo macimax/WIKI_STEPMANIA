@@ -8,10 +8,10 @@ A complete example of a course (this one comes with StepMania, you can see it fo
 #METER:Medium:5;
 
 #GAINSECONDS:120;
-#SONG:StepMania 5\Springtime:Medium;nodifficult;
+#SONG:StepMania 5\Springtime:Medium:nodifficult;
 
 #GAINSECONDS:25;
-#SONG:StepMania 5\MechaTribe Assault:Easy;nodifficult;
+#SONG:StepMania 5\MechaTribe Assault:Easy:nodifficult;
 ```
 
 Another example:
