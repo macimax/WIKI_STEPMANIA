@@ -141,23 +141,23 @@ The refresh rate of StepMania. Usually `60`.
 
 ## PacDriveLightOrdering
 
-If you are using a [PacDrive](https://www.ultimarc.com/output/led-and-output-controllers/pac-drive/) to drive lights on an arcade cabinet or otherwise, there are two wiring standards to choose from. The default (nothing or `minimaid`) sets the lights in the following order on the PacDrive:
+If you are using a [PacDrive](https://www.ultimarc.com/output/led-and-output-controllers/pac-drive/) to drive lights on an arcade cabinet or otherwise, there are two wiring standards to choose from. The default (`PacDriveLightOrdering=` or `PacDriveLightOrdering=minimaid`) sets the lights in the following order on the PacDrive:
 
-  Marquee lights (0-3)
-  Bass Lights (4)
-  P1 Panel Lights (5-8)
-  P1 Selection Button Lights (9)
-  P2 Panel Lights (10-13)
-  P2 Selection Lights (14)
+  Marquee lights (0-3)<br/>
+  Bass Lights (4)<br/>
+  P1 Panel Lights (5-8)<br/>
+  P1 Selection Button Lights (9)<br/>
+  P2 Panel Lights (10-13)<br/>
+  P2 Selection Lights (14)<br/>
 
-If you have a LumenAR board, or have wiring that follows the OpenITG standard, you can instead set this preference to either `lumenar` or `openitg`. The wiring for these is as follows:
+If you have a [LumenAR](http://arcadency.com/lumenar) board, or have wiring that follows the OpenITG standard, you can instead set this preference to either `PacDriveLightOrdering=lumenar` or `PacDriveLightOrdering=openitg`. The wiring for these is as follows:
 
-  P1 Panel Lights (0-3)
-  P2 Panel Lights (4-7)
-  Marquee Lights (8-11)
-  P1 Selection Button Lights (12)
-  P2 Selection Button Lights (13)
-  Bass Lights (14)
+  P1 Panel Lights (0-3)<br/>
+  P2 Panel Lights (4-7)<br/>
+  Marquee Lights (8-11)<br/>
+  P1 Selection Button Lights (12)<br/>
+  P2 Selection Button Lights (13)<br/>
+  Bass Lights (14)<br/>
 
 # Customization
 
