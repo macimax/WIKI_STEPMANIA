@@ -1,8 +1,10 @@
-## Linux
+# Linux
 
 **⚠️ Warning:** Do not use autogen.sh to compile StepMania. It is not maintained and you will likely run into issues such as no sound.
 
-### 1-a: Prepare dependencies (Debian-based systems)
+## 1. Prepare dependencies
+
+#### 1-a: Prepare dependencies (Debian-based systems)
 
 Open a terminal and:
 
@@ -11,7 +13,7 @@ Open a terminal and:
 sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk-3-dev libmad0-dev libudev-dev libva-dev nasm
 ```
 
-### 1-b: Prepare dependencies (Fedora-based systems)
+#### 1-b: Prepare dependencies (Fedora-based systems)
 
 Open a terminal and:
 ```
@@ -19,7 +21,7 @@ dnf install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(
 dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel libogg-devel libvorbis-devel yasm alsa-lib-devel pulseaudio-libs-devel libmad-devel bzip2-devel jack-audio-connection-kit-devel libva-devel pcre-devel gtk3-devel glew-devel libudev-devel
 ```
 
-### 2: Clone, Initialize Submodules, Build
+## 2: Clone, Initialize Submodules, Build
 
 Clone StepMania's `5_1-new` branch from GitHub to your local machine:
 ```
@@ -44,20 +46,22 @@ make -j8
 ```
 The job count passed to `make` should not be more than double the number of cores you have.<br>e.g. `-j8` if your CPU has 4 cores.
 
+<hr>
 
 #### 2-b: Fetching the 5.2 branch
-Work on StepMania 5.2 was merged into the master branch, so fetching master will allow you to build StepMania 5.2.  Development on this branch is currently paused indefinitely, and it should be considered unsupported.
+
+Work on StepMania 5.2 was merged into the `master` branch, so fetching master will allow you to build StepMania 5.2.  Development on this branch is currently paused indefinitely, and it is considered unsupported.
 
 If you'd like to fetch this branch, use:
 `git clone --single-branch -b master --depth=1 https://github.com/stepmania/stepmania.git`
 
 From there, the steps of initializing submodules, generating a makefile, and building should be the same.
 
-**Historical Note:**  This branch was previously thought of as "5.1", but was renamed to 5.2 after [5.1.-3](https://github.com/stepmania/stepmania/releases/tag/v5.1.0a3).
+**Historical Note:**  This branch was previously thought of as "5.1", but was renamed to 5.2 after the release of [5.1.-3](https://github.com/stepmania/stepmania/releases/tag/v5.1.0a3).
 
+<hr>
 
-
-### 3: Making a Launcher
+## 3: Making a Launcher
 
 If you want to run StepMania from a launch button like some desktop environments have, make a shell script like this and set the launch button to run the shell script. This assumes that the stepmania folder is \~/stepmania.  "\~/" is shorthand for *the home folder of the current user on Linux*.
 
@@ -71,7 +75,7 @@ Save it as stepmanialauncher.sh or something similar
 
 right click it and make it executable in properties>permissions
 
-### 4: Configuration and User Content
+## 4: Configuration and User Content
 
 Install songs in ~/.stepmania-5.1/Songs/
 
@@ -83,7 +87,7 @@ Preferences are in ~/.stepmania-5.1/Save/Preferences.ini
 
 Profiles are in ~/.stepmania-5.1/Save/LocalProfiles/
 
-### 5: Updating
+## 5: Updating
 
 When you want to update your copy of SM5:
 ```
@@ -94,7 +98,7 @@ cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release .. && cmake ..
 make -j8
 ```
 
-### 6: Controllers and Joysticks
+## 6: Controllers and Joysticks
 
 As far as getting your controller to work, as long as its an xinput detected device that should be as simple as entering StepMania settings and pressing the appropriate buttons in the key config setup.
 
