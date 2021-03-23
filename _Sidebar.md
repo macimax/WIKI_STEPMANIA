@@ -12,8 +12,9 @@
 ## Compiling from Source
   * [General Guide](Compiling-StepMania)
   * [Windows Guide](Compiling-StepMania-Windows)
-  * [Linux Guide](Compiling-StepMania-Linux)
   * [macOS Guide](Compiling-StepMania-macOS)
+  * [Linux Guide](Compiling-StepMania-Linux)
+  * [Linux Dependencies](Linux-Dependencies)
 ## Play
   * [Game modes](Supported-Game-Modes)
   * [Play modes](Play-Modes)
