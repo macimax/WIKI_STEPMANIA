@@ -6,7 +6,8 @@
   * [Nightly Builds](https://github.com/stepmania/stepmania/wiki/Nightly-Builds)
   * [System requirements](Minimum-Requirements)
   * [Supported file formats](File-Formats)
-  * [User data locations](User-Data-Locations)
+## Customizing StepMania
+  * [Where to add custom content](User-Data-Locations)
   * [Preferences.ini](Preferences.ini)
   * [Manually changing preferences](Manually-Changing-Preferences)
 ## Compiling from Source
@@ -27,18 +28,18 @@
   * [Note types](Note-Types)
   * [Note and Timing Gimmicks](Note-and-timing-gimmicks)
   * [Auto Generation](AutoStepper-Generation)
-## For themers and developers
+## For Themers and Developers
   * [Themes](Theming)
   * [Noteskins (5.0-5.1)](Noteskins)
   * [Unlock System](Unlock-System)
   * [MessageCommands](MessageCommands)
   * [Adding Lua functions to source](Adding-new-lua-functions-to-the-source)
   * [Blend modes](Blend-Modes)
-## Arcade machines
+## Arcade Machines
   * [USB profiles (Linux)](Creating-Static-Mount-Points-For-USB-Profiles-%28Linux%29)
   * [USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
   * [Drivers for PIUIO](Installing-PIUIO-Drivers-for-Windows-or-Linux)
-## Future features and projects
+## Future Features and Projects
   * [Notefield mod system (5.2)](NewField-mod-system)
   * [5.2 noteskin system](NewSkin-Guide)
   * [Project Antenna](Project-Antenna)
