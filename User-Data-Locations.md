@@ -1,27 +1,68 @@
-# Data Locations
+# User Data
 
-Modern operating systems have user profiles; by default, StepMania 5.0 and later store user data (such as score data and settings) within a folder in your operating system's home directory. The exact location varies by platform;
+Songs, Themes, NoteSkins, Characters, and other custom content should be loaded from StepMania's *user data folder*, using the subfolders within.
 
-* **Windows**: `%APPDATA%\StepMania 5\`
-* **Linux**: `~/.stepmania-5.0/`
-* **macOS**: `~/Library/Application Support/StepMania 5/`
+This is different than older versions of StepMania (e.g. SM3.9) where all content was added directly the primary StepMania install folder.  Separating the application from your content makes it easier to install or upgrade to new versions of SM5 without accidentally deleting your content.
 
-Songs and other add-ons can be loaded from StepMania's user data directory, using the subfolders provided within.
+## Where to Install
 
-For songs, the folder hierarchy ''must'' be `Songs/Group name/Song folder`. Similarly, themes must be `Themes/Theme name/[theme folders and metrics.ini]`. If these folders are any deeper in hierarchy, SM will not load them properly.
+The location of your *user data folder* varies by OS:
+
+If you're using **SM5.0.12**:
+
+<table>
+<tbody>
+  <tr>
+    <td>Windows 10, 8, 7</td>
+    <td>C:\Users\<code>USERNAME</code>\AppData\Roaming\StepMania 5\</td>
+  </tr>
+  <tr>
+    <td>macOS</td>
+    <td>/Users/<code>USERNAME</code>/Library/Application Support/StepMania 5/</td>
+  </tr>
+  <tr>
+    <td>Linux</td>
+    <td>/home/<code>USERNAME</code>/.stepmania-5.0/</td>
+  </tr>
+</tbody>
+</table>
+
+If you're using **SM5.1-beta**:
+
+<table>
+<tbody>
+  <tr>
+    <td>Windows 10, 8, 7</td>
+    <td>C:\Users\<code>USERNAME</code>\AppData\Roaming\StepMania 5.1\</td>
+  </tr>
+  <tr>
+    <td>macOS</td>
+    <td>/Users/<code>USERNAME</code>/Library/Application Support/StepMania 5.1/</td>
+  </tr>
+  <tr>
+    <td>Linux</td>
+    <td>/home/<code>USERNAME</code>/.stepmania-5.1/</td>
+  </tr>
+</tbody>
+</table>
+
+In each of these paths, <code>USERNAME</code> will be your OS username.
+
+🔷 Tip: If you find yourself adding content frequently, you may wish to create a shortcut there. The user content folder can be tedious to manually navigate to.
+
 
 #### macOS notes
-The *~/Library* directory is hidden from Finder by default, which makes adding content on OS X somewhat cumbersome.  You can follow the instructions from the Wiki page on [Manually Changing Preferences](Manually-Changing-Preferences) but use the path provided above to access your StepMania profile directory.
+The `~/Library/` folder is hidden from Finder by default, which makes adding content on macOS cumbersome.  You can [unhide the Library folder](https://apple.stackexchange.com/a/378378) or copy/paste the appropriate path from above into Finder's [*Go To Folder...* dialog](https://osxdaily.com/2011/08/31/go-to-folder-useful-mac-os-x-keyboard-shortcut/)
 
 ## Portable Mode
 
-In some cases, such as if you are running StepMania from a portable drive, or otherwise do not wish to store profile data in your home directory, StepMania can be configured to store user data within its installation directory instead&emdash;which was the default behaviour on older versions such as 3.9. 
+In some cases, such as if you are running StepMania from a removable disk or otherwise do not wish to store custom content in your home directory, StepMania can be configured to read from its installation folder instead.  Longtime players may recognize this configuration as where custom content was installed for SM3.9.
 
-To activate Portable Mode, create a blank text file named ``Portable.ini`` in the folder where StepMania was installed. User profile data is stored within a ``Save`` folder within the installation directory.
+To activate Portable Mode, create a blank text file named `Portable.ini` in the folder where StepMania was installed.  User data will now be stored within and loaded from a `Save` folder within the installation folder (for example, `./StepMania/Save/Songs/` and `./StepMania/Save/NoteSkins/`).
 
 ## Storing content in other locations
 
-The [Preferences file](https://github.com/stepmania/stepmania/wiki/Preferences.ini) contains settings that can be used to load content, such as songs, courses, and add-ons, from locations different from the user data directory or where StepMania is installed. This is useful if you are running multiple builds of StepMania and wish to keep your song library synchronized between them, or if you want to store your content on a different hard drive or partition to conserve disk space.
+The [Preferences file](https://github.com/stepmania/stepmania/wiki/Preferences.ini) contains settings that can be used to load content, such as songs, courses, and add-ons, from locations different from the user data folder or where StepMania is installed. This is useful if you are running multiple builds of StepMania and wish to keep your song library synchronized between them, or if you want to store your content on a different hard drive or partition to conserve disk space.
 
 You can add multiple paths on each Additional* preference by separating them with a comma.
 
