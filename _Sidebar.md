@@ -30,7 +30,9 @@
   * [Auto Generation](AutoStepper-Generation)
 ## For Themers and Developers
   * [Themes](Theming)
-  * [Noteskins (5.0-5.1)](Noteskins)
+  * [Actor Definitions](Actor-Definitions)
+  * [NoteSkins](NoteSkins)
+  * [Fonts](Fonts)
   * [Unlock System](Unlock-System)
   * [MessageCommands](MessageCommands)
   * [Adding Lua functions to source](Adding-new-lua-functions-to-the-source)
@@ -40,7 +42,5 @@
   * [USB profiles (Windows)](Static-Mount-Points-for-USB-Profiles-(Windows))
   * [Drivers for PIUIO](Installing-PIUIO-Drivers-for-Windows-or-Linux)
 ## Future Features and Projects
-  * [Notefield mod system (5.2)](NewField-mod-system)
-  * [5.2 noteskin system](NewSkin-Guide)
   * [Project Antenna](Project-Antenna)
   * [SMPackage](SMPackage)
