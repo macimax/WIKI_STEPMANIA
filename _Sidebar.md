@@ -7,21 +7,21 @@
   * [System requirements](Minimum-Requirements)
   * [Supported file formats](File-Formats)
 ## Customizing StepMania
+  * [Custom Content](Customization)
   * [Where to add custom content](User-Data-Locations)
   * [Preferences.ini](Preferences.ini)
   * [Manually changing preferences](Manually-Changing-Preferences)
+## Play
+  * [Key bindings](Key-Bindings-and-combinations)
+  * [Game modes](Supported-Game-Modes)
+  * [Play modes](Play-Modes)
+  * [Modifiers](List-of-Song-Modifiers)
 ## Compiling from Source
   * [General Guide](Compiling-StepMania)
   * [Windows Guide](Compiling-StepMania-Windows)
   * [macOS Guide](Compiling-StepMania-macOS)
   * [Linux Guide](Compiling-StepMania-Linux)
   * [Linux Dependencies](Linux-Dependencies)
-## Play
-  * [Game modes](Supported-Game-Modes)
-  * [Play modes](Play-Modes)
-  * [Modifiers](List-of-Song-Modifiers)
-  * [Key bindings](Key-Bindings-and-combinations)
-  * [Customization](Customization)
 ## Charting
   * [Timing segments](Timing-Segments)
   * [Label segments](Label-segments)
