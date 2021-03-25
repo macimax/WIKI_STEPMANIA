@@ -65,10 +65,22 @@ These keyboard shortcuts are available when the Debug Menu is in *Main Debug Men
 | Combination | Function |
 | ----------- | -------- |
 | <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> | Reload the currently selected song and regenerate the cache for it |
-| <kbd>Control</kbd> + <kbd>S</kbd> | Save current profile |
-| <kbd>Control</kbd> + <kbd>Q</kbd> | Reload new song packs that have been placed in the songs folder since the game was started |
-| <kbd>Control</kbd> + <kbd>Backspace</kbd> | Permanently delete the selected song (if `AllowSongDeletion` is enabled) |
-| <kbd>F9</kbd> | Switch between transliterated and original song titles |
+| <kbd>Control</kbd> + any alphabet key | Switch the MusicWheel to *Title* sort and jump to the letter you pressed.<br/>e.g., <kbd>Control</kbd> + <kbd>M</kbd> will sort songs alphabetically and place you at the start of the *M* group. |
+| <kbd>Control</kbd> + <kbd>Backspace</kbd> | Permanently delete the selected song (if `AllowSongDeletion` is enabled). |
+| <kbd>F9</kbd> | Toggle between transliterated and original song titles. |
+
+<!-- 
+ I don't see Control+Q to reload groups anywhere in src, 
+ and it's currently mapped to sorting to the letter Q,
+ so I'm commenting this out for now. -quietly 
+ 
+ Control + Q | Reload new song packs that have been placed in the songs folder since the game was started
+
+ Also not seeing Control+S to save profile.  Please
+ reinstate if you know otherwise. :) -quietly 
+ Control + S | Save current profile. 
+-->
+
 
 ## Default gameplay combos & buttons
 The following was taken from https://github.com/stepmania/stepmania/blob/master/Themes/_fallback/Scripts/03%20Gameplay.lua#L272
