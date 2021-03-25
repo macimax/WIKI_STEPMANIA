@@ -1,4 +1,4 @@
-# User Data
+# Custom Content
 
 Songs, Themes, NoteSkins, Characters, and other custom content should be loaded from StepMania's *user data folder*, using the subfolders within.
 
@@ -50,9 +50,19 @@ In each of these paths, <code>USERNAME</code> will be your OS username.
 
 🔷 Tip: If you find yourself adding content frequently, you may wish to create a shortcut there. The user content folder can be tedious to manually navigate to.
 
+#### Windows notes
+
+In Windows 10, you can find your AppData folder by typing `%appdata%` into the Windows search bar in your taskbar.
+
+In older versions of Windows, you can type `%appdata%` into a *Run* dialog (<kbd>Windows key</kbd> + <kbd>R</kbd>).
 
 #### macOS notes
+
 The `~/Library/` folder is hidden from Finder by default, which makes adding content on macOS cumbersome.  You can [unhide the Library folder](https://apple.stackexchange.com/a/378378) or copy/paste the appropriate path from above into Finder's [*Go To Folder...* dialog](https://osxdaily.com/2011/08/31/go-to-folder-useful-mac-os-x-keyboard-shortcut/)
+
+#### Linux notes
+
+Many file managers (Nautilus for Ubuntu, Thunar for Mint's Xfce, etc.) will hide folders that begin with `.` by default, but allow you to toggle this on/off with <kbd>Control</kbd> + <kbd>H</kbd>.
 
 ## Portable Mode
 
