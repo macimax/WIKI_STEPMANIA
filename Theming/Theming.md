@@ -33,7 +33,7 @@ Now that you’re familiar with lua, you’ll need to learn how to use it in SM5
 ## <a name="actors">Actors</a> ##  
 #### [Back to top](#top)  
 
-A basic concept when working with Lua scripts in StepMania themes and BGAnimations is the actor model. Everything rendered in StepMania is an actor, whether it’s a simple sprite or even an entire script of its own. For a more complete explanation, we’ll refer you to [dkb2’s very helpful primer on the concept](http://quietly-turning.github.io/Lua-For-SM5/foreword).
+A basic concept when working with Lua scripts in StepMania themes and BGAnimations is the actor model. Everything rendered in StepMania is an actor, whether it’s a simple sprite or even an entire script of its own. For a more complete explanation, we’ll refer you to [quietly-turnings’s very helpful primer on the concept](https://quietly-turning.github.io/Lua-For-SM5/Introduction/Foreword).
  
 The most basic form of script used to load a single actor is this;
 
@@ -193,7 +193,7 @@ On the StepMania master branch (5.2), there are several major changes that a the
 
 ## <a name="res">Useful Resources</a> ##  
 #### [Back to top](#top)  
-[Lua.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/Lua.xml) & [LuaDocumentation.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/LuaDocumentation.xml) (easier to read version hosted [here](https://yungdavinci.github.io/SM5-Lua-API/Lua.xml))   
+[Lua.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/Lua.xml) & [LuaDocumentation.xml](https://github.com/stepmania/stepmania/blob/master/Docs/Luadoc/LuaDocumentation.xml) (easier to read/search version [here](https://quietly-turning.github.io/Lua-For-SM5/LuaAPI))   
 Everything in [Themerdocs](https://github.com/stepmania/stepmania/tree/master/Docs/Themerdocs)  
 `_fallback` & `default` themes  
 If you’re feeling bold: [source code](https://github.com/stepmania/stepmania/tree/master/src)
