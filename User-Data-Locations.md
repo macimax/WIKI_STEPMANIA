@@ -2,7 +2,7 @@
 
 Songs, Themes, NoteSkins, Characters, and other custom content should be loaded from StepMania's *user data folder*, using the subfolders within.
 
-This is different than older versions of StepMania (e.g. SM3.9) where all content was added directly the primary StepMania install folder.  Separating the application from your content makes it easier to install or upgrade to new versions of SM5 without accidentally deleting your content.
+This is different than older versions of StepMania (e.g. SM3.9) where all custom content was added directly into the primary install folder.  Separating the application from your content will make it easier to upgrade to new versions of SM5 later without accidentally deleting your content.
 
 ## Where to Install
 
