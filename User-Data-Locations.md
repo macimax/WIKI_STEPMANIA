@@ -58,31 +58,35 @@ In older versions of Windows, you can type `%appdata%` into a *Run* dialog (<kbd
 
 #### macOS notes
 
-The `~/Library/` folder is hidden from Finder by default, which makes adding content on macOS cumbersome.  You can [unhide the Library folder](https://apple.stackexchange.com/a/378378) or copy/paste the appropriate path from above into Finder's [*Go To Folder...* dialog](https://osxdaily.com/2011/08/31/go-to-folder-useful-mac-os-x-keyboard-shortcut/)
+The `~/Library/` folder is hidden by default, but you can [unhide it](https://apple.stackexchange.com/a/378378) or copy/paste the appropriate path from above into Finder's [*Go To Folder...* dialog](https://osxdaily.com/2011/08/31/go-to-folder-useful-mac-os-x-keyboard-shortcut/).
 
 #### Linux notes
 
 Many file managers (Nautilus for Ubuntu, Thunar for Mint's Xfce, etc.) will hide folders that begin with `.` by default, but allow you to toggle this on/off with <kbd>Control</kbd> + <kbd>H</kbd>.
 
-## Portable Mode
+---
+
+# Portable Mode
 
 In some cases, such as if you are running StepMania from a removable disk or otherwise do not wish to store custom content in your home directory, StepMania can be configured to read from its installation folder instead.  Longtime players may recognize this configuration as where custom content was installed for SM3.9.
 
 To activate Portable Mode, create a blank text file named `Portable.ini` in the folder where StepMania was installed.  User data will now be stored within and loaded from a `Save` folder within the installation folder (for example, `./StepMania/Save/Songs/` and `./StepMania/Save/NoteSkins/`).
 
+---
+
 ## Storing content in other locations
 
-The [Preferences file](https://github.com/stepmania/stepmania/wiki/Preferences.ini) contains settings that can be used to load content, such as songs, courses, and add-ons, from locations different from the user data folder or where StepMania is installed. This is useful if you are running multiple builds of StepMania and wish to keep your song library synchronized between them, or if you want to store your content on a different hard drive or partition to conserve disk space.
+The [Preferences.ini file](https://github.com/stepmania/stepmania/wiki/Preferences.ini) contains settings that can be used to load content (songs, courses, themes, etc.) from locations different from the user data folder or where StepMania is installed. This is useful if you are running multiple builds of StepMania and wish to keep your song library synchronized between them, or if you want to store your content on a different hard drive or partition.
+
 
 You can add multiple paths on each Additional* preference by separating them with a comma.
 
 For example:
 `AdditionalSongFolders=C:/SomeFolder/Songs,E:/Coolpath/Songs`
 
-Note: If you're on Windows, you must replace every backslash with a forward slash.
+⚠️ **Note:** If you're on Windows, you *must* use forward slashes `/` in these paths.  This means that you cannot simply copy/paste paths with back slashes in; you'll need to replace each back slash with a forward slash
 
-For example:
-`AdditionalSongFolders=H:/StepMania5/Songs`
+For example, a Windows path like `H:\StepMania5\Songs` should be added like `AdditionalSongFolders=H:/StepMania5/Songs`
 
 ### AdditionalFolders
 
