@@ -20,8 +20,8 @@ Some older songs also have `{1e0}` but what it is is a mystery... For now, anywa
 
 | Note Types | Key Symbol | Comments |
 | ---------- | ---------- | -------- |
-| P1 Tap Note | X | |
-| P1 Hold Head | x | |
+| P1 Tap Note | X | Used instead of '1' when it's a CO-OP chart. |
+| P1 Hold Head | x | Used instead of '2' when it's a CO-OP chart. |
 | P2 Tap Note | Y | |
 | P2 Hold Head | y | |
 | P3 Tap Note| Z | |
