@@ -23,7 +23,7 @@ dnf install libXrandr-devel libXtst-devel libpng-devel libjpeg-devel zlib-devel 
 
 ## 2: Clone, Initialize Submodules, Build
 
-Clone StepMania's `5_1-new` branch from GitHub to your local machine:
+Clone StepMania's `5_1-new` branch (the default branch) from GitHub to your local machine:
 ```
 git clone --depth=1 https://github.com/stepmania/stepmania.git
 ```
@@ -50,7 +50,7 @@ The job count passed to `make` should not be more than double the number of core
 
 #### 2-b: Fetching the 5.2 branch
 
-Work on StepMania 5.2 was merged into the `master` branch, so fetching master will allow you to build StepMania 5.2.  Development on this branch is currently paused indefinitely, and it is considered unsupported.
+Work on StepMania 5.2 was merged into the `master` branch, so fetching master (which is not the default) will allow you to build StepMania 5.2.  Development on this branch is currently paused indefinitely, and it is considered **unsupported**.
 
 If you'd like to fetch this branch, use:
 `git clone --single-branch -b master --depth=1 https://github.com/stepmania/stepmania.git`
