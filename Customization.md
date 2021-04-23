@@ -5,7 +5,7 @@ Add-ons are usually distributed in ZIP files. Your [user data folder](https://gi
 # Types
 
 ## Themes
-Themes are used to customize StepMania's interface.  You can download themes from the [StepMania forum](https://www.stepmania.com/forums/themes/), as well as other websites; themes compatible with 5.0.12 are also compatible with 5.1, but neither 5.0.12 or 5.1 support themes from older versions (such as 3.9 and 4.0). 
+Themes are used to customize StepMania's interface.  You can download themes from the [StepMania forum](https://www.stepmania.com/forums/themes/), as well as other websites; themes compatible with 5.0.12 are also compatible with 5.1. Themes from older versions (SM3.9 and variants, 4 alpha, 4 beta) are not supported in SM5 branch.
 
 Themes are installed in the `Themes` subfolder of your user data folder. Note that the theme folder placed in the `Themes` directory _must_ be the one that contains folders such as `BGAnimations`, `Graphics`, etc. 
 
