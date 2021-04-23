@@ -81,17 +81,17 @@ Simulates _Para Para Paradise_; it is a 5-key mode, except using left, upleft, u
 | Single | Para_Single | 5key. |
 
 ## beat
-Simulates Beatmania or Beatmania IIDX, with 5+1key, 7+1key, or doubles for each. Most songs are keysounded.
+Simulates Beatmania or Beatmania IIDX, with 5-keys, 7-keys, or doubles for each. Most songs are keysounded.
 
 This mode uses BMS chart files for songs.
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
-| single5 | Bm_Single5 | 5+1key game mode |
+| single5 | Bm_Single5 | 5-keys single game mode |
 | versus5 | Bm_Versus5 | Unknown, might be the beat equivalent to Couple? |
-| double5 | Bm_Double5 | Both sides are used. |
-| single7 | Bm_Single7 | 7+1key game mode |
-| double7 | Bm_Double7 | Both sides are used. |
+| double5 | Bm_Double5 | 5-keys double game mode (Both sides are used). |
+| single7 | Bm_Single7 | 7-keys single game mode |
+| double7 | Bm_Double7 | 7-keys double game mode (Both sides are used). |
 | versus7 | Bm_Versus7 | Unknown (see versus5) |
 
 Contrary to their names the styles each have an additional turntable 'key', except for doubles having two. A turntable key is splitted on turn left and turn right.
