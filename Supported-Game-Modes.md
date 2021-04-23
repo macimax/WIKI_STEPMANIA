@@ -90,7 +90,7 @@ This mode uses BMS chart files for songs.
 | single5 | Bm_Single5 | 5-keys single game mode |
 | versus5 | Bm_Versus5 | Unknown, might be the beat equivalent to Couple? |
 | double5 | Bm_Double5 | 5-keys double game mode (Both sides are used). |
-| single7 | Bm_Single7 | 7-keys single game mode |
+| single7 | Bm_Single7 | 7-keys single game mode (Turntable key is near screen edge) |
 | double7 | Bm_Double7 | 7-keys double game mode (Both sides are used). |
 | versus7 | Bm_Versus7 | Unknown (see versus5) |
 
