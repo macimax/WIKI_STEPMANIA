@@ -93,7 +93,7 @@ Vertical sync. `0` is off, `1` is on.
 
 ## Windowed
 
-...I think this one is obvious. `0` is off, `1` is on.
+`0` change the SM to fullscreen, `1` change the SM to window.
 
 ## PAL
 
