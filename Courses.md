@@ -102,7 +102,7 @@ do not allow you to change difficulties ).
 Finally, `award*`, where `*` is a number, allows you to control how many lives the player gains from successfully completing a course in Oni mode.
 
 ## #MODS
-To add [Modifiers](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers), place a #MODS tag below the #SONG tag with your modifiers. If instead you would like the mods to apply to all songs, put the #MODS tag above the first #SONG tag (not 100% sure on this one).
+To add [Modifiers](https://github.com/stepmania/stepmania/wiki/List-of-Song-Modifiers), place a #MODS tag above the #SONG tag with your modifiers.
 
 Modifiers can be assigned in a variety of formats, the most effective three being the following:
 
