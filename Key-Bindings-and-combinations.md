@@ -12,8 +12,8 @@ These are the basic default keybindings to get you started.  They can be changed
 | Combination | Function |
 | ----------- | -------- |
 | <kbd>Alt</kbd> + <kbd>Enter</kbd> | Switches between windowed and fullscreen. |
-| <kbd>Tab</kbd> | Speeds up UI to 2x while held, including animations and selections. |
-| <kbd>~</kbd>| Slows down UI and animations to 0.25x(?) while held. |
+| <kbd>Tab</kbd> | Speeds up UI to 4x while held, including animations and selections. |
+| <kbd>`</kbd>| Slows down UI to 0.25x while held, including animations and selections |
 | <kbd>Scroll Lock</kbd> | Jump immediately to the options menu. You can change this key binding in settings. |
 | Screenshot key (<kbd>PrintScreen</kbd> or <kbd>F13</kbd> by default) | Save a lossy screenshot. You can change this key binding in settings. |
 | <kbd>Shift</kbd> + *Screenshot key* | Save a lossless screenshot. |
