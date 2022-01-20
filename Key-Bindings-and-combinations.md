@@ -18,6 +18,8 @@ These are StepMania's basic default keybindings used to navigate the game.  They
 
 # Screenshot Keybindings
 
+| Combination | Function |
+| ----------- | -------- |
 | Screenshot key (<kbd>PrintScreen</kbd> or <kbd>F13</kbd> by default) | Save a lossy screenshot. You can change this key binding in settings. |
 | <kbd>Shift</kbd> + *Screenshot key* | Save a lossless screenshot. |
 
@@ -30,7 +32,7 @@ These are StepMania's basic default keybindings used to navigate the game.  They
 | <kbd>Shift</kbd> + <kbd>F2</kbd> | reload metrics.ini and language files, refresh NoteSkins, refresh CodeDetector cache |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F2</kbd> | reload metrics.ini and language files, reload overlay screens |
 | <kbd>Ctrl</kbd> + <kbd>F2</kbd> | reload _fallback theme's *Scripts* directory, then current theme's *Scripts* directory  |
-| Holding <kbd>F3</kbd> | Open the Debug Menu. |
+| holding <kbd>F3</kbd> | open the Debug Menu |
 
 
 # Debug Menu
