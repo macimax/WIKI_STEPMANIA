@@ -1,5 +1,5 @@
-# The very basics
-These are the basic default keybindings to get you started.  They can be changed in the *Config Key/Joy Mappings* screen in the main options menu.
+# Basic Default Keybindings
+These are StepMania's basic default keybindings used to navigate the game.  They can be changed in the *Config Key/Joy Mappings* screen in the main options menu.
 
 | key | action |
 | --- | ------ |
@@ -7,14 +7,17 @@ These are the basic default keybindings to get you started.  They can be changed
 | <kbd>Escape</kbd> | Return to a previous screen |
 | <kbd>←</kbd>, <kbd>↓</kbd>, <kbd>↑</kbd>, <kbd>→</kbd> | Navigate the menus (and press arrows during gameplay) |
 
-# Universal shortcuts
+# Universal Keybindings
 
 | Combination | Function |
 | ----------- | -------- |
 | <kbd>Alt</kbd> + <kbd>Enter</kbd> | Switches between windowed and fullscreen. |
 | <kbd>Tab</kbd> | Speeds up UI to 4x while held, including animations and selections. |
 | <kbd>`</kbd>| Slows down UI to 0.25x while held, including animations and selections |
-| <kbd>Scroll Lock</kbd> | Jump immediately to the options menu. You can change this key binding in settings. |
+| <kbd>Scroll Lock</kbd> | Jump immediately to the main options menu. You can change this key binding in settings. |
+
+# Screenshot Keybindings
+
 | Screenshot key (<kbd>PrintScreen</kbd> or <kbd>F13</kbd> by default) | Save a lossy screenshot. You can change this key binding in settings. |
 | <kbd>Shift</kbd> + *Screenshot key* | Save a lossless screenshot. |
 
@@ -22,10 +25,11 @@ These are the basic default keybindings to get you started.  They can be changed
 
 | Combination | Function |
 | ----------- | -------- |
-| <kbd>F1</kbd> | Insert coin |
-| <kbd>F2</kbd> | Reload metrics and resources |
-| <kbd>Shift</kbd> + <kbd>F2</kbd> | Reload metrics (also reloads language files) |
-| <kbd>Ctrl</kbd> + <kbd>F2</kbd> | Reload scripts |
+| <kbd>F1</kbd> | insert coin |
+| <kbd>F2</kbd> | reload metrics.ini and language files, reload all textures, refresh NoteSkins, refresh CodeDetector cache |
+| <kbd>Shift</kbd> + <kbd>F2</kbd> | reload metrics.ini and language files, refresh NoteSkins, refresh CodeDetector cache |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F2</kbd> | reload metrics.ini and language files, reload overlay screens |
+| <kbd>Ctrl</kbd> + <kbd>F2</kbd> | reload _fallback theme's *Scripts* directory, then current theme's *Scripts* directory  |
 | Holding <kbd>F3</kbd> | Open the Debug Menu. |
 
 
