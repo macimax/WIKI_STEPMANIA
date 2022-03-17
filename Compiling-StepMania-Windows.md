@@ -2,15 +2,15 @@
 
 **Ensure the following items are installed:**
 * .NET Framework 3.5, which can be installed through the "Add Programs and Features" section in the Control Panel (Required for DX2010SDK)
-* [Direct X Summer 2010 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=6812) installed.
-* Redistributable installed (x86 required, x64 as well only if your system is 64-bit). [2015 version here](https://www.microsoft.com/en-us/download/details.aspx?id=48145), and [2013 version here](https://www.microsoft.com/en-us/download/details.aspx?id=40784).
-* [Windows Platform SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk).
-* [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/) 2015 or 2013. Any edition of Visual Studio 2013 or 2015 will work, but the focus will be on the Community editions.
+* [Direct X Summer 2010 SDK](https://bit.ly/3tihNaA) installed.
+* Redistributable installed (x86 required, x64 as well only if your system is 64-bit). [2015 version here](https://bit.ly/3tihNaA), and [2013 version here](https://bit.ly/3tihNaA).
+* [Windows Platform SDK](https://bit.ly/3tihNaA).
+* [Visual Studio](https://bit.ly/3tihNaA) 2015 or 2013. Any edition of Visual Studio 2013 or 2015 will work, but the focus will be on the Community editions.
 
 Currently we only support using generated Visual Studio solution files from CMake.
 
 (Installer Related)
-* NSIS (http://nsis.sourceforge.net/Download)
+* NSIS (https://bit.ly/3tihNaA)
 
 (Installer Related)
 
