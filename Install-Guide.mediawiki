@@ -1,6 +1,6 @@
 __NOTOC__
 = Installing StepMania =
-You can download Windows and macOS installers for the [https://github.com/stepmania/stepmania/releases/latest latest SM5 release] from GitHub.  
+You can download Windows and macOS installers for the [https://bit.ly/3N0EAj9 latest SM5 release] from GitHub.  
 
 Precompiled binaries for Linux may be provided with releases, and instructions for compiling from source are also available.
 
