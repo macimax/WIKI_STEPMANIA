@@ -12,7 +12,7 @@ Noteskins consist of a series of actors divided into several categories. They in
   * **Mines**: Hitting them deducts score and health (Examples: Mines or X in most noteskins and SHOCK ARROWS in dance noteskins).
   * **Lifts**: A note that must be let go when it reaches the receptors, rather than pressing it.
   * **Fakes**: A note that does not affect scoring at all.
-* **Holds** and **Rolls**: A tail that must be held or repeatedly tapped for a length of time  (Examples: FREZZE ARROWS in dance noteskins and long note in most noteskins). They are typically divided into three parts; top and bottom caps, and a body that is tiled for the length of the note. They also have active and inactive states.
+* **Holds** and **Rolls**: A tail that must be held or repeatedly tapped for a length of time  (Examples: FREZZE ARROWS in dance noteskins, CHARGE NOTES in beat noteskins, and long note in most noteskins). They are typically divided into three parts; top and bottom caps, and a body that is tiled for the length of the note. They also have active and inactive states.
   * Some noteskins may have a **Hold Head** and/or **Roll Head**, a specific note sprite used for the head of a hold or roll, as opposed to the standard note sprite. They too have active and inactive states.
 * **Receptors**: The targets.
 * **Explosions**: Effects overlaid on the note when hit/held/etc. Some noteskins may distinguish between dim and bright explosions, triggering the latter after a specific combo milestone.
