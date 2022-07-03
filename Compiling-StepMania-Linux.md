@@ -11,6 +11,8 @@ Open a terminal and:
 ```
 # On Ubuntu 17.04 or Debian >= 9.0. Worked on 18.04, 19.04.
 sudo apt-get install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew1.5-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk-3-dev libmad0-dev libudev-dev libva-dev nasm
+# On Ubuntu 22.04
+sudo apt install build-essential cmake mesa-common-dev libglu1-mesa-dev libglew-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev binutils-dev libgtk-3-dev libmad0-dev libudev-dev libva-dev nasm
 ```
 
 #### 1-b: Prepare dependencies (Fedora-based systems)
@@ -73,7 +75,35 @@ cd ~/stepmania
 ```
 Save it as stepmanialauncher.sh or something similar
 
-right click it and make it executable in properties>permissions
+Right click it and make it executable in properties>permissions
+
+### Desktop File
+
+To create an ordinary desktop launcher that you can find in the application menu (that optionally has a proper icon), you can edit the `stepmania.desktop` file. This will allow Stepmania to be treated as any other application (be searchable, have an icon, etc.). You need to give the full path to Stepmania under TryExec and Exec; if you installed Stepmania in your home folder you would use this (replacing USERNAME_HERE):
+
+```
+[Desktop Entry]
+Encoding=UTF-8
+Name=StepMania
+GenericName=Rhythm and dance game
+TryExec=/home/USERNAME_HERE/stepmania/stepmania
+Exec=/home/USERNAME_HERE/stepmania/stepmania
+Terminal=false
+Icon=/home/USERNAME_HERE/stepmania/stepmania-ssc
+Type=Application
+Categories=Application;Game;ArcadeGame
+Comment=A cross-platform rhythm video game.
+```
+
+If you want the icon to work, you will need to put a picture with the name `stepmania-ssc` in the directory yourself.
+
+Move it to the proper location:
+
+```
+sudo mv ~/stepmania/stepmania.desktop /usr/share/applications/
+```
+
+You can then look at the applications menu and Stepmania will appear.
 
 ## 4: Configuration and User Content
 
