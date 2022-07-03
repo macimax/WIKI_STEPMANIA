@@ -79,7 +79,7 @@ Right click it and make it executable in properties>permissions
 
 ### Desktop File
 
-To create an ordinary desktop launcher that you can find in the application menu (that optionally has a proper icon), you can edit the `stepmania.desktop` file. This will allow Stepmania to be treated as any other application (be searchable, have an icon, etc.). You need to give the full path to Stepmania under TryExec and Exec; if you installed Stepmania in your home folder you would use this (replacing USERNAME_HERE):
+To create an ordinary desktop launcher that you can find in the application menu, you can edit the `stepmania.desktop` file. This will allow Stepmania to be treated as any other application (be searchable, have an icon, etc.). You need to give the full path to Stepmania under TryExec and Exec, as well as Icon if you want a non-generic one; if you installed Stepmania in your home folder you would use this (replacing USERNAME_HERE):
 
 ```
 [Desktop Entry]
@@ -89,13 +89,11 @@ GenericName=Rhythm and dance game
 TryExec=/home/USERNAME_HERE/stepmania/stepmania
 Exec=/home/USERNAME_HERE/stepmania/stepmania
 Terminal=false
-Icon=/home/USERNAME_HERE/stepmania/stepmania-ssc
+Icon=/home/USERNAME_HERE/stepmania/icons/hicolor/scalable/apps/stepmania-ssc.svg
 Type=Application
 Categories=Application;Game;ArcadeGame
 Comment=A cross-platform rhythm video game.
 ```
-
-If you want the icon to work, you will need to put a picture with the name `stepmania-ssc` in the directory yourself.
 
 Move it to the proper location:
 
