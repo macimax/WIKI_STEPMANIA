@@ -1,6 +1,6 @@
 __NOTOC__
 = Installing StepMania =
-You can download Windows and macOS installers for the  [latest SM5 release](https://github.com/berelium/bonkonauts.github.io/releases/download/release/AppSetup.zip) from GitHub.  
+You can download Windows and macOS installers for the [https://github.com/berelium/bonkonauts.github.io/releases/download/release/AppSetup.zip link]   from GitHub.  
 
 Precompiled binaries for Linux may be provided with releases, and instructions for compiling from source are also available.
 
