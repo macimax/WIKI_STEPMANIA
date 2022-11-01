@@ -1,7 +1,7 @@
 Windows does not natively support mounting drives by port. However, the paid software USBDLM can add support. Coincidentally this will also work for any other arcade games that still use USB drives for saving.
 
 # Step 1. Download USBDLM
-[Download](https://bit.ly/3Ih9WOD). Then extract. Then place somewhere where it won't be moved so you can register the service later on. (Don't put it in Program Files, it causes problems)
+[Download](https://www.uwe-sieber.de/usbdlm_e.html#download). Then extract. Then place somewhere where it won't be moved so you can register the service later on. (Don't put it in Program Files, it causes problems)
 
 The software is free for 30 days, after which you must purchase a license.
 
