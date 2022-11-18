@@ -166,9 +166,9 @@ Required if your chart has only EDIT difficulties, as EDITs are not factored int
 
 ## \#BGCHANGES 
 
-The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear. You can create, view, and modify BGChanges in the editor by pressing the 'b' key while at the desired beat. 
+The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear. You can create, view, and modify BGChanges in the editor by pressing the `b` key while at the desired beat. 
 
-For example, to view, edit, or create a BGChange at Beat = 25, navigate to beat 25 in the editor and press 'b'.
+For example, to view, edit, or create a BGChange at Beat = 25, navigate to beat 25 in the editor and press `b`.
 
 
 An example BGCHANGES line in the ssc file might look like:
@@ -206,7 +206,7 @@ The meanings of the values are as follows:
  
 The file names (values 2 and 8) and the colors (values 10 and 11) are passed to the effect file as thread variables.  Most effects do not use the second file.
 
-TODO: Add more information about about editor BGChanges
+TODO: Add more information about BGChanges in the editor
 
 ## \#KEYSOUNDS
 
