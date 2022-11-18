@@ -164,18 +164,49 @@ Contains the Song's [Label segments](https://github.com/stepmania/stepmania/wiki
 A float value. Tells StepMania when to end the song if your longest chart is shorter than this value. Normally song length is determined by the longest chart.
 Required if your chart has only EDIT difficulties, as EDITs are not factored into song length calculation.
 
-## \#BGCHANGES
+## \#BGCHANGES 
 
-Sets the Song's Background Changes.
+The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear. You can create, view, and modify BGChanges in the editor by pressing the 'b' key while at the desired beat. 
 
-An example of a background change:
+For example, to view, edit, or create a BGChange at Beat = 25, navigate to beat 25 in the editor and press 'b'.
+
+
+An example BGCHANGES line in the ssc file might look like:
+ 
 ```
-#BGCHANGES:1.813=Impostor Advisory.mp4=1.000=1=0=1===CrossFade==,
-99999=-nosongbg-=1.000=0=0=0 // don't automatically add -songbackground-
-;
+#BGCHANGES:0.000=springbn.png=1.000=1=0=1===CrossFade==;
 ```
 
-TODO: Add more documentation here.
+Multiple background changes can be set by separating them with commas like:
+
+```
+#BGCHANGES:0.000=springbn.png=1.000=1=0=1===CrossFade==,
+25.000=flash=1.000=0=0=1====#FFFFFF=;
+```
+
+The set of entries is between the colon and the semicolon.
+Each entry is separated from the next by a comma.
+Each entry is composed of 1 to 11 values separated by equals.
+ 
+![image](https://user-images.githubusercontent.com/30600688/202782605-9bd6b076-31d4-4193-8d5e-43dd38e53d1a.png)
+
+The meanings of the values are as follows:
+ 
+1. start beat
+2. file or folder name
+3. play rate
+4. Backward compatible transition type. CrossFade is used if this is not 0.
+5. Backward compatible effect flag. StretchRewind is used if this is not 0.
+6. Backward compatible effect flag. StretchNoLoop is used if this is not 0.
+7. Name of the effect file to use. The BackgroundEffects folder will be searched for a match.
+8. Name of the second file.
+9. Name of the transition file to use. The BackgroundTransitions folder will be searched for a match.
+10. Color string in either "1.0^0.5^0.75^0.25" or "#ff7fcf3f" form. The fourth channel is optional.
+11. Second color string, same format.
+ 
+The file names (values 2 and 8) and the colors (values 10 and 11) are passed to the effect file as thread variables.  Most effects do not use the second file.
+
+TODO: Add more information about about editor BGChanges
 
 ## \#KEYSOUNDS
 
