@@ -78,19 +78,31 @@ Players can ignore the \#SELECTABLE tag by setting `HiddenSongs=0` in [Preferenc
 Earlier versions (and forks) of StepMania supported `ROULETTE`, `ES` (Extra Stage), `OMES` (One More Extra Stage) and integers (`1` = FINAL STAGE) as valid values, but these are not supported in SM5 and will have the same effect as `YES`.
  
 ### \#BGCHANGES
-The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear.
+
+The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear. You can create, view, and modify BGChanges in the editor by pressing the `b` key while at the desired beat. 
+
+For example, to view, edit, or create a BGChange at Beat = 25, navigate to beat 25 in the editor and press `b`.
+
+
+An example BGCHANGES line in the ssc file might look like:
  
-An example BGCHANGES line might look like:
- 
+```
+#BGCHANGES:0.000=springbn.png=1.000=1=0=1===CrossFade==;
+```
+
+Multiple background changes can be set by separating them with commas like:
+
 ```
 #BGCHANGES:0.000=springbn.png=1.000=1=0=1===CrossFade==,
 25.000=flash=1.000=0=0=1====#FFFFFF=;
 ```
- 
+
 The set of entries is between the colon and the semicolon.
 Each entry is separated from the next by a comma.
 Each entry is composed of 1 to 11 values separated by equals.
  
+![image](https://user-images.githubusercontent.com/30600688/202782605-9bd6b076-31d4-4193-8d5e-43dd38e53d1a.png)
+
 The meanings of the values are as follows:
  
 1. start beat
@@ -106,6 +118,8 @@ The meanings of the values are as follows:
 11. Second color string, same format.
  
 The file names (values 2 and 8) and the colors (values 10 and 11) are passed to the effect file as thread variables.  Most effects do not use the second file.
+
+TODO: Add more information about BGChanges in the editor
  
 ### \#FGCHANGES
 Defines the foreground changes for this song. Format is the same as `#BGCHANGES`, except only the start beat and first file are used (values 1 and 2).
