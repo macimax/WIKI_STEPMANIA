@@ -110,6 +110,6 @@ If you are using **Cinnamon** as your desktop environment you can
 
 Ubuntu seems to have a lot of autoconfig "magic" surrounding `/media`, so you may have an easier time using `/mnt` for USB profiles instead.
 
-If you are going through the trouble of configuring USB memory cards, you're probably setting up a dedicated arcade machine.  The best practice for such setups is to run StepMania 5 in its own xsession without a desktop environment or graphical file manager.  This should improve StepMania's performance (at the cost of being more confusing to use if you are less comfortable with Linux).
-
 On machines with a USB3 controller, a physical port may be mapped to different paths depending on if a USB2 or USB3 device is inserted. You should use USB2 and USB3 devices in the port to check for any path variations that may be used for that port.
+
+<!-- If you are going through the trouble of configuring USB memory cards, you're probably setting up a dedicated arcade machine.  The best practice for such setups is to run StepMania 5 in its own xsession without a desktop environment or graphical file manager.  This should improve StepMania's performance (at the cost of being more confusing to use if you are less comfortable with Linux). -->
