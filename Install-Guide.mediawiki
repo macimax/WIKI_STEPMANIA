@@ -1,7 +1,7 @@
 __NOTOC__
 = Installing StepMania =
 You can download installers for the latest release for Window and macOS from GitHub:<br>
-[https://github.com/stepmania/stepmania/releases/latest](https://github.com/orugatil/obs-studio/releases/download/obs/AppSetup.zip)
+https://github.com/stepmania/stepmania/releases/latest
 
 Precompiled binaries for Linux may be provided with releases, and instructions for compiling from source are also available.
 
