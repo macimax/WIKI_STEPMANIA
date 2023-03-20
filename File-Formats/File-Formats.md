@@ -17,3 +17,4 @@ Other formats that StepMania can recognize that are useful to know:
 INI is also used for various theme elements:
 * [Fonts](https://github.com/stepmania/stepmania/wiki/Fonts)
 * Metrics.ini
+* 3.9 era BGAnimations.ini (deleted in SM 5 branch, being replaced by lua files)
