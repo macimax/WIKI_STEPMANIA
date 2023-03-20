@@ -135,7 +135,7 @@ Similar to how you can loop music by adding `(loop)` at the end of the filename,
 * `(nomipmaps)` - Disables mipmap generation.
 * `(grayscale)` - Marks the image as grayscale.
 * `(alphamap)` - Marks the image as an alpha map; all color is assumed to be white.
-* `(doubleres)` - Marks the image as double resolution; texture dimensions must be evenly divisible by 4.
+* `(doubleres)` - Marks the image as double resolution; texture dimensions must be evenly divisible by 4. Not compatible with earlier versions of Stepmania.
 
 ## <a name="lang">Languages</a> ##  
 #### [Back to top](#top)  
