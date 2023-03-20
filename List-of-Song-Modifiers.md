@@ -86,9 +86,9 @@ RandomVanish: Unknown function.
 
 These two aren't part of StepMania's default, but some custom themes implement them:
 
-Sudden+: Cover the bottom half of the notefield with a window or image that can be adjusted with EffectUp or EffectDown (can be combined with Hidden+).
+Sudden+: Cover the bottom half (or top half, in case of reverse option enabled or of some game modes) of the notefield with a window or image that can be adjusted with EffectUp or EffectDown (can be combined with Hidden+ ).
 
-Hidden+: Cover the top half of the notefield (where the receptors are) with a window that can be adjusted with EffectUp or EffectDown (can be combined with Sudden+).
+Hidden+: Cover the top half (or bottom half, in case of reverse option enabled or of some game modes) of the notefield (where the receptors are) with a window that can be adjusted with EffectUp or EffectDown (can be combined with Sudden+ and inverted with reverse).
 
 StealthPastReceptors: Exactly what it says on the tin (5.1 only)
 
