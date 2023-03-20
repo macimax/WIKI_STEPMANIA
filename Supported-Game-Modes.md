@@ -81,9 +81,9 @@ Simulates _Para Para Paradise_; it is a 5-key mode, except using left, upleft, u
 | Single | Para_Single | 5key. |
 
 ## beat
-Simulates Beatmania or Beatmania IIDX, with 5-keys, 7-keys, or doubles for each. Most songs are keysounded.
+Simulates Beatmania or Beatmania IIDX, with 5-keys, 7-keys, or doubles for each.
 
-This mode uses BMS chart files for songs.
+This mode uses BMS chart files for songs and all are keysounded.
 
 | Style | StepsType | Description |
 | ----- | --------- | ----------- |
@@ -94,7 +94,7 @@ This mode uses BMS chart files for songs.
 | double7 | Bm_Double7 | 7-keys double game mode (Both sides are used). |
 | versus7 | Bm_Versus7 | Unknown (see versus5) |
 
-Contrary to their names the styles each have an additional turntable 'key', except for doubles having two. A turntable key is splitted on turn left and turn right.
+Contrary to their names the styles each have an additional turntable 'key', except for doubles having two. A turntable key is splitted on turn left and turn right. Note: Multi-Spin Scratch charts are unimplemented.
 
 ## Ez2
 
@@ -114,7 +114,7 @@ Simulates _Pop'n music_. Note: _Battle_ and _PSP_ charts are unimplemented.
 | five | Pnm_Five | 5key game mode. |
 | nine | Pnm_Nine | 9key game mode. |
 
-Some songs are keysounded. This mode uses PMS chart files for songs.
+This mode uses PMS chart files for songs and most songs are keysounded.
 
 ## techno
 Simulates TechnoMotion.
