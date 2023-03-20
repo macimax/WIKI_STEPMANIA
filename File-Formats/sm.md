@@ -79,7 +79,7 @@ Earlier versions (and forks) of StepMania supported `ROULETTE`, `ES` (Extra Stag
  
 ### \#BGCHANGES
 
-The BGCHANGES line is used to control what backgrounds are loaded by the simfile and when they appear. You can create, view, and modify BGChanges in the editor by pressing the `b` key while at the desired beat. 
+The BGCHANGES line is used to control what backgrounds, BG Animations or videos are loaded by the simfile and when they appear. You can create, view, and modify BGChanges in the editor by pressing the `b` key while at the desired beat. 
 
 For example, to view, edit, or create a BGChange at Beat = 25, navigate to beat 25 in the editor and press `b`.
 
