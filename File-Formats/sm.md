@@ -90,6 +90,13 @@ An example BGCHANGES line in the ssc file might look like:
 #BGCHANGES:0.000=springbn.png=1.000=1=0=1===CrossFade==;
 ```
 
+Other example BGCHANGES lines if the song have a video:
+```
+#BGCHANGES:0=(video file).avi=1.000=0=0=0,
+99999=-nosongbg-=1.000=0=0=0 // don't automatically add -songbackground-
+;
+```
+
 Multiple background changes can be set by separating them with commas like:
 
 ```
