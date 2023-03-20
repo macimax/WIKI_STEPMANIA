@@ -37,6 +37,8 @@ Battle against another player or a CPU. Only SINGLE charts are used. A gauge at 
 
 The gauge fills up to level 3 and then restarts at 0. Attacks can be defined per "character" which different character have different attack, defined in <code>Characters\[Character Name Here]\character.ini</code>. Some themes disables access to some or all OPTIONS, and LIFE GAUGE option is disabled.
 
+'''Note for players''': Additional to (or instead of) the grades, all players can see the win status.
+
 == Courses ==
 === Nonstop ===
 Course mode. Pick a course to play a series of songs in order. It reads from .crs files in the Courses folder, but also has auto generated randomized ones from your song groups (examples of theses courses are CLASS grades). Some themes disables access to some or all OPTIONS, LIFE GAUGE or difficulties.
