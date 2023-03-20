@@ -174,7 +174,7 @@ No Fakes: Removes fake notes.
 
 (Known as "Frezze Arrows" on _DDR_ series)
 
-No Holds: Disables hold notes to make the song easier (Some themes enable assist clear).
+No Holds: Disables hold notes to make the song easier. Count as ASSIST CLEAR.
 
 Planted: Adds more holds. A lot of them.
 
@@ -184,7 +184,7 @@ Holds To Rolls: All holds are changed by rolls.
 
 ## Mines
 
-Off: Removes negative notes.
+Off: Removes negative notes. Count as ASSIST CLEAR.
 
 On (Default): Negative notes (as mines or SHOCK ARROWS) are present. Hitting negative note drains the LIFE GAUGE or removes a life in battery modes.
 
