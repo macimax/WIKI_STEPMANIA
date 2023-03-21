@@ -104,6 +104,7 @@ Other example BGCHANGES lines if the song have a video and you did not change th
 ;
 ```
 Another example BGCHANGES lines for stage videos (Dance Phenomena is used as example):
+
 '''
 #BGCHANGES:
 -40=(stage video).avi=0.000=0=1=0, // Init stop before beat 0
