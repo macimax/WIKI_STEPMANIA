@@ -105,7 +105,7 @@ Other example BGCHANGES lines if the song have a video and you did not change th
 ```
 Another example BGCHANGES lines for stage videos (Dance Phenomena is used as example):
 
-'''
+```
 #BGCHANGES:
 -40=(stage video).avi=0.000=0=1=0, // Init stop before beat 0
 0=(stage video).avi=1.000=0=0=0, // Start video
@@ -139,7 +139,7 @@ Another example BGCHANGES lines for stage videos (Dance Phenomena is used as exa
 257=(stage video).avi=2.000=0=0=0, // BPM change is doubled
 99999=-nosongbg-=1.000=0=0=0 // don't automatically add -songbackground-
 ;
-'''
+```
 
 The set of entries is between the colon and the semicolon.
 Each entry is separated from the next by a comma.
