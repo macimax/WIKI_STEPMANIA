@@ -84,7 +84,7 @@ The BGCHANGES line is used to control what backgrounds, BG Animations or videos 
 For example, to view, edit, or create a BGChange at Beat = 25, navigate to beat 25 in the editor and press `b`.
 
 
-An example BGCHANGES line in the ssc file might look like:
+An example BGCHANGES line in the SM file might look like:
  
 ```
 #BGCHANGES:0.000=springbn.png=1.000=1=0=1===CrossFade==;
@@ -161,7 +161,7 @@ The meanings of the values are as follows:
 10. Color string in either "1.0^0.5^0.75^0.25" or "#ff7fcf3f" form. The fourth channel is optional.
 11. Second color string, same format.
  
-The file names (values 2 and 8) and the colors (values 10 and 11) are passed to the effect file as thread variables.  Most effects do not use the second file.
+The file names (values 2 and 8) and the colors (values 10 and 11) are passed to the effect file as thread variables. Most effects do not use the second file. Most SM files use 6 values per each BGCHANGES line.
 
 TODO: Add more information about BGChanges in the editor
  
