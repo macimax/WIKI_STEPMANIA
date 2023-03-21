@@ -112,7 +112,7 @@ Each entry is composed of 1 to 11 values separated by equals.
 
 The meanings of the values are as follows:
  
-1. start beat
+1. start beat (can be negative if you edit with ani text editor)
 2. file or folder name
 3. play rate
 4. Backward compatible transition type. CrossFade is used if this is not 0.
