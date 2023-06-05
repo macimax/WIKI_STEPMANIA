@@ -20,13 +20,13 @@ You will absolutely, positively need:
 You may also want:
 
 * For even the slightest prayer of people helping you when things go wrong: libiberty (Debian: part of binutils-dev)
-* For a loading dialog: GTK3 (Debian: libgtk3-dev)
+* For a loading dialog: GTK3 (Debian: libgtk-3-dev)
 * For MP3 support: libMAD (Debian: libmad0-dev)
 
 
 ### Debian and derivatives (Ubuntu, Mint, etc.)
 ```
-sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev libjpeg62 zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev libjack-dev binutils-dev libgtk3-dev libmad0-dev libjack0 libudev-dev libva-dev
+sudo apt-get install mesa-common-dev libglu1-mesa-dev libglew-dev libxtst-dev libxrandr-dev libpng-dev libjpeg-dev libjpeg62 zlib1g-dev libbz2-dev libogg-dev libvorbis-dev libc6-dev yasm libasound-dev libpulse-dev libjack-dev binutils-dev libgtk-3-dev libmad0-dev libjack0 libudev-dev libva-dev
 ```
 
 ### Fedora 23
