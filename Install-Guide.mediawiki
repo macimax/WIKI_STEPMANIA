@@ -20,7 +20,7 @@ If you are running Windows 10, it's possible that Windows Defender could cause S
 [[Installing on macOS]] is roundabout, but at least we have a guide that gently walks you through the process.
 
 == Linux ==
-If the precompiled executable is not compatible with your architecture/distro/etc., you'll likely have better luck compiling from source.
+If the precompiled executable is not compatible with your architecture/distro/etc., you'll likely have better luck building from source.
 
 * [[Linux-dependencies|Linux Dependencies]]
-* [[Compiling-StepMania|Instructions on Compiling]]
+* [[Compiling-StepMania-Linux|Linux Build Instructions]]
